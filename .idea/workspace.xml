@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d770ce48-cf73-4a16-9a09-d01df2f17eb6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="300" />
+    </hideBySeverity>
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oTB8Ml4BxXvJyhCSkeuclnF6Jy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.All Features in: Hero_GB_WebApp_UI_Testing_BDD.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/testng.xml.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD",
+    "onboarding.tips.debug.path": "C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/Test2/src/main/java/Hero_GB_WebApp_UI_Testing/Main.java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/testng.xml">
+    <configuration name="All Features in: Hero_GB_WebApp_UI_Testing_BDD" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$" />
+      <option name="GLUE" value="GB_Webapp.StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Hero_GB_WebApp" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: Hero_GB_WebApp_UI_Testing_BDD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hero_GB_WebApp" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/testng.xml" />
+        <item itemvalue="Cucumber Java.All Features in: Hero_GB_WebApp_UI_Testing_BDD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d770ce48-cf73-4a16-9a09-d01df2f17eb6" name="Changes" comment="" />
+      <created>1730883525784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730883525784</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Test2/src/main/java/Hero_GB_WebApp_UI_Testing/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

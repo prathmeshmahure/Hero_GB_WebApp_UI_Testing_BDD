@@ -11,10 +11,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -96,40 +93,36 @@ public class BaseTest extends PageClassObject {
 		{
 		case "chrome":
 				ChromeOptions co = new ChromeOptions();			
-				HashMap<String, Integer> contentSettings = new HashMap<String, Integer>();
-				HashMap<String, Object> profile = new HashMap<String, Object>(); 
-				HashMap<String, Object> prefs = new HashMap<String, Object>();
-	
-				contentSettings.put("notifications", 1);// 0 is ask  , 1 is allow , 2 is block
-				contentSettings.put("geolocation", 1);
-				contentSettings.put("media_stream", 1);
-				profile.put("managed_default_content_settings", contentSettings);
-			//	prefs.put("profile.managed_default_content_settings.images", 2);  // 2 means disable UI images
-			//	prefs.put("profile.managed_default_content_settings.stylesheets", 2); // 2 means disable UI images
-				prefs.put("profile", profile);
-				co.setExperimentalOption("prefs", prefs);		
-				co.addArguments("fast");
-				co.addArguments("--remote-allow-origins=*");
+//				HashMap<String, Integer> contentSettings = new HashMap<String, Integer>();
+//				HashMap<String, Object> profile = new HashMap<String, Object>(); 
+//				HashMap<String, Object> prefs = new HashMap<String, Object>();
+//	
+//				contentSettings.put("notifications", 1);// 0 is ask  , 1 is allow , 2 is block
+//				contentSettings.put("geolocation", 1);
+//				contentSettings.put("media_stream", 1);
+//				profile.put("managed_default_content_settings", contentSettings);
+//			//	prefs.put("profile.managed_default_content_settings.images", 2);  // 2 means disable UI images
+//			//	prefs.put("profile.managed_default_content_settings.stylesheets", 2); // 2 means disable UI images
+//				prefs.put("profile", profile);
+//				co.setExperimentalOption("prefs", prefs);		
+//				co.addArguments("fast");
+//				co.addArguments("--remote-allow-origins=*");
 		    	co.addArguments("--disable-blink-features=AutomationControlled");
-		    	co.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
-		    	co.addArguments("--incognito");
-				co.addArguments("disable-infobars");
-				co.addArguments("disable-extensions");
-				co.addArguments("disable-gpu");
-				co.addArguments("disable-dev-shm-usage");
-				co.addArguments("no-sandbox");
-				co.addArguments("disable-notifications");
+//		    	co.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
+//		    	co.addArguments("--incognito");
+//				co.addArguments("disable-infobars");
+//				co.addArguments("disable-extensions");
+//				co.addArguments("disable-gpu");
+//				co.addArguments("disable-dev-shm-usage");
+//				co.addArguments("no-sandbox");
+//				co.addArguments("disable-notifications");
 		    	co.addArguments("--force-device-scale-factor=0.9");
 		    	driver = new ChromeDriver(co);			    	
 		    	driver.get(URL);	
 		    	driver.manage().window().maximize();
-		    	try {
-		    	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		    	}
-		    	catch (Exception e) {
-		    		 System.out.println("Page load timed out. Exception: " + e.getMessage());
-		    		 Log.error("Page load timed out. Exception: " + e.getMessage());
-		    	}
+				driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+				
+
 			break;
 
 		case "msedge":
@@ -144,7 +137,7 @@ public class BaseTest extends PageClassObject {
 		        // Initialize WebDriver with EdgeDriver and the specified options
 		        driver = new EdgeDriver(options);	
 			    driver.get(URL);		
-//		    	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		    	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			
 			break;
 
@@ -168,13 +161,6 @@ public class BaseTest extends PageClassObject {
 			break;
 
 		}
-//		try {
-//			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-//		}catch (Exception e) {
-//			Log.error("Unable to load Page URL : "+ e.getMessage());
-//		}
-		
-//		Library.passmsg("BaseTest -> launchBrowser() -> Browser launched successfully");
 		
 	}	
 //	co.addArguments("--headless");   //   Hiding chrome browser

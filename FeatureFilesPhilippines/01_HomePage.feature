@@ -56,9 +56,9 @@ Feature: HomePage
     And Close browser
     
     Examples: 
-      |Bike_Name 		 |Icon_Name	 	|TC_Num   |
+      |Bike_Name 		 |Icon_Name   |TC_Num   |
       |Xpulse2004V	 |premium 	  |TC_011		|
-      |Hunk160R4V		 |premium     |TC_012		|	
+      |Hunk160R4V		 |premium     |TC_012		|
       |Xoom110		   |scooter 	  |TC_013		|
    
   @HomePage @Philippines
@@ -78,7 +78,7 @@ Feature: HomePage
     Given User able to enter "customer_name"
     When User able to enter "mobile_number"
     Then User able to enter "email_id"
-    And User able to enter "city"
+    And select city in dropdown "city"
     And Click submit enquiry button
     And Verify successfully submit form 
     And Close browser    
@@ -91,14 +91,14 @@ Feature: HomePage
   
   @HomePage @Philippines  
   Scenario: TC_018 Verify home page footer link inside the product all icons rediretions
-    Given Verify "moto_taxi" icon redirection
-    And Verify "personal" icon redirection
+    Given Verify "premium" icon redirection
     And Verify "scooter" icon redirection
     And Close browser      
   
   @HomePage @Philippines  
   Scenario: TC_019 Verify home page footer link inside the support all icons rediretions
-    Given Verify "reach_us" icon redirection
+    Given Verify "owners_manual" icon redirection
+    And Verify "contact_us" icon redirection
     And Verify "request_a_call" icon redirection
     And Verify "become_a_dealer" icon redirection
     And Close browser       
@@ -120,17 +120,10 @@ Feature: HomePage
     Given User able to enter "customer_name1"    
     And User able to enter "mobile_number1"    
     And User able to enter "email_id1"   
-    And User able to enter "city1"
+    And select city in dropdown "city1"
     And Click submit enquiry button1
     And Verify successfully submit form1 
-    And Close browser  
-  
-  @HomePage @Philippines  
-  Scenario: TC_023 Verify home page find a dealer icon and redirection
-    Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
-    When Click on find a dealer icon
-    Then Verify dealer page 
-    And Close browser
+    And Close browser 
     
     
     

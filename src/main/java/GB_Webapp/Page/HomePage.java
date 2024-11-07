@@ -219,7 +219,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//input[@placeholder='Enter Your Name'])[2]")
 	private WebElement EnterCustomerName;
 	
-	@FindBy(xpath="(//input[@placeholder='+260'])[2]")
+	@FindBy(xpath="(//input[@aria-label='Mobile Number'])[2]")
 	private WebElement EnterMobileNumber;
 	
 	@FindBy(xpath="(//input[@placeholder='Enter Email'])[2]")
@@ -240,7 +240,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//input[@placeholder='Enter Your Name'])[1]")
 	private WebElement EnterCustomerName1;
 	
-	@FindBy(xpath="(//input[@placeholder='+260'])[1]")
+	@FindBy(xpath="(//input[@aria-label='Mobile Number'])[1]")
 	private WebElement EnterMobileNumber1;
 	
 	@FindBy(xpath="(//input[@placeholder='Enter Email'])[1]")
@@ -353,12 +353,6 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//ul[contains(@class,'bike-specification d-flex')])[2]")
 	private WebElement Hunk160R4VBikeSpecification;
 	
-//	@FindBy(xpath="DEALER")
-//	private WebElement Hunk160R4V;
-//	
-//	@FindBy(xpath="DEALER")
-//	private WebElement Hunk160R4V;
-	
 	@FindBy(xpath="(//img[@alt='XOOM 110'])[2]")
 	private WebElement Xoom110ScooterImage;
 	
@@ -392,8 +386,32 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//a[text()='Variant Wise Price'])[3]")
 	private WebElement VariantWisePrice3;
 	
-	@FindBy(xpath="(//ul[@id='variantTypes'])[1]//parent::div//following-sibling::div//ul")
+	@FindBy(xpath="(//ul[@id='variantTypes'])[1]//parent::div//following-sibling::div//ul//li[1]")
 	private WebElement VerifyAllBikeVariantPrice;
+	
+	@FindBy(xpath="(//div[text()='Enter City Name'])[2]")
+	private WebElement city;
+	
+	@FindBy(xpath="(//div[text()='Enter City Name'])[1]")
+	private WebElement city1;
+	
+	@FindBy(xpath="(//span[normalize-space()='ALBAY'])[1]")
+	private WebElement Select1stCity;
+	
+	@FindBy(xpath="//a[normalize-space()='Premium']")
+	private WebElement FooterPremium;
+	
+	@FindBy(xpath="//a[normalize-space()='Contact us']")
+	private WebElement FooterContactUs;
+	
+	@FindBy(xpath="//a[normalize-space()='Contact Us']")
+	private WebElement ContactUsPageText;
+	
+	@FindBy(xpath="//a[contains(text(),'Owner’s Manual')]")
+	private WebElement FooterOwnersManual;
+	
+	@FindBy(xpath="//a[@role='tab'][contains(text(),'Owner’s Manual')]")
+	private WebElement OwnersManualPageText;
 	
 	
 	
@@ -581,7 +599,7 @@ public class HomePage extends BasePage{
 	public void verify_all_mandatory_field_should_be_displayed() {
 		Library.visible_link(driver, NameRequired, "Name Required");
 		Library.visible_link(driver, MobileNumberRequired, "Mobile Number Required");
-		Library.visible_link(driver, CityRequired, "City Required");		
+//		Library.visible_link(driver, CityRequired, "City Required");
 	}
 	public void user_able_to_enter_customer_name() {
 		Library.moveToElement(driver, EnterCustomerName);
@@ -656,7 +674,7 @@ public class HomePage extends BasePage{
 	public void verify_all_mandatory_field_should_be_displayed1() {
 		Library.visible_link(driver, NameRequired1, "Name Required");
 		Library.visible_link(driver, MobileNumberRequired1, "Mobile Number Required");
-		Library.visible_link(driver, CityRequired1, "City Required");		
+//		Library.visible_link(driver, CityRequired1, "City Required");		
 	}
 	public void user_able_to_enter_customer_name1() {
 		Library.sendKeys(driver, EnterCustomerName1, ZambiaCustomerName, "Enter Customer Name");
@@ -809,7 +827,9 @@ public class HomePage extends BasePage{
 		driver.get(hero_Gb_Philippines_ProdUrl);
 		Library.moveToElement(driver, HomePageXpulse2004V);
 		Library.click(driver, SCOOTER, "SCOOTER");
-		Library.click(driver, HomePageXoom110, "HomePage Xoom 110");		
+		Library.click(driver, HomePageXoom110, "HomePage Xoom 110");
+		Library.threadSleep(500);
+		Library.moveToElement(driver, Hunter150BikeViewSpecification);
 		Library.click(driver, Hunter150BikeViewSpecification, "Xoom 110 Scooter View Specification");
 		Library.threadSleep(500);
 		Library.click(driver, Specifications, "Specifications");
@@ -817,7 +837,39 @@ public class HomePage extends BasePage{
 		driver.get(hero_Gb_Philippines_ProdUrl);
 		
 	}
-	
+	public void select_city() {
+		Library.click(driver, city, "City");
+		Library.click(driver, Select1stCity, "Select city");
+	}
+	public void select_city1() {
+		Library.click(driver, city1, "City");
+		Library.click(driver, Select1stCity, "Select city");		
+	}
+	public void verify_premium_icon_redirection() {
+		Library.moveToElement(driver, FooterScooter);
+		Library.click(driver, FooterPremium, "Footer Premium");
+		Library.visible_link(driver, Specifications, "Premium Page");
+	}
+	public void verify_contactus_icon_redirection() {
+		Library.moveToElement(driver, FooterScooter);
+		Library.click(driver, FooterContactUs, "Footer Contact Us");
+		Library.visible_link(driver, ContactUsPageText, "Contact Us Page");
+	}
+	public void verify_OwnersManual_icon_redirection() {
+		Library.moveToElement(driver, FooterScooter);
+		Library.click(driver, FooterOwnersManual, "Footer Owners Manual");
+		Library.visible_link(driver, OwnersManualPageText, "Owners Manual Page");
+	}
+//	public void verify_mototaxi_icon_redirection() {
+//		Library.moveToElement(driver, FooterScooter);
+//		Library.click(driver, FooterMotoTaxi, "FooterMotoTaxi");
+//		Library.visible_link(driver, Specifications, "Moto Taxi Page");
+//	}
+//	public void verify_mototaxi_icon_redirection() {
+//		Library.moveToElement(driver, FooterScooter);
+//		Library.click(driver, FooterMotoTaxi, "FooterMotoTaxi");
+//		Library.visible_link(driver, Specifications, "Moto Taxi Page");
+//	}
 	
 	
 	

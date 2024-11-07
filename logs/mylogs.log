@@ -1,19 +1,275 @@
-[DEBUG] 2024-11-06 20:28:24.769 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:24.772 [main] Log - ==========================      Configuring Extent Report      =====================
-[DEBUG] 2024-11-06 20:28:24.772 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:24.772 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:24.772 [main] Log -    *********************   Launching Hero GB UI Test WebApp    ******************
-[DEBUG] 2024-11-06 20:28:24.772 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:34.383 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:34.383 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:34.384 [main] Log -                    Start -> Test -> TC_001 Successfully open global website link    
-[DEBUG] 2024-11-06 20:28:34.384 [main] Log -                    ===============================================
-[INFO ] 2024-11-06 20:28:40.281 [main] Log - Zambia website link successfully opened
-[INFO ] 2024-11-06 20:28:40.867 [main] Log - Field is visible  : Zambia country name
-[INFO ] 2024-11-06 20:28:40.889 [main] Log - Close browser
-[DEBUG] 2024-11-06 20:28:41.255 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:41.256 [main] Log - ====================================================================================
-[DEBUG] 2024-11-06 20:28:41.256 [main] Log -                    Start -> Test -> TC_002 Successfully verify all header menu icons    
-[DEBUG] 2024-11-06 20:28:41.257 [main] Log -                    ===============================================
-[INFO ] 2024-11-06 20:28:41.723 [main] Log - Field is visible  : Hero logo
-[INFO ] 2024-11-06 20:28:42.148 [main] Log - Field is visible  : Product icon
+[DEBUG] 2024-11-07 20:08:58.862 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:08:58.864 [main] Log - ==========================      Configuring Extent Report      =====================
+[DEBUG] 2024-11-07 20:08:58.864 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:08:58.865 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:08:58.865 [main] Log -    *********************   Launching Hero GB UI Test WebApp    ******************
+[DEBUG] 2024-11-07 20:08:58.865 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:09.313 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:09.314 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:09.314 [main] Log -                    Start -> Test -> TC_001 Successfully open global website link    
+[DEBUG] 2024-11-07 20:09:09.315 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:14.094 [main] Log - Philippines website link successfully opened
+[INFO ] 2024-11-07 20:09:14.422 [main] Log - Field is visible  : Philippines country name
+[INFO ] 2024-11-07 20:09:14.431 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:14.662 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:14.663 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:14.664 [main] Log -                    Start -> Test -> TC_002 Successfully verify all header menu icons    
+[DEBUG] 2024-11-07 20:09:14.664 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:15.034 [main] Log - Field is visible  : Hero logo
+[INFO ] 2024-11-07 20:09:15.414 [main] Log - Field is visible  : Product icon
+[INFO ] 2024-11-07 20:09:15.663 [main] Log - Field is visible  : Delears icon
+[INFO ] 2024-11-07 20:09:15.892 [main] Log - Field is visible  : service icon
+[INFO ] 2024-11-07 20:09:16.149 [main] Log - Field is visible  : Hero world icon
+[INFO ] 2024-11-07 20:09:16.441 [main] Log - Field is visible  : About hero icon
+[INFO ] 2024-11-07 20:09:16.453 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:16.522 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:16.522 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:16.523 [main] Log -                    Start -> Test -> TC_003 Click on Company_logo    
+[DEBUG] 2024-11-07 20:09:16.523 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:16.748 [main] Log - Field is visible  : Hero logo
+[INFO ] 2024-11-07 20:09:20.428 [main] Log - Element is clickable : Hero logo
+[INFO ] 2024-11-07 20:09:20.456 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:20.580 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:20.580 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:20.581 [main] Log -                    Start -> Test -> TC_004 Click on Product    
+[DEBUG] 2024-11-07 20:09:20.581 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:21.018 [main] Log - Field is visible  : Product icon
+[INFO ] 2024-11-07 20:09:21.679 [main] Log - Element is clickable : Product icon
+[INFO ] 2024-11-07 20:09:21.803 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:21.913 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:21.913 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:21.915 [main] Log -                    Start -> Test -> TC_005 Click on Dealers    
+[DEBUG] 2024-11-07 20:09:21.915 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:22.325 [main] Log - Field is visible  : Delears icon
+[INFO ] 2024-11-07 20:09:28.837 [main] Log - Element is clickable : Delears icon
+[INFO ] 2024-11-07 20:09:28.845 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:28.940 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:28.940 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:28.941 [main] Log -                    Start -> Test -> TC_006 Click on Service    
+[DEBUG] 2024-11-07 20:09:28.941 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:29.820 [main] Log - Field is visible  : service icon
+[INFO ] 2024-11-07 20:09:30.295 [main] Log - Element is clickable : service icon
+[INFO ] 2024-11-07 20:09:30.300 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:30.329 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:30.330 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:30.330 [main] Log -                    Start -> Test -> TC_007 Click on About_hero    
+[DEBUG] 2024-11-07 20:09:30.330 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:31.001 [main] Log - Field is visible  : About hero icon
+[INFO ] 2024-11-07 20:09:31.916 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-07 20:09:31.928 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:31.991 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:31.991 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:31.992 [main] Log -                    Start -> Test -> TC_008 Click on country icon    
+[DEBUG] 2024-11-07 20:09:31.992 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:32.242 [main] Log - Field is visible  : Philippines country name
+[INFO ] 2024-11-07 20:09:32.811 [main] Log - Element is clickable : Philippines country name
+[INFO ] 2024-11-07 20:09:33.973 [main] Log - Element is clickable : Philippines
+[INFO ] 2024-11-07 20:09:37.554 [main] Log - Element is clickable : Close country button
+[INFO ] 2024-11-07 20:09:41.354 [main] Log - Element is clickable : Hero logo
+[INFO ] 2024-11-07 20:09:41.366 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:41.454 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:41.454 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:41.454 [main] Log -                    Start -> Test -> TC_009 Verify home page text content    
+[DEBUG] 2024-11-07 20:09:41.455 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:41.854 [main] Log - Field is visible  : Be the future of Mobility
+[INFO ] 2024-11-07 20:09:42.270 [main] Log - Field is visible  : ALL text description
+[INFO ] 2024-11-07 20:09:42.275 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:42.337 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:42.337 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:42.337 [main] Log -                    Start -> Test -> TC_010 Verify home page premium and scooter bikes    
+[DEBUG] 2024-11-07 20:09:42.338 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:45.721 [main] Log - Philippines website link successfully opened
+[INFO ] 2024-11-07 20:09:46.774 [main] Log - Element is clickable : HomePage Premium bike 
+[INFO ] 2024-11-07 20:09:47.209 [main] Log - Field is visible  : HomePage Xpulse 200 4V
+[INFO ] 2024-11-07 20:09:47.618 [main] Log - Field is visible  : HomePage Hunk 160 R 4V
+[INFO ] 2024-11-07 20:09:48.157 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-07 20:09:49.134 [main] Log - Field is visible  : HomePage Xoom 110
+[INFO ] 2024-11-07 20:09:49.142 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:09:49.225 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:49.225 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:09:49.226 [main] Log -                    Start -> Test -> TC_011 Verify home page Xpulse2004V bike expanded card under premium icon    
+[DEBUG] 2024-11-07 20:09:49.226 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:09:52.586 [main] Log - Philippines website link successfully opened
+[INFO ] 2024-11-07 20:09:53.290 [main] Log - Element is clickable : Home Page Premium
+[INFO ] 2024-11-07 20:09:53.906 [main] Log - Element is clickable : HomePage Xpulse 200 4V
+[INFO ] 2024-11-07 20:09:54.186 [main] Log - Field is visible  : Xpulse 200 4V Bike Image
+[INFO ] 2024-11-07 20:09:55.647 [main] Log - Field is visible  : Xpulse 200 4V Bike Tagline
+[INFO ] 2024-11-07 20:09:55.933 [main] Log - Field is visible  : Xpulse 200 4V Bike Logo
+[INFO ] 2024-11-07 20:09:56.223 [main] Log - Field is visible  : Xpulse 200 4V Bike content
+[INFO ] 2024-11-07 20:09:56.393 [main] Log - Field is visible : Xpulse 200 4V Bike Specification : Max power:
+14.1 kW / 18.9 BHP @ 8500 rpm
+Max torque:
+17.35 Nm @ 6500 rpm
+Engine type:
+Oil Cooled, 4 Stroke 4 Valve Single Cylinder OHC
+[INFO ] 2024-11-07 20:09:56.666 [main] Log - Field is visible  : Xpulse 200 4V Bike Request A CallBack
+[INFO ] 2024-11-07 20:09:56.917 [main] Log - Field is visible  : Xpulse 200 4V Bike View Specification
+[INFO ] 2024-11-07 20:09:57.054 [main] Log - Field is visible : Xpulse 200 4V Bike price : ₱ 140,000
+[INFO ] 2024-11-07 20:09:57.692 [main] Log - Element is clickable : Xpulse 200 4V Bike Request A CallBack
+[INFO ] 2024-11-07 20:09:58.041 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-07 20:09:58.444 [main] Log - Element is clickable : CLosePopup
+[INFO ] 2024-11-07 20:10:10.143 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-07 20:10:10.470 [main] Log - Bike card Price : ₱ 140,000
+[INFO ] 2024-11-07 20:10:10.472 [main] Log - Bike Main page Price : ₱ 140,000
+[INFO ] 2024-11-07 20:10:10.473 [main] Log - Actual value ₱ 140,000:  Expected value is Match₱ 140,000
+[INFO ] 2024-11-07 20:10:14.901 [main] Log - Element is clickable : HomePage Xpulse 200 4V
+[INFO ] 2024-11-07 20:10:18.881 [main] Log - Element is clickable : Xpulse 200 4V Bike View Specification
+[INFO ] 2024-11-07 20:10:20.211 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-07 20:10:20.764 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-07 20:10:20.770 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:10:20.829 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:10:20.829 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:10:20.830 [main] Log -                    Start -> Test -> TC_012 Verify home page Hunk160R4V bike expanded card under premium icon    
+[DEBUG] 2024-11-07 20:10:20.830 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:10:24.284 [main] Log - Philippines website link successfully opened
+[INFO ] 2024-11-07 20:10:25.039 [main] Log - Element is clickable : Home Page Premium
+[INFO ] 2024-11-07 20:10:25.861 [main] Log - Element is clickable : HomePage Hunk 160 R 4V
+[INFO ] 2024-11-07 20:10:26.321 [main] Log - Field is visible  : Hunk 160 R 4V Bike Image
+[INFO ] 2024-11-07 20:10:27.293 [main] Log - Field is visible  : Hunk 160 R 4V Bike Logo
+[INFO ] 2024-11-07 20:10:27.709 [main] Log - Field is visible  : Hunk 160 R 4V Bike content
+[INFO ] 2024-11-07 20:10:27.922 [main] Log - Field is visible : Hunk 160 R 4V Bike Specification : Max power:
+14.1 kW / 18.9 BHP @ 8500 rpm
+Max torque:
+17.35 Nm @ 6500 rpm
+Engine type:
+Oil Cooled, 4 Stroke 4 Valve Single Cylinder OHC
+[INFO ] 2024-11-07 20:10:28.203 [main] Log - Field is visible  : Hunk 160 R 4V Bike Request A CallBack
+[INFO ] 2024-11-07 20:10:28.521 [main] Log - Field is visible  : Hunk 160 R 4V Bike View Specification
+[INFO ] 2024-11-07 20:10:28.697 [main] Log - Field is visible : Hunk 160 R 4V Bike price : ₱ 99,900
+[INFO ] 2024-11-07 20:10:29.277 [main] Log - Element is clickable : Hunk 160 R 4V Bike Request A CallBack
+[INFO ] 2024-11-07 20:10:29.686 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-07 20:10:30.048 [main] Log - Element is clickable : CLosePopup
+[INFO ] 2024-11-07 20:10:37.712 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-07 20:10:38.036 [main] Log - Bike card Price : ₱ 99,900
+[INFO ] 2024-11-07 20:10:38.037 [main] Log - Bike Main page Price : ₱ 99,900
+[INFO ] 2024-11-07 20:10:38.038 [main] Log - Actual value ₱ 99,900:  Expected value is Match₱ 99,900
+[INFO ] 2024-11-07 20:10:42.225 [main] Log - Element is clickable : HomePage Hunk 160 R 4V
+[INFO ] 2024-11-07 20:10:48.003 [main] Log - Element is clickable : Hunk 160 R 4V Bike View Specification
+[INFO ] 2024-11-07 20:10:49.037 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-07 20:10:49.555 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-07 20:10:53.017 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:10:53.109 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:10:53.109 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:10:53.110 [main] Log -                    Start -> Test -> TC_013 Verify home page Xoom110 bike expanded card under scooter icon    
+[DEBUG] 2024-11-07 20:10:53.110 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:10:56.841 [main] Log - Philippines website link successfully opened
+[INFO ] 2024-11-07 20:10:57.760 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-07 20:10:58.819 [main] Log - Element is clickable : HomePage Xoom 110
+[INFO ] 2024-11-07 20:10:59.246 [main] Log - Field is visible  : Xoom 110 Scooter Image
+[INFO ] 2024-11-07 20:11:00.859 [main] Log - Field is visible  : Xoom 110 Scooter Tagline
+[INFO ] 2024-11-07 20:11:01.185 [main] Log - Field is visible  : Xoom 110 Scooter Logo
+[INFO ] 2024-11-07 20:11:01.519 [main] Log - Field is visible  : Xoom 110 Scooter content
+[INFO ] 2024-11-07 20:11:01.773 [main] Log - Field is visible : Xoom 110 Scooter Specification : Max power:
+6.0kW (8.05 bhp) @ 7250rpm
+Max torque:
+8.70 Nm @ 5750rpm
+Engine type:
+Air-cooled, 4-stroke, SI engine
+[INFO ] 2024-11-07 20:11:02.142 [main] Log - Field is visible  : Xoom 110 Scooter Request A CallBack
+[INFO ] 2024-11-07 20:11:02.489 [main] Log - Field is visible  : Xoom 110 Scooter View Specification
+[INFO ] 2024-11-07 20:11:02.633 [main] Log - Field is visible : Xoom 110 Scooter price : ₱ 69,900
+[INFO ] 2024-11-07 20:11:03.217 [main] Log - Element is clickable : Xoom 110 Scooter Request A CallBack
+[INFO ] 2024-11-07 20:11:03.659 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-07 20:11:04.139 [main] Log - Element is clickable : CLosePopup
+[INFO ] 2024-11-07 20:11:07.721 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-07 20:11:08.276 [main] Log - Bike card Price : ₱ 69,900
+[INFO ] 2024-11-07 20:11:08.277 [main] Log - Bike Main page Price : ₱ 69,900
+[INFO ] 2024-11-07 20:11:08.277 [main] Log - Actual value ₱ 69,900:  Expected value is Match₱ 69,900
+[INFO ] 2024-11-07 20:11:12.677 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-07 20:11:13.765 [main] Log - Element is clickable : HomePage Xoom 110
+[INFO ] 2024-11-07 20:11:17.699 [main] Log - Element is clickable : Xoom 110 Scooter View Specification
+[INFO ] 2024-11-07 20:11:19.121 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-07 20:11:19.734 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-07 20:11:22.829 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:11:22.872 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:22.872 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:22.872 [main] Log -                    Start -> Test -> TC_014 Verify home page promotion banner    
+[DEBUG] 2024-11-07 20:11:22.872 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:11:26.113 [main] Log - Philippines website link successfully opened
+[INFO ] 2024-11-07 20:11:26.726 [main] Log - Field is visible  : Offer Banner
+[INFO ] 2024-11-07 20:11:26.735 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:11:26.805 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:26.805 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:26.805 [main] Log -                    Start -> Test -> TC_015 Verify home page let us call you back form mandatory field    
+[DEBUG] 2024-11-07 20:11:26.806 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:11:27.132 [main] Log - LET US CALL YOU BACK   :  Expected value is Match
+[INFO ] 2024-11-07 20:11:27.497 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-07 20:11:27.833 [main] Log - Field is visible  : Name Required
+[INFO ] 2024-11-07 20:11:28.191 [main] Log - Field is visible  : Mobile Number Required
+[INFO ] 2024-11-07 20:11:28.197 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:11:28.298 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:28.299 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:28.299 [main] Log -                    Start -> Test -> TC_016 Successfully fill home page let us call you back form    
+[DEBUG] 2024-11-07 20:11:28.299 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:11:29.124 [main] Log - Value send Successfully : Enter Customer Name
+[INFO ] 2024-11-07 20:11:29.867 [main] Log - Value send Successfully : Enter Mobile Number
+[INFO ] 2024-11-07 20:11:30.336 [main] Log - Value send Successfully : Enter Email
+[INFO ] 2024-11-07 20:11:30.836 [main] Log - Element is clickable : City
+[INFO ] 2024-11-07 20:11:31.395 [main] Log - Element is clickable : Select city
+[INFO ] 2024-11-07 20:11:31.919 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-07 20:11:33.644 [main] Log - Field is visible  : Thank You PopUp
+[INFO ] 2024-11-07 20:11:34.082 [main] Log - Element is clickable : Close Thank You PopUp
+[INFO ] 2024-11-07 20:11:34.090 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:11:34.159 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:34.159 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:34.159 [main] Log -                    Start -> Test -> TC_017 Verify home page marketing advertisement banner text    
+[DEBUG] 2024-11-07 20:11:34.159 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:11:34.811 [main] Log - Field is visible  : Marketing Text 1st line
+[INFO ] 2024-11-07 20:11:34.954 [main] Log - MANUFACTURING HAPPINESS SINCE 1985:  Expected value is Match
+[INFO ] 2024-11-07 20:11:35.393 [main] Log - Field is visible  : Marketing Text 2nd line
+[INFO ] 2024-11-07 20:11:35.550 [main] Log - Leading with innovation, Hero is at the forefront of providing mobility to the aspirations of millions around the world.:  Expected value is Match
+[INFO ] 2024-11-07 20:11:35.558 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:11:35.626 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:35.627 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:35.627 [main] Log -                    Start -> Test -> TC_018 Verify home page footer link inside the product all icons rediretions    
+[DEBUG] 2024-11-07 20:11:35.627 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:11:39.368 [main] Log - Element is clickable : Footer Premium
+[INFO ] 2024-11-07 20:11:39.676 [main] Log - Field is visible  : Premium Page
+[INFO ] 2024-11-07 20:11:48.851 [main] Log - Element is clickable : Footer Scooter
+[INFO ] 2024-11-07 20:11:49.166 [main] Log - Field is visible  : Scooter Page
+[INFO ] 2024-11-07 20:11:49.169 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:11:49.213 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:49.213 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:11:49.213 [main] Log -                    Start -> Test -> TC_019 Verify home page footer link inside the support all icons rediretions    
+[DEBUG] 2024-11-07 20:11:49.214 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:11:51.965 [main] Log - Element is clickable : Footer Owners Manual
+[INFO ] 2024-11-07 20:11:52.359 [main] Log - Field is visible  : Owners Manual Page
+[INFO ] 2024-11-07 20:11:55.596 [main] Log - Element is clickable : Footer Contact Us
+[INFO ] 2024-11-07 20:11:56.123 [main] Log - Field is visible  : Contact Us Page
+[INFO ] 2024-11-07 20:11:56.954 [main] Log - Element is clickable : FooterRequestACallBack
+[INFO ] 2024-11-07 20:11:57.342 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-07 20:11:57.776 [main] Log - Element is clickable : CLosePopup
+[INFO ] 2024-11-07 20:12:00.190 [main] Log - Element is clickable : FooterBeacomeADealer
+[INFO ] 2024-11-07 20:12:00.686 [main] Log - Field is visible  : Become A Dealer Page
+[INFO ] 2024-11-07 20:12:00.690 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:12:00.733 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:00.733 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:00.734 [main] Log -                    Start -> Test -> TC_020 Verify home page footer link facebook and instagram logo    
+[DEBUG] 2024-11-07 20:12:00.734 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:12:05.288 [main] Log - Philippines website link successfully opened
+[INFO ] 2024-11-07 20:12:06.138 [main] Log - Field is visible  : Facebook Logo
+[INFO ] 2024-11-07 20:12:06.603 [main] Log - Field is visible  : Instagram Logo
+[INFO ] 2024-11-07 20:12:06.610 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:12:06.666 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:06.667 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:06.668 [main] Log -                    Start -> Test -> TC_021 Verify home page request a call back popup form mandatory field    
+[DEBUG] 2024-11-07 20:12:06.668 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:12:17.596 [main] Log - Element is clickable : Request A Call Back
+[INFO ] 2024-11-07 20:12:18.256 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-07 20:12:18.746 [main] Log - Field is visible  : Name Required
+[INFO ] 2024-11-07 20:12:19.088 [main] Log - Field is visible  : Mobile Number Required
+[INFO ] 2024-11-07 20:12:19.095 [main] Log - Close browser
+[DEBUG] 2024-11-07 20:12:19.169 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:19.170 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:19.170 [main] Log -                    Start -> Test -> TC_022 Successfully fill home page let us call you back popup form    
+[DEBUG] 2024-11-07 20:12:19.170 [main] Log -                    ===============================================
+[INFO ] 2024-11-07 20:12:19.762 [main] Log - Value send Successfully : Enter Customer Name
+[INFO ] 2024-11-07 20:12:20.396 [main] Log - Value send Successfully : Enter Mobile Number
+[INFO ] 2024-11-07 20:12:20.971 [main] Log - Value send Successfully : Enter Email
+[INFO ] 2024-11-07 20:12:21.438 [main] Log - Element is clickable : City
+[ERROR] 2024-11-07 20:12:41.942 [main] Log - Unable to click element : Select city  --  Proxy element for: DefaultElementLocator 'By.xpath: (//span[normalize-space()='ALBAY'])[2]'
+[DEBUG] 2024-11-07 20:12:43.053 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:43.054 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:43.054 [main] Log - *******************         Driver Quit       ***********************
+[DEBUG] 2024-11-07 20:12:43.054 [main] Log - ====================================================================================
+[DEBUG] 2024-11-07 20:12:43.054 [main] Log - ===================      Flushing Extent Report      ==============================

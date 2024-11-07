@@ -22,10 +22,10 @@ Feature: HomePage
     And Close browser
     
     Examples: 
-      |Icon_Name	  	|TC_Num   |
+      |Icon_Name	  |TC_Num       |
       |Company_logo   |TC_003		|
       |Product        |TC_004		|	
-      |Dealers 	      |TC_005	  |
+      |Dealers 	      |TC_005	    |
       |Service        |TC_006		|	
       |About_hero     |TC_007		|	
 
@@ -55,13 +55,13 @@ Feature: HomePage
     And Close browser
     
     Examples: 
-      |Bike_Name 		 |Icon_Name	  	|TC_Num   |
-      |Hunter100		 |moto_taxi 	  |TC_011		|
+      |Bike_Name 		 |Icon_Name	  	|TC_Num     |
+      |Hunter100		 |moto_taxi     |TC_011		|
       |Hunter125		 |moto_taxi     |TC_012		|	
-      |Hunter150		 |moto_taxi 	  |TC_013		|
-      |Hunter150TR	 |moto_taxi     |TC_014		|	
-      |XPULSE200	   |personal 		  |TC_015		|	
-      |Destini125    |scooter       |TC_016		|
+      |Hunter150		 |moto_taxi     |TC_013		|
+      |Hunter150TR	     |moto_taxi     |TC_014		|
+      |XPULSE200	     |personal      |TC_015	    |
+      |Destini125        |scooter       |TC_016		|
    
   @HomePage @Zambia
   Scenario: TC_017 Verify home page promotion banner

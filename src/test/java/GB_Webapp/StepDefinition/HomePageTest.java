@@ -189,6 +189,15 @@ public class HomePageTest extends BaseTest{
 	    case "become_a_dealer":
 	    	hp.verify_beacome_a_dealer_icon_redirection();
 	        break;
+	    case "premium":
+	    	hp.verify_premium_icon_redirection();
+	        break;
+	    case "contact_us":
+	    	hp.verify_contactus_icon_redirection();
+	        break;
+	    case "owners_manual":
+	    	hp.verify_OwnersManual_icon_redirection();
+	        break;
 	    default:
 	        // code block if no case matches
 	    	break;
@@ -265,7 +274,20 @@ public class HomePageTest extends BaseTest{
 	    	break;
 		}
 	}
-	
+	@Then("select city in dropdown {string}")
+	public void select_city_in_dropdown(String string) {
+		switch (string) {
+	    case "city":
+	    		hp.select_city();
+	        break;
+	    case "city1":
+	    		hp.select_city1();
+	        break;
+	    default:
+	        // code block if no case matches
+	    	break;
+		}
+	}
 	
 	
 	

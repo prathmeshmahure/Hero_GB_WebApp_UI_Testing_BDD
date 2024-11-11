@@ -107,6 +107,10 @@ public class ServiceTest extends BaseTest{
 	    sp.verify_all_inspection_guide();
 	}
 //===========================================================================================
+	@When("Click on care and maintenance")
+	public void click_on_care_and_maintenance() {
+	    sp.click_on_care_and_maintenance();
+	}
 	@When("Click on fuel saving tips")
 	public void click_on_fuel_saving_tips() {
 	    sp.click_on_fuel_saving_tips();
@@ -127,10 +131,25 @@ public class ServiceTest extends BaseTest{
 //===========================================================================================
 	
 	
+//======================================= Philippines Country code =======================================	
 	
-	
-	
-	
+	@When("Click on maintenance tips")
+	public void click_on_maintenance_tips() {
+	    sp.click_on_maintenance_tips();
+	}
+	@Then("Verify header line four icons")
+	public void verify_header_line_four_icons() {
+	    sp.verify_header_line_four_icons();
+	}
+	@Then("Verify service schedule and dropdown three bikes")
+	public void verify_service_schedule_and_dropdown_three_bikes() {
+	    sp.verify_service_schedule_and_dropdown_three_bikes();
+	}
+
+	@Then("Verify all care and maintenance")
+	public void verify_all_care_and_maintenance() {
+	    sp.verify_all_care_and_maintenance();
+	}
 	
 	
 	

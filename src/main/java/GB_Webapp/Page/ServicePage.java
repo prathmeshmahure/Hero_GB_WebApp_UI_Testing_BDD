@@ -31,8 +31,14 @@ public class ServicePage extends BasePage{
 	@FindBy(xpath="//div[contains(text(),'Maintenance Tips')]")
 	private WebElement MaintenanceTips;
 	
+	@FindBy(xpath="//a[contains(text(),'Maintenance Tips')]")
+	private WebElement HeaderMaintenanceTips;
+	
 	@FindBy(xpath="//div[contains(text(),'Warranty')] | //a[contains(text(),'Warranty')]")
 	private WebElement Warranty;
+	
+	@FindBy(xpath="//a[contains(text(),'Warranty')]")
+	private WebElement HeaderWarranty;
 	
 	@FindBy(xpath="//div[contains(text(),'Two Wheeler Tips')] | //a[contains(text(),'Two Wheeler Tips')]")
 	private WebElement TwoWheelerTips;
@@ -202,8 +208,11 @@ public class ServicePage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Fuel saving tips']")
 	private WebElement FuelSavingTips;
 	
-	@FindBy(xpath="(//div[@class='tips-box'])[15]")
+	@FindBy(xpath="//div[contains(text(),'Fuel Saving Tips')]//parent::div//child::div[1]")
 	private WebElement FuelSavingTipsIMG;
+	
+	@FindBy(xpath="//img[@alt='FUEL SAVING TIPS']")
+	private WebElement FuelSavingTipsIMG1;
 	
 	@FindBy(xpath="//div[@class='page-title text-uppercase font-bold icon-with-text'][normalize-space()='FUEL SAVING TIPS']")
 	private WebElement FuelSavingTipsIMGInfo;
@@ -217,18 +226,18 @@ public class ServicePage extends BasePage{
 	@FindBy(xpath="//img[@alt='Image']")
 	private WebElement PartsImage;
 	
-//	@FindBy(xpath="forwardIcon")
-//	private WebElement RCButton;
-//	
-//	@FindBy(xpath="forwardIcon")
-//	private WebElement RCButton;
-//	
-//	@FindBy(xpath="forwardIcon")
-//	private WebElement RCButton;
-//	
-//	@FindBy(xpath="forwardIcon")
-//	private WebElement RCButton;
-//	
+	@FindBy(xpath="//a[@class='dropdown-item']")
+	private List<WebElement> AllDropDownOptions;
+	
+	@FindBy(xpath="//a[normalize-space()='Care & Maintenance']")
+	private WebElement CareAndMaintenance;
+	
+	@FindBy(xpath="//div[contains(text(),'Storage Tips for Your Vehicle')]//parent::div//child::div[1]")
+	private WebElement StorageTipsForYourVehicleIMG;
+	
+	@FindBy(xpath="//div[contains(text(),'STORAGE TIPS FOR YOUR  VEHICLE WHEN LEAVING IDLE THESE DAYS')]")
+	private WebElement StorageTipsForYourVehicleIMGInfo;
+	
 //	@FindBy(xpath="forwardIcon")
 //	private WebElement RCButton;
 //	
@@ -312,7 +321,7 @@ public class ServicePage extends BasePage{
 		Library.visible_link(driver, Destini125Bike, "Destini 125 Bike");		
 	}
 	public void select_any_bikes_and_verify_bikes_servicing_information_it_should_be_displayed() {
-		Library.click(driver, Xpulse200CarbBike, "Xpulse 200 Carb Bike");
+		Library.click(driver, AllDropDownOptions.get(1), AllDropDownOptions.get(1).getText());
 		Library.visible_link_gettext(driver, PaidServiceText, "Paid Service");
 		Library.visible_link(driver, TypeOfFreeServiceText, "Type Of Free Service");
 		for (WebElement element : ServicingNumber) {
@@ -395,7 +404,7 @@ public class ServicePage extends BasePage{
 		Library.click(driver, FuelSavingTips, "Fuel Saving Tips");		
 	}
 	public void verify_all_fuel_saving_tips() {
-		Library.click(driver, FuelSavingTipsIMG, "Fuel Saving Tips card");
+		Library.click(driver, FuelSavingTipsIMG1, "Fuel Saving Tips card");
 		Library.visible_link(driver, FuelSavingTipsIMGInfo, "Fuel Saving Tips Info");		
 	}
 	public void click_on_hero_genuine_parts() {
@@ -413,6 +422,39 @@ public class ServicePage extends BasePage{
 		Library.visible_link(driver, PartsImage, "Parts Image");		
 	}
 	
+//=================================== Philippines Country code	start ==================================
+
+	public void click_on_maintenance_tips() {
+		Library.click(driver, MaintenanceTips, "Maintenance Tips");		
+	}
+	public void verify_header_line_four_icons() {
+		Library.visible_link(driver, HeaderMaintenanceTips, "Maintenance Tips");	
+		Library.visible_link(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		Library.visible_link(driver, HeaderHeroGenuineParts, "Header Hero Genuine Parts");	
+		Library.visible_link(driver, HeaderWarranty, "Warranty");
+		
+	}
+	public void verify_service_schedule_and_dropdown_three_bikes() {
+		Library.visible_link(driver, ServiceScheduleText, "Service Schedule");
+		Library.click(driver, SelectBikeDropDown, "Select Bike DropDown");
+		for(WebElement element: AllDropDownOptions) {			
+			Library.visible_link(driver, element, element.getText());
+			}
+		}
+	public void click_on_care_and_maintenance() {
+		Library.click(driver, CareAndMaintenance, "Care And Maintenance");
+		
+	}
+	public void verify_all_care_and_maintenance() {
+		Library.click(driver, StorageTipsForYourVehicleIMG, "Storage Tips For Your Vehicle IMG");
+		Library.visible_link(driver, StorageTipsForYourVehicleIMGInfo, "Storage Tips For Your Vehicle Info");	
+		Library.visible_link(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		Library.click(driver, CareAndMaintenance, "Care And Maintenance");		
+		Library.click(driver, FuelSavingTipsIMG, "Fuel Saving Tips card");
+		Library.visible_link(driver, FuelSavingTipsIMGInfo, "Fuel Saving Tips Info");		
+		
+	}
+		
 	
 	
 	

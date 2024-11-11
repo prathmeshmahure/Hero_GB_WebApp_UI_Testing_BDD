@@ -105,22 +105,22 @@ public class BaseTest extends PageClassObject {
 //			//	prefs.put("profile.managed_default_content_settings.stylesheets", 2); // 2 means disable UI images
 //				prefs.put("profile", profile);
 //				co.setExperimentalOption("prefs", prefs);		
-//				co.addArguments("fast");
-//				co.addArguments("--remote-allow-origins=*");
+				co.addArguments("fast");
+				co.addArguments("--remote-allow-origins=*");
 		    	co.addArguments("--disable-blink-features=AutomationControlled");
-//		    	co.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
-//		    	co.addArguments("--incognito");
-//				co.addArguments("disable-infobars");
-//				co.addArguments("disable-extensions");
-//				co.addArguments("disable-gpu");
-//				co.addArguments("disable-dev-shm-usage");
-//				co.addArguments("no-sandbox");
-//				co.addArguments("disable-notifications");
+		    	co.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
+		    	co.addArguments("--incognito");
+				co.addArguments("disable-infobars");
+				co.addArguments("disable-extensions");
+				co.addArguments("disable-gpu");
+				co.addArguments("disable-dev-shm-usage");
+				co.addArguments("no-sandbox");
+				co.addArguments("disable-notifications");
 		    	co.addArguments("--force-device-scale-factor=0.9");
 		    	driver = new ChromeDriver(co);			    	
 		    	driver.get(URL);	
 		    	driver.manage().window().maximize();
-				driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+				driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
 				
 
 			break;
@@ -137,7 +137,7 @@ public class BaseTest extends PageClassObject {
 		        // Initialize WebDriver with EdgeDriver and the specified options
 		        driver = new EdgeDriver(options);	
 			    driver.get(URL);		
-		    	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		    	driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
 			
 			break;
 

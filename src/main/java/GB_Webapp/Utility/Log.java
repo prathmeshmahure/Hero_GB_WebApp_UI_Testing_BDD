@@ -12,6 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import java.io.ByteArrayInputStream;
@@ -163,8 +164,9 @@ public class Log extends PageClassObject{
                 break;
 
             case "TimeoutException":
-                System.out.println("Timeout Exception: " + e.getMessage());
+                System.out.println("Timeout Exception: ");
                 System.out.println("Solution: Increase the wait time or verify if the network is stable.");
+                ((JavascriptExecutor) driver).executeScript("window.open()");
                 break;
 
             case "StaleElementReferenceException":

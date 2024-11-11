@@ -156,7 +156,7 @@ public class AboutHeroPage extends BasePage{
 	@FindBy(xpath = "//div[contains(text(),'Select Year')]")
 	private WebElement SelectYearDropDown;
 
-	@FindBy(xpath = "//a[@id='bs-select-2-1']")
+	@FindBy(xpath = "//span[normalize-space()='2024']")
 	private WebElement SelectYearDropDownValue;
 
 	@FindBy(xpath = "//input[@id='existingBusinessTotalManpowerEmployed']")
@@ -188,6 +188,12 @@ public class AboutHeroPage extends BasePage{
 
 	@FindBy(xpath = "//button[normalize-space()='RESET']")
 	private WebElement ResetButton;
+
+	@FindBy(xpath = "//div[contains(text(),'About Terrafirma Motors Corporation')]")
+	private WebElement AboutTerrafirmaMotorsCorporation;
+
+	@FindBy(xpath = "//h2[normalize-space()='About Terrafirma Motors Corporation']")
+	private WebElement AboutTerrafirmaMotorsCorporationPageText;
 	
 	
 	
@@ -240,24 +246,46 @@ public class AboutHeroPage extends BasePage{
 	public void click_on_about_hero_close_icon() {
 		Library.click(driver, AboutHeroCloseIcon, "About Hero Close Icon");		
 	}
-	public void fill_become_a_dealer_page_information() {
+	public void fill_become_a_dealer_page_information(String countryName) {
 		Library.sendKeys(driver, DealerFirstName, ZambiaCustomerName, "Dealer First Name");	
 		Library.sendKeys(driver, DealerMiddleName, ZambiaCustomerMiddleName, "Dealer Middle Name");
 		Library.sendKeys(driver, DealerLastName, ZambiaCustomerLastName, "Dealer Last Name");
 		Library.sendKeys(driver, DealerCity, ZambiaCity, "Dealer City");
-		String Country =DealerCountry.getAttribute("value");
-//		System.out.println(Country);
-		Library.assertEquals(driver, Country, "Zambia");
+		switch (countryName) {
+	    case "Zambia":
+	    	String Country =DealerCountry.getAttribute("value");
+//			System.out.println(Country);
+			Library.assertEquals(driver, Country, "Zambia");
+	        break;
+	    case "Philippines":
+	    	Library.sendKeys(driver, DealerCountry, Philippines_name, "Country Name");
+	        break;
+	    default:
+	        // code block if no case matches
+	    	break;
+	}	
+		
 		Library.sendKeys(driver, DealerDOB, ZambiaDOB, "Dealer DOB");
 	}
-	public void fill_contact_details() {
+	public void fill_contact_details(String countryName) {
 		Library.sendKeys(driver, dealerPrimaryContactNumber, ZambiaMobileNumber, "dealer Primary Contact Number");
 		Library.sendKeys(driver, dealerAddressLine1, Address1, "dealer Address Line 1");
 		Library.sendKeys(driver, dealerAddressLine2, Address2, "dealer Address Line 2");
 		Library.sendKeys(driver, dealerCityForContact, ZambiaCity, "dealer City For Contact");
-		String Country =dealerCountryForContact.getAttribute("value");
-//		System.out.println(Country);
-		Library.assertEquals(driver, Country, "Zambia");
+		switch (countryName) {
+	    case "Zambia":
+	    	String Country =dealerCountryForContact.getAttribute("value");
+//			System.out.println(Country);
+			Library.assertEquals(driver, Country, "Zambia");
+	        break;
+	    case "Philippines":
+	    	Library.sendKeys(driver, dealerCountryForContact, Philippines_name, "Country Name");
+	        break;
+	    default:
+	        // code block if no case matches
+	    	break;
+	}	
+		
 		Library.sendKeys(driver, dealerPincodeForContact, Pincode, "dealer Pincode For Contact");
 		Library.sendKeys(driver, dealerEmailAdressForContact, ZambiaEmail, "dealer Email Address For Contact");
 	}
@@ -309,7 +337,12 @@ public class AboutHeroPage extends BasePage{
 		Library.visible_link(driver, ResetButton, "Reset Button");		
 	}
 	
-	
+//======================================  Philippines code start ================================
+	public void AboutTerrafirmaMotorsCorporation() {
+		Library.click(driver, loginPg.getAboutHero(), "About hero icon");
+		Library.click(driver, AboutTerrafirmaMotorsCorporation, "About Terrafirma Motors Corporation");
+		Library.visible_link(driver, AboutTerrafirmaMotorsCorporationPageText, "About Terrafirma Motors Corporation Page info");
+	}
 	
 	
 	

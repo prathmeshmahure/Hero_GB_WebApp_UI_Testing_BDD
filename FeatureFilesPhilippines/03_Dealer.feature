@@ -1,12 +1,9 @@
 Feature: Zambia Dealers
 
 
-	@Dealers @Zambia
-  Scenario: TC_033 verify dealers information
-   Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+	@Dealers @Philippines
+  Scenario: TC_026 verify dealers information
+  Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
     When Click on "Dealers"
-   Then "Dealers_name" should be displayed
-    And "Dealers_address" should be displayed
-    And "Dealers_time" should be displayed
-    And "Dealers_contact_number" should be displayed
+    Then "Dealers_name , Dealers_address , Dealers_time , Dealers_contact_number" should be displayed
     And Close browser

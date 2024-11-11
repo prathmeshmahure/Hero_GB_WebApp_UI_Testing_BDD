@@ -32,8 +32,8 @@ Feature: Zambia About Hero
 		Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
 		When Click on "About_hero"
 		Then Click on Become a delear icon
-		And Fill personal details
-		And Fill contact details
+		And Fill personal details "Zambia"
+		And Fill contact details "Zambia"
 		And Click on Submit button and verify Thank you pop up
 		And Close browser
 			
@@ -42,8 +42,8 @@ Feature: Zambia About Hero
 		Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
 		When Click on "About_hero"
 		Then Click on Become a delear icon
-		And Fill personal details
-		And Fill contact details
+		And Fill personal details "Zambia"
+		And Fill contact details "Zambia"
 		And Fill existing business details
 		And Fill share holder details
 		And Click on Submit button and verify Thank you pop up

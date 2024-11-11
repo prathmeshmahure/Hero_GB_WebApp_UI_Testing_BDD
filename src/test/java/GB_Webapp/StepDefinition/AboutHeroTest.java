@@ -73,13 +73,13 @@ public class AboutHeroTest extends BaseTest{
 	   ah.click_on_about_hero_close_icon();
 	}
 //=====================================================================================================	
-	@Then("Fill personal details")
-	public void fill_personal_details() {
-	    ah.fill_become_a_dealer_page_information();
+	@Then("Fill personal details {string}")
+	public void fill_personal_details(String CountryName) {
+	    ah.fill_become_a_dealer_page_information(CountryName);
 	}
-	@Then("Fill contact details")
-	public void fill_contact_details() {
-	    ah.fill_contact_details();
+	@Then("Fill contact details {string}")
+	public void fill_contact_details(String countryName) {
+	    ah.fill_contact_details(countryName);
 	}
 	@Then("Click on Submit button and verify Thank you pop up")
 	public void click_on_submit_button_and_verify_thank_you_pop_up() {
@@ -96,7 +96,12 @@ public class AboutHeroTest extends BaseTest{
 	}
 	
 	
-	
+//===========================  Philippines code start ================
+
+	@Then("Click on About Terrafirma Motors Corporation icon and verify page")
+	public void click_on_AboutTerrafirmaMotorsCorporation_icon() {
+		ah.AboutTerrafirmaMotorsCorporation();
+	}
 	
 	
 	

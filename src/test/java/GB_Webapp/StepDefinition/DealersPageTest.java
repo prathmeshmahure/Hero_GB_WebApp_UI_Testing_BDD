@@ -22,9 +22,12 @@ public class DealersPageTest extends BaseTest {
 	    case "Dealers_contact_number":
 	    	 dp.delears_contact_number_should_be_displayed();
 	        break;
+	    case "Dealers_name , Dealers_address , Dealers_time , Dealers_contact_number":
+	    	 dp.verifyAllDealerInfoSequentially();
+	        break;
 	    default:
 	        // code block if no case matches
-		}	
+		}			
 	}
 //=====================================================================================================
 			

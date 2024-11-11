@@ -42,6 +42,7 @@ public class ConfigeDataProvider {
 	public static String Age = Library.getStringConfigData("Age");
 	public static String Designation = Library.getStringConfigData("Designation");
 	public static String Country = Library.getStringConfigData("Country");
+	public static String Philippines_name = Library.getStringConfigData("Philippines_name");
 	
 	
 	

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="22" passed="21" failed="1" skipped="0">
+<testng-results ignored="0" total="28" passed="13" failed="15" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-07T20:08:56 IST" name="Default suite" finished-at="2024-11-07T20:12:44 IST" duration-ms="227877">
+  <suite started-at="2024-11-11T17:55:15 IST" name="Default suite" finished-at="2024-11-11T18:03:33 IST" duration-ms="497242">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-11-07T20:08:56 IST" name="Default test" finished-at="2024-11-07T20:12:44 IST" duration-ms="227877">
-      <class name="GB_Webapp.TestRunner.Philippines">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:08:56 IST" name="setUpClass" finished-at="2024-11-07T20:09:08 IST" duration-ms="11832" status="PASS">
+    <test started-at="2024-11-11T17:55:15 IST" name="Default test" finished-at="2024-11-11T18:03:33 IST" duration-ms="497242">
+      <class name="GB_Webapp.TestRunner.Bangladesh">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:55:15 IST" name="setUpClass" finished-at="2024-11-11T17:55:27 IST" duration-ms="11195" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@536e3aab]]>
+                <![CDATA[org.testng.TestRunner@331199a9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:14 IST" duration-ms="5903" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:55:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:55:40 IST" duration-ms="13196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:16 IST" duration-ms="1882" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:55:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:55:47 IST" duration-ms="6567" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_002 Successfully verify all header menu icons"]]>
+                <![CDATA["TC_002 Successfully open bangladesh global website link"]]>
               </value>
             </param>
             <param index="1">
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:20 IST" duration-ms="3999" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:55:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:55:50 IST" duration-ms="3118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_003 Click on Company_logo"]]>
+                <![CDATA["TC_003 Successfully verify all tabbar icons"]]>
               </value>
             </param>
             <param index="1">
@@ -69,299 +69,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:21 IST" duration-ms="1331" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:55:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:55:58 IST" duration-ms="8098" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_004 Click on Product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:28 IST" duration-ms="7027" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_005 Click on Dealers"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:30 IST" duration-ms="1446" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_006 Click on Service"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:31 IST" duration-ms="1636" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_007 Click on About_hero"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:41 IST" duration-ms="9417" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_008 Click on country icon"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:42 IST" duration-ms="898" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_009 Verify home page text content"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:09:49 IST" duration-ms="6860" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_010 Verify home page premium and scooter bikes"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:09:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:10:20 IST" duration-ms="31619" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_011 Verify home page Xpulse2004V bike expanded card under premium icon"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:10:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:10:53 IST" duration-ms="32243" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_012 Verify home page Hunk160R4V bike expanded card under premium icon"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:10:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:11:22 IST" duration-ms="29800" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_013 Verify home page Xoom110 bike expanded card under scooter icon"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:11:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:11:26 IST" duration-ms="3897" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_014 Verify home page promotion banner"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:11:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:11:28 IST" duration-ms="1454" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_015 Verify home page let us call you back form mandatory field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:11:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:11:34 IST" duration-ms="5886" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_016 Successfully fill home page let us call you back form"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:11:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:11:35 IST" duration-ms="1458" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_017 Verify home page marketing advertisement banner text"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:11:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:11:49 IST" duration-ms="13592" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_018 Verify home page footer link inside the product all icons rediretions"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:11:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:12:00 IST" duration-ms="11517" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_019 Verify home page footer link inside the support all icons rediretions"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:12:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:12:06 IST" duration-ms="5916" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_020 Verify home page footer link facebook and instagram logo"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:12:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:12:19 IST" duration-ms="12477" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_021 Verify home page request a call back popup form mandatory field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:12:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T20:12:43 IST" duration-ms="23927" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_022 Successfully fill home page let us call you back popup form"]]>
+                <![CDATA["TC_004 Successfully verify all product image icons"]]>
               </value>
             </param>
             <param index="1">
@@ -372,44 +84,875 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to click element : Select city  --  Proxy element for: DefaultElementLocator 'By.xpath: (//span[normalize-space()='ALBAY'])[2]'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='ALBAY'])[2]"}
-  (Session info: chrome=130.0.6723.116)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[Unable to click element : Image button 5  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //button[@data-bs-slide-to='4']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" data-bs-target="#carousel-963339584" data-bs-slide-to="4"></button> is not clickable at point (1038, 632). Other element would receive the click: <label class="form-check-label" for="termscondn" style="cursor: default">...</label>
+  (Session info: MicrosoftEdge=130.0.2849.80)
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b26e8e3fbf4173f308b2d6b2749bae44, findElement {using=xpath, value=(//span[normalize-space()='ALBAY'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60428}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60428/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b26e8e3fbf4173f308b2d6b2749bae44 expected [true] but found [false]]]>
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.17491A3833CB4045040775B22BBCADC3.d.7AE226374CE557009E8F7565F7744E60.e.330}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //button[@data-bs-slide-to='4']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to click element : Select city  --  Proxy element for: DefaultElementLocator 'By.xpath: (//span[normalize-space()='ALBAY'])[2]'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='ALBAY'])[2]"}
-  (Session info: chrome=130.0.6723.116)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[java.lang.AssertionError: Unable to click element : Image button 5  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //button[@data-bs-slide-to='4']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" data-bs-target="#carousel-963339584" data-bs-slide-to="4"></button> is not clickable at point (1038, 632). Other element would receive the click: <label class="form-check-label" for="termscondn" style="cursor: default">...</label>
+  (Session info: MicrosoftEdge=130.0.2849.80)
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b26e8e3fbf4173f308b2d6b2749bae44, findElement {using=xpath, value=(//span[normalize-space()='ALBAY'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60428}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60428/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b26e8e3fbf4173f308b2d6b2749bae44 expected [true] but found [false]
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.17491A3833CB4045040775B22BBCADC3.d.7AE226374CE557009E8F7565F7744E60.e.330}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //button[@data-bs-slide-to='4']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
-at GB_Webapp.Utility.Library.click(Library.java:38)
-at GB_Webapp.Page.HomePage.select_city1(HomePage.java:849)
-at GB_Webapp.StepDefinition.HomePageTest.select_city_in_dropdown(HomePageTest.java:284)
-at ✽.select city in dropdown "city1"(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesPhilippines/01_HomePage.feature:123)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.StepDefinition.LoginPageTest.click_on_banner(LoginPageTest.java:44)
+at ✽.Click on banner "5th_image_button"(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/01_LoginFeature.feature:38)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GB_Webapp.TestRunner.Philippines@46944ca9]" started-at="2024-11-07T20:12:43 IST" name="tearDownClass" finished-at="2024-11-07T20:12:44 IST" duration-ms="1452" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:55:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:56:02 IST" duration-ms="4430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_005 Successfully verify product icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:56:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:56:04 IST" duration-ms="1816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_006 Successfully verify bike under New launch icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:56:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:56:09 IST" duration-ms="4362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_007 Successfully verify bike under Commuter icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:56:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:56:12 IST" duration-ms="3395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_008 Successfully verify bike under Executive icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:56:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:56:15 IST" duration-ms="3476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_009 Successfully verify bike under Premium icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:56:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:56:18 IST" duration-ms="2997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_010 Successfully verify bike under Scooter icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:56:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:56:45 IST" duration-ms="26164" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Hf_Deluxe" bike feature under "commuter" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Engine  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active custom-text-center" id="v-pills-288305597-tab" data-bs-toggle="pill" data-bs-target="#v-pills-288305597" aria-controls="v-pills-288305597" aria-selected="true">...</a> is not clickable at point (503, 104). Other element would receive the click: <div class="modal-popup modal-large book-bike-ride request-callback" id="requestCallBackModel">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.B18DF87E9AA83442097F558F1119FCEE.e.595}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Engine  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active custom-text-center" id="v-pills-288305597-tab" data-bs-toggle="pill" data-bs-target="#v-pills-288305597" aria-controls="v-pills-288305597" aria-selected="true">...</a> is not clickable at point (503, 104). Other element would receive the click: <div class="modal-popup modal-large book-bike-ride request-callback" id="requestCallBackModel">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.B18DF87E9AA83442097F558F1119FCEE.e.595}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:56:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:57:06 IST" duration-ms="21710" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Splendor+SE" bike feature under "commuter" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Specifications  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //span[normalize-space()='SPECIFICATIONS']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (1195, 28). Other element would receive the click: <div class="modal-popup modal-large book-bike-ride request-callback" id="requestCallBackModel">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.720AE5FEA2C8AEA4AD2A396992B3A595.e.708}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //span[normalize-space()='SPECIFICATIONS']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Specifications  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //span[normalize-space()='SPECIFICATIONS']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (1195, 28). Other element would receive the click: <div class="modal-popup modal-large book-bike-ride request-callback" id="requestCallBackModel">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.720AE5FEA2C8AEA4AD2A396992B3A595.e.708}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //span[normalize-space()='SPECIFICATIONS']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.click_on_specifications_icon(BikeFeaturePage.java:220)
+at GB_Webapp.StepDefinition.BikeFeatureTest.click_on_specifications_icon(BikeFeatureTest.java:56)
+at ✽.Click on specifications icon(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:57:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:57:28 IST" duration-ms="21818" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Splender+_XTEC" bike feature under "commuter" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-319192129-tab" data-bs-toggle="pill" data-bs-target="#v-pills-319192129" aria-controls="v-pills-319192129" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.740C992D4B1541E6C9EAE70593A744B1.e.820}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-319192129-tab" data-bs-toggle="pill" data-bs-target="#v-pills-319192129" aria-controls="v-pills-319192129" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.740C992D4B1541E6C9EAE70593A744B1.e.820}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:57:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:57:50 IST" duration-ms="21452" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Passion_XPRO" bike feature under "commuter" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-2032863235-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2032863235" aria-controls="v-pills-2032863235" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.C34776A7231F4139F48F36669E93B881.e.928}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-2032863235-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2032863235" aria-controls="v-pills-2032863235" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.C34776A7231F4139F48F36669E93B881.e.928}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:57:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:58:12 IST" duration-ms="22009" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Passion_XPRO_XTEC" bike feature under "commuter" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-608358568-tab" data-bs-toggle="pill" data-bs-target="#v-pills-608358568" aria-controls="v-pills-608358568" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.5BB554CED59784D3FE6A38CC7D3BA1DE.e.1074}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-608358568-tab" data-bs-toggle="pill" data-bs-target="#v-pills-608358568" aria-controls="v-pills-608358568" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.5BB554CED59784D3FE6A38CC7D3BA1DE.e.1074}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:58:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:58:34 IST" duration-ms="22396" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Glamour" bike feature under "executive" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Suspension  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mob-hide">...</span> is not clickable at point (1019, 487). Other element would receive the click: <div class="column">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.6BF24ED890DE9D324614CB958E1E15E3.e.1232}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Suspension  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mob-hide">...</span> is not clickable at point (1019, 487). Other element would receive the click: <div class="column">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.6BF24ED890DE9D324614CB958E1E15E3.e.1232}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:58:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:58:58 IST" duration-ms="23985" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Ignitor_techno" bike feature under "executive" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Suspension  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mob-hide">...</span> is not clickable at point (1019, 486). Other element would receive the click: <div class="column">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.A78C14499C00B749C26772F130073ECA.e.1403}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Suspension  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mob-hide">...</span> is not clickable at point (1019, 486). Other element would receive the click: <div class="column">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.A78C14499C00B749C26772F130073ECA.e.1403}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:58:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:59:20 IST" duration-ms="21794" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Ignitor_XTEC" bike feature under "executive" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Electricals  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mob-hide">...</span> is not clickable at point (1678, 414). Other element would receive the click: <div class="form-row form-container">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.8D9CC55D93F2C976A4B11D77D578057F.e.1535}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Electricals  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mob-hide">...</span> is not clickable at point (1678, 414). Other element would receive the click: <div class="form-row form-container">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.8D9CC55D93F2C976A4B11D77D578057F.e.1535}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:59:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T17:59:42 IST" duration-ms="22457" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Thriller_160R_4V" bike feature under "Premium" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Dimensions  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link " id="v-pills-1368035399-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1368035399" aria-controls="v-pills-1368035399" aria-selected="false">...</a> is not clickable at point (1679, 240). Other element would receive the click: <div class="testride-form-container ">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.5D4CD71BC231C06C957E5BC0610DAF0D.e.1705}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Dimensions  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link " id="v-pills-1368035399-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1368035399" aria-controls="v-pills-1368035399" aria-selected="false">...</a> is not clickable at point (1679, 240). Other element would receive the click: <div class="testride-form-container ">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.5D4CD71BC231C06C957E5BC0610DAF0D.e.1705}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T17:59:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:00:04 IST" duration-ms="21991" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Hunk_150" bike feature under "Premium" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Engine  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active " id="v-pills--555054070-tab" data-bs-toggle="pill" data-bs-target="#v-pills--555054070" aria-controls="v-pills--555054070" aria-selected="false">...</a> is not clickable at point (505, 239). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.9FC710FA29C1768D743B0169ADF7DAC0.e.1885}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Engine  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active " id="v-pills--555054070-tab" data-bs-toggle="pill" data-bs-target="#v-pills--555054070" aria-controls="v-pills--555054070" aria-selected="false">...</a> is not clickable at point (505, 239). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.9FC710FA29C1768D743B0169ADF7DAC0.e.1885}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:00:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:00:27 IST" duration-ms="23125" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Hunk_150R" bike feature under "Premium" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link " id="v-pills-1337252210-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1337252210" aria-controls="v-pills-1337252210" aria-selected="false">...</a> is not clickable at point (752, 240). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.C0B453FCAF173477B38B43EDB55BC8BC.e.2050}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link " id="v-pills-1337252210-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1337252210" aria-controls="v-pills-1337252210" aria-selected="false">...</a> is not clickable at point (752, 240). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.C0B453FCAF173477B38B43EDB55BC8BC.e.2050}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:00:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:00:51 IST" duration-ms="23771" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Thriller_160R" bike feature under "Premium" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link " id="v-pills-698640863-tab" data-bs-toggle="pill" data-bs-target="#v-pills-698640863" aria-controls="v-pills-698640863" aria-selected="false">...</a> is not clickable at point (752, 240). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.542535EB8941EED58D11C4497095E22C.e.2219}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link " id="v-pills-698640863-tab" data-bs-toggle="pill" data-bs-target="#v-pills-698640863" aria-controls="v-pills-698640863" aria-selected="false">...</a> is not clickable at point (752, 240). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.542535EB8941EED58D11C4497095E22C.e.2219}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:00:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:01:12 IST" duration-ms="20940" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "Pleasure" bike feature under "Scooter" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Suspension  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-1178603900-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1178603900" aria-controls="v-pills-1178603900" aria-selected="true">...</a> is not clickable at point (503, 171). Other element would receive the click: <div class="modal-popup modal-large book-bike-ride request-callback" id="requestCallBackModel">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.F5E6104909544921ADB410E591F5942F.e.2355}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Suspension  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills-1178603900-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1178603900" aria-controls="v-pills-1178603900" aria-selected="true">...</a> is not clickable at point (503, 171). Other element would receive the click: <div class="modal-popup modal-large book-bike-ride request-callback" id="requestCallBackModel">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.F5E6104909544921ADB410E591F5942F.e.2355}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:01:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:01:34 IST" duration-ms="22255" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully verify "MAESTRO_EDGE_XTEC" bike feature under "Scooter" icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills--1061465292-tab" data-bs-toggle="pill" data-bs-target="#v-pills--1061465292" aria-controls="v-pills--1061465292" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.BE9C9633E7D7E404890CF479338C3823.e.2478}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Transmission & Chassis  --  [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link custom-text-center" id="v-pills--1061465292-tab" data-bs-toggle="pill" data-bs-target="#v-pills--1061465292" aria-controls="v-pills--1061465292" aria-selected="true">...</a> is not clickable at point (503, 189). Other element would receive the click: <div class="book-ride-img" style="background-image: url('/content/dam/hero-aem-website/in/design-bd/mega-menu/Karizma 400X600px_Option.jpg')"></div>
+  (Session info: MicrosoftEdge=130.0.2849.80)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f927c09208bc362562783fbfdcef7c61, clickElement {id=f.59D418E72B8A44DE427522416A3ED92B.d.BE9C9633E7D7E404890CF479338C3823.e.2478}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55506}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55506/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f927c09208bc362562783fbfdcef7c61)] -> xpath: //div[@id='v-pills-tab']//child::a | //span[@class='mob-hide']]
+Session ID: f927c09208bc362562783fbfdcef7c61 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.BikeFeaturePage.verify_multiple_specificatios(BikeFeaturePage.java:227)
+at GB_Webapp.StepDefinition.BikeFeatureTest.verify_multiple_specificatios(BikeFeatureTest.java:60)
+at ✽.Verify multiple specificatios(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/02_BikeFeature.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:01:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:01:44 IST" duration-ms="9696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_001 Successfully click on dealers icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:01:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:02:15 IST" duration-ms="30561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_002 Successfully click on service icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:02:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:02:51 IST" duration-ms="35894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_001 Successfully click on Hero world icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HeroWorld"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:02:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-11T18:03:31 IST" duration-ms="40488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_001 Successfully click on About Hero icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AboutHero"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-11-11T18:03:31 IST" name="tearDownClass" finished-at="2024-11-11T18:03:33 IST" duration-ms="1556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- GB_Webapp.TestRunner.Philippines -->
+      </class> <!-- GB_Webapp.TestRunner.Bangladesh -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

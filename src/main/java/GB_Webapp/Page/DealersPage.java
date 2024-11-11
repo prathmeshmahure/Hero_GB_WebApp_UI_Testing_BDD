@@ -158,7 +158,34 @@ public class DealersPage extends BasePage{
 			Library.visible_link_gettext(driver, element, "Dealers Contact Number");
 		}		
 	}
-	
+	//===============================    All dealers info in one method 
+	 public void verifyAllDealerInfoSequentially() {
+		 List<WebElement> dealerNames = DealerName;
+		 List<WebElement> dealerAddresses = DealersAddress;
+         List<WebElement> dealerTimes = DealersTime;
+         List<WebElement> dealerContactNumbers = DealersContactNumber;
+         
+			int maxSize = dealerNames.size();
+
+				for (int i = 0; i < maxSize; i++) {
+				Library.passmsg("=================== Dealers Info "+ (i+1)+"  ==================");
+				if (i < dealerNames.size()) {
+				Library.visible_link_gettext(driver, dealerNames.get(i), "Dealer Name");
+				}
+				
+				if (i < dealerAddresses.size()) {
+				Library.visible_link_gettext(driver, dealerAddresses.get(i), "Dealers Address");
+				}
+				
+				if (i < dealerTimes.size()) {
+				Library.visible_link_gettext(driver, dealerTimes.get(i), "Dealers Time");
+				}
+				
+				if (i < dealerContactNumbers.size()) {
+				Library.visible_link_gettext(driver, dealerContactNumbers.get(i), "Dealers Contact Number");
+				}
+		}
+	 }
 	
 	
 	

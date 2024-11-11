@@ -39,7 +39,7 @@ public class BaseClass extends BaseTest{
 	public static void Before_Step() throws Exception
 	{		
 		getObject();
-//		handlePopup();
+	    handlePopup();
 	}
 	@AfterStep
 	public  void After_Step(Scenario scenario) throws Exception

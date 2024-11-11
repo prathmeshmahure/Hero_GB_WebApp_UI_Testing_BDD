@@ -11,6 +11,7 @@ public class HomePage extends BasePage{
 		super(driver);
 	}
 	
+	
 //======================================================================================================
 	@FindBy(xpath="//div[@class='d-none d-lg-block']//span[contains(text(),'Zambia')]")
 	private WebElement ZambiaCountryName;
@@ -860,16 +861,6 @@ public class HomePage extends BasePage{
 		Library.click(driver, FooterOwnersManual, "Footer Owners Manual");
 		Library.visible_link(driver, OwnersManualPageText, "Owners Manual Page");
 	}
-//	public void verify_mototaxi_icon_redirection() {
-//		Library.moveToElement(driver, FooterScooter);
-//		Library.click(driver, FooterMotoTaxi, "FooterMotoTaxi");
-//		Library.visible_link(driver, Specifications, "Moto Taxi Page");
-//	}
-//	public void verify_mototaxi_icon_redirection() {
-//		Library.moveToElement(driver, FooterScooter);
-//		Library.click(driver, FooterMotoTaxi, "FooterMotoTaxi");
-//		Library.visible_link(driver, Specifications, "Moto Taxi Page");
-//	}
 	
 	
 	

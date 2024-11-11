@@ -15,18 +15,14 @@ import GB_Webapp.Utility.PageClassObject;
 public abstract class BasePage extends PageClassObject {
 
 	public static WebDriver driver;
+	
 
 	@SuppressWarnings("static-access")
 	public BasePage(WebDriver driver) {
-		try {
+		
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		}catch (Exception e) {
-			System.out.println("============================================");
-   		 System.out.println("Page load timed out. Exception: " + e.getMessage());
-   		 Log.error("Page load timed out. Exception: " + e.getMessage());
-			System.out.println("============================================");
-   	}
+		
 	}
 
 }

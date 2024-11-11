@@ -8,24 +8,22 @@
 			      			 <class name="GB_Webapp.TestRunner.Bangladesh"/>			         	 		
 			    </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="Zambia" enabled="true">
+  <test thread-count="5" name="Zambia" enabled="false">
   
 			    <classes>
 			      			 <class name="GB_Webapp.TestRunner.Zambia"/>			         	 		
 			    </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="Zambia" enabled="false">
+  <test thread-count="5" name="Philippines" enabled="false">
   
 			    <classes>
 			      			 <class name="GB_Webapp.TestRunner.Philippines"/>			         	 		
 			    </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="All_Country"  enabled="false">
+  <test thread-count="5" name="All_Country"  enabled="true">
  
 			    <classes>
-			      			 <class name="GB_Webapp.TestRunner.Bangladesh"/>
-			      			 <class name="GB_Webapp.TestRunner.Zambia"/>	
-			      			 <class name="GB_Webapp.TestRunner.Philippines"/>			         	 		
+			      			 <class name="GB_Webapp.TestRunner.AllCountry"/>		         	 		
 			    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

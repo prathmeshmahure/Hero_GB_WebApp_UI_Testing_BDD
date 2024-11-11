@@ -33,7 +33,6 @@ public class Library {
 			element.click();
 			Log.info("Element is clickable : " + LogMessege);
 		} catch (Exception e) {		
-//			Log.solutionsForException(e);
 			Log.error("Unable to click element : " + LogMessege + "  --  " + element );
 			Assert.assertTrue(false, "Unable to click element : " + LogMessege + "  --  " + element+ "  --  " + e);
 		}
@@ -47,7 +46,6 @@ public class Library {
 			element.sendKeys(enterValue);
 			Log.info("Value send Successfully : " + LogMessege);
 		} catch (Exception e) {
-//			Log.solutionsForException(e);
 			Log.error("Unable to send value  : " + LogMessege + " : "  + element);
 			Assert.assertTrue(false, "Unable to send value  : " + LogMessege + " : "  + element+ "  --  " + e);
 		}
@@ -99,7 +97,7 @@ public class Library {
 //=============================================================================================	
 	public static WebElement waitForVisibilityOf(WebDriver driver, WebElement element) {
 		try {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOf(element));
 		} catch (Exception e) {
 //			Log.error("Timeout = Unable to load element  : " +"  --  " + element);		

@@ -9,9 +9,22 @@ public class HomePageTest extends BaseTest{
 	
 	
 //=======================================================================================================
-	@Given("User open Zambia website link {string}")
-	public void user_open_zambia_website_link(String string) {
-	    hp.user_open_zambia_website_link();
+	@Given("User open {string} website link")
+	public void user_open_website_link(String string) {
+		switch (string) {
+	    case "Bangladesh":
+	    	loginPg.user_open_website_link();
+	        break;
+	    case "Zambia":
+	    	 hp.user_open_zambia_website_link();
+	        break;
+	    case "Philippines":
+	    	hp.user_open_Philippines_website_link();
+	        break;
+	    default:
+	        // code block if no case matches
+	    	break;
+	   }   
 	}
 	@When("Verify country name should be displayed")
 	public void verify_country_name_should_be_displayed() {
@@ -225,10 +238,6 @@ public class HomePageTest extends BaseTest{
 //=======================================================================================================		
 ///=========================// Philippines country start//=========================//	
 	
-	@Given("User open Philippines website link {string}")
-	public void user_open_Philippines_website_link(String string) {
-	    hp.user_open_Philippines_website_link();
-	}
 	@When("Verify philippines country name should be displayed")
 	public void verify_philippines_country_name_should_be_displayed() {
 	    hp.verify_philippines_country_name_should_be_displayed();

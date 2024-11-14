@@ -8,10 +8,7 @@ public class LoginPageTest extends BaseTest{
 	
 	
 //    @AdminLogin
-	@Given("User open website link {string}")
-	public void user_open_website_link(String string) {
-		loginPg.user_open_website_link();
-	}
+
 	@When("country name should be displayed")
 	public void country_name_should_be_displayed() {
 		loginPg.country_name_should_be_displayed();
@@ -28,32 +25,8 @@ public class LoginPageTest extends BaseTest{
 	@When("Click on banner {string}")
 	public void click_on_banner(String string) {
 		switch (string) {
-	    case "1st_image_button":
-	    	Library.click(driver, loginPg.getImageButton1(), "Image button 1");
-			break;
-	    case "2nd_image_button":
-	    	Library.click(driver, loginPg.getImageButton2(), "Image button 2");
-	        break;
-	    case "3rd_image_button":
-	    	Library.click(driver, loginPg.getImageButton3(), "Image button 3");
-	        break;
-	    case "4th_image_button":
-	    	Library.click(driver, loginPg.getImageButton4(), "Image button 4");
-	    	break;
-	    case "5th_image_button":
-	    	Library.click(driver, loginPg.getImageButton5(), "Image button 5");
-	    	break;
-	    case "6th_image_button":
-	    	Library.click(driver, loginPg.getImageButton6(), "Image button 6");
-	    	break;
-	    case "7th_image_button":
-	    	Library.click(driver, loginPg.getImageButton7(), "Image button 7");
-	    	break;
-	    case "8th_image_button":
-	    	Library.click(driver, loginPg.getImageButton8(), "Image button 8");
-	    	break;
-	    case "9th_image_button":
-	    	Library.click(driver, loginPg.getImageButton9(), "Image button 9");
+	    case "All_banner_icon":
+	    	loginPg.verify_all_banner_icon_and_images();
 	    	break;
 	    default:
 	        // code block if no case matches
@@ -63,33 +36,6 @@ public class LoginPageTest extends BaseTest{
 	@Then("Verify {string} should be displayed")
 	public void verify_should_be_displayed(String string) {
 		switch (string) {
-	    case "1st_image":
-	    	Library.visible_link(driver, loginPg.getImage1(), "Image 1");
-			break;
-	    case "2nd_image":
-	    	Library.visible_link(driver, loginPg.getImage2(), "Image 2");
-	        break;
-	    case "3rd_image":
-	    	Library.visible_link(driver, loginPg.getImage3(), "Image 3");
-	        break;
-	    case "4th_image":
-	    	Library.visible_link(driver, loginPg.getImage4(), "Image 4");
-	    	break;
-	    case "5th_image":
-	    	Library.visible_link(driver, loginPg.getImage5(), "Image 5");
-	    	break;
-	    case "6th_image":
-	    	Library.visible_link(driver, loginPg.getImage6(), "Image 6");
-	    	break;
-	    case "7th_image":
-	    	Library.visible_link(driver, loginPg.getImage7(), "Image 7");
-	    	break;
-	    case "8th_image":
-	    	Library.visible_link(driver, loginPg.getImage8(), "Image 8");
-	    	break;
-	    case "9th_image":
-	    	Library.visible_link(driver, loginPg.getImage9(), "Image 9");
-	    	break;
 	    case "Bike_name":
 	    	Library.visible_link_gettext(driver, loginPg.getFirstBikeName(), "Bike name");
 	    	break;

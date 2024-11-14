@@ -175,59 +175,14 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath = "(//div[@class='mm-bike-name font-bold text-uppercase'][normalize-space()='MAESTRO EDGE XTEC']//following-sibling::div//child::span)[2]")
 	private WebElement MaestroEdgeXtecBikePrice;
 
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[1]")
-	private WebElement image1;
+	@FindBy(xpath = "//ul[@class='carousel-indicators']//li")
+	private List<WebElement> AllBannerIndicators;
 
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[2]")
-	private WebElement image2;
+	@FindBy(xpath = "//div[@class='carousel-inner']//a//img[1]")
+	private List<WebElement> AllBannerImages;
 
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[3]")
-	private WebElement image3;
-
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[4]")
-	private WebElement image4;
-
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[5]")
-	private WebElement image5;
-
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[6]")
-	private WebElement image6;
-
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[7]")
-	private WebElement image7;
-
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[8]")
-	private WebElement image8;
-
-	@FindBy(xpath = "(//div[@class='banner-heading']//parent::div)[8]")
-	private WebElement image9;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='0']")
-	private WebElement imageButton1;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='1']")
-	private WebElement imageButton2;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='2']")
-	private WebElement imageButton3;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='3']")
-	private WebElement imageButton4;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='4']")
-	private WebElement imageButton5;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='5']")
-	private WebElement imageButton6;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='6']")
-	private WebElement imageButton7;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='7']")
-	private WebElement imageButton8;
-
-	@FindBy(xpath = "//button[@data-bs-slide-to='8']")
-	private WebElement imageButton9;
+	@FindBy(xpath = "//div[@class='carousel-inner']//a")
+	private List<WebElement> AllBannerImageshrefText;
 
 	@FindBy(xpath = "//div[@class='mm-body-head position-relative scrollbar-hidden']//a[@value='productsMegaMenu']")
 	private WebElement CloseScootericon;
@@ -264,60 +219,6 @@ public WebElement getCloseScootericon() {
 	}
 	public WebElement getRequestACallBackText() {
 		return RequestACallBackText;
-	}
-	public WebElement getImageButton1() {
-		return imageButton1;
-	}
-	public WebElement getImageButton2() {
-		return imageButton2;
-	}
-	public WebElement getImageButton3() {
-		return imageButton3;
-	}
-	public WebElement getImageButton4() {
-		return imageButton4;
-	}
-	public WebElement getImageButton5() {
-		return imageButton5;
-	}
-	public WebElement getImageButton6() {
-		return imageButton6;
-	}
-	public WebElement getImageButton7() {
-		return imageButton7;
-	}
-	public WebElement getImageButton8() {
-		return imageButton8;
-	}
-	public WebElement getImageButton9() {
-		return imageButton9;
-	}
-	public WebElement getImage1() {
-		return image1;
-	}
-	public WebElement getImage2() {
-		return image2;
-	}
-	public WebElement getImage3() {
-		return image3;
-	}
-	public WebElement getImage4() {
-		return image4;
-	}
-	public WebElement getImage5() {
-		return image5;
-	}
-	public WebElement getImage6() {
-		return image6;
-	}
-	public WebElement getImage7() {
-		return image7;
-	}
-	public WebElement getImage8() {
-		return image8;
-	}
-	public WebElement getImage9() {
-		return image9;
 	}
 	public WebElement getPleasureBikeName() {
 		return PleasureBikeName;
@@ -472,7 +373,7 @@ public WebElement getCloseScootericon() {
 			Library.open_new_Window_and_close_previous_Window(driver, ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
 //			driver.navigate().to(ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
 		}		
- 		Library.passmsg("Website is open using this link : "+ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
+ 		Library.passmsg("Bangladesh Website is open using this link = "+ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
  		BaseTest.handlePopup();
 	}
 	public void user_navigate_to_back_on_current_page() {
@@ -542,10 +443,30 @@ public WebElement getCloseScootericon() {
 		BaseTest.handlePopup();
 		Library.threadSleep(100);
 		Library.click(driver, loginPg.getScooter(), "Scooter icon");
-		Library.threadSleep(100);
-		
+		Library.threadSleep(100);		
 	}
-	
+	public void verify_all_banner_icon_and_images() {
+		List<WebElement> AllBannerIndicatorsIcon= AllBannerIndicators;
+		List<WebElement> AllBannerBikeImages= AllBannerImages;	
+		List<WebElement> Imageshreftext= AllBannerImageshrefText;			
+		int maxSize = AllBannerIndicatorsIcon.size();
+		for (int i = 0; i < maxSize; i++) {
+		String BikeImagesName = AllBannerBikeImages.get(i).getAttribute("alt");
+			if (BikeImagesName == null || BikeImagesName.isEmpty()) {
+				BikeImagesName= Imageshreftext.get(i).getAttribute("href");//  using href attribute using string method get only bike name
+						try {
+					BikeImagesName = BikeImagesName.substring(BikeImagesName.lastIndexOf('/') + 1, BikeImagesName.lastIndexOf('.'));	
+						}catch(Exception e) { }
+			}	
+				Library.passmsg("============ Banner "+ (i+1)+"  ============");
+				if (i < AllBannerIndicatorsIcon.size()) {
+				Library.click(driver, AllBannerIndicatorsIcon.get(i), "Indicator "+(i+1));
+				}		
+				if (i < AllBannerBikeImages.size()) {
+				Library.visible_link(driver, AllBannerBikeImages.get(i), BikeImagesName);
+				}		
+		}			
+	}
 	
 	
 	

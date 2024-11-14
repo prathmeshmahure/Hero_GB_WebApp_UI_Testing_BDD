@@ -3,8 +3,8 @@ Feature: HeroWorld
 
 	
 @HeroWorld @Bangladesh
-Scenario: TC_001 Successfully click on Hero world icon
- 	Given User open website link "https://www.heromotocorp.com/en-bd.html"     
+Scenario: TC_027 Successfully click on Hero world icon
+  Given User open "Bangladesh" website link
   When Click on Hero world icon
   Then Click on Hero News icon
 	And Verify news

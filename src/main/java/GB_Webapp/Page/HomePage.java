@@ -295,10 +295,10 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//img[@aria-label='insta']")
 	private WebElement InstagramLogo;
 	
-	@FindBy(xpath="//span[text()='Request a Call back']")
+	@FindBy(xpath="//span[text()='Request a Call back']//parent::a")
 	private WebElement RequestACallBack;
 	
-	@FindBy(xpath="//span[text()='Find a Dealer']")
+	@FindBy(xpath="//span[text()='Find a Dealer']//parent::a")
 	private WebElement FindADealerIcon;
 	
 	@FindBy(xpath="//h2[normalize-space()='LOCATE A DEALER']")
@@ -426,7 +426,7 @@ public class HomePage extends BasePage{
 	public void user_open_zambia_website_link() {
 //		driver.get(hero_Gb_Zambia_ProdUrl);
 		Library.open_new_Window_and_close_previous_Window(driver, hero_Gb_Zambia_ProdUrl);
-		Library.passmsg("Zambia website link successfully opened");
+		Library.passmsg("Zambia website link successfully opened  ");
 	}
 	public void verify_country_name_should_be_displayed() {
 		Library.visible_link(driver, ZambiaCountryName, "Zambia country name");
@@ -712,7 +712,7 @@ public class HomePage extends BasePage{
 	
 	public void user_open_Philippines_website_link() {
 		Library.open_new_Window_and_close_previous_Window(driver, hero_Gb_Philippines_ProdUrl);
-		Library.passmsg("Philippines website link successfully opened");		
+		Library.passmsg("Philippines website link successfully opened  ");		
 	}
 	public void verify_philippines_country_name_should_be_displayed() {
 		Library.visible_link(driver, Philippines, "Philippines country name");		

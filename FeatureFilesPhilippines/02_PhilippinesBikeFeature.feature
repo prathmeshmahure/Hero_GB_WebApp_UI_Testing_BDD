@@ -1,7 +1,7 @@
 Feature:  BikeFeature
 
 Background:
-  Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
+  Given User open "Philippines" website link
 	When Click on "Product"
 
 
@@ -22,6 +22,6 @@ Scenario Outline: <TC_Num> Successfully verify <Bike_Name> bike feature under <I
     
     Examples: 
       |Bike_Name 					 |Icon_Name	   |TC_Num    |
-			|Xpulse2004V				 |premium      |TC_023		|
-			|Hunk160R4V					 |premium      |TC_024		|
-			|Xoom110				  	 |P_scooter    |TC_025		|
+			|Xpulse2004V				 |premium      |TC_024		|
+			|Hunk160R4V					 |premium      |TC_025		|
+			|Xoom110				  	 |P_scooter    |TC_026		|

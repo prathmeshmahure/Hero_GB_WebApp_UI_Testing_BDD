@@ -4,13 +4,13 @@ Feature: HomePage
 
 @HomePage @Bangladesh
 Scenario: TC_001 Successfully open global website link
-	Given User open website link "https://www.heromotocorp.com/en-bd.html"
+  Given User open "Bangladesh" website link
 	When Verify all country should be displayed
 	Then Close browser
 
 @HomePage @Bangladesh
 Scenario: TC_002 Successfully open bangladesh global website link
-	Given User open website link "https://www.heromotocorp.com/en-bd.html"
+  Given User open "Bangladesh" website link
 	When country name should be displayed
 	Then Close browser
 
@@ -26,25 +26,9 @@ Scenario: TC_003 Successfully verify all tabbar icons
 
 @HomePage @Bangladesh
 Scenario: TC_004 Successfully verify all product image icons
-  Given "Company_logo" icon name should be displayed	
-	When Click on banner "1st_image_button"	
-	Then Verify "1st_image" should be displayed	
-	And Click on banner "2nd_image_button"	
-	And Verify "2nd_image" should be displayed	
-	And Click on banner "3rd_image_button"	
-	And Verify "3rd_image" should be displayed	
-	And Click on banner "4th_image_button"	
-	And Verify "4th_image" should be displayed	
-	And Click on banner "5th_image_button"	
-	And Verify "5th_image" should be displayed	
-	And Click on banner "6th_image_button"	
-	And Verify "6th_image" should be displayed	
-	And Click on banner "7th_image_button"	
-	And Verify "7th_image" should be displayed	
-	And Click on banner "8th_image_button"	
-	And Verify "8th_image" should be displayed	
-	And Click on banner "9th_image_button"	
-	And Verify "9th_image" should be displayed	
+  Given User open "Bangladesh" website link
+  When "Company_logo" icon name should be displayed	
+	And Click on banner "All_banner_icon"	
 	And Close browser
 
 @HomePage @Bangladesh

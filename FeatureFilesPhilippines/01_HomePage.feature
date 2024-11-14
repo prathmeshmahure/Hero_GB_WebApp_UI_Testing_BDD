@@ -2,7 +2,7 @@ Feature: HomePage
 
   @HomePage @Philippines
   Scenario: TC_001 Successfully open global website link
-    Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
+    Given User open "Philippines" website link
     When Verify philippines country name should be displayed
     Then Close browser
 
@@ -16,7 +16,7 @@ Feature: HomePage
  	   And "About_hero" icon name should be displayed	
     And Close browser
     
-   @HomePage @Zambia
+   @HomePage @Philippines
   Scenario Outline: <TC_Num> Click on <Icon_Name>
     Given "<Icon_Name>" icon name should be displayed	
  	  Given Click on "<Icon_Name>"
@@ -43,14 +43,14 @@ Feature: HomePage
 
   @HomePage @Philippines
   Scenario: TC_010 Verify home page premium and scooter bikes
-    Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
+    Given User open "Philippines" website link
     When Verify home page premium All bikes should be displayed
     Then Verify Philippines home page All scooter should be displayed
     And Close browser
 
   @HomePage @Philippines
   Scenario Outline: <TC_Num> Verify home page <Bike_Name> bike expanded card under <Icon_Name> icon
-    Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
+    Given User open "Philippines" website link
     When Click on Philippines homepage "<Icon_Name>" icons 
     Then Click on Philippines "<Bike_Name>" bike name and verify expanded card info
     And Close browser
@@ -63,7 +63,7 @@ Feature: HomePage
    
   @HomePage @Philippines
   Scenario: TC_014 Verify home page promotion banner
-    Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
+    Given User open "Philippines" website link
     When Verify promotion banner it should be displayed
     And Close browser 
   
@@ -105,14 +105,15 @@ Feature: HomePage
   
   @HomePage @Philippines  
   Scenario: TC_020 Verify home page footer link facebook and instagram logo
-    Given User open Philippines website link "https://www.heromotocorp.com/en-ph.html"
+    Given User open "Philippines" website link
     When Verify logo
     And Close browser        
   
   @HomePage @Philippines  
   Scenario: TC_021 Verify home page request a call back popup form mandatory field
-    Given Click on submit button1
-    When Verify all mandatory field should be displayed1
+    Given User open "Philippines" website link
+    When Click on submit button1
+    Then Verify all mandatory field should be displayed1
     And Close browser   
   
   @HomePage @Philippines  
@@ -124,7 +125,13 @@ Feature: HomePage
     And Click submit enquiry button1
     And Verify successfully submit form1 
     And Close browser 
-    
+   
+	@HomePage @Philippines
+	Scenario: TC_023 Successfully verify all product image icons
+    Given User open "Philippines" website link
+	  When "Company_logo" icon name should be displayed	
+		And Click on banner "All_banner_icon"	
+		And Close browser 
     
     
     

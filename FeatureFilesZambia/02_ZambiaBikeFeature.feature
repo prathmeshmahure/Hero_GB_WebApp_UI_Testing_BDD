@@ -1,7 +1,7 @@
 Feature: Zambia BikeFeature
 
 Background:
-	Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+  Given User open "Zambia" website link
 	When Click on "Product"
 
 

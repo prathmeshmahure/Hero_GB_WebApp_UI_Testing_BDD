@@ -6,7 +6,7 @@
       <class name="GB_Webapp.TestRunner.Bangladesh">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="3 10 11 12 13 14 15 16 17 18 19 20 21 22 23"/>
+          <include name="runScenario" invocation-numbers="5 6 7 23 8 24 9 25 26 27"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- GB_Webapp.TestRunner.Bangladesh -->

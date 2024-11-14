@@ -2,7 +2,7 @@ Feature: HomePage
 
   @HomePage @Zambia
   Scenario: TC_001 Successfully open global website link
-    Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
     When Verify country name should be displayed
     Then Close browser
 
@@ -49,7 +49,7 @@ Feature: HomePage
 
   @HomePage @Zambia
   Scenario Outline: <TC_Num> Verify home page <Bike_Name> bike expanded card under <Icon_Name> icon
- 	  Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
     When Click on homepage "<Icon_Name>" icons 
     Then Click on "<Bike_Name>" bike name and verify expanded card info
     And Close browser
@@ -65,7 +65,7 @@ Feature: HomePage
    
   @HomePage @Zambia
   Scenario: TC_017 Verify home page promotion banner
-    Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
     When Verify promotion banner it should be displayed
     And Close browser 
   
@@ -107,7 +107,7 @@ Feature: HomePage
   
   @HomePage @Zambia  
   Scenario: TC_023 Verify home page footer link facebook and instagram logo
-    Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
     When Verify logo
     And Close browser        
   
@@ -129,10 +129,17 @@ Feature: HomePage
   
   @HomePage @Zambia  
   Scenario: TC_026 Verify home page find a dealer icon and redirection
-    Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
     When Click on find a dealer icon
     Then Verify dealer page 
-    And Close browser
+    And Close browser 
+   
+	@HomePage @Zambia
+	Scenario: TC_027 Successfully verify all product image icons
+    Given User open "Zambia" website link
+	  When "Company_logo" icon name should be displayed	
+		And Click on banner "All_banner_icon"	
+		And Close browser 
     
     
     

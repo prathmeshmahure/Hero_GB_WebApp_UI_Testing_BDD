@@ -3,8 +3,8 @@ Feature: AboutHero
 
 	 
 @AboutHero @Bangladesh
-Scenario: TC_001 Successfully click on About Hero icon
- 	Given User open website link "https://www.heromotocorp.com/en-bd.html"  
+Scenario: TC_028 Successfully click on About Hero icon
+  Given User open "Bangladesh" website link
 		When Click on "About_hero"
   Then Click on About Hero page
 	And Verify About Hero page in new window and close

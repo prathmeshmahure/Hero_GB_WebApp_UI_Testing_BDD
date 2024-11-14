@@ -7,6 +7,7 @@ package GB_Webapp.Utility;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
@@ -93,18 +94,18 @@ public class BaseTest extends PageClassObject {
 		{
 		case "chrome":
 				ChromeOptions co = new ChromeOptions();			
-//				HashMap<String, Integer> contentSettings = new HashMap<String, Integer>();
-//				HashMap<String, Object> profile = new HashMap<String, Object>(); 
-//				HashMap<String, Object> prefs = new HashMap<String, Object>();
-//	
-//				contentSettings.put("notifications", 1);// 0 is ask  , 1 is allow , 2 is block
-//				contentSettings.put("geolocation", 1);
-//				contentSettings.put("media_stream", 1);
-//				profile.put("managed_default_content_settings", contentSettings);
-//			//	prefs.put("profile.managed_default_content_settings.images", 2);  // 2 means disable UI images
-//			//	prefs.put("profile.managed_default_content_settings.stylesheets", 2); // 2 means disable UI images
-//				prefs.put("profile", profile);
-//				co.setExperimentalOption("prefs", prefs);		
+				HashMap<String, Integer> contentSettings = new HashMap<String, Integer>();
+				HashMap<String, Object> profile = new HashMap<String, Object>(); 
+				HashMap<String, Object> prefs = new HashMap<String, Object>();
+	
+				contentSettings.put("notifications", 1);// 0 is ask  , 1 is allow , 2 is block
+				contentSettings.put("geolocation", 1);
+				contentSettings.put("media_stream", 1);
+				profile.put("managed_default_content_settings", contentSettings);
+			//	prefs.put("profile.managed_default_content_settings.images", 2);  // 2 means disable UI images
+			//	prefs.put("profile.managed_default_content_settings.stylesheets", 2); // 2 means disable UI images
+				prefs.put("profile", profile);
+				co.setExperimentalOption("prefs", prefs);		
 				co.addArguments("fast");
 				co.addArguments("--remote-allow-origins=*");
 		    	co.addArguments("--disable-blink-features=AutomationControlled");

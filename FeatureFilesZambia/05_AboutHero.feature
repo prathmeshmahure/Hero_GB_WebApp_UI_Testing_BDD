@@ -4,7 +4,7 @@ Feature: Zambia About Hero
 
 	@AboutHero @Zambia
 	Scenario: TC_039 verify about hero right side image close button and find a delear redirection
-		Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
 		When Click on "About_hero"
 		Then Verify right side static image
 		And Click on about hero close icon
@@ -15,7 +15,7 @@ Feature: Zambia About Hero
 			
 	@AboutHero @Zambia
 	Scenario: TC_040 verify about hero page
-		Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
 		When Click on "About_hero"
 		Then Click on About Hero page
 		And Verify About Hero page in new window and close
@@ -29,7 +29,7 @@ Feature: Zambia About Hero
 			
 	@AboutHero @Zambia
 	Scenario: TC_041 verify about hero become a dealer page form
-		Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
 		When Click on "About_hero"
 		Then Click on Become a delear icon
 		And Fill personal details "Zambia"
@@ -39,7 +39,7 @@ Feature: Zambia About Hero
 			
 	@AboutHero @Zambia
 	Scenario: TC_042 verify share holder details in become a dealer page form
-		Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
 		When Click on "About_hero"
 		Then Click on Become a delear icon
 		And Fill personal details "Zambia"

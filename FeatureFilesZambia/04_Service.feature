@@ -4,7 +4,7 @@ Feature: Zambia Service
 
 	@Service @Zambia
 	Scenario: TC_034 verify Close button under service icon
-		Given User open Zambia website link "https://www.heromotocorp.com/en-zm.html"
+    Given User open "Zambia" website link
 		When Click on "Service"
 		Then Click on close icon
 		And Close browser

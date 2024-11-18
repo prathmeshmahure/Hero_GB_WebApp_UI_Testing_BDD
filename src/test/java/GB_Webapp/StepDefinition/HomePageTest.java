@@ -6,9 +6,53 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class HomePageTest extends BaseTest{
+
+	@When("Verify home page new launch all bikes should be displayed")
+	public void verify_home_page_new_launch_all_bikes_should_be_displayed() {
+	    hp.verify_home_page_new_launch_all_bikes_should_be_displayed();
+	}
+	@Then("Verify home page commuter all bikes should be displayed")
+	public void verify_home_page_commuter_all_bikes_should_be_displayed() {
+	    hp.verify_home_page_commuter_all_bikes_should_be_displayed();
+	}
+	@Then("Verify home page executive all bikes should be displayed")
+	public void verify_home_page_executive_all_bikes_should_be_displayed() {
+	    hp.verify_home_page_executive_all_bikes_should_be_displayed();
+	}
+	@Then("Verify home page premium all bikes")
+	public void verify_home_page_premium_all_bikes_should_be_displayed1() {
+	    hp.verify_home_page_premium_all_bikes_should_be_displayed1();
+	}
+	@Then("Verify home page scooter all bikes should be displayed")
+	public void verify_home_page_scooter_all_bikes_should_be_displayed() {
+	    hp.verify_home_page_scooter_all_bikes_should_be_displayed();
+	}
 	
 	
-//=======================================================================================================
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//================================================= Zambia country test case start======================================================
 	@Given("User open {string} website link")
 	public void user_open_website_link(String string) {
 		switch (string) {

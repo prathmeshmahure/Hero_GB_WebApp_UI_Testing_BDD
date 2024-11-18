@@ -110,7 +110,7 @@ public class BaseTest extends PageClassObject {
 				co.addArguments("--remote-allow-origins=*");
 		    	co.addArguments("--disable-blink-features=AutomationControlled");
 		    	co.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
-		    	co.addArguments("--incognito");
+//		    	co.addArguments("--incognito");
 				co.addArguments("disable-infobars");
 				co.addArguments("disable-extensions");
 				co.addArguments("disable-gpu");

@@ -4,6 +4,7 @@
 <suite name="CrossBrowserSuite">
 
 	<listeners>
+	
 		<listener class-name="GB_Webapp.Utility.Log"/>
 	</listeners>
 

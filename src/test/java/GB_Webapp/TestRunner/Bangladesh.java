@@ -8,13 +8,13 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = {".//FeatureFilesBangladesh/01_LoginFeature.feature",".//FeatureFilesBangladesh/02_BikeFeature.feature",".//FeatureFilesBangladesh/03_Service.feature",
+		features = {".//FeatureFilesBangladesh/06_LoginFeature.feature",".//FeatureFilesBangladesh/02_BikeFeature.feature",".//FeatureFilesBangladesh/03_Service.feature",
 					".//FeatureFilesBangladesh/04_HeroWorld.feature",".//FeatureFilesBangladesh/05_AboutHero.feature"
 					},
 		glue="GB_Webapp.StepDefinition",
 		dryRun = false,				// if check test case method present or not as per feature file
 		monochrome = true,
-		tags = "@Bangladesh",       //@HomePage , @BikeFeature , @Dealers , @Service , @AboutHero , @Bangladesh
+		tags = "@HomePage1",       //@HomePage , @BikeFeature , @Dealers , @Service , @AboutHero , @Bangladesh
 		plugin = {"summary",        // Using "pretty" console displayed each & every scenario and "summary" not display scenario
 				  "html:Reports/cucumber_reports.html",
 		          "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}

@@ -47,9 +47,6 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath = "(//span[normalize-space()='NEW LAUNCH'])[1]")
 	private WebElement NewLaunch;
 	
-	@FindBy(xpath = "(//span[normalize-space()='NEW LAUNCH'])[2]")
-	private WebElement NewLaunch2;
-	
 	@FindBy(xpath = "//span[normalize-space()='Find a hero']")
 	private WebElement FindAHero;
 	
@@ -65,8 +62,6 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath = "//h2[normalize-space()='REQUEST A CALL BACK']")
 	private WebElement RequestACallBackText;
 	
-	
-
 	@FindBy(xpath = "(//span[normalize-space()='COMMUTER'])[1]")
 	private WebElement Commuter;
 	
@@ -186,13 +181,28 @@ public class LoginPage extends BasePage{
 
 	@FindBy(xpath = "//div[@class='mm-body-head position-relative scrollbar-hidden']//a[@value='productsMegaMenu']")
 	private WebElement CloseScootericon;
+	
+	@FindBy(xpath = "(//span[normalize-space()='NEW LAUNCH'])[2]")
+	private WebElement NewLaunch2;
+	
+//	@FindBy(xpath = "(//span[normalize-space()='COMMUTER'])[2]")
+//	private WebElement Commuter2;
+//	
+//	@FindBy(xpath = "(//span[normalize-space()='EXECUTIVE'])[2]")
+//	private WebElement Executive2;
+//	
+//	@FindBy(xpath = "(//span[normalize-space()='PREMIUM'])[2]")
+//	private WebElement Premium2;
+//	
+//	@FindBy(xpath = "(//span[normalize-space()='SCOOTER'])[2]")
+//	private WebElement Scooter2;
+//
+//	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Karizma XMR']")
+//	private WebElement KarizmaXMR21;
 
 //	@FindBy(xpath = "Dealer")
 //	private WebElement Become;
-//
-//	@FindBy(xpath = "Dealer")
-//	private WebElement Become;
-//
+//sssssssss
 //	@FindBy(xpath = "Dealer")
 //	private WebElement Become;
 //

@@ -25,6 +25,7 @@ public class AboutHeroTest extends BaseTest{
 	}
 	@Then("Click on About Niloy Bangladesh Ltd icon")
 	public void click_on_about_niloy_bangladesh_ltd_icon() {
+		handlePopup();
 		Library.click(driver, loginPg.getAboutHero(), "About hero icon");
 	   Library.click(driver, ah.getAboutNiloyBangladeshLtd(), "About Niloy Bangladesh Ltd icon");
 	}

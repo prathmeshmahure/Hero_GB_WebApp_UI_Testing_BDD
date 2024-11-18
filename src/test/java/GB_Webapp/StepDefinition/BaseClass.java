@@ -49,6 +49,7 @@ public class BaseClass extends BaseTest{
 	@After
 	public  void After_Scenario(Scenario scenario) throws Exception
 	{	
+		handlePopup();   // it is must required for bangladesh country
 		afterMethod(scenario);
 	}
 	@AfterAll

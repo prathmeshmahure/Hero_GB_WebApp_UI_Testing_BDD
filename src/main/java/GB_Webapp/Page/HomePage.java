@@ -13,8 +13,8 @@ public class HomePage extends BasePage{
 	
 	
 //======================================================================================================
-	@FindBy(xpath="//div[@class='d-none d-lg-block']//span[contains(text(),'Zambia')]")
-	private WebElement ZambiaCountryName;
+	@FindBy(xpath="(//span[@class=\"primary-color-black country-flag\"]//following-sibling::span)[2]")
+	private WebElement CountryName;
 	
 	@FindBy(xpath="//a[normalize-space()='COLLECTIONS']")
 	private WebElement Collections;
@@ -414,25 +414,143 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[@role='tab'][contains(text(),'Owner’s Manual')]")
 	private WebElement OwnersManualPageText;
 	
+	@FindBy(xpath = "(//span[normalize-space()='NEW LAUNCH'])[2]")
+	private WebElement NewLaunch2;
+	
+	@FindBy(xpath = "(//span[normalize-space()='COMMUTER'])[2]")
+	private WebElement Commuter2;
+	
+	@FindBy(xpath = "(//span[normalize-space()='EXECUTIVE'])[2]")
+	private WebElement Executive2;
+	
+	@FindBy(xpath = "(//span[normalize-space()='PREMIUM'])[2]")
+	private WebElement Premium2;
+	
+	@FindBy(xpath = "(//span[normalize-space()='SCOOTER'])[2]")
+	private WebElement Scooter2;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Karizma XMR']")
+	private WebElement KarizmaXMR;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='HF DELUXE']")
+	private WebElement HFDeluxe;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Splendor+ SE']")
+	private WebElement SplendorPlusSE;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Splendor+ Xtec']")
+	private WebElement SplendorPlusXtec;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Passion Xpro']")
+	private WebElement PassionXpro;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Passion Xpro Xtec']")
+	private WebElement PassionXproXtec;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Glamour']")
+	private WebElement Glamour;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Ignitor Techno']")
+	private WebElement IgnitorTechno;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Ignitor Xtec']")
+	private WebElement IgnitorXtec;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Thriller 160R 4V']")
+	private WebElement Thriller160R4V;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='HUNK 150']")
+	private WebElement Hunk150;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Hunk 150R']")
+	private WebElement Hunk150R;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Thriller 160R']")
+	private WebElement Thriller160R;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='PLEASURE']")
+	private WebElement Pleasure;
+
+	@FindBy(xpath = "//div[contains(text(),'Maestro Edge Xtec')]")
+	private WebElement MaestroEdgeXtec;
+
+//	@FindBy(xpath = "Karizma")
+//	private WebElement Karizma;
+//
+//	@FindBy(xpath = "Karizma")
+//	private WebElement Karizma;
+//
+//	@FindBy(xpath = "Karizma")
+//	private WebElement Karizma;
+//
+//	@FindBy(xpath = "Karizma")
+//	private WebElement Karizma;
 	
 	
 	
+//============================================== bangladesh country code starts here =========================================================================================	
+	
+	
+	public void verify_home_page_new_launch_all_bikes_should_be_displayed() {
+		Library.moveToElement(driver, KarizmaXMR);
+		Library.click(driver, NewLaunch2, "New Launch");
+		Library.visible_link(driver, KarizmaXMR, "Karizma XMR");		
+	}
+	public void verify_home_page_commuter_all_bikes_should_be_displayed() {
+		Library.moveToElement(driver, Commuter2);
+		Library.click(driver, Commuter2, "Commuter");
+		Library.visible_link(driver, HFDeluxe, "HF Deluxe");
+		Library.visible_link(driver, SplendorPlusSE, "Splendor Plus SE");
+		Library.visible_link(driver, SplendorPlusXtec, "Splendor Plus Xtec");
+		Library.visible_link(driver, PassionXpro, "Passion Xpro");
+		Library.visible_link(driver, PassionXproXtec, "Passion Xpro Xtec");
+		
+	}
+	public void verify_home_page_executive_all_bikes_should_be_displayed() {
+		Library.moveToElement(driver, Executive2);
+		Library.click(driver, Executive2, "Executive");
+		Library.visible_link(driver, Glamour, "Glamour");
+		Library.visible_link(driver, IgnitorTechno, "Ignitor Techno");
+		Library.visible_link(driver, IgnitorXtec, "Ignitor Xtec");
+	}
+	public void verify_home_page_premium_all_bikes_should_be_displayed1() {
+		Library.moveToElement(driver, Premium2);
+		Library.click(driver, Premium2, "Premium");
+		Library.visible_link(driver, Thriller160R4V, "Thriller 160 R 4V");
+		Library.visible_link(driver, Hunk150, "Hunk 150");
+		Library.visible_link(driver, Hunk150R, "Hunk 150 R");
+		Library.visible_link(driver, Thriller160R, "Thriller 160 R");
+	}
+	public void verify_home_page_scooter_all_bikes_should_be_displayed() {
+		Library.moveToElement(driver, Scooter2);
+		Library.click(driver, Scooter2, "Scooter");
+		Library.visible_link(driver, Pleasure, "Pleasure");
+		Library.visible_link(driver, MaestroEdgeXtec, "Maestro Edge Xtec");
+		
+	}
 	
 	
 	
-	
-	
-//=======================================================================================================	
+//============================================== zambia country code starts here =========================================================================================	
 	public void user_open_zambia_website_link() {
 //		driver.get(hero_Gb_Zambia_ProdUrl);
 		Library.open_new_Window_and_close_previous_Window(driver, hero_Gb_Zambia_ProdUrl);
 		Library.passmsg("Zambia website link successfully opened  ");
 	}
 	public void verify_country_name_should_be_displayed() {
-		Library.visible_link(driver, ZambiaCountryName, "Zambia country name");
+		try {
+			String countryNAme=CountryName.getText();
+			if (countryNAme == null || countryNAme.isEmpty()) {				
+				Library.failmsg("Country name is not displayed. Please check the UI element.");
+			} else {
+				Library.passmsg("Country name "+ countryNAme +" is displayed.");
+			}									
+		}catch(Exception e) {	
+			Library.failmsg("Country name is not displayed. Please check the UI element.");	
+			}
 	}
 	public void click_on_country_icon() {
-		Library.click(driver, ZambiaCountryName, "Zambia country name");
+		Library.click(driver, CountryName, CountryName.getText()+" country name");
 		Library.click(driver, SelectZambiaCountry, "Zambia");
 		Library.close_new_Window(driver);
 		Library.click(driver, CloseCountryButton, "Close country button");
@@ -732,6 +850,7 @@ public class HomePage extends BasePage{
 	}
 
 	public void verify_Philippines_home_page_all_scooter_should_be_displayed() {
+		Library.moveToElement(driver, SCOOTER);
 		Library.click(driver, SCOOTER, "SCOOTER");
 		Library.visible_link(driver, HomePageXoom110, "HomePage Xoom 110");
 	}
@@ -861,6 +980,8 @@ public class HomePage extends BasePage{
 		Library.click(driver, FooterOwnersManual, "Footer Owners Manual");
 		Library.visible_link(driver, OwnersManualPageText, "Owners Manual Page");
 	}
+	
+
 	
 	
 	

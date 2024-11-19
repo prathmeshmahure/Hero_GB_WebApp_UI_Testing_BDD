@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 19 00:05:59 IST 2024</td>
+<td>Started on:</td><td>Wed Nov 20 01:03:48 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21940 ms)</td>
+<tr><td>Total time:</td><td>732 seconds (732813 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,207 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_020 Verify home page Passion_Xpro bike expanded card under Commuter icon", "HomePage"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.984
+  (Session info: chrome=131.0.6778.70)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4b12cca8244f8fbd21cfcd0971f294a, get {url=https://www.heromotocorp.com/en-bd.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56304/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4b12cca8244f8fbd21cfcd0971f294a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at GB_Webapp.Utility.Library.open_new_Window_and_close_previous_Window(Library.java:311)
+	at GB_Webapp.Page.LoginPage.user_open_website_link(LoginPage.java:375)
+	at GB_Webapp.StepDefinition.HomePageTest.user_open_website_link(HomePageTest.java:61)
+	at ✽.User open &quot;Bangladesh&quot; website link(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/06_LoginFeature.feature:73)
+</pre></div><a href='#' onClick='toggleBox("stack-trace840510057", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace840510057'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.984
+  (Session info: chrome=131.0.6778.70)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4b12cca8244f8fbd21cfcd0971f294a, get {url=https://www.heromotocorp.com/en-bd.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56304/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4b12cca8244f8fbd21cfcd0971f294a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at GB_Webapp.Utility.Library.open_new_Window_and_close_previous_Window(Library.java:311)
+	at GB_Webapp.Page.LoginPage.user_open_website_link(LoginPage.java:375)
+	at GB_Webapp.StepDefinition.HomePageTest.user_open_website_link(HomePageTest.java:61)
+	at ✽.User open &quot;Bangladesh&quot; website link(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/06_LoginFeature.feature:73)
+</pre></div></td>
+<td>90</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_022 Verify home page Glamour bike expanded card under Executive icon", "HomePage"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=131.0.6778.70)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8184d0deb7b1ca2c7714d4bab1627f7, findElement {using=xpath, value=//div[@class=&apos;bike-detail animate__animated bikeDetailsSection&apos;]//a[normalize-space()=&apos;VIEW SPECIFICATIONS&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56472/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8184d0deb7b1ca2c7714d4bab1627f7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4507)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at GB_Webapp.Utility.Library.click(Library.java:37)
+	at GB_Webapp.Page.HomePage.homePageAllBikesExpandedCardFullDetails(HomePage.java:631)
+	at GB_Webapp.Page.HomePage.verifyGlamourBike(HomePage.java:680)
+	at GB_Webapp.StepDefinition.HomePageTest.click_on_bike_name_and_verify_expanded_card_info(HomePageTest.java:167)
+	at ✽.Click on &quot;Glamour&quot; bike name and verify expanded card info(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/06_LoginFeature.feature:75)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1161820020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1161820020'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=131.0.6778.70)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8184d0deb7b1ca2c7714d4bab1627f7, findElement {using=xpath, value=//div[@class=&apos;bike-detail animate__animated bikeDetailsSection&apos;]//a[normalize-space()=&apos;VIEW SPECIFICATIONS&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56472/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8184d0deb7b1ca2c7714d4bab1627f7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4507)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at GB_Webapp.Utility.Library.click(Library.java:37)
+	at GB_Webapp.Page.HomePage.homePageAllBikesExpandedCardFullDetails(HomePage.java:631)
+	at GB_Webapp.Page.HomePage.verifyGlamourBike(HomePage.java:680)
+	at GB_Webapp.StepDefinition.HomePageTest.click_on_bike_name_and_verify_expanded_card_info(HomePageTest.java:167)
+	at ✽.Click on &quot;Glamour&quot; bike name and verify expanded card info(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/06_LoginFeature.feature:75)
+</pre></div></td>
+<td>127</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_023 Verify home page Ignitor_Techno bike expanded card under Executive icon", "HomePage"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=131.0.6778.70)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d35a19fa788d5045ef9f768e8a7607b, findElement {using=xpath, value=//div[@class=&apos;bike-detail animate__animated bikeDetailsSection&apos;]//a[normalize-space()=&apos;VIEW SPECIFICATIONS&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56592/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d35a19fa788d5045ef9f768e8a7607b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4507)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at GB_Webapp.Utility.Library.click(Library.java:37)
+	at GB_Webapp.Page.HomePage.homePageAllBikesExpandedCardFullDetails(HomePage.java:631)
+	at GB_Webapp.Page.HomePage.verifyIgnitorTechnoBike(HomePage.java:685)
+	at GB_Webapp.StepDefinition.HomePageTest.click_on_bike_name_and_verify_expanded_card_info(HomePageTest.java:170)
+	at ✽.Click on &quot;Ignitor_Techno&quot; bike name and verify expanded card info(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/06_LoginFeature.feature:75)
+</pre></div><a href='#' onClick='toggleBox("stack-trace517223208", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace517223208'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=131.0.6778.70)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d35a19fa788d5045ef9f768e8a7607b, findElement {using=xpath, value=//div[@class=&apos;bike-detail animate__animated bikeDetailsSection&apos;]//a[normalize-space()=&apos;VIEW SPECIFICATIONS&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56592/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d35a19fa788d5045ef9f768e8a7607b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4507)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at GB_Webapp.Utility.Library.click(Library.java:37)
+	at GB_Webapp.Page.HomePage.homePageAllBikesExpandedCardFullDetails(HomePage.java:631)
+	at GB_Webapp.Page.HomePage.verifyIgnitorTechnoBike(HomePage.java:685)
+	at GB_Webapp.StepDefinition.HomePageTest.click_on_bike_name_and_verify_expanded_card_info(HomePageTest.java:170)
+	at ✽.Click on &quot;Ignitor_Techno&quot; bike name and verify expanded card info(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesBangladesh/06_LoginFeature.feature:75)
+</pre></div></td>
+<td>132</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,29 +277,64 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_014 Verify home page premium bikes", "HomePage"</td>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_021 Verify home page Passion_Xpro_Xtec bike expanded card under Commuter icon", "HomePage"</td>
 <td></td>
-<td>2</td>
+<td>34</td>
 <td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
 <tr>
-<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_015 Verify home page all scooter", "HomePage"</td>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_029 Verify home page Pleasure bike expanded card under scooter icon", "HomePage"</td>
 <td></td>
-<td>1</td>
+<td>31</td>
 <td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
 <tr>
-<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_011 Verify home page new launch all bikes", "HomePage"</td>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_028 Verify home page Thriller160R bike expanded card under Premium icon", "HomePage"</td>
 <td></td>
-<td>6</td>
+<td>36</td>
 <td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
 <tr>
-<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_013 Verify home page executive all bikes", "HomePage"</td>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_017 Verify home page HF_Deluxe bike expanded card under Commuter icon", "HomePage"</td>
 <td></td>
-<td>1</td>
+<td>25</td>
 <td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
 <tr>
-<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_012 Verify home page commuter all bikes", "HomePage"</td>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_024 Verify home page Ignitor_Xtec bike expanded card under Executive icon", "HomePage"</td>
 <td></td>
-<td>2</td>
+<td>25</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_030 Verify home page Maestro_Edge_Xtec bike expanded card under scooter icon", "HomePage"</td>
+<td></td>
+<td>32</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_016 Verify home page Karizma_XMR bike expanded card under New_Launch icon", "HomePage"</td>
+<td></td>
+<td>17</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_027 Verify home page Hunk150R bike expanded card under Premium icon", "HomePage"</td>
+<td></td>
+<td>31</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_019 Verify home page Splendor_Plus_Xtec bike expanded card under Commuter icon", "HomePage"</td>
+<td></td>
+<td>33</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_018 Verify home page Splendor_Plus_SE bike expanded card under Commuter icon", "HomePage"</td>
+<td></td>
+<td>35</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_025 Verify home page Thriller160R4v bike expanded card under Premium icon", "HomePage"</td>
+<td></td>
+<td>31</td>
+<td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Bangladesh.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Bangladesh<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_026 Verify home page Hunk150 bike expanded card under Premium icon", "HomePage"</td>
+<td></td>
+<td>31</td>
 <td>GB_Webapp.TestRunner.Bangladesh@46944ca9</td></tr>
 </table><p>
 </body>

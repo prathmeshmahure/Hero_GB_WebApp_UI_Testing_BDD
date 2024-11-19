@@ -1,8 +1,12 @@
 package GB_Webapp.Page;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import GB_Webapp.Utility.BaseTest;
 import GB_Webapp.Utility.Library;
 
 public class HomePage extends BasePage{
@@ -158,7 +162,7 @@ public class HomePage extends BasePage{
 					private WebElement XPULSE200BikeViewSpecification;
 	
 	@FindBy(xpath="(//span[normalize-space()='SCOOTER'])[2]")
-	private WebElement SCOOTER;
+	private WebElement SCOOTER;//
 	
 			@FindBy(xpath="//div[@class='bike-name'][normalize-space()='Destini 125']")
 			private WebElement Destini125;
@@ -193,7 +197,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//div[normalize-space()='SPECIFICATIONS']")
 	private WebElement SpecificationsPageText;
 	
-	@FindBy(xpath="//h2[normalize-space()='SPECIFICATIONS']")
+	@FindBy(xpath="//div[normalize-space()='SPECIFICATIONS'] | //h2[normalize-space()='SPECIFICATIONS']")
 	private WebElement SpecificationsPageText1;   // "Specifications" use due to personal and scooter bike change xpath
 	
 	@FindBy(xpath="//img[@alt='offers']")
@@ -390,6 +394,9 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//ul[@id='variantTypes'])[1]//parent::div//following-sibling::div//ul//li[1]")
 	private WebElement VerifyAllBikeVariantPrice;
 	
+	@FindBy(xpath="(//ul[@id='variantTypes'])[1]//parent::div//following-sibling::div//ul//li")
+	private List<WebElement> VerifyAllBikeVariantPrice1;  //  common for all bike price
+	
 	@FindBy(xpath="(//div[text()='Enter City Name'])[2]")
 	private WebElement city;
 	
@@ -474,9 +481,33 @@ public class HomePage extends BasePage{
 	@FindBy(xpath = "//div[contains(text(),'Maestro Edge Xtec')]")
 	private WebElement MaestroEdgeXtec;
 
-//	@FindBy(xpath = "Karizma")
-//	private WebElement Karizma;
-//
+	@FindBy(xpath = "(//div[@class='bike-detail animate__animated bikeDetailsSection']//img)[1]")
+	private WebElement HomePageAllBikeImage; //common for all xpath
+
+	@FindBy(xpath = "//div[@class='bike-detail animate__animated bikeDetailsSection']//div[@class='bike-tagline h6']")
+	private WebElement HomePageAllBikeTagline; //common for all xpath
+
+	@FindBy(xpath = "(//div[@class='bike-detail animate__animated bikeDetailsSection']//img)[2]")
+	private WebElement HomePageAllBikeLogoImage; //common for all xpath
+
+	@FindBy(xpath = "(//div[@class='bike-detail animate__animated bikeDetailsSection']//div[@class='bike-content h6']//blockquote)[1]")
+	private WebElement HomePageAllBikeContent; //common for all xpath
+
+	@FindBy(xpath = "//div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='Variant Wise Price']")
+	private WebElement HomePageAllBikeVariantWisePriceLink; //common for all xpath
+
+	@FindBy(xpath = "(//div[@class='bike-detail animate__animated bikeDetailsSection']//div[@class='bike-price h4']//span)[2]")
+	private WebElement HomePageAllBikePrice; //common for all xpath
+
+	@FindBy(xpath = "(//div[@class='bike-detail animate__animated bikeDetailsSection']//ul[@class='bike-specification d-flex '])[1]")
+	private WebElement HomePageAllBikeSpecification; //common for all xpath
+
+	@FindBy(xpath = "//div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='REQUEST A CALL BACK']")
+	private WebElement HomePageAllBikeRequestCallBackButton; //common for all xpath
+
+	@FindBy(xpath = "//div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='VIEW SPECIFICATIONS']")
+	private WebElement HomePageAllBikeViewSpecificationsButton; //common for karizma;
+
 //	@FindBy(xpath = "Karizma")
 //	private WebElement Karizma;
 //
@@ -525,8 +556,174 @@ public class HomePage extends BasePage{
 		Library.moveToElement(driver, Scooter2);
 		Library.click(driver, Scooter2, "Scooter");
 		Library.visible_link(driver, Pleasure, "Pleasure");
-		Library.visible_link(driver, MaestroEdgeXtec, "Maestro Edge Xtec");
+		Library.visible_link(driver, MaestroEdgeXtec, "Maestro Edge Xtec");		
+	}
+	public void Click_on_new_launch() {
+		Library.moveToElement(driver, KarizmaXMR);
+		Library.click(driver, NewLaunch2, "New Launch");		
+	}
+	public void Click_on_commuter() {
+		Library.moveToElement(driver, KarizmaXMR);
+		Library.click(driver, Commuter2, "Commuter");		
+	}
+	public void Click_on_executive() {
+		Library.moveToElement(driver, KarizmaXMR);
+		Library.click(driver, Executive2, "Executive");		
+	}
+	public void bikeImage(WebElement element,String name) {
+		try{ 
+			 Library.waitForVisibilityOfTenSeconds(driver, element);
+				String imageName = element.getAttribute("alt");
+			if (imageName == null || imageName.isEmpty()) {
+			    Library.failmsg(name+" not found");
+			} else if (element.isDisplayed()==false) {
+				Library.failmsg(name+" not found");
+			} else {
+			    Library.passmsg("Field is visible  : "+ imageName +" = "+ name);
+			}
+		}catch(Exception e) {
+			Library.failmsg(name+" not found");
+		}
+	}
+	public void biketext(WebElement element,String name) {
+			try{
+				Library.waitForVisibilityOfTenSeconds(driver, element);
+				String TextName = element.getText();
+			if (TextName == null || TextName.isEmpty()) {
+			    Library.failmsg(name+" not found");
+			} else if (element.isDisplayed()==false) {
+				Library.failmsg(name+" not found");
+			} else {
+			    Library.passmsg("Field is visible  : "+ TextName +" = "+ name);
+			}
+			}catch(Exception e) {
+				Library.failmsg(name+" not found");
+			}
+	}
+	public void homePageAllBikesExpandedCardFullDetails(WebElement moveToElement,WebElement IconName,WebElement BikeName,String CountryURL) {
+		bikeImage(HomePageAllBikeImage,"Bike Image");
+		biketext(HomePageAllBikeTagline,"Bike Tagline");
+		bikeImage(HomePageAllBikeLogoImage,"Bike Logo Image");
+		biketext(HomePageAllBikeContent,"Bike Content");		
+		Library.visible_link_gettext(driver, HomePageAllBikeSpecification, " Bike Specification");			
+		Library.visible_link(driver, HomePageAllBikeRequestCallBackButton, "Request A Call Back Button");
+		Library.visible_link(driver, HomePageAllBikeViewSpecificationsButton, "View Specification Button");		
+		Library.visible_link_gettext(driver, HomePageAllBikePrice, "Bike price");
+		String BikeCardPrice1 =HomePageAllBikePrice.getText();
+		String BikeCardPrice = BikeCardPrice1.replaceAll("[^0-9]", "");
+		Library.threadSleep(500);
+		BaseTest.handlePopup();
+		Library.click(driver, HomePageAllBikeRequestCallBackButton, "Bike Request A Call Back");
+		Library.visible_link(driver, CLosePopup, "Request a call back page");
+		Library.click(driver, CLosePopup, "Close Popup");				
+		Library.click(driver, HomePageAllBikeVariantWisePriceLink, "Variant Wise Price");		
+		Library.moveToElement(driver, VerifyAllBikeVariantPrice);		
+		Library.CheckBikePriceValue(driver, VerifyAllBikeVariantPrice1 , BikeCardPrice);
+		driver.get(CountryURL);		
+		Library.moveToElement(driver, moveToElement);
+		Library.threadSleep(500);
+		Library.click(driver, IconName, IconName.getText());
+		Library.click(driver, BikeName, "Current Bike");
+		Library.threadSleep(500);
+		BaseTest.handlePopup();
+		Library.moveToElement(driver, HomePageAllBikeViewSpecificationsButton);
+		BaseTest.handlePopup();
+		Library.click(driver, HomePageAllBikeViewSpecificationsButton, "Bike View Specification");
+		Library.threadSleep(500);
+		Library.click(driver, Specifications, "Specifications");
+		Library.visible_link(driver, SpecificationsPageText1, "bike Specifications Page");
+	}
+	public void verifyKarizmaXMRBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, KarizmaXMR, "Karizma XMR");bikeImage(HomePageAllBikeImage,"Bike Image");
+		biketext(HomePageAllBikeTagline,"Bike Tagline");
+		bikeImage(HomePageAllBikeLogoImage,"Bike Logo Image");
+		biketext(HomePageAllBikeContent,"Bike Content");		
+		Library.visible_link_gettext(driver, HomePageAllBikeSpecification, " Bike Specification");			
+		Library.visible_link(driver, HomePageAllBikeRequestCallBackButton, "Request A CallBack Button");
+		Library.visible_link(driver, HomePageAllBikeViewSpecificationsButton, "View Specification Button");		
+		Library.visible_link_gettext(driver, HomePageAllBikePrice, "Bike price");
+		String BikeCardPrice =HomePageAllBikePrice.getText();		
+		Library.click(driver, HomePageAllBikeRequestCallBackButton, "Bike Request A CallBack");
+		Library.visible_link(driver, CLosePopup, "Request a call back page");
+		Library.click(driver, CLosePopup, "Close Popup");				
+		Library.click(driver, HomePageAllBikeVariantWisePriceLink, "Variant Wise Price");	
+	}
+	public void verifyHFDeluxeBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, HFDeluxe, "HF Deluxe");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Commuter2, HFDeluxe, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name		
+	}
+	public void verifySplendorPlusSEBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, SplendorPlusSE, "Splendor Plus SE");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Commuter2, SplendorPlusSE, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name		
+	}
+	public void verifySplendorPlusXtecBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, SplendorPlusXtec, "Splendor Plus Xtec");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Commuter2, SplendorPlusXtec, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name		
+	}
+	public void verifyPassionXproBike() {
+		Library.moveToElement(driver, KarizmaXMR);  //common
+		Library.click(driver, PassionXpro, "Passion Xpro");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Commuter2, PassionXpro, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name		
+	}
+	public void verifyPassionXproXtecBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, PassionXproXtec, "Passion Xpro Xtec");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Commuter2, PassionXproXtec, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name		
+	}
+	public void verifyGlamourBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, Glamour, "Glamour");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Executive2, Glamour, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name		
+	}
+	public void verifyIgnitorTechnoBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, IgnitorTechno, "Ignitor Techno");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Executive2, IgnitorTechno, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name		
+	}
+	public void verifyIgnitorXtecBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, IgnitorXtec, "Ignitor Xtec");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Executive2, IgnitorXtec, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name
 		
+	}
+	public void verifyThriller160R4vBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, Thriller160R4V, "Thriller 160R 4V");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, HomePagePremium, Thriller160R4V, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name
+		
+	}
+	public void verifyHunk150Bike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, Hunk150, "Hunk150");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, HomePagePremium, Hunk150, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name
+		
+	}
+	public void verifyHunk150RBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, Hunk150R, "Hunk150R");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, HomePagePremium, Hunk150R, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name
+		
+	}
+	public void verifyThriller160RBike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, Thriller160R, "Thriller160R");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, HomePagePremium, Thriller160R, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name
+		
+	}
+	public void verifyPleasureScooter() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, Pleasure, "Pleasure");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, SCOOTER, Pleasure, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name
+		
+	}
+	public void verifyMaestroEdgeXtecScooter() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, MaestroEdgeXtec, "Maestro Edge Xtec");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, SCOOTER, MaestroEdgeXtec, hero_Gb_Bangladesh_ProdUrl); //common just change icon name and bike name
 	}
 	
 	
@@ -588,6 +785,7 @@ public class HomePage extends BasePage{
 	}
 	public void Click_on_scooter() {
 		Library.moveToElement(driver, Hunter100);
+		Library.moveToElement(driver, SCOOTER);
 		Library.click(driver, SCOOTER, "SCOOTER");
 	}
 	public void verifyHunter100Bike() {
@@ -856,6 +1054,7 @@ public class HomePage extends BasePage{
 	}
 	public void Click_on_premium() {
 		Library.moveToElement(driver, HomePageXpulse2004V);
+		Library.moveToElement(driver, HomePagePremium);
 		Library.click(driver, HomePagePremium, "Home Page Premium");
 	}
 	public void Click_on_scooter1() {

@@ -372,17 +372,7 @@ public WebElement getCloseScootericon() {
 //============================================================================================================
 //============================================================================================================
 	public void user_open_website_link() {
-		Library.threadSleep(500);
-		try {
-				if(bf.getHighlights().isDisplayed()) {
-					bf.getHighlights().click();
-				}else {
-				driver.navigate().to(ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
-				}
-		}catch(Exception e) {
-			Library.open_new_Window_and_close_previous_Window(driver, ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
-//			driver.navigate().to(ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
-		}		
+		Library.open_new_Window_and_close_previous_Window(driver, ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
  		Library.passmsg("Bangladesh Website is open using this link = "+ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
  		BaseTest.handlePopup();
 	}

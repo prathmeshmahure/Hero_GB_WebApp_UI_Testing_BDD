@@ -11,6 +11,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.ElementClickInterceptedException;
@@ -320,15 +321,46 @@ public class Library {
         actions.moveToElement(element);
         actions.perform();
 		}catch(Exception e) {
-			JavascriptExecutor js = (JavascriptExecutor) driver;
+			try{JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,250)", "");
 			for (int i=1; i<=5; i++) {
 			js.executeScript("arguments[0].scrollIntoView(true);", element);
-			}
+			}}catch(Exception e1) {			}
 		}
 	}
-	
-	
+//=================================================================================================================================
+	public static void CheckBikePriceValue(WebDriver driver,List<WebElement> elements, String BikecardPrice) {
+		try {
+				waitForVisibilityOf(driver, elements.get(0));
+			    if (elements == null || elements.isEmpty()) {
+			        Library.failmsg("No elements found to check.");
+			        return;
+			    }		
+			    // Iterate over the elements and compare their text with the provided bikeCardPrice
+			    boolean isPriceMatched = false;		
+			    for (WebElement element : elements) {
+			        String elementText1 = element.getText().trim(); // Get the text and trim extra spaces
+			        String elementText = elementText1.replaceAll("[^0-9]", "");
+			        if (elementText.equals(BikecardPrice)) {
+			            isPriceMatched = true;
+			    		Library.passmsg("Bike card Price : "+BikecardPrice);
+			    		Library.passmsg("Bike Main page Price : "+elementText);
+			    		Library.passmsg("Bike home page card price and Bike Main page Price : Matched");
+			        }else {
+			        	Library.passmsg("Other Bike Price : " + elementText);
+			        }
+			        
+			    }		
+			    // If no match is found, log the result
+			    if (!isPriceMatched) {
+			    	 Library.failmsg("Bike price is not matched to as compare card price : "+BikecardPrice);
+			    }	
+		}catch(Exception e) {
+			 Library.failmsg("No elements found to check.");
+			Assert.assertTrue(false, "Fail msg : " + e);
+		}
+	}
+//====================================================================================================================================	
 	
 	
 	

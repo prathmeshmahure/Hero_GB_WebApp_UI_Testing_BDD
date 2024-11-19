@@ -45,7 +45,7 @@ public class BaseTest extends PageClassObject {
 	}
 	
 	
-	public static void beforeMethod( Scenario method ) {
+	public static void beforeMethod( Scenario method ) throws Exception {
 		GB_Webapp.Utility.Log.extentLogger = Log.extent.createTest(method.getName());
 		Allure.getLifecycle().updateTestCase(tc -> tc.setName(method.getName()));
 //		Log.extentLogger = Log.extent.createTest(result.getTestClass().getName() + "=" +method.getName());
@@ -56,6 +56,7 @@ public class BaseTest extends PageClassObject {
 	}
 
 	public void afterMethod(Scenario method) throws Exception  {
+		CheckBrowser.CheckBrowserStatus();  //   Handle page un responsive error and log the report
 		GB_Webapp.Utility.Log.afterMethodLogResultBDD(method, driver);
 
 //		LOGGER.debug("====================================================================================");
@@ -110,7 +111,7 @@ public class BaseTest extends PageClassObject {
 				co.addArguments("--remote-allow-origins=*");
 		    	co.addArguments("--disable-blink-features=AutomationControlled");
 		    	co.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
-//		    	co.addArguments("--incognito");
+		    	co.addArguments("--incognito");
 				co.addArguments("disable-infobars");
 				co.addArguments("disable-extensions");
 				co.addArguments("disable-gpu");

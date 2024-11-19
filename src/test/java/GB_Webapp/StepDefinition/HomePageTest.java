@@ -1,6 +1,7 @@
 package GB_Webapp.StepDefinition;
 
 import GB_Webapp.Utility.BaseTest;
+import GB_Webapp.Utility.Library;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -65,8 +66,8 @@ public class HomePageTest extends BaseTest{
 	    case "Philippines":
 	    	hp.user_open_Philippines_website_link();
 	        break;
-	    default:
-	        // code block if no case matches
+	    default: 
+	    	Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	   }   
 	}
@@ -97,16 +98,28 @@ public class HomePageTest extends BaseTest{
 	public void should_be_displayed(String string) {
 		switch (string) {
 	    case "moto_taxi":
-	    		hp.Click_on_mototaxi();
+	    		hp.Click_on_mototaxi();  // Zambia
 	        break;
 	    case "personal":
-	    	    hp.Click_on_personal();
+	    	    hp.Click_on_personal();  // Zambia
 	        break;
 	    case "scooter":
-	    	    hp.Click_on_scooter();
+	    	    hp.Click_on_scooter();  // Zambia or Bangladesh
 	        break;
+	    case "New_Launch":
+    	    hp.Click_on_new_launch();  // Bangladesh
+    	    break;
+	    case "Commuter":
+    	    hp.Click_on_commuter();  // Bangladesh
+    	    break;
+	    case "Executive":
+    	    hp.Click_on_executive();  // Bangladesh
+    	    break;
+	    case "Premium":
+    	    hp.Click_on_premium();  // Bangladesh or Philippines
+    	    break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	   }
 	}
@@ -115,25 +128,70 @@ public class HomePageTest extends BaseTest{
 	public void click_on_bike_name_and_verify_expanded_card_info(String string) {
 		switch (string) {
 	    case "Hunter100":
-	    		hp.verifyHunter100Bike();
+	    		hp.verifyHunter100Bike();  // Zambia
 	        break;
 	    case "Hunter125":
-	    		hp.verifyHunter125Bike();
+	    		hp.verifyHunter125Bike();  // Zambia
 	        break;
 	    case "Hunter150":
-	    		hp.verifyHunter150Bike();
+	    		hp.verifyHunter150Bike();  // Zambia
 	        break;
 	    case "Hunter150TR":
-	    		hp.verifyHunter150TRBike();
+	    		hp.verifyHunter150TRBike();  // Zambia
 	        break;
 	    case "XPULSE200":
-	    		hp.verifyXpulse200Bike();
+	    		hp.verifyXpulse200Bike();  // Zambia
 	        break;
 	    case "Destini125":
-	    		hp.verifyDestini125Scooter();
+	    		hp.verifyDestini125Scooter();  // Zambia
 	        break;
+	    case "Karizma_XMR":
+    		hp.verifyKarizmaXMRBike();  // Bangladesh
+    		break;
+	    case "HF_Deluxe":
+    		hp.verifyHFDeluxeBike();  // Bangladesh
+    		break;
+	    case "Splendor_Plus_SE":
+    		hp.verifySplendorPlusSEBike();  // Bangladesh
+    		break;
+	    case "Splendor_Plus_Xtec":
+    		hp.verifySplendorPlusXtecBike();  // Bangladesh
+    		break;
+	    case "Passion_Xpro":
+    		hp.verifyPassionXproBike();  // Bangladesh
+    		break;
+	    case "Passion_Xpro_Xtec":
+    		hp.verifyPassionXproXtecBike();  // Bangladesh
+    		break;
+	    case "Glamour":
+    		hp.verifyGlamourBike();  // Bangladesh
+    		break;
+	    case "Ignitor_Techno":
+    		hp.verifyIgnitorTechnoBike();  // Bangladesh
+    		break;
+	    case "Ignitor_Xtec":
+    		hp.verifyIgnitorXtecBike();  // Bangladesh
+    		break;
+	    case "Thriller160R4v":
+    		hp.verifyThriller160R4vBike();  // Bangladesh
+    		break;
+	    case "Hunk150":
+    		hp.verifyHunk150Bike();  // Bangladesh
+    		break;
+	    case "Hunk150R":
+    		hp.verifyHunk150RBike();  // Bangladesh
+    		break;
+	    case "Thriller160R":
+    		hp.verifyThriller160RBike();  // Bangladesh
+    		break;
+	    case "Pleasure":
+    		hp.verifyPleasureScooter();  // Bangladesh
+    		break;
+	    case "Maestro_Edge_Xtec":
+    		hp.verifyMaestroEdgeXtecScooter();  // Bangladesh
+    		break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 		}
 	}
@@ -189,7 +247,7 @@ public class HomePageTest extends BaseTest{
 	    	hp.user_able_to_enter_city1();
 			break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	   }
 	}
@@ -220,7 +278,7 @@ public class HomePageTest extends BaseTest{
 	    	hp.verify_2nd_marketing_advertisement_line_text();
 	        break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	   }	    
 	}
@@ -256,7 +314,7 @@ public class HomePageTest extends BaseTest{
 	    	hp.verify_OwnersManual_icon_redirection();
 	        break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	   }
 	}
@@ -306,7 +364,7 @@ public class HomePageTest extends BaseTest{
 	    	    hp.Click_on_scooter1();
 	        break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	   }
 	}
@@ -323,7 +381,7 @@ public class HomePageTest extends BaseTest{
 	    		hp.verifyXoom110Scooter();
 	        break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 		}
 	}
@@ -337,7 +395,7 @@ public class HomePageTest extends BaseTest{
 	    		hp.select_city1();
 	        break;
 	    default:
-	        // code block if no case matches
+	        Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
 	    	break;
 		}
 	}

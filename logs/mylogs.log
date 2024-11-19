@@ -1,57 +1,472 @@
-[DEBUG] 2024-11-19 00:06:00.319 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:00.320 [main] Log - ==========================      Configuring Extent Report      =====================
-[DEBUG] 2024-11-19 00:06:00.320 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:00.321 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:00.321 [main] Log -    *********************   Launching Hero GB UI Test WebApp    ******************
-[DEBUG] 2024-11-19 00:06:00.321 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:06.414 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:06.414 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:06.414 [main] Log -                    Start -> Test -> TC_011 Verify home page new launch all bikes    
-[DEBUG] 2024-11-19 00:06:06.415 [main] Log -                    ===============================================
-[INFO ] 2024-11-19 00:06:11.487 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
-[INFO ] 2024-11-19 00:06:12.032 [main] Log - Element is clickable : New Launch
-[INFO ] 2024-11-19 00:06:12.289 [main] Log - Field is visible  : Karizma XMR
-[INFO ] 2024-11-19 00:06:12.306 [main] Log - Close browser
-[DEBUG] 2024-11-19 00:06:12.491 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:12.492 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:12.492 [main] Log -                    Start -> Test -> TC_012 Verify home page commuter all bikes    
-[DEBUG] 2024-11-19 00:06:12.492 [main] Log -                    ===============================================
-[INFO ] 2024-11-19 00:06:13.063 [main] Log - Element is clickable : Commuter
-[INFO ] 2024-11-19 00:06:13.834 [main] Log - Field is visible  : HF Deluxe
-[INFO ] 2024-11-19 00:06:14.054 [main] Log - Field is visible  : Splendor Plus SE
-[INFO ] 2024-11-19 00:06:14.275 [main] Log - Field is visible  : Splendor Plus Xtec
-[INFO ] 2024-11-19 00:06:14.491 [main] Log - Field is visible  : Passion Xpro
-[INFO ] 2024-11-19 00:06:14.711 [main] Log - Field is visible  : Passion Xpro Xtec
-[INFO ] 2024-11-19 00:06:14.718 [main] Log - Close browser
-[DEBUG] 2024-11-19 00:06:14.771 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:14.771 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:14.771 [main] Log -                    Start -> Test -> TC_013 Verify home page executive all bikes    
-[DEBUG] 2024-11-19 00:06:14.772 [main] Log -                    ===============================================
-[INFO ] 2024-11-19 00:06:15.287 [main] Log - Element is clickable : Executive
-[INFO ] 2024-11-19 00:06:16.020 [main] Log - Field is visible  : Glamour
-[INFO ] 2024-11-19 00:06:16.232 [main] Log - Field is visible  : Ignitor Techno
-[INFO ] 2024-11-19 00:06:16.459 [main] Log - Field is visible  : Ignitor Xtec
-[INFO ] 2024-11-19 00:06:16.468 [main] Log - Close browser
-[DEBUG] 2024-11-19 00:06:16.530 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:16.530 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:16.530 [main] Log -                    Start -> Test -> TC_014 Verify home page premium bikes    
-[DEBUG] 2024-11-19 00:06:16.530 [main] Log -                    ===============================================
-[INFO ] 2024-11-19 00:06:16.984 [main] Log - Element is clickable : Premium
-[INFO ] 2024-11-19 00:06:17.778 [main] Log - Field is visible  : Thriller 160 R 4V
-[INFO ] 2024-11-19 00:06:18.042 [main] Log - Field is visible  : Hunk 150
-[INFO ] 2024-11-19 00:06:18.296 [main] Log - Field is visible  : Hunk 150 R
-[INFO ] 2024-11-19 00:06:18.502 [main] Log - Field is visible  : Thriller 160 R
-[INFO ] 2024-11-19 00:06:18.509 [main] Log - Close browser
-[DEBUG] 2024-11-19 00:06:18.559 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:18.559 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:18.559 [main] Log -                    Start -> Test -> TC_015 Verify home page all scooter    
-[DEBUG] 2024-11-19 00:06:18.559 [main] Log -                    ===============================================
-[INFO ] 2024-11-19 00:06:18.984 [main] Log - Element is clickable : Scooter
-[INFO ] 2024-11-19 00:06:19.781 [main] Log - Field is visible  : Pleasure
-[INFO ] 2024-11-19 00:06:19.968 [main] Log - Field is visible  : Maestro Edge Xtec
-[INFO ] 2024-11-19 00:06:19.971 [main] Log - Close browser
-[DEBUG] 2024-11-19 00:06:19.999 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:20.000 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:20.000 [main] Log - *******************         Driver Quit       ***********************
-[DEBUG] 2024-11-19 00:06:20.000 [main] Log - ====================================================================================
-[DEBUG] 2024-11-19 00:06:20.000 [main] Log - ===================      Flushing Extent Report      ==============================
+[DEBUG] 2024-11-20 01:03:51.150 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:03:51.153 [main] Log - ==========================      Configuring Extent Report      =====================
+[DEBUG] 2024-11-20 01:03:51.153 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:03:51.154 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:03:51.155 [main] Log -    *********************   Launching Hero GB UI Test WebApp    ******************
+[DEBUG] 2024-11-20 01:03:51.155 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:04:02.518 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:04:02.518 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:04:02.519 [main] Log -                    Start -> Test -> TC_016 Verify home page Karizma_XMR bike expanded card under New_Launch icon    
+[DEBUG] 2024-11-20 01:04:02.519 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:04:08.924 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:04:09.971 [main] Log - Element is clickable : New Launch
+[INFO ] 2024-11-20 01:04:10.869 [main] Log - Element is clickable : Karizma XMR
+[INFO ] 2024-11-20 01:04:11.146 [main] Log - Field is visible  : Karizma XMR = Bike Image
+[INFO ] 2024-11-20 01:04:12.540 [main] Log - Field is visible  : Above All = Bike Tagline
+[INFO ] 2024-11-20 01:04:12.778 [main] Log - Field is visible  : Karizma XMR = Bike Logo Image
+[INFO ] 2024-11-20 01:04:12.990 [main] Log - Field is visible  : Step into a realm where benchmarks are constantly surpassed. It's not just performance, it's a revolution. = Bike Content
+[INFO ] 2024-11-20 01:04:13.216 [main] Log - Field is visible :  Bike Specification : Max power:
+25.5 Ps @ 9250rpm
+Max torque:
+20.4 NM @ 7250rpm
+Engine type:
+4 Stroke, 4 Valve, Single Cylinder Liquid Cooled, DOHC
+[INFO ] 2024-11-20 01:04:13.620 [main] Log - Field is visible  : Request A CallBack Button
+[INFO ] 2024-11-20 01:04:13.975 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:04:14.176 [main] Log - Field is visible : Bike price : ৳ 500,000
+[INFO ] 2024-11-20 01:04:14.849 [main] Log - Element is clickable : Bike Request A CallBack
+[INFO ] 2024-11-20 01:04:15.221 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:04:15.674 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:04:18.972 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:04:19.002 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:04:19.451 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:04:19.452 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:04:19.452 [main] Log -                    Start -> Test -> TC_017 Verify home page HF_Deluxe bike expanded card under Commuter icon    
+[DEBUG] 2024-11-20 01:04:19.453 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:04:23.829 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:04:24.822 [main] Log - Element is clickable : Commuter
+[INFO ] 2024-11-20 01:04:25.946 [main] Log - Element is clickable : HF Deluxe
+[INFO ] 2024-11-20 01:04:26.166 [main] Log - Field is visible  : HF DELUXE = Bike Image
+[INFO ] 2024-11-20 01:04:27.418 [main] Log - Field is visible  : GO THE EXTRA MILE = Bike Tagline
+[INFO ] 2024-11-20 01:04:27.551 [main] Log - Field is visible  : HF DELUXE = Bike Logo Image
+[INFO ] 2024-11-20 01:04:27.688 [main] Log - Field is visible  : Get ready to progress with style on the HF Deluxe and own the streets! = Bike Content
+[INFO ] 2024-11-20 01:04:27.883 [main] Log - Field is visible :  Bike Specification : Max power:
+6.15 kW @ 8000 rpm
+Max torque:
+8.05 Nm @ 5000 rpm
+Engine type:
+Air cooled, 4-stroke, Single cylinder, OHC
+[INFO ] 2024-11-20 01:04:28.263 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:04:28.679 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:04:28.837 [main] Log - Field is visible : Bike price : ৳ 111,000
+[INFO ] 2024-11-20 01:04:30.055 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:04:30.342 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:04:30.748 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:04:33.474 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:04:33.934 [main] Log - Other Bike Price : 113000
+[INFO ] 2024-11-20 01:04:33.949 [main] Log - Bike card Price : 111000
+[INFO ] 2024-11-20 01:04:33.949 [main] Log - Bike Main page Price : 111000
+[INFO ] 2024-11-20 01:04:33.949 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:04:38.704 [main] Log - Element is clickable : COMMUTER
+[INFO ] 2024-11-20 01:04:39.795 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:04:43.298 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:04:44.452 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:04:44.871 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:04:44.891 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:04:45.123 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:04:45.125 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:04:45.125 [main] Log -                    Start -> Test -> TC_018 Verify home page Splendor_Plus_SE bike expanded card under Commuter icon    
+[DEBUG] 2024-11-20 01:04:45.125 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:04:49.395 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:04:50.188 [main] Log - Element is clickable : Commuter
+[INFO ] 2024-11-20 01:04:56.179 [main] Log - Element is clickable : Splendor Plus SE
+[INFO ] 2024-11-20 01:04:56.395 [main] Log - Field is visible  : Splendor+ SE = Bike Image
+[INFO ] 2024-11-20 01:04:57.636 [main] Log - Field is visible  : POWER START A REWARDING JOURNEY = Bike Tagline
+[INFO ] 2024-11-20 01:04:57.757 [main] Log - Field is visible  : Splendor+ SE = Bike Logo Image
+[INFO ] 2024-11-20 01:04:57.892 [main] Log - Field is visible  : Get ready for long rides with the stylish and comfortable Spendor + SE = Bike Content
+[INFO ] 2024-11-20 01:04:58.050 [main] Log - Field is visible :  Bike Specification : Max power:
+6.15 kW (8.36 Ps) @ 8000 rpm
+Max torque:
+0.82 Kgfm (8.05 Nm) @ 5000 rpm
+Engine type:
+Air cooled, 4 - Stroke Single Cylinder OHC
+[INFO ] 2024-11-20 01:04:58.455 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:04:58.948 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:04:59.108 [main] Log - Field is visible : Bike price : ৳ 120,000
+[INFO ] 2024-11-20 01:05:00.607 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:05:00.917 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:05:01.465 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:05:05.287 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:05:05.749 [main] Log - Bike card Price : 120000
+[INFO ] 2024-11-20 01:05:05.751 [main] Log - Bike Main page Price : 120000
+[INFO ] 2024-11-20 01:05:05.751 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:05:05.789 [main] Log - Other Bike Price : 121000
+[INFO ] 2024-11-20 01:05:12.398 [main] Log - Element is clickable : COMMUTER
+[INFO ] 2024-11-20 01:05:13.560 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:05:18.981 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:05:20.175 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:05:20.651 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:05:20.662 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:05:20.857 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:05:20.858 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:05:20.858 [main] Log -                    Start -> Test -> TC_019 Verify home page Splendor_Plus_Xtec bike expanded card under Commuter icon    
+[DEBUG] 2024-11-20 01:05:20.859 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:05:25.393 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:05:26.180 [main] Log - Element is clickable : Commuter
+[INFO ] 2024-11-20 01:05:32.329 [main] Log - Element is clickable : Splendor Plus Xtec
+[INFO ] 2024-11-20 01:05:32.530 [main] Log - Field is visible  : Splendor+ Xtec = Bike Image
+[INFO ] 2024-11-20 01:05:33.762 [main] Log - Field is visible  : DRIVEN BY TRUST POWERED BY TECHNOLOGY = Bike Tagline
+[INFO ] 2024-11-20 01:05:33.935 [main] Log - Field is visible  : Splendor+ Xtec = Bike Logo Image
+[INFO ] 2024-11-20 01:05:34.152 [main] Log - Field is visible  : Get ready to experience the best of mileage and latest in technology with Splendor+ XTEC = Bike Content
+[INFO ] 2024-11-20 01:05:34.377 [main] Log - Field is visible :  Bike Specification : Max power:
+6.15 kW (8.36 Ps) @ 8000 rpm
+Max torque:
+0.82 Kgfm (8.05 Nm) @ 5000 rpm
+Engine type:
+Air cooled, 4 - stroke single cylinder OHC
+[INFO ] 2024-11-20 01:05:34.922 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:05:35.362 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:05:35.472 [main] Log - Field is visible : Bike price : ৳ 129,000
+[INFO ] 2024-11-20 01:05:36.893 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:05:37.218 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:05:37.676 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:05:40.555 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:05:41.053 [main] Log - Bike card Price : 129000
+[INFO ] 2024-11-20 01:05:41.054 [main] Log - Bike Main page Price : 129000
+[INFO ] 2024-11-20 01:05:41.055 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:05:46.762 [main] Log - Element is clickable : COMMUTER
+[INFO ] 2024-11-20 01:05:47.917 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:05:52.093 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:05:53.237 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:05:53.752 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:05:53.764 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:05:53.949 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:05:53.950 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:05:53.951 [main] Log -                    Start -> Test -> TC_020 Verify home page Passion_Xpro bike expanded card under Commuter icon    
+[DEBUG] 2024-11-20 01:05:53.951 [main] Log -                    ===============================================
+[ERROR] 2024-11-20 01:06:54.156 [main] Log - Error during page load check: Page Unresponsive error.
+[ERROR] 2024-11-20 01:07:23.287 [main] Log - Exception occurred while checking browser status: Page Unresponsive error.
+[DEBUG] 2024-11-20 01:07:24.377 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:07:24.377 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:07:24.377 [main] Log -                    Start -> Test -> TC_021 Verify home page Passion_Xpro_Xtec bike expanded card under Commuter icon    
+[DEBUG] 2024-11-20 01:07:24.377 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:07:28.636 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:07:29.629 [main] Log - Element is clickable : Commuter
+[INFO ] 2024-11-20 01:07:30.443 [main] Log - Element is clickable : Passion Xpro Xtec
+[INFO ] 2024-11-20 01:07:30.654 [main] Log - Field is visible  : Passion Xpro Xtec = Bike Image
+[INFO ] 2024-11-20 01:07:31.961 [main] Log - Field is visible  : THE STYLE ICON = Bike Tagline
+[INFO ] 2024-11-20 01:07:32.117 [main] Log - Field is visible  : Passion Xpro Xtec = Bike Logo Image
+[INFO ] 2024-11-20 01:07:32.278 [main] Log - Field is visible  : Get ready to cause some serious envy as you ride the streets on this stylish 110cc bike! = Bike Content
+[INFO ] 2024-11-20 01:07:32.390 [main] Log - Field is visible :  Bike Specification : Max power:
+6.70 kW @ 7500 rpm
+Max torque:
+9.0 Nm @ 5500 rpm
+Engine type:
+Electric Start (with i3s - Idle Stop Start System)
+[INFO ] 2024-11-20 01:07:32.651 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:07:33.027 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:07:33.168 [main] Log - Field is visible : Bike price : ৳ 145,000
+[INFO ] 2024-11-20 01:07:34.363 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:07:34.726 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:07:35.298 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:07:45.784 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:07:46.395 [main] Log - Bike card Price : 145000
+[INFO ] 2024-11-20 01:07:46.397 [main] Log - Bike Main page Price : 145000
+[INFO ] 2024-11-20 01:07:46.398 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:07:52.013 [main] Log - Element is clickable : COMMUTER
+[INFO ] 2024-11-20 01:07:53.220 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:07:57.443 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:07:58.601 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:07:59.135 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:07:59.147 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:07:59.322 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:07:59.322 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:07:59.323 [main] Log -                    Start -> Test -> TC_022 Verify home page Glamour bike expanded card under Executive icon    
+[DEBUG] 2024-11-20 01:07:59.323 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:08:05.038 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:08:05.797 [main] Log - Element is clickable : Executive
+[INFO ] 2024-11-20 01:08:06.702 [main] Log - Element is clickable : Glamour
+[INFO ] 2024-11-20 01:08:06.884 [main] Log - Field is visible  : Glamour = Bike Image
+[INFO ] 2024-11-20 01:08:08.080 [main] Log - Field is visible  : SIMPLY MAGNETIC = Bike Tagline
+[INFO ] 2024-11-20 01:08:08.170 [main] Log - Field is visible  : Glamour = Bike Logo Image
+[INFO ] 2024-11-20 01:08:08.255 [main] Log - Field is visible  : Get ready to attract all the attention with the magnetic looks and style = Bike Content
+[INFO ] 2024-11-20 01:08:08.345 [main] Log - Field is visible :  Bike Specification : Max power:
+6.72 kW (9.1 Ps) @7000 rpm
+Max torque:
+10.35 Nm @4000 rpm
+Engine type:
+Air cooled, 4 - stroke single cylinder OHC
+[INFO ] 2024-11-20 01:08:08.674 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:08:09.064 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:08:09.248 [main] Log - Field is visible : Bike price : ৳ 145,000
+[INFO ] 2024-11-20 01:08:10.492 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:08:10.909 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:08:11.405 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:08:14.115 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:08:14.739 [main] Log - Bike card Price : 145000
+[INFO ] 2024-11-20 01:08:14.740 [main] Log - Bike Main page Price : 145000
+[INFO ] 2024-11-20 01:08:14.740 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:08:20.243 [main] Log - Element is clickable : EXECUTIVE
+[INFO ] 2024-11-20 01:08:21.394 [main] Log - Element is clickable : Current Bike
+[ERROR] 2024-11-20 01:09:38.540 [main] Log - Error during page load check: Page Unresponsive error.
+[ERROR] 2024-11-20 01:10:05.823 [main] Log - Exception occurred while checking browser status: Page Unresponsive error.
+[DEBUG] 2024-11-20 01:10:07.119 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:10:07.119 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:10:07.119 [main] Log -                    Start -> Test -> TC_023 Verify home page Ignitor_Techno bike expanded card under Executive icon    
+[DEBUG] 2024-11-20 01:10:07.119 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:10:11.075 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:10:12.241 [main] Log - Element is clickable : Executive
+[INFO ] 2024-11-20 01:10:17.955 [main] Log - Element is clickable : Ignitor Techno
+[INFO ] 2024-11-20 01:10:18.046 [main] Log - Field is visible  : Ignitor Techno = Bike Image
+[INFO ] 2024-11-20 01:10:19.412 [main] Log - Field is visible  : RAISE YOUR GAME = Bike Tagline
+[INFO ] 2024-11-20 01:10:19.499 [main] Log - Field is visible  : Ignitor Techno = Bike Logo Image
+[INFO ] 2024-11-20 01:10:19.566 [main] Log - Field is visible  : Get ready to raise your game with the technologically packed Ignitor Techno! = Bike Content
+[INFO ] 2024-11-20 01:10:19.640 [main] Log - Field is visible :  Bike Specification : Max power:
+8.3 kW (11.1 bhp) @ 7500 rpm
+Max torque:
+11 Nm @ 6500 rpm
+Engine type:
+Air Cooled, 4 Stroke Single Cylinder OHC
+[INFO ] 2024-11-20 01:10:19.860 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:10:20.084 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:10:20.164 [main] Log - Field is visible : Bike price : ৳ 145,000
+[INFO ] 2024-11-20 01:10:21.430 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:10:21.680 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:10:22.058 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:10:25.615 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:10:26.220 [main] Log - Bike card Price : 145000
+[INFO ] 2024-11-20 01:10:26.222 [main] Log - Bike Main page Price : 145000
+[INFO ] 2024-11-20 01:10:26.222 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:10:31.601 [main] Log - Element is clickable : EXECUTIVE
+[INFO ] 2024-11-20 01:10:32.792 [main] Log - Element is clickable : Current Bike
+[ERROR] 2024-11-20 01:11:50.131 [main] Log - Error during page load check: Page Unresponsive error.
+[ERROR] 2024-11-20 01:12:18.232 [main] Log - Exception occurred while checking browser status: Page Unresponsive error.
+[DEBUG] 2024-11-20 01:12:19.287 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:12:19.287 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:12:19.287 [main] Log -                    Start -> Test -> TC_024 Verify home page Ignitor_Xtec bike expanded card under Executive icon    
+[DEBUG] 2024-11-20 01:12:19.288 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:12:23.764 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:12:24.706 [main] Log - Element is clickable : Executive
+[INFO ] 2024-11-20 01:12:25.922 [main] Log - Element is clickable : Ignitor Xtec
+[INFO ] 2024-11-20 01:12:26.157 [main] Log - Field is visible  : Ignitor Xtec = Bike Image
+[INFO ] 2024-11-20 01:12:27.484 [main] Log - Field is visible  : RAISE YOUR GAME = Bike Tagline
+[INFO ] 2024-11-20 01:12:27.675 [main] Log - Field is visible  : Ignitor Xtec = Bike Logo Image
+[INFO ] 2024-11-20 01:12:27.859 [main] Log - Field is visible  : Get ready to raise your game with the next level Power, Style and Technology! = Bike Content
+[INFO ] 2024-11-20 01:12:28.049 [main] Log - Field is visible :  Bike Specification : Max power:
+10.4 @ 7750 (bhp/rpm)
+Max torque:
+10.4 @ 5500 (Nm/rpm)
+Engine type:
+Air cooled 4 stroke
+[INFO ] 2024-11-20 01:12:28.390 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:12:28.787 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:12:28.999 [main] Log - Field is visible : Bike price : ৳ 160,000
+[INFO ] 2024-11-20 01:12:30.194 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:12:30.494 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:12:30.928 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:12:33.205 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:12:33.737 [main] Log - Bike card Price : 160000
+[INFO ] 2024-11-20 01:12:33.738 [main] Log - Bike Main page Price : 160000
+[INFO ] 2024-11-20 01:12:33.739 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:12:39.711 [main] Log - Element is clickable : EXECUTIVE
+[INFO ] 2024-11-20 01:12:40.680 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:12:43.043 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:12:44.132 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:12:44.615 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:12:44.621 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:12:44.799 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:12:44.800 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:12:44.800 [main] Log -                    Start -> Test -> TC_025 Verify home page Thriller160R4v bike expanded card under Premium icon    
+[DEBUG] 2024-11-20 01:12:44.800 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:12:49.561 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:12:55.552 [main] Log - Element is clickable : Home Page Premium
+[INFO ] 2024-11-20 01:12:56.383 [main] Log - Element is clickable : Thriller 160R 4V
+[INFO ] 2024-11-20 01:12:56.608 [main] Log - Field is visible  : Thriller 160R 4V = Bike Image
+[INFO ] 2024-11-20 01:12:57.815 [main] Log - Field is visible  : Every Dragster's Dream = Bike Tagline
+[INFO ] 2024-11-20 01:12:57.927 [main] Log - Field is visible  : Thriller 160R 4V = Bike Logo Image
+[INFO ] 2024-11-20 01:12:58.096 [main] Log - Field is visible  : Fast, as you know, is about to change. Thriller 160R 4V's fastest acceleration will get you high on thrill and make objects in the rearview mirror disappear in a flash. = Bike Content
+[INFO ] 2024-11-20 01:12:58.258 [main] Log - Field is visible :  Bike Specification : Max power:
+16.9 Ps @ 8500rpm
+Max torque:
+14.6 NM @ 6500rpm
+Engine type:
+4 stroke, Air-Oil Cooled, 4 Valve
+[INFO ] 2024-11-20 01:12:58.646 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:12:59.176 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:12:59.264 [main] Log - Field is visible : Bike price : ৳ 254,990
+[INFO ] 2024-11-20 01:13:00.698 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:13:01.018 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:13:01.585 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:13:04.254 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:13:04.770 [main] Log - Bike card Price : 254990
+[INFO ] 2024-11-20 01:13:04.770 [main] Log - Bike Main page Price : 254990
+[INFO ] 2024-11-20 01:13:04.771 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:13:10.243 [main] Log - Element is clickable : PREMIUM
+[INFO ] 2024-11-20 01:13:11.392 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:13:13.473 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:13:15.738 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:13:16.319 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:13:16.326 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:13:16.484 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:13:16.484 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:13:16.484 [main] Log -                    Start -> Test -> TC_026 Verify home page Hunk150 bike expanded card under Premium icon    
+[DEBUG] 2024-11-20 01:13:16.484 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:13:21.095 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:13:27.237 [main] Log - Element is clickable : Home Page Premium
+[INFO ] 2024-11-20 01:13:28.401 [main] Log - Element is clickable : Hunk150
+[INFO ] 2024-11-20 01:13:28.717 [main] Log - Field is visible  : HUNK 150 = Bike Image
+[INFO ] 2024-11-20 01:13:29.978 [main] Log - Field is visible  : BECAUSE MUSCLE MATTERS = Bike Tagline
+[INFO ] 2024-11-20 01:13:30.164 [main] Log - Field is visible  : HUNK 150 = Bike Logo Image
+[INFO ] 2024-11-20 01:13:30.389 [main] Log - Field is visible  : Get ready to set hearts racing and turn heads your way with a bike that sports a stylish look and demands a commanding presence = Bike Content
+[INFO ] 2024-11-20 01:13:30.511 [main] Log - Field is visible :  Bike Specification : Max power:
+14.3 Ps @ 8500 rpm
+Max torque:
+12.6 Nm @ 6500 rpm
+Engine type:
+Air cooled, 4 stroke
+[INFO ] 2024-11-20 01:13:30.857 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:13:31.131 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:13:31.341 [main] Log - Field is visible : Bike price : ৳ 180,000
+[INFO ] 2024-11-20 01:13:32.728 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:13:33.035 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:13:33.543 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:13:35.602 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:13:36.004 [main] Log - Other Bike Price : 187500
+[INFO ] 2024-11-20 01:13:36.038 [main] Log - Bike card Price : 180000
+[INFO ] 2024-11-20 01:13:36.039 [main] Log - Bike Main page Price : 180000
+[INFO ] 2024-11-20 01:13:36.039 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:13:41.440 [main] Log - Element is clickable : PREMIUM
+[INFO ] 2024-11-20 01:13:42.581 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:13:45.893 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:13:47.106 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:13:47.737 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:13:47.742 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:13:47.922 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:13:47.923 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:13:47.923 [main] Log -                    Start -> Test -> TC_027 Verify home page Hunk150R bike expanded card under Premium icon    
+[DEBUG] 2024-11-20 01:13:47.923 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:13:52.237 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:13:58.375 [main] Log - Element is clickable : Home Page Premium
+[INFO ] 2024-11-20 01:13:59.280 [main] Log - Element is clickable : Hunk150R
+[INFO ] 2024-11-20 01:13:59.492 [main] Log - Field is visible  : Hunk 150R = Bike Image
+[INFO ] 2024-11-20 01:14:00.804 [main] Log - Field is visible  : THE POWER OF MUSCLE = Bike Tagline
+[INFO ] 2024-11-20 01:14:00.894 [main] Log - Field is visible  : Hunk 150R = Bike Logo Image
+[INFO ] 2024-11-20 01:14:01.009 [main] Log - Field is visible  : Get ready to set hearts racing and turn heads your way with a bike that sports a stylish look and demands a commanding presence = Bike Content
+[INFO ] 2024-11-20 01:14:01.175 [main] Log - Field is visible :  Bike Specification : Max power:
+10.55 kW @ 8500±500 rpm
+Max torque:
+12.6 Nm @ 6500±500 rpm
+Engine type:
+Single Cylinder 4-Stroke, Air Cooled Engine
+[INFO ] 2024-11-20 01:14:01.722 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:14:02.030 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:14:02.128 [main] Log - Field is visible : Bike price : ৳ 173,500
+[INFO ] 2024-11-20 01:14:03.519 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:14:03.752 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:14:04.186 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:14:06.585 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:14:07.307 [main] Log - Bike card Price : 173500
+[INFO ] 2024-11-20 01:14:07.308 [main] Log - Bike Main page Price : 173500
+[INFO ] 2024-11-20 01:14:07.308 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:14:07.356 [main] Log - Other Bike Price : 184500
+[INFO ] 2024-11-20 01:14:12.804 [main] Log - Element is clickable : PREMIUM
+[INFO ] 2024-11-20 01:14:13.921 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:14:17.539 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:14:18.619 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:14:19.157 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:14:19.162 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:14:19.310 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:14:19.310 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:14:19.311 [main] Log -                    Start -> Test -> TC_028 Verify home page Thriller160R bike expanded card under Premium icon    
+[DEBUG] 2024-11-20 01:14:19.312 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:14:24.862 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:14:31.106 [main] Log - Element is clickable : Home Page Premium
+[INFO ] 2024-11-20 01:14:32.228 [main] Log - Element is clickable : Thriller160R
+[INFO ] 2024-11-20 01:14:32.459 [main] Log - Field is visible  : Thriller 160R = Bike Image
+[INFO ] 2024-11-20 01:14:33.834 [main] Log - Field is visible  : REDEFINED AGGRESSION = Bike Tagline
+[INFO ] 2024-11-20 01:14:34.036 [main] Log - Field is visible  : Thriller 160R = Bike Logo Image
+[INFO ] 2024-11-20 01:14:34.230 [main] Log - Field is visible  : Get ready to attack the roads and turn heads your way with a bike that sports a stylish, mean look, with an assertive presence = Bike Content
+[INFO ] 2024-11-20 01:14:34.609 [main] Log - Field is visible :  Bike Specification : Max power:
+112 kW(15 bhp) @ 8500 rpm
+Max torque:
+14 Nm @ 6500 rpm
+Engine type:
+Air Cooled, 4 Stroke 2 Valve Single Cylinder OHC
+[INFO ] 2024-11-20 01:14:35.047 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:14:35.341 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:14:35.439 [main] Log - Field is visible : Bike price : ৳ 200,000
+[INFO ] 2024-11-20 01:14:36.898 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:14:37.172 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:14:37.736 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:14:42.671 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:14:43.356 [main] Log - Other Bike Price : 210000
+[INFO ] 2024-11-20 01:14:43.395 [main] Log - Bike card Price : 200000
+[INFO ] 2024-11-20 01:14:43.395 [main] Log - Bike Main page Price : 200000
+[INFO ] 2024-11-20 01:14:43.396 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:14:49.361 [main] Log - Element is clickable : PREMIUM
+[INFO ] 2024-11-20 01:14:50.505 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:14:54.411 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:14:55.609 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:14:56.102 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:14:56.111 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:14:56.292 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:14:56.292 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:14:56.292 [main] Log -                    Start -> Test -> TC_029 Verify home page Pleasure bike expanded card under scooter icon    
+[DEBUG] 2024-11-20 01:14:56.293 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:15:00.710 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:15:07.166 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-20 01:15:08.294 [main] Log - Element is clickable : Pleasure
+[INFO ] 2024-11-20 01:15:08.682 [main] Log - Field is visible  : PLEASURE = Bike Image
+[INFO ] 2024-11-20 01:15:10.059 [main] Log - Field is visible  : EXCITING RIDES = Bike Tagline
+[INFO ] 2024-11-20 01:15:10.260 [main] Log - Field is visible  : PLEASURE = Bike Logo Image
+[INFO ] 2024-11-20 01:15:10.459 [main] Log - Field is visible  : Get ready to for a comfortable ride with the stunning and vibrant Pleasure = Bike Content
+[INFO ] 2024-11-20 01:15:10.620 [main] Log - Field is visible :  Bike Specification : Max power:
+5.15 kW (6.9 bhp) @ 7000 rpm
+Max torque:
+8.1 Nm @ 5000 rpm
+Engine type:
+Air-cooled, 4-stroke Single Cylinder OHC
+[INFO ] 2024-11-20 01:15:10.889 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:15:11.247 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:15:11.464 [main] Log - Field is visible : Bike price : ৳ 152,000
+[INFO ] 2024-11-20 01:15:12.776 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:15:13.052 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:15:13.586 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:15:15.276 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:15:15.746 [main] Log - Bike card Price : 152000
+[INFO ] 2024-11-20 01:15:15.747 [main] Log - Bike Main page Price : 152000
+[INFO ] 2024-11-20 01:15:15.748 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:15:21.073 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-20 01:15:22.221 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:15:25.762 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:15:26.859 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:15:27.365 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:15:27.372 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:15:27.526 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:15:27.527 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:15:27.527 [main] Log -                    Start -> Test -> TC_030 Verify home page Maestro_Edge_Xtec bike expanded card under scooter icon    
+[DEBUG] 2024-11-20 01:15:27.527 [main] Log -                    ===============================================
+[INFO ] 2024-11-20 01:15:32.276 [main] Log - Bangladesh Website is open using this link = https://www.heromotocorp.com/en-bd.html
+[INFO ] 2024-11-20 01:15:38.625 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-20 01:15:39.505 [main] Log - Element is clickable : Maestro Edge Xtec
+[INFO ] 2024-11-20 01:15:39.710 [main] Log - Field is visible  : Maestro Edge Xtec = Bike Image
+[INFO ] 2024-11-20 01:15:41.003 [main] Log - Field is visible  : TRULY SMART = Bike Tagline
+[INFO ] 2024-11-20 01:15:41.124 [main] Log - Field is visible  : Maestro Edge Xtec = Bike Logo Image
+[INFO ] 2024-11-20 01:15:41.256 [main] Log - Field is visible  : Get ready to turn heads with the stylish and tech loaded Maestro Edge Xtec = Bike Content
+[INFO ] 2024-11-20 01:15:41.400 [main] Log - Field is visible :  Bike Specification : Max power:
+6 kW (8 bhp) @ 7500 rpm
+Max torque:
+8.7 Nm @ 5500 rpm
+Engine type:
+Air - Cooled, 4 - Stroke Single Cylinder OHC
+[INFO ] 2024-11-20 01:15:41.907 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-20 01:15:42.192 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-20 01:15:42.362 [main] Log - Field is visible : Bike price : ৳ 175,000
+[INFO ] 2024-11-20 01:15:43.801 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-20 01:15:44.090 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-20 01:15:44.502 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-20 01:15:47.093 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-20 01:15:47.646 [main] Log - Bike card Price : 175000
+[INFO ] 2024-11-20 01:15:47.647 [main] Log - Bike Main page Price : 175000
+[INFO ] 2024-11-20 01:15:47.647 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-20 01:15:53.274 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-20 01:15:54.403 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-20 01:15:58.402 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-20 01:15:59.667 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-20 01:16:00.216 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-20 01:16:00.224 [main] Log - Close browser
+[DEBUG] 2024-11-20 01:16:00.354 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:16:00.355 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:16:00.355 [main] Log - *******************         Driver Quit       ***********************
+[DEBUG] 2024-11-20 01:16:00.355 [main] Log - ====================================================================================
+[DEBUG] 2024-11-20 01:16:00.356 [main] Log - ===================      Flushing Extent Report      ==============================

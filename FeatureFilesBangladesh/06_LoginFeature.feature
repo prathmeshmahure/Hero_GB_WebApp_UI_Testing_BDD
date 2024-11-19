@@ -42,33 +42,33 @@ Feature: HomePage
     Given Verify home page text should be displayed
     And Close browser
 
-  @HomePage1 @Bangladesh
+  @HomePage @Bangladesh
   Scenario: TC_011 Verify home page new launch all bikes
     Given User open "Bangladesh" website link
     When Verify home page new launch all bikes should be displayed
     And Close browser
 
-  @HomePage1 @Bangladesh
+  @HomePage @Bangladesh
   Scenario: TC_012 Verify home page commuter all bikes
     Given Verify home page commuter all bikes should be displayed
     And Close browser
 
-  @HomePage1 @Bangladesh
+  @HomePage @Bangladesh
   Scenario: TC_013 Verify home page executive all bikes
     Given Verify home page executive all bikes should be displayed
     And Close browser
 
-  @HomePage1 @Bangladesh
+  @HomePage @Bangladesh
   Scenario: TC_014 Verify home page premium bikes
     Given Verify home page premium all bikes
     And Close browser
 
-  @HomePage1 @Bangladesh
+  @HomePage @Bangladesh
   Scenario: TC_015 Verify home page all scooter
     Given Verify home page scooter all bikes should be displayed
     And Close browser
 
-  @HomePage @Bangladesh
+  @HomePage1 @Bangladesh
   Scenario Outline: <TC_Num> Verify home page <Bike_Name> bike expanded card under <Icon_Name> icon
     Given User open "Bangladesh" website link
     When Click on homepage "<Icon_Name>" icons 
@@ -76,13 +76,22 @@ Feature: HomePage
     And Close browser
     
     Examples: 
-      |Bike_Name 		 |Icon_Name	  	|TC_Num     |
-      |Hunter100		 |moto_taxi     |TC_011		|
-      |Hunter125		 |moto_taxi     |TC_012		|	
-      |Hunter150		 |moto_taxi     |TC_013		|
-      |Hunter150TR	     |moto_taxi     |TC_014		|
-      |XPULSE200	     |personal      |TC_015	    |
-      |Destini125        |scooter       |TC_016		|
+      |Bike_Name 		       |Icon_Name	  	|TC_Num   |
+      |Karizma_XMR				 |New_Launch    |TC_016		|
+      |HF_Deluxe		 			 |Commuter      |TC_017		|	
+      |Splendor_Plus_SE		 |Commuter      |TC_018		|	
+      |Splendor_Plus_Xtec	 |Commuter      |TC_019		|	
+      |Passion_Xpro		     |Commuter      |TC_020		|	
+      |Passion_Xpro_Xtec	 |Commuter      |TC_021		|	
+      |Glamour		         |Executive     |TC_022		|
+      |Ignitor_Techno		   |Executive     |TC_023		|
+      |Ignitor_Xtec		     |Executive     |TC_024		|
+      |Thriller160R4v	     |Premium       |TC_025		|
+      |Hunk150	           |Premium       |TC_026		|
+      |Hunk150R	           |Premium       |TC_027		|
+      |Thriller160R	       |Premium       |TC_028		|
+      |Pleasure	           |scooter       |TC_029	  |
+      |Maestro_Edge_Xtec	 |scooter       |TC_030	  |
    
   @HomePage @Bangladesh
   Scenario: TC_017 Verify home page promotion banner

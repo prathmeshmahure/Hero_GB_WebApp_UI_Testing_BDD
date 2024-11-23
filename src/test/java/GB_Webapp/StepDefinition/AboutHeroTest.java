@@ -35,6 +35,7 @@ public class AboutHeroTest extends BaseTest{
 	}
 	@Then("Click on Reach us icon")
 	public void click_on_reach_us_icon() {
+		handlePopup();
 		Library.click(driver, loginPg.getAboutHero(), "About hero icon");
 		Library.click(driver, ah.getReachUs(), "Reach us icon");
 	}

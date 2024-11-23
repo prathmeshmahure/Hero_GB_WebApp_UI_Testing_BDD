@@ -1,200 +1,145 @@
-Feature: HomePage
+Feature: HomePage 
 
-  @HomePage @Bangladesh
-  Scenario: TC_001 Successfully open global website link
+
+
+@HomePage @Bangladesh
+Scenario: TC_001 Successfully open global website link
   Given User open "Bangladesh" website link
-    When Verify country name should be displayed
-    Then Close browser
+	When Verify all country should be displayed
+	Then Close browser
 
-  @HomePage @Bangladesh
-  Scenario: TC_002 Successfully verify all header menu icons
+@HomePage @Bangladesh
+Scenario: TC_002 Successfully open bangladesh global website link
+  Given User open "Bangladesh" website link
+	When country name should be displayed
+	Then Close browser
+
+@HomePage @Bangladesh
+Scenario: TC_003 Successfully verify all tabbar icons
  	  Given "Company_logo" icon name should be displayed	
  	   And "Product" icon name should be displayed		
  	   And "Dealers" icon name should be displayed		
- 	   And "Service" icon name should be displayed			
- 	   And "Hero_world" icon name should be displayed	
+ 	   And "Service" icon name should be displayed		
+ 	   And "Hero_world" icon name should be displayed		
  	   And "About_hero" icon name should be displayed	
-    And Close browser
-    
-   @HomePage @Bangladesh
-  Scenario Outline: <TC_Num> Click on <Icon_Name>
-    Given "<Icon_Name>" icon name should be displayed	
- 	  Given Click on "<Icon_Name>"
-    And Close browser
-    
-    Examples: 
-      |Icon_Name	    |TC_Num   |
-      |Company_logo   |TC_003		|
-      |Product        |TC_004		|	
-      |Dealers 	      |TC_005	  |
-      |Service        |TC_006		|	
-      |Hero_world     |TC_007		|
-      |About_hero     |TC_008		|	
+	   And Close browser
 
-  @HomePage @Bangladesh
-  Scenario: TC_009 Click on country icon and select any country
-    Given Verify country name should be displayed
-    When Click on country icon
-    And Close browser
-
-  @HomePage @Bangladesh
-  Scenario: TC_010 Verify home page text content
-    Given Verify home page text should be displayed
-    And Close browser
-
-  @HomePage @Bangladesh
-  Scenario: TC_011 Verify home page new launch all bikes
-    Given User open "Bangladesh" website link
-    When Verify home page new launch all bikes should be displayed
-    And Close browser
-
-  @HomePage @Bangladesh
-  Scenario: TC_012 Verify home page commuter all bikes
-    Given Verify home page commuter all bikes should be displayed
-    And Close browser
-
-  @HomePage @Bangladesh
-  Scenario: TC_013 Verify home page executive all bikes
-    Given Verify home page executive all bikes should be displayed
-    And Close browser
-
-  @HomePage @Bangladesh
-  Scenario: TC_014 Verify home page premium bikes
-    Given Verify home page premium all bikes
-    And Close browser
-
-  @HomePage @Bangladesh
-  Scenario: TC_015 Verify home page all scooter
-    Given Verify home page scooter all bikes should be displayed
-    And Close browser
-
-  @HomePage1 @Bangladesh
-  Scenario Outline: <TC_Num> Verify home page <Bike_Name> bike expanded card under <Icon_Name> icon
-    Given User open "Bangladesh" website link
-    When Click on homepage "<Icon_Name>" icons 
-    Then Click on "<Bike_Name>" bike name and verify expanded card info
-    And Close browser
-    
-    Examples: 
-      |Bike_Name 		       |Icon_Name	  	|TC_Num   |
-      |Karizma_XMR				 |New_Launch    |TC_016		|
-      |HF_Deluxe		 			 |Commuter      |TC_017		|	
-      |Splendor_Plus_SE		 |Commuter      |TC_018		|	
-      |Splendor_Plus_Xtec	 |Commuter      |TC_019		|	
-      |Passion_Xpro		     |Commuter      |TC_020		|	
-      |Passion_Xpro_Xtec	 |Commuter      |TC_021		|	
-      |Glamour		         |Executive     |TC_022		|
-      |Ignitor_Techno		   |Executive     |TC_023		|
-      |Ignitor_Xtec		     |Executive     |TC_024		|
-      |Thriller160R4v	     |Premium       |TC_025		|
-      |Hunk150	           |Premium       |TC_026		|
-      |Hunk150R	           |Premium       |TC_027		|
-      |Thriller160R	       |Premium       |TC_028		|
-      |Pleasure	           |scooter       |TC_029	  |
-      |Maestro_Edge_Xtec	 |scooter       |TC_030	  |
-   
-  @HomePage @Bangladesh
-  Scenario: TC_017 Verify home page promotion banner
+@HomePage @Bangladesh
+Scenario: TC_004 Successfully verify all product image icons
   Given User open "Bangladesh" website link
-    When Verify promotion banner it should be displayed
-    And Close browser 
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_018 Verify home page let us call you back form mandatory field
-    Given Click on submit button
-    When Verify all mandatory field should be displayed
-    And Close browser
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_019 Successfully fill home page let us call you back form
-    Given User able to enter "customer_name"
-    When User able to enter "mobile_number"
-    Then User able to enter "email_id"
-    And User able to enter "city"
-    And Click submit enquiry button
-    And Verify successfully submit form 
-    And Close browser    
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_020 Verify home page marketing advertisement banner text
-    Given Verify "1st" marketing advertisement line text
-    When Verify "2nd" marketing advertisement line text
-    And Close browser   
-  
-  @HomePage2 @Bangladesh  
-  Scenario: TC_021 Verify home page footer link inside the product all icons rediretions
-    Given Verify "moto_taxi" icon redirection
-    And Verify "personal" icon redirection
-    And Verify "scooter" icon redirection
-    And Close browser      
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_022 Verify home page footer link inside the support all icons rediretions
-    Given Verify "reach_us" icon redirection
-    And Verify "request_a_call" icon redirection
-    And Verify "become_a_dealer" icon redirection
-    And Close browser      
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_023 Verify home page footer link facebook and instagram logo
-  Given User open "Bangladesh" website link
-    When Verify logo
-    And Close browser        
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_024 Verify home page request a call back popup form mandatory field
-    Given Click on submit button1
-    When Verify all mandatory field should be displayed1
-    And Close browser   
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_025 Successfully fill home page let us call you back popup form
-    Given User able to enter "customer_name1"    
-    And User able to enter "mobile_number1"    
-    And User able to enter "email_id1"   
-    And User able to enter "city1"
-    And Click submit enquiry button1
-    And Verify successfully submit form1 
-    And Close browser  
-  
-  @HomePage @Bangladesh  
-  Scenario: TC_026 Verify home page find a dealer icon and redirection
-  Given User open "Bangladesh" website link
-    When Click on find a dealer icon
-    Then Verify dealer page 
-    And Close browser 
-   
-	@HomePage @Bangladesh
-	Scenario: TC_027 Successfully verify all product image icons
-  Given User open "Bangladesh" website link
-	  When "Company_logo" icon name should be displayed	
-		And Click on banner "All_banner_icon"	
-		And Close browser 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  When "Company_logo" icon name should be displayed	
+	And Click on banner "All_banner_icon"	
+	And Close browser
+
+@HomePage @Bangladesh
+Scenario: TC_005 Successfully verify product icons
+	Given Click on "Product"
+	When "New_launch" icon name it should be displayed
+	And "Commuter" icon name it should be displayed
+	And "Excutive" icon name it should be displayed
+	And "premium_world" icon name it should be displayed
+	And "Scooter" icon name it should be displayed	
+	And "Find_a_dealer" icon name it should be displayed
+	And "Find_a_service_center" icon name it should be displayed
+	And Close browser
+
+@HomePage @Bangladesh
+Scenario: TC_006 Successfully verify bike under New launch icons
+	Given Click on "Product"
+	When Click on "New_launch_icons"	
+	And Verify "Bike_name" should be displayed	
+	And Verify "Bike_Price" should be displayed
+	And Close browser
+
+@HomePage @Bangladesh
+Scenario: TC_007 Successfully verify bike under Commuter icons
+	Given Click on "Product"
+	When Click on "commuter_icons"
+	Then Verify "HF_Deluxe_bike_name" should be displayed
+	And Verify "HF_Deluxe_bike_price" should be displayed
+	And Verify "Splender+SE_bike_name" should be displayed
+	And Verify "Splender+SE_bike_price" should be displayed
+	And Verify "Splender+XTEC_bike_name" should be displayed
+	And Verify "Splender+XTEC_bike_price" should be displayed
+	And Verify "Passion_XPRO_bike_name" should be displayed
+	And Verify "Passion_XPRO_price" should be displayed
+	And Verify "Passion_XPRO_XTEC_bike_name" should be displayed
+	And Verify "Passion_XPRO_XTEC_bike_price" should be displayed
+	And Close browser
+
+@HomePage @Bangladesh
+Scenario: TC_008 Successfully verify bike under Executive icons
+	Given Click on "Product"
+	When Click on "executive_icons"
+	Then Verify Glamour bike name should be displayed
+	And Verify Glamour bike price should be displayed
+	Then Verify Ignitor techno bike name should be displayed
+	And Verify Ignitor techno bike price should be displayed
+	Then Verify Ignitor Xtec bike name should be displayed
+	And Verify Ignitor Xtec bike price should be displayed
+	And Close browser
+
+@HomePage @Bangladesh
+Scenario: TC_009 Successfully verify bike under Premium icons
+	Given Click on "Product"
+	When Click on "Premium_icons"
+	Then Verify Thriller 160R 4v bike name should be displayed
+	And Verify Thriller 160R 4v bike price should be displayed
+	Then Verify Hunk 150 bike name should be displayed
+	And Verify Hunk 150 bike price should be displayed
+	Then Verify Hunk 150R bike name should be displayed
+	And Verify Hunk 150R bike price should be displayed
+	Then Verify Thriller 160R bike name should be displayed
+	And Verify Thriller 160R bike price should be displayed
+	And Close browser
+
+@HomePage @Bangladesh
+Scenario: TC_010 Successfully verify bike under Scooter icons
+	Given Click on "Product"
+	When Click on "Scooter_icons"
+	Then Verify Pleasure bike name should be displayed
+	And Verify Pleasure bike price should be displayed
+	Then Verify Maestro edge XTEC bike name should be displayed
+	And Verify Maestro edge XTEC bike price should be displayed
+	And Close browser
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+
+	

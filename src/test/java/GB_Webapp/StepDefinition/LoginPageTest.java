@@ -260,7 +260,7 @@ public class LoginPageTest extends BaseTest{
 	}
 //============================== Test 10 ==========================================================			
 	@Given("Click on New launch2 icons")
-	public void click_on_new_launch2_icons() {
+	public void click_on_new_launch2_icons() throws Exception {
 		loginPg.click_on_new_launch2_icons();
 	}
 	@When("Click on Karizma XMR bike")

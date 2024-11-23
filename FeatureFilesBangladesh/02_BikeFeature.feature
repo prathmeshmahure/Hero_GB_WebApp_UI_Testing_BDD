@@ -26,20 +26,20 @@ Scenario Outline: <TC_Num> Successfully verify <Bike_Name> bike feature under <I
     
     Examples: 
       |Bike_Name 					 |Icon_Name	  	|TC_Num   |
-      |Hf_Deluxe					 |commuter 		  |TC_011		|
-      |Splendor+SE				 |commuter      |TC_012		|
-      |Splender+_XTEC		   |commuter 		  |TC_013		|
-      |Passion_XPRO			   |commuter      |TC_014		|
-      |Passion_XPRO_XTEC	 |commuter 		  |TC_015		|
-      |Glamour    			   |executive     |TC_016		|
-      |Ignitor_techno			 |executive     |TC_017		|
-      |Ignitor_XTEC				 |executive     |TC_018		|
-      |Thriller_160R_4V	   |Premium       |TC_019		|
-      |Hunk_150				     |Premium       |TC_020		|
-      |Hunk_150R			     |Premium       |TC_021   | 
-      |Thriller_160R			 |Premium       |TC_022		|
-      |Pleasure  				   |Scooter       |TC_023		|
-      |MAESTRO_EDGE_XTEC	 |Scooter       |TC_024		|
+      |Hf_Deluxe					 |commuter 		  |TC_042		|
+      |Splendor+SE				 |commuter      |TC_043		|
+      |Splender+_XTEC		   |commuter 		  |TC_044		|
+      |Passion_XPRO			   |commuter      |TC_045		|
+      |Passion_XPRO_XTEC	 |commuter 		  |TC_046		|
+      |Glamour    			   |executive     |TC_047		|
+      |Ignitor_techno			 |executive     |TC_048		|
+      |Ignitor_XTEC				 |executive     |TC_049		|
+      |Thriller_160R_4V	   |Premium       |TC_050		|
+      |Hunk_150				     |Premium       |TC_051		|
+      |Hunk_150R			     |Premium       |TC_052   | 
+      |Thriller_160R			 |Premium       |TC_053		|
+      |Pleasure  				   |Scooter       |TC_054		|
+      |MAESTRO_EDGE_XTEC	 |Scooter       |TC_055		|
 
 
 

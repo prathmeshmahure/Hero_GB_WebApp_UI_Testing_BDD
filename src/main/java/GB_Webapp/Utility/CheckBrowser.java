@@ -16,7 +16,6 @@ public class CheckBrowser extends PageClassObject {
         } catch (Exception e) {
             // Handle any unexpected exceptions during the process
            handlePageUnresponsiveError("Exception occurred while checking browser status: Page Unresponsive error.");
-           System.out.println(e.getMessage());
         }
     }
 

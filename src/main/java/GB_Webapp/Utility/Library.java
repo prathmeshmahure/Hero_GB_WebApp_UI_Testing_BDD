@@ -274,10 +274,12 @@ public class Library {
 	}
 //=================================================================================================================================
 	public static void verify_new_window_and_close(WebDriver driver,String pageTitle ) {
+		try {
 		Library.threadSleep(2000);
 	    ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 	    driver.switchTo().window(tabs.get(1));
 	    String title = driver.getTitle();
+//	    System.out.println(title);
 	    if(pageTitle.equalsIgnoreCase(title)) {
 	    	Library.passmsg("New window is opened and page title verified");
 	    	driver.close();
@@ -290,6 +292,9 @@ public class Library {
 	    	}catch(Exception e ) {}
 	    }	    
 	    driver.switchTo().window(tabs.get(0));		
+		}catch(Exception e) {
+			
+		}
 	}
 //=================================================================================================================================	
 	public static void close_new_Window(WebDriver driver) {

@@ -52,10 +52,9 @@ public class HomePageTest extends BaseTest{
 	
 	
 	
-	
 //================================================= Zambia country test case start======================================================
 	@Given("User open {string} website link")
-	public void user_open_website_link(String string) {
+	public void user_open_website_link(String string){
 		switch (string) {
 	    case "Bangladesh":
 	    	loginPg.user_open_website_link();
@@ -312,6 +311,18 @@ public class HomePageTest extends BaseTest{
 	        break;
 	    case "owners_manual":
 	    	hp.verify_OwnersManual_icon_redirection();
+	        break;
+	    case "owners_manual1":
+	    	hp.verify_OwnersManual_icon_redirection1();
+	        break;
+	    case "commuter":
+	    	hp.verify_commuter_icon_redirection();
+	        break;
+	    case "executive":
+	    	hp.verify_executive_icon_redirection();
+	        break;
+	    case "service_center":
+	    	hp.verify_service_center_icon_redirection();
 	        break;
 	    default:
 	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");

@@ -371,7 +371,7 @@ public WebElement getCloseScootericon() {
 	//============================================================================================================
 //============================================================================================================
 //============================================================================================================
-	public void user_open_website_link() {
+	public void user_open_website_link(){
 		Library.open_new_Window_and_close_previous_Window(driver, ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
  		Library.passmsg("Bangladesh Website is open using this link = "+ConfigeDataProvider.hero_Gb_Bangladesh_ProdUrl);
  		BaseTest.handlePopup();
@@ -390,6 +390,11 @@ public WebElement getCloseScootericon() {
 		Library.passmsg("Close browser");
 //		driver.close();
 	}
+	public void close_browser1() {	
+		
+		Library.passmsg("Close browser");
+		driver.quit();
+	}
 	public void verify_all_country_should_be_displayed() {
 		
 		Library.click(driver, Bangladesh, "Select country");
@@ -399,7 +404,7 @@ public WebElement getCloseScootericon() {
 		}
 		Library.click(driver, CloseAllCountries, "Close country button");
 	}
-	public void click_on_new_launch2_icons() {
+	public void click_on_new_launch2_icons() throws Exception {
 		loginPg.user_open_website_link();
 		try {
 			Library.threadSleep(1000);

@@ -9,8 +9,9 @@ Feature: Zambia Service
 		Then Click on close icon
 		And Close browser
 		
-	@Service @Zambia
+	@Service1 @Zambia
 	Scenario: TC_035 verify service and maintenance tips all information
+    Given User open "Zambia" website link
 		Given Click on "Service"
 		When Click on service and maintenance tips
 		Then Verify header line three icons

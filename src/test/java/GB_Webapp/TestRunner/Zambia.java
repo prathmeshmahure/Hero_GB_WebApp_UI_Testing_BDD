@@ -14,7 +14,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		glue="GB_Webapp.StepDefinition",
 		dryRun = false,				// if check test case method present or not as per feature file
 		monochrome = true,
-		tags = "@Zambia",   //@HomePage , @BikeFeature , @Dealers , @Service , @AboutHero , @Zambia 
+		tags = "@Service1",   //@HomePage , @BikeFeature , @Dealers , @Service , @AboutHero , @Zambia 
 		plugin = {"summary",        // Using "pretty" console displayed each & every scenario and "summary" not display scenario
 				  "html:Reports/cucumber_reports.html",
 		          "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"

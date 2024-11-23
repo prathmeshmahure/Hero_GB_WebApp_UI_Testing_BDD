@@ -1,4 +1,4 @@
-Feature: Zambia Dealers
+Feature: Philippines Dealers
 
 
 	@Dealers @Philippines

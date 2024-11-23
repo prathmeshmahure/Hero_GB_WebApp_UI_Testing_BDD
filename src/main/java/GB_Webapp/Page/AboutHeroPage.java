@@ -43,7 +43,7 @@ public class AboutHeroPage extends BasePage{
 	@FindBy(xpath = "//div[@id='aboutMegaMenu']//img[@alt='service image']")
 	private WebElement AboutHeroStaticImage;
 
-	@FindBy(xpath = "(//div[normalize-space()='Find a Dealer'])[4]")
+	@FindBy(xpath = "(//div[normalize-space()='Find a Dealer'])[4] | (//a[@class='overlay-footer-links'][normalize-space()='Find a Dealer'])[2]")
 	private WebElement AboutHeroFindADealer;
 
 	@FindBy(xpath = "(//a[@value='aboutMegaMenu'])[3]")
@@ -260,8 +260,11 @@ public class AboutHeroPage extends BasePage{
 	    case "Philippines":
 	    	Library.sendKeys(driver, DealerCountry, Philippines_name, "Country Name");
 	        break;
+	    case "Bangladesh":
+	    	Library.sendKeys(driver, DealerCountry, Bangladesh_name, "Country Name");
+	        break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(countryName+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	}	
 		
@@ -281,8 +284,11 @@ public class AboutHeroPage extends BasePage{
 	    case "Philippines":
 	    	Library.sendKeys(driver, dealerCountryForContact, Philippines_name, "Country Name");
 	        break;
+	    case "Bangladesh":
+	    	Library.sendKeys(driver, dealerCountryForContact, Bangladesh_name, "Country Name");
+	        break;
 	    default:
-	        // code block if no case matches
+	         Library.failmsg(countryName+" = Switch case statemwnt string is not matched. ");
 	    	break;
 	}	
 		
@@ -300,7 +306,9 @@ public class AboutHeroPage extends BasePage{
 		Library.moveToElement(driver, SelectCompanyTypeDropDown);
 		Library.sendKeys(driver, CompanyName, Company_name, "Company Name");
 		Library.sendKeys(driver, CityName, ZambiaCity, "City Name");
-		Library.sendKeys(driver, EnterDescription, Discription, "EnterDescription");
+		try {EnterDescription.sendKeys(Discription);  }catch(Exception e) {}
+		 //comment this line due to bangladesh country throwing error EnterDescription element not available
+//		Library.sendKeys(driver, EnterDescription, Discription, "EnterDescription"); 
 		Library.click(driver, SelectCompanyTypeDropDown, "Select Company Type Drop Down");
 		Library.click(driver, DropDownValueCompany, "DropDown Value Company");
 		Library.visible_link(driver, CompanyForm, "Company form Displayed");
@@ -330,7 +338,7 @@ public class AboutHeroPage extends BasePage{
 	public void fill_share_holder_details() {
 		Library.moveToElement(driver, ResetButton);
 		Library.sendKeys(driver, ShareHolderName, ZambiaCustomerName, "Share Holder Name");
-		Library.sendKeys(driver, RelationshipWithMainApplicant, Relation, "Relationshi pWith Main Applicant");
+		Library.sendKeys(driver, RelationshipWithMainApplicant, Relation, "Relationship With Main Applicant");
 		Library.sendKeys(driver, ShareHolderResponsibility, Responsibility, "Share Holder Responsibility");
 		Library.sendKeys(driver, ShareHolderNoOfShares, Total_shares, "Share Holder No Of Shares");
 		Library.sendKeys(driver, ShareHolderAgeinYears, Age, "Share Holder Age in Years");

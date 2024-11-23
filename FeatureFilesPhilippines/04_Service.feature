@@ -1,4 +1,4 @@
-Feature: Zambia Service
+Feature: Philippines Service
 
 
 
@@ -9,7 +9,7 @@ Feature: Zambia Service
 		Then Click on close icon
 		And Close browser
 		
-	@Service @Philippines
+	@Service1 @Philippines
 	Scenario: TC_029 verify service and maintenance tips all information
     Given User open "Philippines" website link
 		When Click on "Service"

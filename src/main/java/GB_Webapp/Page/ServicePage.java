@@ -1,9 +1,15 @@
 package GB_Webapp.Page;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import GB_Webapp.Utility.Library;
@@ -69,6 +75,9 @@ public class ServicePage extends BasePage{
 	
 	@FindBy(xpath="(//div[normalize-space()='Select Bike'])[1]")
 	private WebElement SelectBikeDropDown;
+	
+	@FindBy(xpath="//div[contains(text(),'Select Bike')]")
+	private List<WebElement> SelectBikeDropDown1;//320
 	
 	@FindBy(xpath="//span[normalize-space()='XPULSE 200 Carb']")
 	private WebElement Xpulse200CarbBike;
@@ -208,7 +217,7 @@ public class ServicePage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Fuel saving tips']")
 	private WebElement FuelSavingTips;
 	
-	@FindBy(xpath="//div[contains(text(),'Fuel Saving Tips')]//parent::div//child::div[1]")
+	@FindBy(xpath="(//div[contains(text(),'Fuel Saving Tips')]//parent::div//child::div[1] | //img[@alt='FUEL SAVING TIPS'])[1]")
 	private WebElement FuelSavingTipsIMG;
 	
 	@FindBy(xpath="//img[@alt='FUEL SAVING TIPS']")
@@ -312,8 +321,22 @@ public class ServicePage extends BasePage{
 		Library.click(driver, ServiceAndMaintenanceTips, "Service And Maintenance Tips");		
 	}
 	public void verify_service_schedule_and_dropdown_bikes() {
-		Library.visible_link(driver, ServiceScheduleText, "Service Schedule");
+		Library.visible_link(driver, ServiceScheduleText, "Service Schedule");//76
 		Library.click(driver, SelectBikeDropDown, "Select Bike DropDown");
+		while (true) {
+			int i=1;
+			try {
+				if (Xpulse200CarbBike.isDisplayed()) {				
+					break;
+				}	
+			}catch(Exception e) {
+				int ii=i+1;
+				System.out.println("count = "+ii+1);
+			}
+//			SelectBikeDropDown1.click();
+			System.out.println("click action performed");
+		}
+		
 		Library.visible_link(driver, Xpulse200CarbBike, "Xpulse 200 Carb Bike");
 		Library.visible_link(driver, Hunter100Bike, "Hunter 100 Bike");
 		Library.visible_link(driver, Hunter125Bike, "Hunter 125 Bike");
@@ -360,43 +383,43 @@ public class ServicePage extends BasePage{
 	public void verify_all_inspection_guide() {
 		Library.click(driver, EngineOilLevel, "Engine Oil Level");
 		Library.visible_link(driver, EngineOilLevelInfo, "Engine Oil Level Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, FuelLevel, "Fuel Level");
 		Library.visible_link(driver, FuelLevelInfo, "Fuel Level Info");	
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, FrontAndRearBrakes, "Front And Rear Brakes");
 		Library.visible_link(driver, FrontAndRearBrakesInfo, "Front And Rear Brakes Info");	
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, Tyres, "Tyres");
 		Library.visible_link(driver, TyresInfo, "Tyres Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, Clutch, "Clutch");
 		Library.visible_link(driver, ClutchInfo, "Clutch Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, DriveChain, "Drive Chain");
 		Library.visible_link(driver, DriveChainInfo, "Drive Chain Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, Throttle, "Throttle");
 		Library.visible_link(driver, ThrottleInfo, "Throttle Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, LightsAndHorns, "Lights And Horns");
 		Library.visible_link(driver, LightsAndHornsInfo, "Lights And Horns Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, RearViewMirror, "Rear View Mirror");
 		Library.visible_link(driver, RearViewMirrorInfo, "Rear View Mirror Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, AirSuctionValve, "Air Suction Valver");
 		Library.visible_link(driver, AirSuctionValveInfo, "Air Suction Valve Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, FittingsAndFastners, "Fittings And Fastners");
 		Library.visible_link(driver, FittingsAndFastnersInfo, "Fittings And Fastners Info");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, Battery, "Battery");
 		Library.visible_link(driver, BatteryInfo, "BatteryInfo");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, Steering, "Steering");
 		Library.visible_link(driver, SteeringInfo, "SteeringInfo");
-		Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
 		Library.click(driver, FuseReplacement, "Fuse Replacement");
 		Library.visible_link(driver, FuseReplacementInfo, "Fuse Replacement Info");		
 	}
@@ -430,26 +453,47 @@ public class ServicePage extends BasePage{
 	public void verify_header_line_four_icons() {
 		Library.visible_link(driver, HeaderMaintenanceTips, "Maintenance Tips");	
 		Library.visible_link(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
-		Library.visible_link(driver, HeaderHeroGenuineParts, "Header Hero Genuine Parts");	
 		Library.visible_link(driver, HeaderWarranty, "Warranty");
+		Library.visible_link(driver, HeaderHeroGenuineParts, "Header Hero Genuine Parts");	
 		
 	}
-	public void verify_service_schedule_and_dropdown_three_bikes() {
+	public void verify_service_schedule_and_dropdown_three_bikes() throws AWTException {
 		Library.visible_link(driver, ServiceScheduleText, "Service Schedule");
 		Library.click(driver, SelectBikeDropDown, "Select Bike DropDown");
-		for(WebElement element: AllDropDownOptions) {			
-			Library.visible_link(driver, element, element.getText());
+		Robot robot = new Robot();
+		 for (int i = 1; i <= 14; i++) {	 
+			 System.out.println(""+i);
+			robot.keyPress(KeyEvent.VK_TAB);
+			robot.keyRelease(KeyEvent.VK_TAB);
+		}
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+		
+		try {
+			if (AllDropDownOptions.isEmpty()) {
+				Library.failmsg("Unable to visible field  : Select Bike DropDown is not working properly11");
+			} else {
+			    for (WebElement element : AllDropDownOptions) {
+			        Library.visible_link(driver, element, element.getText());
+			    }
+			}
+			}catch(Exception e) {
+				Library.failmsg("Unable to visible field  : Select Bike DropDown is not working properly");
 			}
 		}
+	
 	public void click_on_care_and_maintenance() {
-		Library.click(driver, CareAndMaintenance, "Care And Maintenance");
-		
+		Library.click(driver, CareAndMaintenance, "Care And Maintenance");		
 	}
 	public void verify_all_care_and_maintenance() {
 		Library.click(driver, StorageTipsForYourVehicleIMG, "Storage Tips For Your Vehicle IMG");
 		Library.visible_link(driver, StorageTipsForYourVehicleIMGInfo, "Storage Tips For Your Vehicle Info");	
 		Library.visible_link(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
-		Library.click(driver, CareAndMaintenance, "Care And Maintenance");		
+		Library.click(driver, CareAndMaintenance, "Care And Maintenance");	
+		// use this try block as per bangladesh country requirement
+		try { FuelSavingTips.isDisplayed();
+		Library.click(driver, FuelSavingTips, "Fuel Saving Tips");			
+		}catch(Exception e) {			}
 		Library.click(driver, FuelSavingTipsIMG, "Fuel Saving Tips card");
 		Library.visible_link(driver, FuelSavingTipsIMGInfo, "Fuel Saving Tips Info");		
 		

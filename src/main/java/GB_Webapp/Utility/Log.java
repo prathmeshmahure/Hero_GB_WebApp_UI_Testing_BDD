@@ -68,8 +68,9 @@ public class Log extends PageClassObject{
 			//		extentLogger.log(Status.FAIL, message);
 		extentLogger.log(Status.FAIL, MarkupHelper.createLabel(message, ExtentColor.RED));	
 		extentLogger.addScreenCaptureFromBase64String(BaseTest.getscreenshot());
+		String message1 = message.length() > 20 ? message.substring(0, 20) : message;
 			//		BaseTest.takeScreenshot();
-		captureScreenshot(message);    // allure report parts
+		captureScreenshot(message1);    // allure report parts
 		Allure.step(" Error -: "+message);
 	}	
 //=========================================================================================================================

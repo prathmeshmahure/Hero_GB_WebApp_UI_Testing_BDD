@@ -1,5 +1,7 @@
 package GB_Webapp.StepDefinition;
 
+import java.awt.AWTException;
+
 import GB_Webapp.Utility.BaseTest;
 import GB_Webapp.Utility.Library;
 import io.cucumber.java.en.Given;
@@ -142,7 +144,7 @@ public class ServiceTest extends BaseTest{
 	    sp.verify_header_line_four_icons();
 	}
 	@Then("Verify service schedule and dropdown three bikes")
-	public void verify_service_schedule_and_dropdown_three_bikes() {
+	public void verify_service_schedule_and_dropdown_three_bikes() throws AWTException {
 	    sp.verify_service_schedule_and_dropdown_three_bikes();
 	}
 

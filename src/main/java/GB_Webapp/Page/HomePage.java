@@ -418,7 +418,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[contains(text(),'Owner’s Manual')]")
 	private WebElement FooterOwnersManual;
 	
-	@FindBy(xpath="//a[@role='tab'][contains(text(),'Owner’s Manual')]")
+	@FindBy(xpath="(//a[@role='tab'][contains(text(),'Owner’s Manual')] | //a[text()='Owner’s Manual (BSIV & Earlier)'])[1]")
 	private WebElement OwnersManualPageText;
 	
 	@FindBy(xpath = "(//span[normalize-space()='NEW LAUNCH'])[2]")
@@ -508,14 +508,17 @@ public class HomePage extends BasePage{
 	@FindBy(xpath = "//div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='VIEW SPECIFICATIONS']")
 	private WebElement HomePageAllBikeViewSpecificationsButton; //common for karizma;
 
-//	@FindBy(xpath = "Karizma")
-//	private WebElement Karizma;
-//
-//	@FindBy(xpath = "Karizma")
-//	private WebElement Karizma;
-//
-//	@FindBy(xpath = "Karizma")
-//	private WebElement Karizma;
+	@FindBy(xpath = "//a[normalize-space()='Commuter']")
+	private WebElement FooterCommuter;
+
+	@FindBy(xpath = "//a[normalize-space()='Executive']")
+	private WebElement FooterExecutive;
+
+	@FindBy(xpath = "//a[normalize-space()='Service Centers']")
+	private WebElement FooterServiceCenters;
+
+	@FindBy(xpath = "//h2[normalize-space()='FIND A SERVICE CENTRE']")
+	private WebElement FindServiceCenters;
 	
 	
 	
@@ -732,7 +735,7 @@ public class HomePage extends BasePage{
 	public void user_open_zambia_website_link() {
 //		driver.get(hero_Gb_Zambia_ProdUrl);
 		Library.open_new_Window_and_close_previous_Window(driver, hero_Gb_Zambia_ProdUrl);
-		Library.passmsg("Zambia website link successfully opened  ");
+		Library.passmsg("Zambia website link successfully opened  ="+ hero_Gb_Zambia_ProdUrl);
 	}
 	public void verify_country_name_should_be_displayed() {
 		try {
@@ -952,6 +955,21 @@ public class HomePage extends BasePage{
 		Library.click(driver, FooterMotoTaxi, "FooterMotoTaxi");
 		Library.visible_link(driver, Specifications, "Moto Taxi Page");
 	}
+	public void verify_commuter_icon_redirection() {
+		Library.moveToElement(driver, FooterScooter);
+		Library.click(driver, FooterCommuter, "Footer Commuter");
+		Library.visible_link(driver, Specifications, "Commuter Page");
+	}
+	public void verify_executive_icon_redirection() {
+		Library.moveToElement(driver, FooterScooter);
+		Library.click(driver, FooterExecutive, "Footer Executive");
+		Library.visible_link(driver, Specifications, "Executive Page");
+	}
+	public void verify_service_center_icon_redirection() {
+		Library.moveToElement(driver, FooterScooter);
+		Library.click(driver, FooterServiceCenters, "Footer ServiceCenters");
+		Library.visible_link(driver, FindServiceCenters, "Service Centers Page");
+	}
 	public void verify_personal_icon_redirection() {
 		Library.moveToElement(driver, FooterScooter);
 		Library.click(driver, FooterPersonal, "Footer Personal");
@@ -994,6 +1012,7 @@ public class HomePage extends BasePage{
 //		Library.visible_link(driver, CityRequired1, "City Required");		
 	}
 	public void user_able_to_enter_customer_name1() {
+		try {  RequestACallBack.click();          }		catch (Exception e) { }
 		Library.sendKeys(driver, EnterCustomerName1, ZambiaCustomerName, "Enter Customer Name");
 	}
 	public void user_able_to_enter_mobile_number1() {
@@ -1028,7 +1047,7 @@ public class HomePage extends BasePage{
 	
 	public void user_open_Philippines_website_link() {
 		Library.open_new_Window_and_close_previous_Window(driver, hero_Gb_Philippines_ProdUrl);
-		Library.passmsg("Philippines website link successfully opened  ");		
+		Library.passmsg("Philippines website link successfully opened  = " + hero_Gb_Philippines_ProdUrl);		
 	}
 	public void verify_philippines_country_name_should_be_displayed() {
 		Library.visible_link(driver, Philippines, "Philippines country name");		
@@ -1178,6 +1197,11 @@ public class HomePage extends BasePage{
 		Library.moveToElement(driver, FooterScooter);
 		Library.click(driver, FooterOwnersManual, "Footer Owners Manual");
 		Library.visible_link(driver, OwnersManualPageText, "Owners Manual Page");
+	}
+	public void verify_OwnersManual_icon_redirection1() {
+		Library.moveToElement(driver, FooterScooter);
+		Library.click(driver, FooterOwnersManual, "Footer Owners Manual");
+		Library.verify_new_window_and_close(driver, "Owners Manual");
 	}
 	
 

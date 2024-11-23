@@ -67,7 +67,7 @@ public class BaseTest extends PageClassObject {
 		LOGGER.debug("====================================================================================");
 		LOGGER.debug("*******************        Next Class suite      ***********************");
 		LOGGER.debug("====================================================================================");
-//		reloadBrowser();
+		reloadBrowser();
 	}
 
 	public static void tearDown() {

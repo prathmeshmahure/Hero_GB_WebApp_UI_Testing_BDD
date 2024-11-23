@@ -3,7 +3,7 @@ Feature: HeroWorld
 
 	
 @HeroWorld @Bangladesh
-Scenario: TC_027 Successfully click on Hero world icon
+Scenario: TC_062 Successfully click on Hero world icon
   Given User open "Bangladesh" website link
   When Click on Hero world icon
   Then Click on Hero News icon

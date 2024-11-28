@@ -16,6 +16,7 @@ public class ConfigeDataProvider {
 	public static String hero_Gb_Bangladesh_ProdUrl = Library.getStringConfigData("BangladeshUrl");
 	public static String hero_Gb_Zambia_ProdUrl = Library.getStringConfigData("ZambiaUrl");
 	public static String hero_Gb_Philippines_ProdUrl = Library.getStringConfigData("PhilippinesUrl");
+	public static String hero_Gb_Nepal_ProdUrl = Library.getStringConfigData("NepalUrl");
 	public static String hero_hub_url = Library.getStringConfigData("UatUrl");
 
 //===============================  Zambia country data =================	

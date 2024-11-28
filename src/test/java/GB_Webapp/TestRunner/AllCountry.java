@@ -8,14 +8,14 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = {".//FeatureFilesBangladesh/01_LoginFeature.feature",".//FeatureFilesBangladesh/02_BikeFeature.feature",".//FeatureFilesBangladesh/03_Service.feature",
-				".//FeatureFilesBangladesh/04_HeroWorld.feature",".//FeatureFilesBangladesh/05_AboutHero.feature",
+		features = {".//AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature",".//AllCountryFeatureFiles/FeatureFilesBangladesh/02_BikeFeature.feature",".//AllCountryFeatureFiles/FeatureFilesBangladesh/03_Service.feature",
+				".//AllCountryFeatureFiles/FeatureFilesBangladesh/04_HeroWorld.feature",".//FeatureFilesBangladesh/05_AboutHero.feature",
 				
-				".//FeatureFilesZambia/01_HomePage.feature",".//FeatureFilesZambia/02_ZambiaBikeFeature.feature",".//FeatureFilesZambia/03_Dealer.feature",
-					".//FeatureFilesZambia/04_Service.feature",".//FeatureFilesZambia/05_AboutHero.feature",
+				".//AllCountryFeatureFiles/FeatureFilesZambia/01_HomePage.feature",".//AllCountryFeatureFiles/FeatureFilesZambia/02_ZambiaBikeFeature.feature",".//AllCountryFeatureFiles/FeatureFilesZambia/03_Dealer.feature",
+					".//AllCountryFeatureFiles/FeatureFilesZambia/04_Service.feature",".//AllCountryFeatureFiles/FeatureFilesZambia/05_AboutHero.feature",
 					
-					".//FeatureFilesPhilippines/01_HomePage.feature",".//FeatureFilesPhilippines/02_PhilippinesBikeFeature.feature",".//FeatureFilesPhilippines/03_Dealer.feature",
-					".//FeatureFilesPhilippines/04_Service.feature",".//FeatureFilesPhilippines/05_AboutHero.feature"
+					".//AllCountryFeatureFiles/FeatureFilesPhilippines/01_HomePage.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/02_PhilippinesBikeFeature.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/03_Dealer.feature",
+					".//AllCountryFeatureFiles/FeatureFilesPhilippines/04_Service.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/05_AboutHero.feature"
 					},
 		glue="GB_Webapp.StepDefinition",
 		dryRun = false,				// if check test case method present or not as per feature file

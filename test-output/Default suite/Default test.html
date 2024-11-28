@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>26/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 22 13:55:53 IST 2024</td>
+<td>Started on:</td><td>Fri Nov 29 00:36:45 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>31 seconds (31051 ms)</td>
+<tr><td>Total time:</td><td>336 seconds (336065 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,23 +76,220 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='GB_Webapp.TestRunner.Philippines.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Philippines<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_029 verify service and maintenance tips all information", "Philippines Service"</td>
-<td><div><pre>java.lang.AssertionError: Fail msg : Unable to visible field  : Select Bike DropDown is not working properly11
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_026 Successfully fill home page let us call you back popup form", "HomePage"</td>
+<td><div><pre>java.lang.AssertionError: Unable to click element : Select city  --  Proxy element for: DefaultElementLocator &apos;By.xpath: (//span[normalize-space()=&apos;ALBAY&apos;])[1] | (//ul[@role=&apos;presentation&apos;])[2]//li[1]&apos;  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[normalize-space()=&apos;ALBAY&apos;])[1] | (//ul[@role=&apos;presentation&apos;])[2]//li[1]&quot;}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af7391ff0a1839640af1d17bd45763d6, findElement {using=xpath, value=(//span[normalize-space()=&apos;ALBAY&apos;])[1] | (//ul[@role=&apos;presentation&apos;])[2]//li[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61040/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af7391ff0a1839640af1d17bd45763d6 expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
-	at GB_Webapp.Utility.Library.failmsg(Library.java:273)
-	at GB_Webapp.Page.ServicePage.verify_service_schedule_and_dropdown_three_bikes(ServicePage.java:474)
-	at GB_Webapp.StepDefinition.ServiceTest.verify_service_schedule_and_dropdown_three_bikes(ServiceTest.java:148)
-	at ✽.Verify service schedule and dropdown three bikes(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesPhilippines/04_Service.feature:18)
-</pre></div><a href='#' onClick='toggleBox("stack-trace251788397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace251788397'><pre>java.lang.AssertionError: Fail msg : Unable to visible field  : Select Bike DropDown is not working properly11
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at GB_Webapp.Utility.Library.click(Library.java:38)
+	at GB_Webapp.Page.HomePage.select_city1(HomePage.java:1209)
+	at GB_Webapp.StepDefinition.HomePageTest.select_city_in_dropdown(HomePageTest.java:427)
+	at ✽.select city in dropdown &quot;city1&quot;(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesNepal/01_HomePage.feature:143)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2058342131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2058342131'><pre>java.lang.AssertionError: Unable to click element : Select city  --  Proxy element for: DefaultElementLocator &apos;By.xpath: (//span[normalize-space()=&apos;ALBAY&apos;])[1] | (//ul[@role=&apos;presentation&apos;])[2]//li[1]&apos;  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[normalize-space()=&apos;ALBAY&apos;])[1] | (//ul[@role=&apos;presentation&apos;])[2]//li[1]&quot;}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af7391ff0a1839640af1d17bd45763d6, findElement {using=xpath, value=(//span[normalize-space()=&apos;ALBAY&apos;])[1] | (//ul[@role=&apos;presentation&apos;])[2]//li[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61040/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af7391ff0a1839640af1d17bd45763d6 expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
-	at GB_Webapp.Utility.Library.failmsg(Library.java:273)
-	at GB_Webapp.Page.ServicePage.verify_service_schedule_and_dropdown_three_bikes(ServicePage.java:474)
-	at GB_Webapp.StepDefinition.ServiceTest.verify_service_schedule_and_dropdown_three_bikes(ServiceTest.java:148)
-	at ✽.Verify service schedule and dropdown three bikes(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./FeatureFilesPhilippines/04_Service.feature:18)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at GB_Webapp.Utility.Library.click(Library.java:38)
+	at GB_Webapp.Page.HomePage.select_city1(HomePage.java:1209)
+	at GB_Webapp.StepDefinition.HomePageTest.select_city_in_dropdown(HomePageTest.java:427)
+	at ✽.select city in dropdown &quot;city1&quot;(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesNepal/01_HomePage.feature:143)
 </pre></div></td>
-<td>16</td>
-<td>GB_Webapp.TestRunner.Philippines@46944ca9</td></tr>
+<td>13</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_023 Verify home page footer link inside the support all icons rediretions", "HomePage"</td>
+<td><div><pre>java.lang.AssertionError: Unable to visible field  : Become A Dealer Page  --  Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[normalize-space()=&apos;Become a Dealer&apos;]&apos;  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[normalize-space()=&apos;Become a Dealer&apos;]&quot;}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af7391ff0a1839640af1d17bd45763d6, findElement {using=xpath, value=//h2[normalize-space()=&apos;Become a Dealer&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61040/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af7391ff0a1839640af1d17bd45763d6 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at GB_Webapp.Utility.Library.visible_link(Library.java:69)
+	at GB_Webapp.Page.HomePage.verify_beacome_a_dealer_icon_redirection(HomePage.java:1023)
+	at GB_Webapp.StepDefinition.HomePageTest.verify_icon_redirection(HomePageTest.java:325)
+	at ✽.Verify &quot;become_a_dealer&quot; icon redirection(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesNepal/01_HomePage.feature:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace858207098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace858207098'><pre>java.lang.AssertionError: Unable to visible field  : Become A Dealer Page  --  Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[normalize-space()=&apos;Become a Dealer&apos;]&apos;  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[normalize-space()=&apos;Become a Dealer&apos;]&quot;}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af7391ff0a1839640af1d17bd45763d6, findElement {using=xpath, value=//h2[normalize-space()=&apos;Become a Dealer&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\QA\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61040/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af7391ff0a1839640af1d17bd45763d6 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at GB_Webapp.Utility.Library.visible_link(Library.java:69)
+	at GB_Webapp.Page.HomePage.verify_beacome_a_dealer_icon_redirection(HomePage.java:1023)
+	at GB_Webapp.StepDefinition.HomePageTest.verify_icon_redirection(HomePageTest.java:325)
+	at ✽.Verify &quot;become_a_dealer&quot; icon redirection(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesNepal/01_HomePage.feature:121)
+</pre></div></td>
+<td>23</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_008 Click on Company_logo", "HomePage"</td>
+<td></td>
+<td>6</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_003 Click on Product", "HomePage"</td>
+<td></td>
+<td>1</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_016 Verify home page Xpulse2004V bike expanded card under Premium icon", "HomePage"</td>
+<td></td>
+<td>39</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_014 Verify home page Splendor_Plus bike expanded card under Commuter icon", "HomePage"</td>
+<td></td>
+<td>25</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_002 Successfully verify all header menu icons", "HomePage"</td>
+<td></td>
+<td>2</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_028 Successfully verify all product image icons", "HomePage"</td>
+<td></td>
+<td>15</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_017 Verify home page Xoom110 bike expanded card under scooter icon", "HomePage"</td>
+<td></td>
+<td>26</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_027 Verify home page find a dealer icon and redirection", "HomePage"</td>
+<td></td>
+<td>21</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_024 Verify home page footer link facebook and instagram logo", "HomePage"</td>
+<td></td>
+<td>10</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_013 Verify home page all scooter", "HomePage"</td>
+<td></td>
+<td>11</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_005 Click on Service", "HomePage"</td>
+<td></td>
+<td>1</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_004 Click on Dealers", "HomePage"</td>
+<td></td>
+<td>5</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_018 Verify home page promotion banner", "HomePage"</td>
+<td></td>
+<td>8</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_009 Click on country icon and select any country", "HomePage"</td>
+<td></td>
+<td>10</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_012 Verify home page premium bikes", "HomePage"</td>
+<td></td>
+<td>11</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_019 Verify home page let us call you back form mandatory field", "HomePage"</td>
+<td></td>
+<td>1</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_007 Click on About_hero", "HomePage"</td>
+<td></td>
+<td>1</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_025 Verify home page request a call back popup form mandatory field", "HomePage"</td>
+<td></td>
+<td>1</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_001 Successfully open global website link", "HomePage"</td>
+<td></td>
+<td>7</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_010 Verify home page text content", "HomePage"</td>
+<td></td>
+<td>0</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_021 Verify home page marketing advertisement banner text", "HomePage"</td>
+<td></td>
+<td>1</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_015 Verify home page Super_Splendor bike expanded card under Commuter icon", "HomePage"</td>
+<td></td>
+<td>24</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_011 Verify home page commuter all bikes", "HomePage"</td>
+<td></td>
+<td>11</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_006 Click on Hero_world", "HomePage"</td>
+<td></td>
+<td>3</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_022 Verify home page footer link inside the product all icons rediretions", "HomePage"</td>
+<td></td>
+<td>27</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
+<tr>
+<td title='GB_Webapp.TestRunner.Nepal.runScenario()'><b>runScenario</b><br>Test class: GB_Webapp.TestRunner.Nepal<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC_020 Successfully fill home page let us call you back form", "HomePage"</td>
+<td></td>
+<td>5</td>
+<td>GB_Webapp.TestRunner.Nepal@46944ca9</td></tr>
 </table><p>
 </body>
 </html>

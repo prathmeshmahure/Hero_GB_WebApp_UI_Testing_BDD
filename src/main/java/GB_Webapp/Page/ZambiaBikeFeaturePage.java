@@ -310,7 +310,7 @@ public class ZambiaBikeFeaturePage extends BasePage{
 		Library.threadSleep(1000);
 	    ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 	    try {
-	    	System.out.println("Total number od tabs = "+tabs.size());
+//	    	System.out.println("Total number od tabs = "+tabs.size());
 	    driver.switchTo().window(tabs.get(1));
 	    Library.threadSleep(1000);
 	    Library.passmsg(driver.getCurrentUrl());

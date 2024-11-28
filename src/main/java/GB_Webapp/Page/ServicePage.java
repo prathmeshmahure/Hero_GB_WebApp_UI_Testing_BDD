@@ -73,7 +73,7 @@ public class ServicePage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Service Schedule']")
 	private WebElement ServiceScheduleText;
 	
-	@FindBy(xpath="(//div[normalize-space()='Select Bike'])[1]")
+	@FindBy(xpath="//div[text()='Select Bike']")
 	private WebElement SelectBikeDropDown;
 	
 	@FindBy(xpath="//div[contains(text(),'Select Bike')]")
@@ -323,19 +323,6 @@ public class ServicePage extends BasePage{
 	public void verify_service_schedule_and_dropdown_bikes() {
 		Library.visible_link(driver, ServiceScheduleText, "Service Schedule");//76
 		Library.click(driver, SelectBikeDropDown, "Select Bike DropDown");
-		while (true) {
-			int i=1;
-			try {
-				if (Xpulse200CarbBike.isDisplayed()) {				
-					break;
-				}	
-			}catch(Exception e) {
-				int ii=i+1;
-				System.out.println("count = "+ii+1);
-			}
-//			SelectBikeDropDown1.click();
-			System.out.println("click action performed");
-		}
 		
 		Library.visible_link(driver, Xpulse200CarbBike, "Xpulse 200 Carb Bike");
 		Library.visible_link(driver, Hunter100Bike, "Hunter 100 Bike");
@@ -457,21 +444,23 @@ public class ServicePage extends BasePage{
 		Library.visible_link(driver, HeaderHeroGenuineParts, "Header Hero Genuine Parts");	
 		
 	}
-	public void verify_service_schedule_and_dropdown_three_bikes() throws AWTException {
+	public void verify_service_schedule_and_dropdown_three_bikes() throws AWTException{
 		Library.visible_link(driver, ServiceScheduleText, "Service Schedule");
 		Library.click(driver, SelectBikeDropDown, "Select Bike DropDown");
-		Robot robot = new Robot();
-		 for (int i = 1; i <= 14; i++) {	 
-			 System.out.println(""+i);
-			robot.keyPress(KeyEvent.VK_TAB);
-			robot.keyRelease(KeyEvent.VK_TAB);
-		}
-		robot.keyPress(KeyEvent.VK_ENTER);
-		robot.keyRelease(KeyEvent.VK_ENTER);
+
+//		Library.click(driver, ServiceScheduleText, "Service Schedule");
+//		Robot robot = new Robot();
+//		 for (int i = 1; i <= 2; i++) {	 
+//			robot.keyPress(KeyEvent.VK_TAB);
+//			robot.keyRelease(KeyEvent.VK_TAB);
+//			Library.threadSleep(1000);	
+//		}
+//		robot.keyPress(KeyEvent.VK_ENTER);
+//		robot.keyRelease(KeyEvent.VK_ENTER);
 		
 		try {
 			if (AllDropDownOptions.isEmpty()) {
-				Library.failmsg("Unable to visible field  : Select Bike DropDown is not working properly11");
+				Library.failmsg("Unable to visible field  : Select Bike DropDown is not working properly");
 			} else {
 			    for (WebElement element : AllDropDownOptions) {
 			        Library.visible_link(driver, element, element.getText());
@@ -489,6 +478,7 @@ public class ServicePage extends BasePage{
 		Library.click(driver, StorageTipsForYourVehicleIMG, "Storage Tips For Your Vehicle IMG");
 		Library.visible_link(driver, StorageTipsForYourVehicleIMGInfo, "Storage Tips For Your Vehicle Info");	
 		Library.visible_link(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
+		Library.threadSleep(2000);
 		Library.click(driver, CareAndMaintenance, "Care And Maintenance");	
 		// use this try block as per bangladesh country requirement
 		try { FuelSavingTips.isDisplayed();

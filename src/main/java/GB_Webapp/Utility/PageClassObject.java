@@ -37,7 +37,6 @@ public class PageClassObject extends ConfigeDataProvider{
 	public static ZambiaBikeFeaturePage zbf;     // new country added
 	public static DealersPage dp;  // new country added
 	
-	
 //	@BeforeMethod(alwaysRun = true)
 	public static void getObject() {
 		

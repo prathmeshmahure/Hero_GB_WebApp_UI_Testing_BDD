@@ -1,4 +1,8 @@
 package GB_Webapp.Utility;
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
@@ -63,6 +67,10 @@ public class CheckBrowser extends PageClassObject {
             Log.error("Error during browser recovery: Page Unresponsive error.");
         }
     }
+    
+   
+    
+    
 }
 
 

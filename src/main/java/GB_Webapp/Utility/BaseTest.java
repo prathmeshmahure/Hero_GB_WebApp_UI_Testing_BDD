@@ -118,6 +118,7 @@ public class BaseTest extends PageClassObject {
 				co.addArguments("disable-dev-shm-usage");
 				co.addArguments("no-sandbox");
 				co.addArguments("disable-notifications");
+//				co.addArguments("--headless");
 		    	co.addArguments("--force-device-scale-factor=0.9");
 		    	driver = new ChromeDriver(co);			    	
 		    	driver.get(URL);	

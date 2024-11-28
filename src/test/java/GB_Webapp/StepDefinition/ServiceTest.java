@@ -144,7 +144,7 @@ public class ServiceTest extends BaseTest{
 	    sp.verify_header_line_four_icons();
 	}
 	@Then("Verify service schedule and dropdown three bikes")
-	public void verify_service_schedule_and_dropdown_three_bikes() throws AWTException {
+	public void verify_service_schedule_and_dropdown_three_bikes() throws AWTException{
 	    sp.verify_service_schedule_and_dropdown_three_bikes();
 	}
 

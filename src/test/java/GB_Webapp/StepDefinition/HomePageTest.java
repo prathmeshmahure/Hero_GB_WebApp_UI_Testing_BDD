@@ -56,6 +56,12 @@ public class HomePageTest extends BaseTest{
 	@Given("User open {string} website link")
 	public void user_open_website_link(String string){
 		switch (string) {
+	    case "Homepage":
+	    	driver.navigate().refresh();
+	    	Library.threadSleep(1000);
+	    	Library.moveToElement(driver, loginPg.getHeroLogo());
+	    	try { loginPg.getHeroLogo().click();     }catch(Exception e) { }
+	        break;
 	    case "Bangladesh":
 	    	loginPg.user_open_website_link();
 	        break;
@@ -64,6 +70,9 @@ public class HomePageTest extends BaseTest{
 	        break;
 	    case "Philippines":
 	    	hp.user_open_Philippines_website_link();
+	        break;
+	    case "Nepal":
+	    	hp.user_open_Nepal_website_link();
 	        break;
 	    default: 
 	    	Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
@@ -103,19 +112,19 @@ public class HomePageTest extends BaseTest{
 	    	    hp.Click_on_personal();  // Zambia
 	        break;
 	    case "scooter":
-	    	    hp.Click_on_scooter();  // Zambia or Bangladesh
+	    	    hp.Click_on_scooter();  // Zambia or Bangladesh or Nepal
 	        break;
 	    case "New_Launch":
     	    hp.Click_on_new_launch();  // Bangladesh
     	    break;
 	    case "Commuter":
-    	    hp.Click_on_commuter();  // Bangladesh
+    	    hp.Click_on_commuter();  // Bangladesh or Nepal
     	    break;
 	    case "Executive":
     	    hp.Click_on_executive();  // Bangladesh
     	    break;
 	    case "Premium":
-    	    hp.Click_on_premium();  // Bangladesh or Philippines
+    	    hp.Click_on_premium();  // Bangladesh or Philippines or Nepal
     	    break;
 	    default:
 	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
@@ -188,6 +197,18 @@ public class HomePageTest extends BaseTest{
     		break;
 	    case "Maestro_Edge_Xtec":
     		hp.verifyMaestroEdgeXtecScooter();  // Bangladesh
+    		break;
+	    case "Splendor_Plus":
+    		hp.verify_Splendor_Plus_Bike();  // Nepal
+    		break;
+	    case "Super_Splendor":
+    		hp.verify_Super_Splendor_Bike();  // Nepal
+    		break;
+	    case "Xpulse2004V":
+    		hp.verify_Xpulse2004V_Bike();  // Nepal
+    		break;
+	    case "Xoom110":
+    		hp.verify_Xoom110_Scooter();  // Nepal
     		break;
 	    default:
 	         Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
@@ -410,9 +431,43 @@ public class HomePageTest extends BaseTest{
 	    	break;
 		}
 	}
+//================================ Nepal country code start ==================================================	
 	
-	
-	
+	@Then("verify home page {string} country commuter all bikes")
+	public void verify_home_page_country_commuter_all_bikes(String string) {
+		switch (string) {
+	    case "Nepal":
+	    	hp.verify_home_page_nepal_country_commuter_all_bikes();
+	        break;
+	    default: 
+	    	Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
+	    	break;
+	   }   
+	}
+
+	@Then("Verify home page {string} country premium all bikes")
+	public void verify_home_page_country_premium_all_bikes(String string) {
+		switch (string) {
+	    case "Nepal":
+	    	hp.verify_home_page_nepal_country_premium_all_bikes();
+	        break;
+	    default: 
+	    	Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
+	    	break;
+	   }  
+	}
+
+	@Then("home page {string} country scooter all bikes")
+	public void home_page_country_scooter_all_bikes(String string) {
+		switch (string) {
+	    case "Nepal":
+	    	hp.verify_home_page_nepal_country_scooter_all_bikes();
+	        break;
+	    default: 
+	    	Library.failmsg(string+" = Switch case statemwnt string is not matched. ");
+	    	break;
+	   }  
+	}
 	
 	
 	

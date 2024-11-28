@@ -8,8 +8,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = {".//FeatureFilesBangladesh/01_LoginFeature.feature",".//FeatureFilesBangladesh/02_BikeFeature.feature",".//FeatureFilesBangladesh/03_Service.feature",
-					".//FeatureFilesBangladesh/04_HeroWorld.feature",".//FeatureFilesBangladesh/05_AboutHero.feature"
+		features = {".//AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature",".//AllCountryFeatureFiles/FeatureFilesBangladesh/02_BikeFeature.feature",".//AllCountryFeatureFiles/FeatureFilesBangladesh/03_Service.feature",
+					".//AllCountryFeatureFiles/FeatureFilesBangladesh/04_HeroWorld.feature",".//AllCountryFeatureFiles/FeatureFilesBangladesh/05_AboutHero.feature"
 					},
 		glue="GB_Webapp.StepDefinition",
 		dryRun = false,				// if check test case method present or not as per feature file

@@ -8,13 +8,13 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = {".//FeatureFilesPhilippines/01_HomePage.feature",".//FeatureFilesPhilippines/02_PhilippinesBikeFeature.feature",".//FeatureFilesPhilippines/03_Dealer.feature",
-					".//FeatureFilesPhilippines/04_Service.feature",".//FeatureFilesPhilippines/05_AboutHero.feature"
+		features = {".//AllCountryFeatureFiles/FeatureFilesPhilippines/01_HomePage.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/02_PhilippinesBikeFeature.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/03_Dealer.feature",
+					".//AllCountryFeatureFiles/FeatureFilesPhilippines/04_Service.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/05_AboutHero.feature"
 					},
 		glue="GB_Webapp.StepDefinition",
 		dryRun = false,				// if check test case method present or not as per feature file
 		monochrome = true,
-		tags = "@Service1",  //@HomePage , @BikeFeature , @Dealers , @Service , @AboutHero , @Philippines
+		tags = "@Philippines",  //@HomePage , @BikeFeature , @Dealers , @Service , @AboutHero , @Philippines
 		plugin = {"summary",        // Using "pretty" console displayed each & every scenario and "summary" not display scenario
 				  "html:Reports/cucumber_reports.html",
 		          "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"				  
@@ -34,5 +34,5 @@ public class Philippines extends AbstractTestNGCucumberTests{
 //    public Object[][] scenarios() {
 //        return super.scenarios();
 //    }
-}
+	}
 

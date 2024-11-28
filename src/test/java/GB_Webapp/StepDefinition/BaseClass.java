@@ -44,7 +44,8 @@ public class BaseClass extends BaseTest{
 	@AfterStep
 	public  void After_Step(Scenario scenario) throws Exception
 	{	
-		addScreenshot(scenario);		
+		addScreenshot(scenario);
+//	    handlePopup();		
 	}
 	@After
 	public  void After_Scenario(Scenario scenario) throws Exception

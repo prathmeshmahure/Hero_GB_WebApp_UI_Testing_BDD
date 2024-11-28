@@ -29,7 +29,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//button[@class='btn-close modal-close']")
 	private WebElement CloseCountryButton;
 	
-	@FindBy(xpath="//blockquote[text()='Be the future of ']")
+	@FindBy(xpath="//blockquote[text()='Be the future of '] | //blockquote[text()='BE THE FUTURE OF ']")
 	private WebElement HomePageText;
 	
 	@FindBy(xpath="//blockquote[text()='With the immense credibility of a global brand and the trust of more than ']")
@@ -38,7 +38,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//span[normalize-space()='MOTO TAXI'])[2]")
 	private WebElement MotoTaxi;
 	
-			@FindBy(xpath="//div[contains(text(),'Hunter 100')]")
+			@FindBy(xpath="//div[contains(text(),'Hunter 100')] | (//div[@class='bike-name'])[1]")
 			private WebElement Hunter100;
 			
 					@FindBy(xpath="//div[contains(@class,'animate__zoomIn')]//img[contains(@alt,'Hunter 100')]")
@@ -322,7 +322,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//span[normalize-space()='PREMIUM'])[2]")
 	private WebElement HomePagePremium;
 	
-	@FindBy(xpath="(//div[normalize-space()='XPULSE 200 4V'])[2]")
+	@FindBy(xpath="(//div[normalize-space()='XPULSE 200 4V'])[2] | (//div[@class='bike-name'])[1]")
 	private WebElement HomePageXpulse2004V;
 	
 	@FindBy(xpath="(//div[contains(text(),'HUNK 160R 4V')])[1]")
@@ -397,14 +397,17 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="(//ul[@id='variantTypes'])[1]//parent::div//following-sibling::div//ul//li")
 	private List<WebElement> VerifyAllBikeVariantPrice1;  //  common for all bike price
 	
-	@FindBy(xpath="(//div[text()='Enter City Name'])[2]")
+	@FindBy(xpath="(//div[text()='Enter City Name'])[2] | (//div[text()='Select your City'])[2]")
 	private WebElement city;
 	
-	@FindBy(xpath="(//div[text()='Enter City Name'])[1]")
+	@FindBy(xpath="(//div[text()='Enter City Name'])[1] | (//div[text()='Select your City'])[1]")
 	private WebElement city1;
 	
-	@FindBy(xpath="(//span[normalize-space()='ALBAY'])[1]")
+	@FindBy(xpath="(//span[normalize-space()='ALBAY'])[1] | (//ul[@role='presentation'])[2]//li[1]")
 	private WebElement Select1stCity;
+	
+	@FindBy(xpath="(//span[normalize-space()='ALBAY'])[1] | (//ul[@role='presentation'])[1]//li[1]")
+	private WebElement Select1stCity1;
 	
 	@FindBy(xpath="//a[normalize-space()='Premium']")
 	private WebElement FooterPremium;
@@ -436,7 +439,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath = "(//span[normalize-space()='SCOOTER'])[2]")
 	private WebElement Scooter2;
 
-	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='Karizma XMR']")
+	@FindBy(xpath = "(//div[@class='bike-name'])[1] | //div[@class='bike-name'][normalize-space()='Karizma XMR']")
 	private WebElement KarizmaXMR;
 
 	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='HF DELUXE']")
@@ -519,6 +522,33 @@ public class HomePage extends BasePage{
 
 	@FindBy(xpath = "//h2[normalize-space()='FIND A SERVICE CENTRE']")
 	private WebElement FindServiceCenters;
+
+	@FindBy(xpath = "//div[contains(text(),'SPLENDOR+')]")
+	private WebElement SplendorPlus;
+
+	@FindBy(xpath = "//div[@class='bike-name'][normalize-space()='SUPER SPLENDOR']")
+	private WebElement SuperSplendor;
+
+	@FindBy(xpath = "//div[contains(text(),'XPLUSE 200 4V')]")
+	private WebElement Xpluse2004V;
+
+//	@FindBy(xpath = "FIND")
+//	private WebElement Find;
+//
+//	@FindBy(xpath = "FIND")
+//	private WebElement Find;
+//
+//	@FindBy(xpath = "FIND")
+//	private WebElement Find;
+//
+//	@FindBy(xpath = "FIND")
+//	private WebElement Find;
+//
+//	@FindBy(xpath = "FIND")
+//	private WebElement Find;
+//
+//	@FindBy(xpath = "FIND")
+//	private WebElement Find;
 	
 	
 	
@@ -562,15 +592,15 @@ public class HomePage extends BasePage{
 		Library.visible_link(driver, MaestroEdgeXtec, "Maestro Edge Xtec");		
 	}
 	public void Click_on_new_launch() {
-		Library.moveToElement(driver, KarizmaXMR);
+		Library.moveToElement(driver, KarizmaXMR);// here using common xpath is updated
 		Library.click(driver, NewLaunch2, "New Launch");		
 	}
 	public void Click_on_commuter() {
-		Library.moveToElement(driver, KarizmaXMR);
+		Library.moveToElement(driver, KarizmaXMR); // here using common xpath is updated
 		Library.click(driver, Commuter2, "Commuter");		
 	}
 	public void Click_on_executive() {
-		Library.moveToElement(driver, KarizmaXMR);
+		Library.moveToElement(driver, KarizmaXMR);// here using common xpath is updated
 		Library.click(driver, Executive2, "Executive");		
 	}
 	public void bikeImage(WebElement element,String name) {
@@ -788,7 +818,6 @@ public class HomePage extends BasePage{
 	}
 	public void Click_on_scooter() {
 		Library.moveToElement(driver, Hunter100);
-		Library.moveToElement(driver, SCOOTER);
 		Library.click(driver, SCOOTER, "SCOOTER");
 	}
 	public void verifyHunter100Bike() {
@@ -922,7 +951,7 @@ public class HomePage extends BasePage{
 //		Library.visible_link(driver, CityRequired, "City Required");
 	}
 	public void user_able_to_enter_customer_name() {
-		Library.moveToElement(driver, EnterCustomerName);
+		Library.moveToElement(driver, SubmitEnquiryButton);
 		Library.sendKeys(driver, EnterCustomerName, ZambiaCustomerName, "Enter Customer Name");		
 	}
 	public void user_able_to_enter_mobile_number() {
@@ -1033,10 +1062,10 @@ public class HomePage extends BasePage{
 	}
 	public void click_on_find_a_dealer_icon() {
 		Library.moveToElement(driver, FindADealerIcon);
-		Library.click(driver, FindADealerIcon, "FindADealerIcon");
+		Library.click(driver, FindADealerIcon, "Find A Dealer Icon");
 	}
 	public void verify_dealer_page() {
-		Library.visible_link(driver, LocateADealerPageText, "LocateADealerPageText");	
+		Library.visible_link(driver, LocateADealerPageText, "Locate A Dealer Page Text");	
 		Library.click(driver, loginPg.getHeroLogo(), "Hero Logo");			
 	}
 	
@@ -1073,7 +1102,6 @@ public class HomePage extends BasePage{
 	}
 	public void Click_on_premium() {
 		Library.moveToElement(driver, HomePageXpulse2004V);
-		Library.moveToElement(driver, HomePagePremium);
 		Library.click(driver, HomePagePremium, "Home Page Premium");
 	}
 	public void Click_on_scooter1() {
@@ -1181,7 +1209,7 @@ public class HomePage extends BasePage{
 	}
 	public void select_city1() {
 		Library.click(driver, city1, "City");
-		Library.click(driver, Select1stCity, "Select city");		
+		Library.click(driver, Select1stCity1, "Select city");		
 	}
 	public void verify_premium_icon_redirection() {
 		Library.moveToElement(driver, FooterScooter);
@@ -1202,6 +1230,72 @@ public class HomePage extends BasePage{
 		Library.moveToElement(driver, FooterScooter);
 		Library.click(driver, FooterOwnersManual, "Footer Owners Manual");
 		Library.verify_new_window_and_close(driver, "Owners Manual");
+	}
+//=========================  Nepal country test case start======================================================	
+	public void user_open_Nepal_website_link() {
+		Library.open_new_Window_and_close_previous_Window(driver, hero_Gb_Nepal_ProdUrl);
+		Library.passmsg("Nepal website link successfully opened  = " + hero_Gb_Nepal_ProdUrl);				
+	}
+	public void verify_home_page_nepal_country_commuter_all_bikes() {
+		Library.visible_link(driver, SplendorPlus, "Splendor Plus");
+		Library.visible_link(driver, SuperSplendor, "Super Splendor");		
+	}
+	public void verify_home_page_nepal_country_premium_all_bikes() {
+		Library.visible_link(driver, Xpluse2004V, "Xpluse 200 4V");		
+	}
+	public void verify_home_page_nepal_country_scooter_all_bikes() {
+		Library.visible_link(driver, HomePageXoom110, "Xoom 110");				
+	}
+	public void verify_Splendor_Plus_Bike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, SplendorPlus, "Splendor Plus");
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Commuter2, SplendorPlus, hero_Gb_Nepal_ProdUrl);		
+	}
+	public void verify_Super_Splendor_Bike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, SuperSplendor, "Super Splendor");	
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, Commuter2, SuperSplendor, hero_Gb_Nepal_ProdUrl);		
+	}
+	public void verify_Xpulse2004V_Bike() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, Xpluse2004V, "Xpluse 200 4V");		
+		homePageAllBikesExpandedCardFullDetails(KarizmaXMR, HomePagePremium, Xpluse2004V, hero_Gb_Nepal_ProdUrl);		
+	}
+	public void verify_Xoom110_Scooter() {
+		Library.moveToElement(driver, KarizmaXMR); //common
+		Library.click(driver, HomePageXoom110, "Xoom 110");			
+		bikeImage(HomePageAllBikeImage,"Bike Image");
+//		biketext(HomePageAllBikeTagline,"Bike Tagline");
+		bikeImage(HomePageAllBikeLogoImage,"Bike Logo Image");
+		biketext(HomePageAllBikeContent,"Bike Content");		
+		Library.visible_link_gettext(driver, HomePageAllBikeSpecification, " Bike Specification");			
+		Library.visible_link(driver, HomePageAllBikeRequestCallBackButton, "Request A Call Back Button");
+		Library.visible_link(driver, HomePageAllBikeViewSpecificationsButton, "View Specification Button");		
+		Library.visible_link_gettext(driver, HomePageAllBikePrice, "Bike price");
+		String BikeCardPrice1 =HomePageAllBikePrice.getText();
+		String BikeCardPrice = BikeCardPrice1.replaceAll("[^0-9]", "");
+		Library.threadSleep(500);
+		BaseTest.handlePopup();
+		Library.click(driver, HomePageAllBikeRequestCallBackButton, "Bike Request A Call Back");
+		Library.visible_link(driver, CLosePopup, "Request a call back page");
+		Library.click(driver, CLosePopup, "Close Popup");				
+		Library.click(driver, HomePageAllBikeVariantWisePriceLink, "Variant Wise Price");		
+		Library.moveToElement(driver, VerifyAllBikeVariantPrice);		
+		Library.CheckBikePriceValue(driver, VerifyAllBikeVariantPrice1 , BikeCardPrice);
+		driver.get(hero_Gb_Nepal_ProdUrl);		
+		Library.moveToElement(driver, KarizmaXMR);
+		Library.threadSleep(500);
+		Library.click(driver, SCOOTER, "SCOOTER");
+		Library.click(driver, HomePageXoom110, "Current Bike");
+		Library.threadSleep(500);
+		BaseTest.handlePopup();
+		Library.moveToElement(driver, HomePageAllBikeViewSpecificationsButton);
+		Library.moveToElement(driver, HomePageAllBikeViewSpecificationsButton);
+		BaseTest.handlePopup();
+		Library.click(driver, HomePageAllBikeViewSpecificationsButton, "Bike View Specification");
+		Library.threadSleep(500);
+		Library.click(driver, Specifications, "Specifications");
+		Library.visible_link(driver, SpecificationsPageText1, "bike Specifications Page");
 	}
 	
 

@@ -139,22 +139,30 @@ public class DealersPage extends BasePage{
 //=====================================================================================================
 		
 	public void delears_name_should_be_displayed() {
-		for (WebElement element : DealerName) {
+		if (DealerName.isEmpty()) {
+			Library.failmsg("Element not found at Dealers name");
+		}for (WebElement element : DealerName) {
 			Library.visible_link_gettext(driver, element, "Dealer Name");
 		}		
 	}
 	public void delears_address_should_be_displayed() {
-		for (WebElement element : DealersAddress) {
+		if (DealersAddress.isEmpty()) {
+			Library.failmsg("Element not found at Dealers Address");
+		}for (WebElement element : DealersAddress) {
 			Library.visible_link_gettext(driver, element, "Dealers Address");
 		}		
 	}
 	public void delears_contact_number_should_be_displayed() {
-		for (WebElement element : DealersTime) {
+		if (DealersTime.isEmpty()) {
+			Library.failmsg("Element not found at Dealers time");
+		}for (WebElement element : DealersTime) {
 			Library.visible_link_gettext(driver, element, "Dealers Time");
 		}		
 	}
 	public void delears_time_should_be_displayed() {
-		for (WebElement element : DealersContactNumber) {
+		if (DealersContactNumber.isEmpty()) {
+			Library.failmsg("Element not found at Dealers contact number");
+		}for (WebElement element : DealersContactNumber) {
 			Library.visible_link_gettext(driver, element, "Dealers Contact Number");
 		}		
 	}

@@ -509,7 +509,7 @@ public class HomePage extends BasePage{
 	private WebElement HomePageAllBikeRequestCallBackButton; //common for all xpath
 
 	@FindBy(xpath = "//div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='VIEW SPECIFICATIONS']")
-	private WebElement HomePageAllBikeViewSpecificationsButton; //common for karizma;
+	private WebElement HomePageAllBikeViewSpecificationsButton; 
 
 	@FindBy(xpath = "//a[normalize-space()='Commuter']")
 	private WebElement FooterCommuter;
@@ -532,12 +532,12 @@ public class HomePage extends BasePage{
 	@FindBy(xpath = "//div[contains(text(),'XPLUSE 200 4V')]")
 	private WebElement Xpluse2004V;
 
-//	@FindBy(xpath = "FIND")
-//	private WebElement Find;
-//
-//	@FindBy(xpath = "FIND")
-//	private WebElement Find;
-//
+	@FindBy(xpath = "//div[normalize-space()='SPLENDOR +']")
+	private WebElement HeaderSplendorPlus;
+
+	@FindBy(xpath = "(//div[normalize-space()='SUPER SPLENDOR'])[1]")
+	private WebElement HeaderSuperSplendor;
+
 //	@FindBy(xpath = "FIND")
 //	private WebElement Find;
 //
@@ -659,7 +659,7 @@ public class HomePage extends BasePage{
 		Library.click(driver, BikeName, "Current Bike");
 		Library.threadSleep(500);
 		BaseTest.handlePopup();
-		Library.moveToElement(driver, HomePageAllBikeViewSpecificationsButton);
+		Library.moveToElement(driver, HomePageAllBikeImage);
 		BaseTest.handlePopup();
 		Library.click(driver, HomePageAllBikeViewSpecificationsButton, "Bike View Specification");
 		Library.threadSleep(500);
@@ -1223,6 +1223,7 @@ public class HomePage extends BasePage{
 	}
 	public void verify_OwnersManual_icon_redirection() {
 		Library.moveToElement(driver, FooterScooter);
+		Library.moveToElement(driver, FooterOwnersManual);
 		Library.click(driver, FooterOwnersManual, "Footer Owners Manual");
 		Library.visible_link(driver, OwnersManualPageText, "Owners Manual Page");
 	}
@@ -1296,6 +1297,12 @@ public class HomePage extends BasePage{
 		Library.threadSleep(500);
 		Library.click(driver, Specifications, "Specifications");
 		Library.visible_link(driver, SpecificationsPageText1, "bike Specifications Page");
+	}
+	public void Click_on_Splendor_Plus_Bike() {
+		Library.click(driver, HeaderSplendorPlus, "Splendor Plus");		
+	}
+	public void Click_on_Super_Splendor_Bike() {
+		Library.click(driver, HeaderSuperSplendor, "Super Splendor");		
 	}
 	
 

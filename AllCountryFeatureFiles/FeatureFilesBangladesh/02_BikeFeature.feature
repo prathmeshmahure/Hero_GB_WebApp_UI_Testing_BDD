@@ -11,7 +11,6 @@ Background:
 Scenario Outline: <TC_Num> Successfully verify <Bike_Name> bike feature under <Icon_Name> icon 
 	Then Click on "<Icon_Name>" icons
 	And Click on "<Bike_Name>" bike name
-	# for premium bike condition apply due to xpath chg
 	And Click on highlights "<Icon_Name>" icon  
 	And Click on Colours icon
 	And Verify bike multiple colours

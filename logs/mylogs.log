@@ -1,361 +1,799 @@
-[DEBUG] 2024-11-29 00:36:47.052 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:36:47.054 [main] Log - ==========================      Configuring Extent Report      =====================
-[DEBUG] 2024-11-29 00:36:47.054 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:36:47.055 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:36:47.055 [main] Log -    *********************   Launching Hero GB UI Test WebApp    ******************
-[DEBUG] 2024-11-29 00:36:47.055 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:36:56.785 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:36:56.786 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:36:56.786 [main] Log -                    Start -> Test -> TC_001 Successfully open global website link    
-[DEBUG] 2024-11-29 00:36:56.786 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:03.600 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
-[INFO ] 2024-11-29 00:37:03.693 [main] Log - Country name Nepal is displayed.
-[INFO ] 2024-11-29 00:37:03.711 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:03.963 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:03.963 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:03.963 [main] Log -                    Start -> Test -> TC_002 Successfully verify all header menu icons    
-[DEBUG] 2024-11-29 00:37:03.963 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:04.247 [main] Log - Field is visible  : Hero logo
-[INFO ] 2024-11-29 00:37:04.568 [main] Log - Field is visible  : Product icon
-[INFO ] 2024-11-29 00:37:04.944 [main] Log - Field is visible  : Delears icon
-[INFO ] 2024-11-29 00:37:05.414 [main] Log - Field is visible  : service icon
-[INFO ] 2024-11-29 00:37:05.744 [main] Log - Field is visible  : Hero world icon
-[INFO ] 2024-11-29 00:37:05.993 [main] Log - Field is visible  : About hero icon
-[INFO ] 2024-11-29 00:37:06.001 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:06.106 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:06.107 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:06.107 [main] Log -                    Start -> Test -> TC_003 Click on Product    
-[DEBUG] 2024-11-29 00:37:06.107 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:06.334 [main] Log - Field is visible  : Product icon
-[INFO ] 2024-11-29 00:37:06.886 [main] Log - Element is clickable : Product icon
-[INFO ] 2024-11-29 00:37:07.000 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:07.118 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:07.118 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:07.118 [main] Log -                    Start -> Test -> TC_004 Click on Dealers    
-[DEBUG] 2024-11-29 00:37:07.118 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:07.416 [main] Log - Field is visible  : Delears icon
-[INFO ] 2024-11-29 00:37:11.953 [main] Log - Element is clickable : Delears icon
-[INFO ] 2024-11-29 00:37:11.959 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:12.210 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:12.211 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:12.211 [main] Log -                    Start -> Test -> TC_005 Click on Service    
-[DEBUG] 2024-11-29 00:37:12.212 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:12.508 [main] Log - Field is visible  : service icon
-[INFO ] 2024-11-29 00:37:12.907 [main] Log - Element is clickable : service icon
-[INFO ] 2024-11-29 00:37:12.918 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:13.260 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:13.260 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:13.261 [main] Log -                    Start -> Test -> TC_006 Click on Hero_world    
-[DEBUG] 2024-11-29 00:37:13.261 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:13.814 [main] Log - Field is visible  : Hero world icon
-[INFO ] 2024-11-29 00:37:16.658 [main] Log - Element is clickable : Hero world icon
-[INFO ] 2024-11-29 00:37:16.674 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:16.945 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:16.946 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:16.947 [main] Log -                    Start -> Test -> TC_007 Click on About_hero    
-[DEBUG] 2024-11-29 00:37:16.947 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:17.291 [main] Log - Field is visible  : About hero icon
-[INFO ] 2024-11-29 00:37:18.187 [main] Log - Element is clickable : About hero icon
-[INFO ] 2024-11-29 00:37:18.198 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:18.439 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:18.439 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:18.439 [main] Log -                    Start -> Test -> TC_008 Click on Company_logo    
-[DEBUG] 2024-11-29 00:37:18.439 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:18.889 [main] Log - Field is visible  : Hero logo
-[INFO ] 2024-11-29 00:37:24.235 [main] Log - Element is clickable : Hero logo
-[INFO ] 2024-11-29 00:37:24.245 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:24.480 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:24.481 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:24.481 [main] Log -                    Start -> Test -> TC_009 Click on country icon and select any country    
-[DEBUG] 2024-11-29 00:37:24.481 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:24.548 [main] Log - Country name Nepal is displayed.
-[INFO ] 2024-11-29 00:37:25.175 [main] Log - Element is clickable : Nepal country name
-[INFO ] 2024-11-29 00:37:26.412 [main] Log - Element is clickable : Zambia
-[INFO ] 2024-11-29 00:37:30.033 [main] Log - Element is clickable : Close country button
-[INFO ] 2024-11-29 00:37:34.667 [main] Log - Element is clickable : Hero logo
-[INFO ] 2024-11-29 00:37:34.674 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:34.885 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:34.885 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:34.885 [main] Log -                    Start -> Test -> TC_010 Verify home page text content    
-[DEBUG] 2024-11-29 00:37:34.886 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:35.220 [main] Log - Field is visible  : Be the future of Mobility
-[INFO ] 2024-11-29 00:37:35.554 [main] Log - Field is visible  : ALL text description
-[INFO ] 2024-11-29 00:37:35.560 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:35.740 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:35.740 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:35.741 [main] Log -                    Start -> Test -> TC_011 Verify home page commuter all bikes    
-[DEBUG] 2024-11-29 00:37:35.741 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:46.425 [main] Log - Element is clickable : Commuter
-[INFO ] 2024-11-29 00:37:46.781 [main] Log - Field is visible  : Splendor Plus
-[INFO ] 2024-11-29 00:37:47.183 [main] Log - Field is visible  : Super Splendor
-[INFO ] 2024-11-29 00:37:47.197 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:47.378 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:47.378 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:47.379 [main] Log -                    Start -> Test -> TC_012 Verify home page premium bikes    
-[DEBUG] 2024-11-29 00:37:47.379 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:37:57.881 [main] Log - Element is clickable : Home Page Premium
-[INFO ] 2024-11-29 00:37:58.726 [main] Log - Field is visible  : Xpluse 200 4V
-[INFO ] 2024-11-29 00:37:58.734 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:37:58.907 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:58.908 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:37:58.908 [main] Log -                    Start -> Test -> TC_013 Verify home page all scooter    
-[DEBUG] 2024-11-29 00:37:58.909 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:38:09.700 [main] Log - Element is clickable : SCOOTER
-[INFO ] 2024-11-29 00:38:10.616 [main] Log - Field is visible  : Xoom 110
-[INFO ] 2024-11-29 00:38:10.621 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:38:10.804 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:38:10.804 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:38:10.804 [main] Log -                    Start -> Test -> TC_014 Verify home page Splendor_Plus bike expanded card under Commuter icon    
-[DEBUG] 2024-11-29 00:38:10.805 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:38:15.884 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
-[INFO ] 2024-11-29 00:38:16.588 [main] Log - Element is clickable : Commuter
-[INFO ] 2024-11-29 00:38:17.407 [main] Log - Element is clickable : Splendor Plus
-[INFO ] 2024-11-29 00:38:17.597 [main] Log - Field is visible  : SPLENDOR+ = Bike Image
-[INFO ] 2024-11-29 00:38:18.848 [main] Log - Field is visible  : ATOOT VISHWAS HAREK YATRAMA = Bike Tagline
-[INFO ] 2024-11-29 00:38:18.980 [main] Log - Field is visible  : SPLENDOR+ = Bike Logo Image
-[INFO ] 2024-11-29 00:38:19.101 [main] Log - Field is visible  : Get ready for long rides with the stylish and comfortable Spendor + = Bike Content
-[INFO ] 2024-11-29 00:38:19.244 [main] Log - Field is visible :  Bike Specification : Max power:
+[DEBUG] 2024-11-29 19:46:06.780 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:06.784 [main] Log - ==========================      Configuring Extent Report      =====================
+[DEBUG] 2024-11-29 19:46:06.784 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:06.787 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:06.788 [main] Log -    *********************   Launching Hero GB UI Test WebApp    ******************
+[DEBUG] 2024-11-29 19:46:06.788 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:18.063 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:18.064 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:18.064 [main] Log -                    Start -> Test -> TC_001 Successfully open global website link    
+[DEBUG] 2024-11-29 19:46:18.064 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:25.874 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
+[INFO ] 2024-11-29 19:46:26.097 [main] Log - Country name Nepal is displayed.
+[INFO ] 2024-11-29 19:46:26.132 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:46:26.493 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:26.493 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:26.493 [main] Log -                    Start -> Test -> TC_002 Successfully verify all header menu icons    
+[DEBUG] 2024-11-29 19:46:26.493 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:27.090 [main] Log - Field is visible  : Hero logo
+[INFO ] 2024-11-29 19:46:27.367 [main] Log - Field is visible  : Product icon
+[INFO ] 2024-11-29 19:46:27.709 [main] Log - Field is visible  : Delears icon
+[INFO ] 2024-11-29 19:46:28.098 [main] Log - Field is visible  : service icon
+[INFO ] 2024-11-29 19:46:29.012 [main] Log - Field is visible  : Hero world icon
+[INFO ] 2024-11-29 19:46:29.705 [main] Log - Field is visible  : About hero icon
+[INFO ] 2024-11-29 19:46:29.720 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:46:30.045 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:30.045 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:30.045 [main] Log -                    Start -> Test -> TC_003 Click on Product    
+[DEBUG] 2024-11-29 19:46:30.045 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:31.028 [main] Log - Field is visible  : Product icon
+[INFO ] 2024-11-29 19:46:32.286 [main] Log - Element is clickable : Product icon
+[INFO ] 2024-11-29 19:46:32.611 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:46:33.477 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:33.481 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:33.489 [main] Log -                    Start -> Test -> TC_004 Click on Dealers    
+[DEBUG] 2024-11-29 19:46:33.490 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:34.036 [main] Log - Field is visible  : Delears icon
+[ERROR] 2024-11-29 19:46:36.216 [main] Log - Unable to click element : Delears icon  --  [[ChromeDriver: chrome on windows (9d3d09c45a23cd2c140ff6e439f84768)] -> xpath: //a[normalize-space()='DEALERS']]
+[DEBUG] 2024-11-29 19:46:38.654 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:38.654 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:38.654 [main] Log -                    Start -> Test -> TC_005 Click on Service    
+[DEBUG] 2024-11-29 19:46:38.654 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:39.372 [main] Log - Field is visible  : service icon
+[INFO ] 2024-11-29 19:46:40.189 [main] Log - Element is clickable : service icon
+[INFO ] 2024-11-29 19:46:40.201 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:46:40.445 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:40.445 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:40.445 [main] Log -                    Start -> Test -> TC_006 Click on Hero_world    
+[DEBUG] 2024-11-29 19:46:40.445 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:40.798 [main] Log - Field is visible  : Hero world icon
+[INFO ] 2024-11-29 19:46:44.577 [main] Log - Element is clickable : Hero world icon
+[INFO ] 2024-11-29 19:46:44.582 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:46:44.696 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:44.696 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:44.696 [main] Log -                    Start -> Test -> TC_007 Click on About_hero    
+[DEBUG] 2024-11-29 19:46:44.696 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:45.094 [main] Log - Field is visible  : About hero icon
+[INFO ] 2024-11-29 19:46:46.096 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:46:46.101 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:46:46.609 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:46.610 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:46.611 [main] Log -                    Start -> Test -> TC_008 Click on Company_logo    
+[DEBUG] 2024-11-29 19:46:46.611 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:47.131 [main] Log - Field is visible  : Hero logo
+[INFO ] 2024-11-29 19:46:53.028 [main] Log - Element is clickable : Hero logo
+[INFO ] 2024-11-29 19:46:53.039 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:46:53.258 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:53.258 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:46:53.259 [main] Log -                    Start -> Test -> TC_009 Click on country icon and select any country    
+[DEBUG] 2024-11-29 19:46:53.259 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:46:53.302 [main] Log - Country name Nepal is displayed.
+[INFO ] 2024-11-29 19:46:53.840 [main] Log - Element is clickable : Nepal country name
+[INFO ] 2024-11-29 19:46:55.006 [main] Log - Element is clickable : Zambia
+[INFO ] 2024-11-29 19:46:59.222 [main] Log - Element is clickable : Close country button
+[INFO ] 2024-11-29 19:47:03.719 [main] Log - Element is clickable : Hero logo
+[INFO ] 2024-11-29 19:47:03.734 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:47:04.068 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:04.068 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:04.069 [main] Log -                    Start -> Test -> TC_010 Verify home page text content    
+[DEBUG] 2024-11-29 19:47:04.069 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:47:04.521 [main] Log - Field is visible  : Be the future of Mobility
+[INFO ] 2024-11-29 19:47:04.802 [main] Log - Field is visible  : ALL text description
+[INFO ] 2024-11-29 19:47:04.808 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:47:04.886 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:04.887 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:04.887 [main] Log -                    Start -> Test -> TC_011 Verify home page commuter all bikes    
+[DEBUG] 2024-11-29 19:47:04.887 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:47:19.006 [main] Log - Element is clickable : Commuter
+[INFO ] 2024-11-29 19:47:19.939 [main] Log - Field is visible  : Splendor Plus
+[INFO ] 2024-11-29 19:47:20.522 [main] Log - Field is visible  : Super Splendor
+[INFO ] 2024-11-29 19:47:20.533 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:47:20.747 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:20.747 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:20.747 [main] Log -                    Start -> Test -> TC_012 Verify home page premium bikes    
+[DEBUG] 2024-11-29 19:47:20.747 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:47:33.684 [main] Log - Element is clickable : Home Page Premium
+[INFO ] 2024-11-29 19:47:34.882 [main] Log - Field is visible  : Xpluse 200 4V
+[INFO ] 2024-11-29 19:47:34.888 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:47:35.021 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:35.022 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:35.022 [main] Log -                    Start -> Test -> TC_013 Verify home page all scooter    
+[DEBUG] 2024-11-29 19:47:35.022 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:47:46.342 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-29 19:47:48.012 [main] Log - Field is visible  : Xoom 110
+[INFO ] 2024-11-29 19:47:48.027 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:47:48.338 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:48.338 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:47:48.339 [main] Log -                    Start -> Test -> TC_014 Verify home page Splendor_Plus bike expanded card under Commuter icon    
+[DEBUG] 2024-11-29 19:47:48.339 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:47:49.446 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
+[INFO ] 2024-11-29 19:47:55.544 [main] Log - Element is clickable : Commuter
+[INFO ] 2024-11-29 19:47:56.590 [main] Log - Element is clickable : Splendor Plus
+[INFO ] 2024-11-29 19:47:56.926 [main] Log - Field is visible  : SPLENDOR+ = Bike Image
+[INFO ] 2024-11-29 19:47:58.399 [main] Log - Field is visible  : ATOOT VISHWAS HAREK YATRAMA = Bike Tagline
+[INFO ] 2024-11-29 19:47:58.687 [main] Log - Field is visible  : SPLENDOR+ = Bike Logo Image
+[INFO ] 2024-11-29 19:47:59.108 [main] Log - Field is visible  : Get ready for long rides with the stylish and comfortable Spendor + = Bike Content
+[INFO ] 2024-11-29 19:47:59.550 [main] Log - Field is visible :  Bike Specification : Max power:
 6.15 kW (8.36 Ps) @ 8000 rpm
 Max torque:
 0.82 Kgfm (8.05 Nm) @ 5000 rpm
 Engine type:
 Air cooled, 4 - Stroke Single Cylinder OHC
-[INFO ] 2024-11-29 00:38:19.589 [main] Log - Field is visible  : Request A Call Back Button
-[INFO ] 2024-11-29 00:38:19.961 [main] Log - Field is visible  : View Specification Button
-[INFO ] 2024-11-29 00:38:20.143 [main] Log - Field is visible : Bike price : Rs 212,900
-[INFO ] 2024-11-29 00:38:21.403 [main] Log - Element is clickable : Bike Request A Call Back
-[INFO ] 2024-11-29 00:38:21.674 [main] Log - Field is visible  : Request a call back page
-[INFO ] 2024-11-29 00:38:22.086 [main] Log - Element is clickable : Close Popup
-[INFO ] 2024-11-29 00:38:24.436 [main] Log - Element is clickable : Variant Wise Price
-[INFO ] 2024-11-29 00:38:25.043 [main] Log - Bike card Price : 212900
-[INFO ] 2024-11-29 00:38:25.044 [main] Log - Bike Main page Price : 212900
-[INFO ] 2024-11-29 00:38:25.044 [main] Log - Bike home page card price and Bike Main page Price : Matched
-[INFO ] 2024-11-29 00:38:30.656 [main] Log - Element is clickable : COMMUTER
-[INFO ] 2024-11-29 00:38:31.016 [main] Log - Element is clickable : Current Bike
-[INFO ] 2024-11-29 00:38:34.774 [main] Log - Element is clickable : Bike View Specification
-[INFO ] 2024-11-29 00:38:35.969 [main] Log - Element is clickable : Specifications
-[INFO ] 2024-11-29 00:38:36.380 [main] Log - Field is visible  : bike Specifications Page
-[INFO ] 2024-11-29 00:38:36.385 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:38:36.570 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:38:36.570 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:38:36.570 [main] Log -                    Start -> Test -> TC_015 Verify home page Super_Splendor bike expanded card under Commuter icon    
-[DEBUG] 2024-11-29 00:38:36.570 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:38:41.199 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
-[INFO ] 2024-11-29 00:38:41.943 [main] Log - Element is clickable : Commuter
-[INFO ] 2024-11-29 00:38:42.711 [main] Log - Element is clickable : Super Splendor
-[INFO ] 2024-11-29 00:38:42.924 [main] Log - Field is visible  : SUPER SPLENDOR = Bike Image
-[INFO ] 2024-11-29 00:38:44.166 [main] Log - Field is visible  : ATOOT PAHICHANNA NAYA UCHAIKO = Bike Tagline
-[INFO ] 2024-11-29 00:38:44.292 [main] Log - Field is visible  : SUPER SPLENDOR = Bike Logo Image
-[INFO ] 2024-11-29 00:38:44.402 [main] Log - Field is visible  : Get ready to experience the best of mileage and latest technology with Super Splendor = Bike Content
-[INFO ] 2024-11-29 00:38:44.520 [main] Log - Field is visible :  Bike Specification : Max power:
-9 BHP @ 75000 rpm
-Max torque:
-10.35 Nm @ 4000 rpm
-Engine type:
-Air Cooled, 4 stroke, SI, Single Cylinder OHC
-[INFO ] 2024-11-29 00:38:44.786 [main] Log - Field is visible  : Request A Call Back Button
-[INFO ] 2024-11-29 00:38:45.099 [main] Log - Field is visible  : View Specification Button
-[INFO ] 2024-11-29 00:38:45.284 [main] Log - Field is visible : Bike price : Rs 247,900
-[INFO ] 2024-11-29 00:38:46.502 [main] Log - Element is clickable : Bike Request A Call Back
-[INFO ] 2024-11-29 00:38:46.784 [main] Log - Field is visible  : Request a call back page
-[INFO ] 2024-11-29 00:38:47.263 [main] Log - Element is clickable : Close Popup
-[INFO ] 2024-11-29 00:38:49.462 [main] Log - Element is clickable : Variant Wise Price
-[INFO ] 2024-11-29 00:38:50.085 [main] Log - Bike card Price : 247900
-[INFO ] 2024-11-29 00:38:50.086 [main] Log - Bike Main page Price : 247900
-[INFO ] 2024-11-29 00:38:50.086 [main] Log - Bike home page card price and Bike Main page Price : Matched
-[INFO ] 2024-11-29 00:38:55.493 [main] Log - Element is clickable : COMMUTER
-[INFO ] 2024-11-29 00:38:56.049 [main] Log - Element is clickable : Current Bike
-[INFO ] 2024-11-29 00:38:59.436 [main] Log - Element is clickable : Bike View Specification
-[INFO ] 2024-11-29 00:39:00.737 [main] Log - Element is clickable : Specifications
-[INFO ] 2024-11-29 00:39:01.130 [main] Log - Field is visible  : bike Specifications Page
-[INFO ] 2024-11-29 00:39:01.136 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:39:01.304 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:39:01.304 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:39:01.305 [main] Log -                    Start -> Test -> TC_016 Verify home page Xpulse2004V bike expanded card under Premium icon    
-[DEBUG] 2024-11-29 00:39:01.305 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:39:06.779 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
-[INFO ] 2024-11-29 00:39:07.466 [main] Log - Element is clickable : Home Page Premium
-[INFO ] 2024-11-29 00:39:08.221 [main] Log - Element is clickable : Xpluse 200 4V
-[INFO ] 2024-11-29 00:39:08.447 [main] Log - Field is visible  : XPLUSE 200 4V = Bike Image
-[INFO ] 2024-11-29 00:39:09.670 [main] Log - Field is visible  : BORN FOR THE TOUGHEST TERRAINS = Bike Tagline
-[INFO ] 2024-11-29 00:39:09.787 [main] Log - Field is visible  : XPLUSE 200 4V = Bike Logo Image
-[INFO ] 2024-11-29 00:39:09.939 [main] Log - Field is visible  : Be it city streets or the great outdoors, get ready for any terrain with Xpulse 200 4V = Bike Content
-[INFO ] 2024-11-29 00:39:10.061 [main] Log - Field is visible :  Bike Specification : Max power:
-14.1 kW / 18.9 BHP @ 8500 rpm
-Max torque:
-17.35 Nm @ 6500 rpm
-Engine type:
-Oil Cooled, 4 Stroke 4 Valve Single Cylinder OHC
-[INFO ] 2024-11-29 00:39:10.376 [main] Log - Field is visible  : Request A Call Back Button
-[INFO ] 2024-11-29 00:39:10.708 [main] Log - Field is visible  : View Specification Button
-[INFO ] 2024-11-29 00:39:10.873 [main] Log - Field is visible : Bike price : Rs 464,900
-[INFO ] 2024-11-29 00:39:11.930 [main] Log - Element is clickable : Bike Request A Call Back
-[INFO ] 2024-11-29 00:39:12.250 [main] Log - Field is visible  : Request a call back page
-[INFO ] 2024-11-29 00:39:12.713 [main] Log - Element is clickable : Close Popup
-[INFO ] 2024-11-29 00:39:25.823 [main] Log - Element is clickable : Variant Wise Price
-[INFO ] 2024-11-29 00:39:26.261 [main] Log - Other Bike Price : 484900
-[INFO ] 2024-11-29 00:39:26.296 [main] Log - Bike card Price : 464900
-[INFO ] 2024-11-29 00:39:26.297 [main] Log - Bike Main page Price : 464900
-[INFO ] 2024-11-29 00:39:26.298 [main] Log - Bike home page card price and Bike Main page Price : Matched
-[INFO ] 2024-11-29 00:39:32.649 [main] Log - Element is clickable : PREMIUM
-[INFO ] 2024-11-29 00:39:33.686 [main] Log - Element is clickable : Current Bike
-[INFO ] 2024-11-29 00:39:38.834 [main] Log - Element is clickable : Bike View Specification
-[INFO ] 2024-11-29 00:39:39.911 [main] Log - Element is clickable : Specifications
-[INFO ] 2024-11-29 00:39:40.385 [main] Log - Field is visible  : bike Specifications Page
-[INFO ] 2024-11-29 00:39:40.391 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:39:40.554 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:39:40.554 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:39:40.555 [main] Log -                    Start -> Test -> TC_017 Verify home page Xoom110 bike expanded card under scooter icon    
-[DEBUG] 2024-11-29 00:39:40.555 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:39:45.789 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
-[INFO ] 2024-11-29 00:39:46.565 [main] Log - Element is clickable : SCOOTER
-[INFO ] 2024-11-29 00:39:47.343 [main] Log - Element is clickable : Xoom 110
-[INFO ] 2024-11-29 00:39:47.573 [main] Log - Field is visible  : XOOM 110 = Bike Image
-[INFO ] 2024-11-29 00:39:48.887 [main] Log - Field is visible  : XOOM 110 = Bike Logo Image
-[INFO ] 2024-11-29 00:39:49.031 [main] Log - Field is visible  : Experience the new Dimension in Urban Riding with Style and Technology with XOOM XTEC = Bike Content
-[INFO ] 2024-11-29 00:39:49.194 [main] Log - Field is visible :  Bike Specification : Max power:
+[INFO ] 2024-11-29 19:47:59.942 [main] Log - Field is visible  : Request A Call Back Button
+[INFO ] 2024-11-29 19:48:00.315 [main] Log - Field is visible  : View Specification Button
+[INFO ] 2024-11-29 19:48:00.522 [main] Log - Field is visible : Bike price : Rs 212,900
+[INFO ] 2024-11-29 19:48:01.713 [main] Log - Element is clickable : Bike Request A Call Back
+[INFO ] 2024-11-29 19:48:02.033 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-29 19:48:02.539 [main] Log - Element is clickable : Close Popup
+[INFO ] 2024-11-29 19:48:05.832 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-29 19:48:06.732 [main] Log - Bike card Price : 212900
+[INFO ] 2024-11-29 19:48:06.733 [main] Log - Bike Main page Price : 212900
+[INFO ] 2024-11-29 19:48:06.734 [main] Log - Bike home page card price and Bike Main page Price : Matched
+[INFO ] 2024-11-29 19:48:12.401 [main] Log - Element is clickable : COMMUTER
+[INFO ] 2024-11-29 19:48:12.844 [main] Log - Element is clickable : Current Bike
+[INFO ] 2024-11-29 19:48:16.878 [main] Log - Element is clickable : Bike View Specification
+[INFO ] 2024-11-29 19:48:18.563 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-29 19:48:19.056 [main] Log - Field is visible  : bike Specifications Page
+[INFO ] 2024-11-29 19:48:19.064 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:48:19.254 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:48:19.255 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:48:19.255 [main] Log -                    Start -> Test -> TC_015 Verify home page Super_Splendor bike expanded card under Commuter icon    
+[DEBUG] 2024-11-29 19:48:19.255 [main] Log -                  [ERROR] 2024-11-29 19:49:14.156 [main] Log - Error during page load check: Page Unresponsive error.
+[ERROR] 2024-11-29 19:49:43.365 [main] Log - Exception occurred while checking browser status: Page Unresponsive error.
+[DEBUG] 2024-11-29 19:49:44.587 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:49:44.587 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:49:44.587 [main] Log -                    Start -> Test -> TC_013 Verify home page Xoom110 bike expanded card under scooter icon    
+[DEBUG] 2024-11-29 19:49:44.587 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:49:44.877 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/en-ph.html
+[INFO ] 2024-11-29 19:49:48.723 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-29 19:49:49.911 [main] Log - Element is clickable : HomePage Xoom 110
+[INFO ] 2024-11-29 19:49:50.399 [main] Log - Field is visible  : Xoom 110 Scooter Image
+[INFO ] 2024-11-29 19:49:51.412 [main] Log - Field is visible  : Xoom 110 Scooter Tagline
+[INFO ] 2024-11-29 19:49:51.704 [main] Log - Field is visible  : Xoom 110 Scooter Logo
+[INFO ] 2024-11-29 19:49:51.952 [main] Log - Field is visible  : Xoom 110 Scooter content
+[INFO ] 2024-11-29 19:49:52.049 [main] Log - Field is visible : Xoom 110 Scooter Specification : Max power:
 6.0kW (8.05 bhp) @ 7250rpm
 Max torque:
 8.70 Nm @ 5750rpm
 Engine type:
 Air-cooled, 4-stroke, SI engine
-[INFO ] 2024-11-29 00:39:49.498 [main] Log - Field is visible  : Request A Call Back Button
-[INFO ] 2024-11-29 00:39:49.875 [main] Log - Field is visible  : View Specification Button
-[INFO ] 2024-11-29 00:39:50.063 [main] Log - Field is visible : Bike price : Rs 252,900
-[INFO ] 2024-11-29 00:39:51.255 [main] Log - Element is clickable : Bike Request A Call Back
-[INFO ] 2024-11-29 00:39:51.567 [main] Log - Field is visible  : Request a call back page
-[INFO ] 2024-11-29 00:39:52.057 [main] Log - Element is clickable : Close Popup
-[INFO ] 2024-11-29 00:39:54.195 [main] Log - Element is clickable : Variant Wise Price
-[INFO ] 2024-11-29 00:39:54.711 [main] Log - Bike card Price : 252900
-[INFO ] 2024-11-29 00:39:54.712 [main] Log - Bike Main page Price : 252900
-[INFO ] 2024-11-29 00:39:54.712 [main] Log - Bike home page card price and Bike Main page Price : Matched
-[INFO ] 2024-11-29 00:39:54.729 [main] Log - Other Bike Price : 262900
-[INFO ] 2024-11-29 00:40:00.802 [main] Log - Element is clickable : SCOOTER
-[INFO ] 2024-11-29 00:40:01.911 [main] Log - Element is clickable : Current Bike
-[INFO ] 2024-11-29 00:40:05.592 [main] Log - Element is clickable : Bike View Specification
-[INFO ] 2024-11-29 00:40:06.851 [main] Log - Element is clickable : Specifications
-[INFO ] 2024-11-29 00:40:07.377 [main] Log - Field is visible  : bike Specifications Page
-[INFO ] 2024-11-29 00:40:07.383 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:40:07.535 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:07.536 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:07.536 [main] Log -                    Start -> Test -> TC_018 Verify home page promotion banner    
-[DEBUG] 2024-11-29 00:40:07.536 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:40:16.152 [main] Log - Field is visible  : Offer Banner
-[INFO ] 2024-11-29 00:40:16.158 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:40:16.328 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:16.329 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:16.329 [main] Log -                    Start -> Test -> TC_019 Verify home page let us call you back form mandatory field    
-[DEBUG] 2024-11-29 00:40:16.330 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:40:16.710 [main] Log - LET US CALL YOU BACK   :  Expected value is Match
-[INFO ] 2024-11-29 00:40:17.279 [main] Log - Element is clickable : Submit Enquiry Button
-[INFO ] 2024-11-29 00:40:17.686 [main] Log - Field is visible  : Name Required
-[INFO ] 2024-11-29 00:40:18.037 [main] Log - Field is visible  : Mobile Number Required
-[INFO ] 2024-11-29 00:40:18.044 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:40:18.212 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:18.213 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:18.213 [main] Log -                    Start -> Test -> TC_020 Successfully fill home page let us call you back form    
-[DEBUG] 2024-11-29 00:40:18.213 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:40:19.070 [main] Log - Value send Successfully : Enter Customer Name
-[INFO ] 2024-11-29 00:40:19.689 [main] Log - Value send Successfully : Enter Mobile Number
-[INFO ] 2024-11-29 00:40:20.364 [main] Log - Value send Successfully : Enter Email
-[INFO ] 2024-11-29 00:40:20.882 [main] Log - Element is clickable : City
-[INFO ] 2024-11-29 00:40:21.431 [main] Log - Element is clickable : Select city
-[INFO ] 2024-11-29 00:40:22.005 [main] Log - Element is clickable : Submit Enquiry Button
-[INFO ] 2024-11-29 00:40:23.554 [main] Log - Field is visible  : Thank You PopUp
-[INFO ] 2024-11-29 00:40:24.018 [main] Log - Element is clickable : Close Thank You PopUp
-[INFO ] 2024-11-29 00:40:24.026 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:40:24.174 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:24.174 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:24.175 [main] Log -                    Start -> Test -> TC_021 Verify home page marketing advertisement banner text    
-[DEBUG] 2024-11-29 00:40:24.175 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:40:25.152 [main] Log - Field is visible  : Marketing Text 1st line
-[INFO ] 2024-11-29 00:40:25.257 [main] Log - MANUFACTURING HAPPINESS SINCE 1985:  Expected value is Match
-[INFO ] 2024-11-29 00:40:25.776 [main] Log - Field is visible  : Marketing Text 2nd line
-[INFO ] 2024-11-29 00:40:25.867 [main] Log - Leading with innovation, Hero is at the forefront of providing mobility to the aspirations of millions around the world.:  Expected value is Match
-[INFO ] 2024-11-29 00:40:25.871 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:40:26.020 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:26.020 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:26.020 [main] Log -                    Start -> Test -> TC_022 Verify home page footer link inside the product all icons rediretions    
-[DEBUG] 2024-11-29 00:40:26.020 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:40:39.417 [main] Log - Element is clickable : Footer Commuter
-[INFO ] 2024-11-29 00:40:39.853 [main] Log - Field is visible  : Commuter Page
-[INFO ] 2024-11-29 00:40:42.512 [main] Log - Element is clickable : Footer Premium
-[INFO ] 2024-11-29 00:40:43.068 [main] Log - Field is visible  : Premium Page
-[INFO ] 2024-11-29 00:40:53.271 [main] Log - Element is clickable : Footer Scooter
-[INFO ] 2024-11-29 00:40:53.631 [main] Log - Field is visible  : Scooter Page
-[INFO ] 2024-11-29 00:40:53.636 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:40:53.791 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:53.791 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:40:53.792 [main] Log -                    Start -> Test -> TC_023 Verify home page footer link inside the support all icons rediretions    
-[DEBUG] 2024-11-29 00:40:53.792 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:40:56.072 [main] Log - Element is clickable : Footer Owners Manual
-[INFO ] 2024-11-29 00:40:56.516 [main] Log - Field is visible  : Owners Manual Page
-[INFO ] 2024-11-29 00:40:59.060 [main] Log - Element is clickable : Footer Contact Us
-[INFO ] 2024-11-29 00:40:59.431 [main] Log - Field is visible  : Contact Us Page
-[INFO ] 2024-11-29 00:41:00.355 [main] Log - Element is clickable : FooterRequestACallBack
-[INFO ] 2024-11-29 00:41:00.676 [main] Log - Field is visible  : Request a call back page
-[INFO ] 2024-11-29 00:41:01.059 [main] Log - Element is clickable : CLosePopup
-[INFO ] 2024-11-29 00:41:04.905 [main] Log - Element is clickable : FooterBeacomeADealer
-[ERROR] 2024-11-29 00:41:15.994 [main] Log - Unable to visible field  : Become A Dealer Page  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Become a Dealer']'
-[DEBUG] 2024-11-29 00:41:17.063 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:17.064 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:17.064 [main] Log -                    Start -> Test -> TC_024 Verify home page footer link facebook and instagram logo    
-[DEBUG] 2024-11-29 00:41:17.064 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:41:27.146 [main] Log - Field is visible  : Facebook Logo
-[INFO ] 2024-11-29 00:41:27.384 [main] Log - Field is visible  : Instagram Logo
-[INFO ] 2024-11-29 00:41:27.388 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:41:27.463 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:27.464 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:27.464 [main] Log -                    Start -> Test -> TC_025 Verify home page request a call back popup form mandatory field    
-[DEBUG] 2024-11-29 00:41:27.464 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:41:28.099 [main] Log - Element is clickable : Request A Call Back
-[INFO ] 2024-11-29 00:41:28.487 [main] Log - Element is clickable : Submit Enquiry Button
-[INFO ] 2024-11-29 00:41:28.795 [main] Log - Field is visible  : Name Required
-[INFO ] 2024-11-29 00:41:29.068 [main] Log - Field is visible  : Mobile Number Required
-[INFO ] 2024-11-29 00:41:29.070 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:41:29.222 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:29.222 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:29.222 [main] Log -                    Start -> Test -> TC_026 Successfully fill home page let us call you back popup form    
-[DEBUG] 2024-11-29 00:41:29.223 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:41:29.953 [main] Log - Value send Successfully : Enter Customer Name
-[INFO ] 2024-11-29 00:41:30.297 [main] Log - Value send Successfully : Enter Mobile Number
-[INFO ] 2024-11-29 00:41:30.650 [main] Log - Value send Successfully : Enter Email
-[INFO ] 2024-11-29 00:41:31.035 [main] Log - Element is clickable : City
-[ERROR] 2024-11-29 00:41:42.129 [main] Log - Unable to click element : Select city  --  Proxy element for: DefaultElementLocator 'By.xpath: (//span[normalize-space()='ALBAY'])[1] | (//ul[@role='presentation'])[2]//li[1]'
-[DEBUG] 2024-11-29 00:41:43.080 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:43.081 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:41:43.081 [main] Log -                    Start -> Test -> TC_027 Verify home page find a dealer icon and redirection    
-[DEBUG] 2024-11-29 00:41:43.081 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:41:57.826 [main] Log - Element is clickable : Find A Dealer Icon
-[INFO ] 2024-11-29 00:41:58.309 [main] Log - Field is visible  : Locate A Dealer Page Text
-[INFO ] 2024-11-29 00:42:04.517 [main] Log - Element is clickable : Hero Logo
-[INFO ] 2024-11-29 00:42:04.525 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:42:04.738 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:42:04.738 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:42:04.738 [main] Log -                    Start -> Test -> TC_028 Successfully verify all product image icons    
-[DEBUG] 2024-11-29 00:42:04.739 [main] Log -                    ===============================================
-[INFO ] 2024-11-29 00:42:15.687 [main] Log - Field is visible  : Hero logo
-[INFO ] 2024-11-29 00:42:15.840 [main] Log - ============ Banner 1  ============
-[INFO ] 2024-11-29 00:42:16.278 [main] Log - Element is clickable : Indicator 1
-[INFO ] 2024-11-29 00:42:16.527 [main] Log - Field is visible  : null
-[INFO ] 2024-11-29 00:42:16.586 [main] Log - ============ Banner 2  ============
-[INFO ] 2024-11-29 00:42:17.001 [main] Log - Element is clickable : Indicator 2
-[INFO ] 2024-11-29 00:42:17.302 [main] Log - Field is visible  : xpluse 200 4v
-[INFO ] 2024-11-29 00:42:17.337 [main] Log - ============ Banner 3  ============
-[INFO ] 2024-11-29 00:42:17.663 [main] Log - Element is clickable : Indicator 3
-[INFO ] 2024-11-29 00:42:17.907 [main] Log - Field is visible  : Hero banner
-[INFO ] 2024-11-29 00:42:17.937 [main] Log - ============ Banner 4  ============
-[INFO ] 2024-11-29 00:42:18.252 [main] Log - Element is clickable : Indicator 4
-[INFO ] 2024-11-29 00:42:18.481 [main] Log - Field is visible  : splendor +
-[INFO ] 2024-11-29 00:42:18.516 [main] Log - ============ Banner 5  ============
-[INFO ] 2024-11-29 00:42:18.839 [main] Log - Element is clickable : Indicator 5
-[INFO ] 2024-11-29 00:42:19.102 [main] Log - Field is visible  : xoom 110
-[INFO ] 2024-11-29 00:42:19.149 [main] Log - ============ Banner 6  ============
-[INFO ] 2024-11-29 00:42:19.513 [main] Log - Element is clickable : Indicator 6
-[INFO ] 2024-11-29 00:42:19.722 [main] Log - Field is visible  : super-splendor
-[INFO ] 2024-11-29 00:42:19.725 [main] Log - Close browser
-[DEBUG] 2024-11-29 00:42:19.804 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:42:19.804 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:42:19.804 [main] Log - *******************         Driver Quit       ***********************
-[DEBUG] 2024-11-29 00:42:19.804 [main] Log - ====================================================================================
-[DEBUG] 2024-11-29 00:42:19.805 [main] Log - ===================      Flushing Extent Report      ==============================
+[INFO ] 2024-11-29 19:49:52.293 [main] Log - Field is visible  : Xoom 110 Scooter Request A CallBack
+[INFO ] 2024-11-29 19:49:52.612 [main] Log - Field is visible  : Xoom 110 Scooter View Specification
+[INFO ] 2024-11-29 19:49:52.746 [main] Log - Field is visible : Xoom 110 Scooter price : ₱ 69,900
+[INFO ] 2024-11-29 19:49:53.229 [main] Log - Element is clickable : Xoom 110 Scooter Request A CallBack
+[INFO ] 2024-11-29 19:49:53.560 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-29 19:49:53.958 [main] Log - Element is clickable : CLosePopup
+[INFO ] 2024-11-29 19:49:56.591 [main] Log - Element is clickable : Variant Wise Price
+[INFO ] 2024-11-29 19:49:57.046 [main] Log - Bike card Price : ₱ 69,900
+[INFO ] 2024-11-29 19:49:57.047 [main] Log - Bike Main page Price : ₱ 69,900
+[INFO ] 2024-11-29 19:49:57.049 [main] Log - Actual value ₱ 69,900:  Expected value is Match₱ 69,900
+[INFO ] 2024-11-29 19:50:01.987 [main] Log - Element is clickable : SCOOTER
+[INFO ] 2024-11-29 19:50:03.298 [main] Log - Element is clickable : HomePage Xoom 110
+[ERROR] 2024-11-29 19:50:06.383 [main] Log - Unable to click element : Xoom 110 Scooter View Specification  --  [[ChromeDriver: chrome on windows (de86b4371180ecd7c0213427cbc71ae9)] -> xpath: (//a[@type='button'][normalize-space()='VIEW SPECIFICATIONS'])[3]]
+[DEBUG] 2024-11-29 19:50:08.037 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:08.037 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:08.038 [main] Log -                    Start -> Test -> TC_014 Verify home page promotion banner    
+[DEBUG] 2024-11-29 19:50:08.038 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:11.575 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/en-ph.html
+[INFO ] 2024-11-29 19:50:12.281 [main] Log - Field is visible  : Offer Banner
+[INFO ] 2024-11-29 19:50:12.289 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:50:12.358 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:12.358 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:12.358 [main] Log -                    Start -> Test -> TC_015 Verify home page let us call you back form mandatory field    
+[DEBUG] 2024-11-29 19:50:12.358 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:12.615 [main] Log - LET US CALL YOU BACK   :  Expected value is Match
+[INFO ] 2024-11-29 19:50:13.042 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-29 19:50:13.381 [main] Log - Field is visible  : Name Required
+[INFO ] 2024-11-29 19:50:13.797 [main] Log - Field is visible  : Mobile Number Required
+[INFO ] 2024-11-29 19:50:13.801 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:50:13.896 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:13.897 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:13.897 [main] Log -                    Start -> Test -> TC_016 Successfully fill home page let us call you back form    
+[DEBUG] 2024-11-29 19:50:13.898 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:14.578 [main] Log - Value send Successfully : Enter Customer Name
+[INFO ] 2024-11-29 19:50:15.155 [main] Log - Value send Successfully : Enter Mobile Number
+[INFO ] 2024-11-29 19:50:15.626 [main] Log - Value send Successfully : Enter Email
+[INFO ] 2024-11-29 19:50:16.083 [main] Log - Element is clickable : City
+[INFO ] 2024-11-29 19:50:16.635 [main] Log - Element is clickable : Select city
+[INFO ] 2024-11-29 19:50:17.070 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-29 19:50:18.623 [main] Log - Field is visible  : Thank You PopUp
+[INFO ] 2024-11-29 19:50:18.958 [main] Log - Element is clickable : Close Thank You PopUp
+[INFO ] 2024-11-29 19:50:18.963 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:50:19.063 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:19.063 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:19.063 [main] Log -                    Start -> Test -> TC_017 Verify home page marketing advertisement banner text    
+[DEBUG] 2024-11-29 19:50:19.063 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:19.561 [main] Log - Field is visible  : Marketing Text 1st line
+[INFO ] 2024-11-29 19:50:19.633 [main] Log - MANUFACTURING HAPPINESS SINCE 1985:  Expected value is Match
+[INFO ] 2024-11-29 19:50:20.015 [main] Log - Field is visible  : Marketing Text 2nd line
+[INFO ] 2024-11-29 19:50:20.079 [main] Log - Leading with innovation, Hero is at the forefront of providing mobility to the aspirations of millions around the world.:  Expected value is Match
+[INFO ] 2024-11-29 19:50:20.083 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:50:20.171 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:20.171 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:20.172 [main] Log -                    Start -> Test -> TC_018 Verify home page footer link inside the product all icons rediretions    
+[DEBUG] 2024-11-29 19:50:20.172 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:22.937 [main] Log - Element is clickable : Footer Premium
+[INFO ] 2024-11-29 19:50:23.434 [main] Log - Field is visible  : Premium Page
+[INFO ] 2024-11-29 19:50:31.093 [main] Log - Element is clickable : Footer Scooter
+[INFO ] 2024-11-29 19:50:31.371 [main] Log - Field is visible  : Scooter Page
+[INFO ] 2024-11-29 19:50:31.375 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:50:31.487 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:31.487 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:31.487 [main] Log -                    Start -> Test -> TC_019 Verify home page footer link inside the support all icons rediretions    
+[DEBUG] 2024-11-29 19:50:31.487 [main] Log -                    ===============================================
+[ERROR] 2024-11-29 19:50:33.538 [main] Log - Unable to click element : Footer Owners Manual  --  [[ChromeDriver: chrome on windows (de86b4371180ecd7c0213427cbc71ae9)] -> xpath: //a[contains(text(),'Owner’s Manual')]]
+[DEBUG] 2024-11-29 19:50:36.469 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:36.469 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:36.469 [main] Log -                    Start -> Test -> TC_020 Verify home page footer link facebook and instagram logo    
+[DEBUG] 2024-11-29 19:50:36.470 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:39.882 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/e[ERROR] 202[INFO ] 2024-11-29 19:50:41.183 [main] Log - Field is visible  : Facebook Logo
+[INFO ] 2024-11-29 19:50:41.463 [main] Log - Field is visible  : Instagram Logo
+[INFO ] 2024-11-29 19:50:41.469 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:50:41.546 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:41.569 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:41.569 [main] Log -                    Start -> Test -> TC_021 Verify home page request a call back popup form mandatory field    
+[DEBUG] 2024-11-29 19:50:41.570 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:44.708 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/en-ph.html
+[INFO ] 2024-11-29 19:50:45.441 [main] Log - Element is clickable : Request A Call Back
+[INFO ] 2024-11-29 19:50:45.941 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-29 19:50:46.275 [main] Log - Field is visible  : Name Required
+[INFO ] 2024-11-29 19:50:46.599 [main] Log - Field is visible  : Mobile Number Required
+[INFO ] 2024-11-29 19:50:46.605 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:50:46.809 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:46.810 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:46.810 [main] Log -                    Start -> Test -> TC_022 Successfully fill home page let us call you back popup form    
+[DEBUG] 2024-11-29 19:50:46.810 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:50:47.554 [main] Log - Value send Successfully : Enter Customer Name
+[INFO ] 2024-11-29 19:50:48.091 [main] Log - Value send Successfully : Enter Mobile Number
+[INFO ] 2024-11-29 19:50:48.708 [main] Log - Value send Successfully : Enter [ERROR] 2024-11-29 19:50:53.058 [main] Log - Unable to send value  : Enter Customer Name : Proxy element for: DefaultElementLocator 'By.xpath: (//input[@placeholder='Enter Your Name'])[2]'
+[DEBUG] 2024-11-29 19:50:54.348 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:54.348 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:50:54.348 [main] Log -                    Start -> Test -> TC_021 Verify home page marketing advertisement banner text    
+[DEBUG] 2024-11-29 19:50:54.349 [main] Log -                    ===============================================
+[ERROR] 2024-11-29 19:51:05.391 [main] Log - Unable to visible field  : Marketing Text 1st line  --  Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='largeheading text-uppercase mb-4']'
+[DEBUG] 2024-11-29 19:51:06.473 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:51:06.473 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:51:06.473 [main] Log -                    Start -> Test -> TC_022 Verify home page footer link inside the product all icons rediretions    
+[DEBUG] 2024-11-29 19:51:06.473 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:51:17.460 [main] Log - Element is clickable : Footer Commuter
+[INFO ] 2024-11-29 19:51:18.140 [main] Log - Field is visible  : Commuter Page
+[INFO ] 2024-11-29 19:51:22.282 [main] Log - Element is clickable : Footer Premium
+[INFO ] 2024-11-29 19:51:22.620 [main] Log - Field is visible  : Premium Page
+[INFO ] 2024-11-29 19:51:28.068 [main] Log - Element is clickable : Footer Scooter
+[INFO ] 2024-11-29 19:51:28.452 [main] Log - Field is visible  : Scooter Page
+[INFO ] 2024-11-29 19:51:28.457 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:51:28.580 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:51:28.580 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:51:28.580 [main] Log -                    Start -> Test -> TC_023 Verify home page footer link inside the support all icons rediretions    
+[DEBUG] 2024-11-29 19:51:28.580 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:51:31.634 [main] Log - Element is clickable : Footer Owners Manual
+[INFO ] 2024-11-29 19:51:32.161 [main] Log - Field is visible  : Owners Manual Page
+[INFO ] 2024-11-29 19:51:35.189 [main] Log - Element is clickable : Footer Contact Us
+[INFO ] 2024-11-29 19:51:35.555 [main] Log - Field is visible  : Contact Us Page
+[INFO ] 2024-11-29 19:51:36.498 [main] Log - Element is clickable : FooterRequestACallBack
+[INFO ] 2024-11-29 19:51:36.937 [main] Log - Field is visible  : Request a call back page
+[INFO ] 2024-11-29 19:51:37.591 [main] Log - Element is clickable : CLosePopup
+[INFO ] 2024-11-29 19:51:42.824 [main] Log - Element is clickable : FooterBeacomeADealer
+[ERROR] 2024-11-29 19:51:54.039 [main] Log - Unable to visible field  : Become A Dealer Page  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Become a Dealer']'
+[DEBUG] 2024-11-29 19:51:54.824 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:51:54.824 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:51:54.825 [main] Log -                    Start -> Test -> TC_024 Verify home page footer link facebook and instagram logo    
+[DEBUG] 2024-11-29 19:51:54.825 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:52:07.641 [main] Log - Field is visible  : Facebook Logo
+[INFO ] 2024-11-29 19:52:07.999 [main] Log - Field is visible  : Instagram Logo
+[INFO ] 2024-11-29 19:52:08.005 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:52:08.142 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:08.142 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:08.142 [main] Log -                    Start -> Test -> TC_025 Verify home page request a call back popup form mandatory field    
+[DEBUG] 2024-11-29 19:52:08.143 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:52:08.800 [main] Log - Element is clickable : Request A Call Back
+[INFO ] 2024-11-29 19:52:09.963 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-29 19:52:10.335 [main] Log - Field is visible  : Name Required
+[INFO ] 2024-11-29 19:52:10.656 [main] Log - Field is visible  : Mobile Number Required
+[INFO ] 2024-11-29 19:52:10.661 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:52:10.985 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:10.985 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:10.985 [main] Log -                    Start -> Test -> TC_026 Successfully fill home page let us call you back popup form    
+[DEBUG] 2024-11-29 19:52:10.985 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:52:11.629 [main] Log - Value send Successfully : Enter Customer Name
+[INFO ] 2024-11-29 19:52:12.051 [main] Log - Value send Successfully : Enter Mobile Number
+[INFO ] 2024-11-29 19:52:12.479 [main] Log - Value send Successfully : Enter Email
+[INFO ] 2024-11-29 19:52:12.972 [main] Log - Element is clickable : City
+[INFO ] 2024-11-29 19:52:13.592 [main] Log - Element is clickable : Select city
+[INFO ] 2024-11-29 19:52:14.346 [main] Log - Element is clickable : Submit Enquiry Button
+[INFO ] 2024-11-29 19:52:16.104 [main] Log - Field is visible  : Thank You PopUp
+[INFO ] 2024-11-29 19:52:16.827 [main] Log - Element is clickable : Close Thank You PopUp
+[INFO ] 2024-11-29 19:52:16.840 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:52:17.304 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:17.305 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:17.305 [main] Log -                    Start -> Test -> TC_027 Verify home page find a dealer icon and redirection    
+[DEBUG] 2024-11-29 19:52:17.305 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:52:37.153 [main] Log - Element is clickable : Find A Dealer Icon
+[INFO ] 2024-11-29 19:52:38.687 [main] Log - Field is visible  : Locate A Dealer Page Text
+[INFO ] 2024-11-29 19:52:45.285 [main] Log - Element is clickable : Hero Logo
+[INFO ] 2024-11-29 19:52:45.291 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:52:45.417 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:45.417 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:45.417 [main] Log -                    Start -> Test -> TC_028 Successfully verify all product image icons    
+[DEBUG] 2024-11-29 19:52:45.417 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:52:55.292 [main] Log - Field is visible  : Hero logo
+[INFO ] 2024-11-29 19:52:55.456 [main] Log - ============ Banner 1  ============
+[INFO ] 2024-11-29 19:52:56.194 [main] Log - Element is clickable : Indicator 1
+[INFO ] 2024-11-29 19:52:56.428 [main] Log - Field is visible  : null
+[INFO ] 2024-11-29 19:52:56.459 [main] Log - ============ Banner 2  ============
+[INFO ] 2024-11-29 19:52:57.076 [main] Log - Element is clickable : Indicator 2
+[INFO ] 2024-11-29 19:52:57.563 [main] Log - Field is visible  : xpluse 200 4v
+[INFO ] 2024-11-29 19:52:57.657 [main] Log - ============ Banner 3  ============
+[INFO ] 2024-11-29 19:52:58.011 [main] Log - Element is clickable : Indicator 3
+[INFO ] 2024-11-29 19:52:58.550 [main] Log - Field is visible  : Hero banner
+[INFO ] 2024-11-29 19:52:58.614 [main] Log - ============ Banner 4  ============
+[INFO ] 2024-11-29 19:52:58.990 [main] Log - Element is clickable : Indicator 4
+[INFO ] 2024-11-29 19:52:59.277 [main] Log - Field is visible  : splendor +
+[INFO ] 2024-11-29 19:52:59.320 [main] Log - ============ Banner 5  ============
+[INFO ] 2024-11-29 19:52:59.750 [main] Log - Element is clickable : Indicator 5
+[INFO ] 2024-11-29 19:53:00.011 [main] Log - Field is visible  : xoom 110
+[INFO ] 2024-11-29 19:53:00.110 [main] Log - ============ Banner 6  ============
+[INFO ] 2024-11-29 19:53:00.601 [main] Log - Element is clickable : Indicator 6
+[INFO ] 2024-11-29 19:53:00.918 [main] Log - Field is visible  : super-splendor
+[INFO ] 2024-11-29 19:53:00.922 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:01.036 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:01.036 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:01.036 [main] Log -                    Start -> Test -> TC_029 Successfully verify Splendor_Plus bike feature under commuter icon    
+[DEBUG] 2024-11-29 19:53:01.036 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:06.481 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
+[INFO ] 2024-11-29 19:53:07.611 [main] Log - Element is clickable : Product icon
+[INFO ] 2024-11-29 19:53:08.885 [main] Log - Element is clickable : Commuter icon
+[INFO ] 2024-11-29 19:53:12.259 [main] Log - Element is clickable : Splendor Plus
+[INFO ] 2024-11-29 19:53:13.358 [main] Log - Element is clickable : Highlights
+[INFO ] 2024-11-29 19:53:14.726 [main] Log - Element is clickable : TECHNOLOGY
+[INFO ] 2024-11-29 19:53:15.496 [main] Log - Element is clickable : FEATURES
+[INFO ] 2024-11-29 19:53:15.878 [main] Log - Element is clickable : SAFETY
+[INFO ] 2024-11-29 19:53:16.308 [main] Log - Element is clickable : TRUST
+[INFO ] 2024-11-29 19:53:17.225 [main] Log - Element is clickable : Colours
+[INFO ] 2024-11-29 19:53:18.449 [main] Log - Field is visible : Colours : Candy Red
+[INFO ] 2024-11-29 19:53:18.762 [main] Log - Field is visible : Colours : Black Grey
+[INFO ] 2024-11-29 19:53:19.667 [main] Log - Element is clickable : Price
+[INFO ] 2024-11-29 19:53:20.308 [main] Log - Field is visible : Rs 212,900 : SPL + i3s BS4
+[INFO ] 2024-11-29 19:53:20.824 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-29 19:53:21.352 [main] Log - Field is visible : Specification : Engine
+[INFO ] 2024-11-29 19:53:21.556 [main] Log - Field is visible : Specification : Transmission & Chassis
+[INFO ] 2024-11-29 19:53:21.672 [main] Log - Field is visible : Specification : Suspension
+[INFO ] 2024-11-29 19:53:21.736 [main] Log - Field is visible : Specification : Brakes
+[INFO ] 2024-11-29 19:53:21.949 [main] Log - Field is visible : Specification : Wheels & Tyres
+[INFO ] 2024-11-29 19:53:22.069 [main] Log - Field is visible : Specification : Electricals
+[INFO ] 2024-11-29 19:53:22.267 [main] Log - Field is visible : Specification : Dimensions
+[INFO ] 2024-11-29 19:53:22.757 [main] Log - Element is clickable : Engine
+[INFO ] 2024-11-29 19:53:23.299 [main] Log - Element is clickable : Transmission & Chassis
+[INFO ] 2024-11-29 19:53:23.929 [main] Log - Element is clickable : Suspension
+[INFO ] 2024-11-29 19:53:24.938 [main] Log - Element is clickable : Brakes
+[INFO ] 2024-11-29 19:53:25.371 [main] Log - Element is clickable : Wheels & Tyres
+[INFO ] 2024-11-29 19:53:25.935 [main] Log - Element is clickable : Electricals
+[INFO ] 2024-11-29 19:53:26.717 [main] Log - Element is clickable : Dimensions
+[INFO ] 2024-11-29 19:53:26.725 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:27.074 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:27.074 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:27.074 [main] Log -                    Start -> Test -> TC_030 Successfully verify Super_Splendor bike feature under commuter icon    
+[DEBUG] 2024-11-29 19:53:27.074 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:32.534 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
+[INFO ] 2024-11-29 19:53:33.278 [main] Log - Element is clickable : Product icon
+[INFO ] 2024-11-29 19:53:35.186 [main] Log - Element is clickable : Commuter icon
+[INFO ] 2024-11-29 19:53:36.887 [main] Log - Element is clickable : Super Splendor
+[INFO ] 2024-11-29 19:53:37.380 [main] Log - Element is clickable : Highlights
+[INFO ] 2024-11-29 19:53:38.502 [main] Log - Element is clickable : PERFORMANCE
+[INFO ] 2024-11-29 19:53:39.276 [main] Log - Element is clickable : STYLE
+[INFO ] 2024-11-29 19:53:39.657 [main] Log - Element is clickable : TECHNOLOGY
+[INFO ] 2024-11-29 19:53:40.071 [main] Log - Element is clickable : CONVENIENCE
+[INFO ] 2024-11-29 19:53:40.757 [main] Log - Element is clickable : Colours
+[INFO ] 2024-11-29 19:53:42.020 [main] Log - Field is visible : Colours : Black with Red
+[INFO ] 2024-11-29 19:53:42.372 [main] Log - Field is visible : Colours : Black with Grey
+[INFO ] 2024-11-29 19:53:42.485 [main] Log - Field is visible : Colours : Candy Blazing Red
+[INFO ] 2024-11-29 19:53:42.933 [main] Log - Element is clickable : Price
+[INFO ] 2024-11-29 19:53:43.478 [main] Log - Field is visible : Rs 247,900 : Super SPL Tubeless BS4
+[INFO ] 2024-11-29 19:53:44.037 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-29 19:53:44.262 [main] Log - Field is visible : Specification : Engine
+[INFO ] 2024-11-29 19:53:44.295 [main] Log - Field is visible : Specification : Transmission & Chassis
+[INFO ] 2024-11-29 19:53:44.329 [main] Log - Field is visible : Specification : Suspension
+[INFO ] 2024-11-29 19:53:44.361 [main] Log - Field is visible : Specification : Brakes
+[INFO ] 2024-11-29 19:53:44.402 [main] Log - Field is visible : Specification : Wheels & Tyres
+[INFO ] 2024-11-29 19:53:44.434 [main] Log - Field is visible : Specification : Electricals
+[INFO ] 2024-11-29 19:53:44.471 [main] Log - Field is visible : Specification : Dimensions
+[INFO ] 2024-11-29 19:53:44.907 [main] Log - Element is clickable : Engine
+[INFO ] 2024-11-29 19:53:45.284 [main] Log - Element is clickable : Transmission & Chassis
+[INFO ] 2024-11-29 19:53:45.572 [main] Log - Element is clickable : Suspension
+[INFO ] 2024-11-29 19:53:46.085 [main] Log - Element is clickable : Brakes
+[INFO ] 2024-11-29 19:53:47.319 [main] Log - Element is clickable : Wheels & Tyres
+[INFO ] 2024-11-29 19:53:49.175 [main] Log - Element is clickable : Electricals
+[INFO ] 2024-11-29 19:53:49.739 [main] Log - Element is clickable : Dimensions
+[INFO ] 2024-11-29 19:53:49.743 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:50.298 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:50.298 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:50.298 [main] Log -                    Start -> Test -> TC_031 Successfully verify Xpulse2004V bike feature under Premium icon    
+[DEBUG] 2024-11-29 19:53:50.298 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:55.279 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
+[INFO ] 2024-11-29 19:53:55.770 [main] Log - Element is clickable : Product icon
+[INFO ] 2024-11-29 19:53:57.361 [main] Log - Element is clickable : Premium icon
+[INFO ] 2024-11-29 19:54:01.199 [main] Log - Element is clickable : Xpulse 200 4V
+[INFO ] 2024-11-29 19:54:01.977 [main] Log - Element is clickable : Highlights
+[INFO ] 2024-11-29 19:54:02.882 [main] Log - Element is clickable : TECHNOLOGY
+[INFO ] 2024-11-29 19:54:03.239 [main] Log - Element is clickable : SAFETY
+[INFO ] 2024-11-29 19:54:03.714 [main] Log - Element is clickable : FEATURES
+[INFO ] 2024-11-29 19:54:04.206 [main] Log - Element is clickable : PERFORMANCE
+[INFO ] 2024-11-29 19:54:06.383 [main] Log - Element is clickable : Colours
+[INFO ] 2024-11-29 19:54:07.715 [main] Log - Field is visible : Colours : Metallic Nexus Blue White
+[INFO ] 2024-11-29 19:54:08.009 [main] Log - Field is visible : Colours : Black Sports Red
+[INFO ] 2024-11-29 19:54:08.982 [main] Log - Field is visible : Colours : Techno Blue Metallic Black
+[INFO ] 2024-11-29 19:54:09.151 [main] Log - Field is visible : Colours : Pearl Fadeless White
+[INFO ] 2024-11-29 19:54:09.617 [main] Log - Element is clickable : Price
+[INFO ] 2024-11-29 19:54:11.312 [main] Log - Field is visible : Rs 484,900 : XPULSE 200 4V PRO
+[INFO ] 2024-11-29 19:54:11.477 [main] Log - Field is visible : Rs 464,900 : Xpulse 200 4V FI BS6
+[INFO ] 2024-11-29 19:54:12.353 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-29 19:54:26.203 [main] Log - Field is visible : Specification : Engine
+[INFO ] 2024-11-29 19:54:26.448 [main] Log - Field is visible : Specification : Transmission & Chassis
+[INFO ] 2024-11-29 19:54:26.677 [main] Log - Field is visible : Specification : Suspension
+[INFO ] 2024-11-29 19:54:27.378 [main] Log - Field is visible : Specification : Brakes
+[INFO ] 2024-11-29 19:54:27.668 [main] Log - Field is visible : Specification : Wheels & Tyres
+[INFO ] 2024-11-29 19:54:27.864 [main] Log - Field is visible : Specification : Electricals
+[INFO ] 2024-11-29 19:54:28.587 [main] Log - Field is visible : Specification : Dimensions
+[INFO ] 2024-11-29 19:54:30.815 [main] Log - Element is clickable : Engine
+[INFO ] 2024-11-29 19:54:31.476 [main] Log - Element is clickable : Transmission & Chassis
+[INFO ] 2024-11-29 19:54:33.392 [main] Log - Element is clickable : Suspension
+[INFO ] 2024-11-29 19:54:35.796 [main] Log - Element is clickable : Brakes
+[INFO ] 2024-11-29 19:54:36.431 [main] Log - Element is clickable : Wheels & Tyres
+[INFO ] 2024-11-29 19:54:36.828 [main] Log - Element is clickable : Electricals
+[INFO ] 2024-11-29 19:54:37.190 [main] Log - Element is clickable : Dimensions
+[INFO ] 2024-11-29 19:54:37.195 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:54:37.330 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:37.331 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:37.331 [main] Log -                    Start -> Test -> TC_032 Successfully verify Xoom110 bike feature under Scooter icon    
+[DEBUG] 2024-11-29 19:54:37.331 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:54:42.718 [main] Log - Nepal website link successfully opened  = https://www.heromotocorp.com/en-np.html
+[INFO ] 2024-11-29 19:54:43.188 [main] Log - Element is clickable : Product icon
+[INFO ] 2024-11-29 19:54:44.715 [main] Log - Element is clickable : Scooter icon
+[INFO ] 2024-11-29 19:54:47.007 [main] Log - Element is clickable : Xoom 110
+[INFO ] 2024-11-29 19:54:47.567 [main] Log - Element is clickable : Highlights
+[INFO ] 2024-11-29 19:54:48.507 [main] Log - Element is clickable : STYLE
+[INFO ] 2024-11-29 19:54:48.926 [main] Log - Element is clickable : TECHNOLOGY
+[INFO ] 2024-11-29 19:54:49.352 [main] Log - Element is clickable : CONVENIENCE
+[INFO ] 2024-11-29 19:54:49.702 [main] Log - Element is clickable : PERFORMANCE
+[INFO ] 2024-11-29 19:54:50.253 [main] Log - Element is clickable : Colours
+[INFO ] 2024-11-29 19:54:52.048 [main] Log - Field is visible : Colours : Matt Abrax Orange
+[INFO ] 2024-11-29 19:54:52.164 [main] Log - Field is visible : Colours : Polestar Blue
+[INFO ] 2024-11-29 19:54:52.233 [main] Log - Field is visible : Colours : Pearl Silver White
+[INFO ] 2024-11-29 19:54:52.333 [main] Log - Field is visible : Colours : Black
+[INFO ] 2024-11-29 19:54:52.428 [main] Log - Field is visible : Colours : Sports Red
+[INFO ] 2024-11-29 19:54:53.166 [main] Log - Element is clickable : Price
+[INFO ] 2024-11-29 19:54:53.759 [main] Log - Field is visible : Rs 252,900 : Xoom 110 VX FI BS6
+[INFO ] 2024-11-29 19:54:53.888 [main] Log - Field is visible : Rs 262,900 : Xoom 110 ZX FI BS6
+[INFO ] 2024-11-29 19:54:54.275 [main] Log - Element is clickable : Specifications
+[INFO ] 2024-11-29 19:54:54.381 [main] Log - Field is visible : Specification : Engine
+[INFO ] 2024-11-29 19:54:54.463 [main] Log - Field is visible : Specification : Transmission & Chassis
+[INFO ] 2024-11-29 19:54:54.528 [main] Log - Field is visible : Specification : Suspension
+[INFO ] 2024-11-29 19:54:54.574 [main] Log - Field is visible : Specification : Brakes
+[INFO ] 2024-11-29 19:54:54.618 [main] Log - Field is visible : Specification : Wheels & Tyres
+[INFO ] 2024-11-29 19:54:54.656 [main] Log - Field is visible : Specification : Electricals
+[INFO ] 2024-11-29 19:54:54.692 [main] Log - Field is visible : Specification : Dimensions
+[INFO ] 2024-11-29 19:54:55.079 [main] Log - Element is clickable : Engine
+[INFO ] 2024-11-29 19:54:55.459 [main] Log - Element is clickable : Transmission & Chassis
+[INFO ] 2024-11-29 19:54:55.847 [main] Log - Element is clickable : Suspension
+[INFO ] 2024-11-29 19:54:56.419 [main] Log - Element is clickable : Brakes
+[INFO ] 2024-11-29 19:54:56.890 [main] Log - Element is clickable : Wheels & Tyres
+[INFO ] 2024-11-29 19:54:57.660 [main] Log - Element is clickable : Electricals
+[INFO ] 2024-11-29 19:54:58.274 [main] Log - Element is clickable : Dimensions
+[INFO ] 2024-11-29 19:54:58.283 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:54:58.394 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:58.394 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:58.394 [main] Log - *******************         Driver Quit       ***********************
+[DEBUG] 2024-11-29 19:54:58.395 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:58.395 [main] Log - ===================      Flushing Extent Report      ==============================
+g - Element is clickable : Air Suction Valver
+[INFO ] 2024-11-29 19:53:30.912 [main] Log - Field is visible  : Air Suction Valve Info
+[INFO ] 2024-11-29 19:53:33.341 [main] Log - Element is clickable : Fittings And Fastners
+[INFO ] 2024-11-29 19:53:33.773 [main] Log - Field is visible  : Fittings And Fastners Info
+[INFO ] 2024-11-29 19:53:35.397 [main] Log - Element is clickable : Battery
+[INFO ] 2024-11-29 19:53:35.846 [main] Log - Field is visible  : BatteryInfo
+[INFO ] 2024-11-29 19:53:37.396 [main] Log - Element is clickable : Steering
+[INFO ] 2024-11-29 19:53:38.100 [main] Log - Field is visible  : SteeringInfo
+[INFO ] 2024-11-29 19:53:40.128 [main] Log - Element is clickable : Fuse Replacement
+[INFO ] 2024-11-29 19:53:40.637 [main] Log - Field is visible  : Fuse Replacement Info
+[INFO ] 2024-11-29 19:53:40.642 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:41.427 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:41.427 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:41.427 [main] Log -                    Start -> Test -> TC_031 verify care and maintenance under two wheeler tips header icon    
+[DEBUG] 2024-11-29 19:53:41.427 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:43.275 [main] Log - Element is clickable : Care And Maintenance
+[INFO ] 2024-11-29 19:53:43.914 [main] Log - Element is clickable : Storage Tips For Your Vehicle IMG
+[INFO ] 2024-11-29 19:53:44.306 [main] Log - Field is visible  : Storage Tips For Your Vehicle Info
+[INFO ] 2024-11-29 19:53:44.535 [main] Log - Field is visible  : Header Two Wheeler Tips
+[INFO ] 2024-11-29 19:53:47.251 [main] Log - Element is clickable : Care And Maintenance
+[INFO ] 2024-11-29 19:53:47.995 [main] Log - Element is clickable : Fuel Saving Tips card
+[INFO ] 2024-11-29 19:53:49.556 [main] Log - Field is visible  : Fuel Saving Tips Info
+[INFO ] 2024-11-29 19:53:49.560 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:49.816 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:49.816 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:49.816 [main] Log -                    Start -> Test -> TC_032 verify hero genuine parts    
+[DEBUG] 2024-11-29 19:53:49.816 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:52.493 [main] Log - Field is visible  : Parts information
+[INFO ] 2024-11-29 19:53:52.895 [main] Log - Field is visible  : Parts Image
+[INFO ] 2024-11-29 19:53:52.899 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:53.001 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:53.001 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:53.001 [main] Log -                    Start -> Test -> TC_033 verify about hero right side image close button and find a delear redirection    
+[DEBUG] 2024-11-29 19:53:53.001 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:56.305 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/en-ph.html
+[INFO ] 2024-11-29 19:53:57.054 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:53:57.577 [main] Log - Field is visible  : About Hero Static Image
+[INFO ] 2024-11-29 19:53:58.142 [main] Log - Element is clickable : About Hero Close Icon
+[INFO ] 2024-11-29 19:53:59.278 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:04.506 [main] Log - Element is clickable : About Hero Find A Dealer
+[INFO ] 2024-11-29 19:54:05.919 [main] Log - Field is visible  : Locate A Dealer Page Text
+[INFO ] 2024-11-29 19:54:13.501 [main] Log - Element is clickable : Hero Logo
+[INFO ] 2024-11-29 19:54:13.508 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:54:13.805 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:13.808 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:13.808 [main] Log -                    Start -> Test -> TC_034 verify about hero page    
+[DEBUG] 2024-11-29 19:54:13.809 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:54:18.472 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/en-ph.html
+[INFO ] 2024-11-29 19:54:19.427 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:20.906 [main] Log - Element is clickable : About Hero page
+[INFO ] 2024-11-29 19:54:34.891 [main] Log - New window is opened and page title verified
+[INFO ] 2024-11-29 19:54:36.237 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:38.945 [main] Log - Element is clickable : Reach us icon
+[INFO ] 2024-11-29 19:54:39.192 [main] Log - Field is visible  : Reach Us Page Text
+[INFO ] 2024-11-29 19:54:39.701 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:42.457 [main] Log - Element is clickable : Become a delear icon
+[INFO ] 2024-11-29 19:54:42.834 [main] Log - Field is visible  : Become A Dealer Page Text
+[INFO ] 2024-11-29 19:54:43.254 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:45.611 [main] Log - Element is clickable : About Terrafirma Motors Corporation
+[INFO ] 2024-11-29 19:54:46.035 [main] Log - Field is visible  : About Terrafirma Motors Corporation Page info
+[INFO ] 2024-11-29 19:54:46.040 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:54:46.140 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:46.141 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:46.141 [main] Log -                    Start -> Test -> TC_035 verify about hero become a dealer page form    
+[DEBUG] 2024-11-29 19:54:46.141 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:54:49.982 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/en-ph.html
+[INFO ] 2024-11-29 19:54:50.949 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:51.585 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:53.775 [main] Log - Element is clickable : Become a delear icon
+[INFO ] 2024-11-29 19:54:54.124 [main] Log - Value send Successfully : Dealer First Name
+[INFO ] 2024-11-29 19:54:54.554 [main] Log - Value send Successfully : Dealer Middle Name
+[INFO ] 2024-11-29 19:54:54.860 [main] Log - Value send Successfully : Dealer Last Name
+[INFO ] 2024-11-29 19:54:55.252 [main] Log - Value send Successfully : Dealer City
+[INFO ] 2024-11-29 19:54:55.587 [main] Log - Value send Successfully : Country Name
+[INFO ] 2024-11-29 19:54:56.128 [main] Log - Value send Successfully : Dealer DOB
+[INFO ] 2024-11-29 19:54:56.589 [main] Log - Value send Successfully : dealer Primary Contact Number
+[INFO ] 2024-11-29 19:54:57.121 [main] Log - Value send Successfully : dealer Address Line 1
+[INFO ] 2024-11-29 19:54:57.819 [main] Log - Value send Successfully : dealer Address Line 2
+[INFO ] 2024-11-29 19:54:58.327 [main] Log - Value send Successfully : dealer City For Contact
+[INFO ] 2024-11-29 19:54:58.864 [main] Log - Value send Successfully : Country Name
+[INFO ] 2024-11-29 19:54:59.166 [main] Log - Value send Successfully : dealer Pincode For Contact
+[INFO ] 2024-11-29 19:54:59.767 [main] Log - Value send Successfully : dealer Email Address For Contact
+[INFO ] 2024-11-29 19:55:00.806 [main] Log - Element is clickable : Submit Button
+[ERROR] 2024-11-29 19:55:13.065 [main] Log - Unable to visible field  : Thank You Popup  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Thank You']'
+[DEBUG] 2024-11-29 19:55:14.687 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:14.687 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:14.687 [main] Log -                    Start -> Test -> TC_036 verify share holder details in become a dealer page form    
+[DEBUG] 2024-11-29 19:55:14.687 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:55:18.361 [main] Log - Philippines website link successfully opened  = https://www.heromotocorp.com/en-ph.html
+[INFO ] 2024-11-29 19:55:19.125 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:55:19.517 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:55:21.199 [main] Log - Element is clickable : Become a delear icon
+[INFO ] 2024-11-29 19:55:21.739 [main] Log - Value send Successfully : Dealer First Name
+[INFO ] 2024-11-29 19:55:22.142 [main] Log - Value send Successfully : Dealer Middle Name
+[INFO ] 2024-11-29 19:55:22.408 [main] Log - Value send Successfully : Dealer Last Name
+[INFO ] 2024-11-29 19:55:22.780 [main] Log - Value send Successfully : Dealer City
+[INFO ] 2024-11-29 19:55:23.174 [main] Log - Value send Successfully : Country Name
+[INFO ] 2024-11-29 19:55:23.601 [main] Log - Value send Successfully : Dealer DOB
+[INFO ] 2024-11-29 19:55:24.222 [main] Log - Value send Successfully : dealer Primary Contact Number
+[INFO ] 2024-11-29 19:55:24.872 [main] Log - Value send Successfully : dealer Address Line 1
+[INFO ] 2024-11-29 19:55:25.455 [main] Log - Value send Successfully : dealer Address Line 2
+[INFO ] 2024-11-29 19:55:25.938 [main] Log - Value send Successfully : dealer City For Contact
+[INFO ] 2024-11-29 19:55:26.979 [main] Log - Value send Successfully : Country Name
+[INFO ] 2024-11-29 19:55:27.278 [main] Log - Value send Successfully : dealer Pincode For Contact
+[INFO ] 2024-11-29 19:55:27.746 [main] Log - Value send Successfully : dealer Email Address For Contact
+[INFO ] 2024-11-29 19:55:28.411 [main] Log - Value send Successfully : Company Name
+[INFO ] 2024-11-29 19:55:28.849 [main] Log - Value send Successfully : City Name
+[INFO ] 2024-11-29 19:55:29.624 [main] Log - Element is clickable : Select Company Type Drop Down
+[INFO ] 2024-11-29 19:55:30.144 [main] Log - Element is clickable : DropDown Value Company
+[INFO ] 2024-11-29 19:55:30.481 [main] Log - Field is visible  : Company form Displayed
+[INFO ] 2024-11-29 19:55:31.038 [main] Log - Element is clickable : Select Company Type Drop Down
+[INFO ] 2024-11-29 19:55:31.589 [main] Log - Element is clickable : DropDown Value Proprietary
+[INFO ] 2024-11-29 19:55:31.870 [main] Log - Field is visible  : Proprietorship Form Displayed
+[INFO ] 2024-11-29 19:55:32.336 [main] Log - Element is clickable : Select Company Type Drop Down
+[INFO ] 2024-11-29 19:55:32.861 [main] Log - Element is clickable : DropDown Value Partnership Firm
+[INFO ] 2024-11-29 19:55:33.172 [main] Log - Field is visible  : Partnership Firm form Displayed
+[INFO ] 2024-11-29 19:55:33.880 [main] Log - Value send Successfully : Name Of Partners
+[INFO ] 2024-11-29 19:55:34.306 [main] Log - Value send Successfully : Name Of Partner Father Or Spouse
+[INFO ] 2024-11-29 19:55:34.651 [main] Log - Value send Successfully : Partner Designation
+[INFO ] 2024-11-29 19:55:35.069 [main] Log - Value send Successfully : Partner Address Line 1
+[INFO ] 2024-11-29 19:55:35.447 [main] Log - Value send Successfully : Partner Address Line 2
+[INFO ] 2024-11-29 19:55:35.830 [main] Log - Value send Successfully : Partner City
+[INFO ] 2024-11-29 19:55:36.209 [main] Log - Value send Successfully : Partner Country
+[INFO ] 2024-11-29 19:55:36.592 [main] Log - Value send Successfully : Partner Pincode
+[INFO ] 2024-11-29 19:55:37.328 [main] Log - Element is clickable : Select Year Drop Down
+[INFO ] 2024-11-29 19:55:37.926 [main] Log - Element is clickable : Select Year Drop Down Value
+[INFO ] 2024-11-29 19:55:38.327 [main] Log - Value send Successfully : Enter Man Power
+[INFO ] 2024-11-29 19:55:38.837 [main] Log - Value send Successfully : Enter Managers
+[INFO ] 2024-11-29 19:55:39.289 [main] Log - Value send Successfully : Enter Managing Partners
+[INFO ] 2024-11-29 19:55:39.648 [main] Log - Value send Successfully : Enter Product Line Handled
+[INFO ] 2024-11-29 19:55:40.321 [main] Log - Value send Successfully : Share Holder Name
+[INFO ] 2024-11-29 19:55:40.860 [main] Log - Value send Successfully : Relationship With Main Applicant
+[INFO ] 2024-11-29 19:55:41.319 [main] Log - Value send Successfully : Share Holder Responsibility
+[INFO ] 2024-11-29 19:55:41.729 [main] Log - Value send Successfully : Share Holder No Of Shares
+[INFO ] 2024-11-29 19:55:42.124 [main] Log - Value send Successfully : Share Holder Age in Years
+[INFO ] 2024-11-29 19:55:42.427 [main] Log - Field is visible  : Reset Button
+[INFO ] 2024-11-29 19:55:43.091 [main] Log - Element is clickable : Submit Button
+[ERROR] 2024-11-29 19:55:54.089 [main] Log - Unable to visible field  : Thank You Popup  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Thank You']'
+[DEBUG] 2024-11-29 19:55:55.611 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:55.612 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:55.612 [main] Log - *******************         Driver Quit       ***********************
+[DEBUG] 2024-11-29 19:55:55.612 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:55.612 [main] Log - ===================      Flushing Extent Report      ==============================
+===================================================================================
+[DEBUG] 2024-11-29 19:52:31.684 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:31.685 [main] Log -                    Start -> Test -> TC_035 verify service and maintenance tips all information    
+[DEBUG] 2024-11-29 19:52:31.685 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:52:35.047 [main] Log - Zambia website link successfully opened  =https://www.heromotocorp.com/en-zm.html
+[INFO ] 2024-11-29 19:52:35.494 [main] Log - Element is clickable : service icon
+[INFO ] 2024-11-29 19:52:38.711 [main] Log - Element is clickable : Service And Maintenance Tips
+[INFO ] 2024-11-29 19:52:39.028 [main] Log - Field is visible  : Header Service And Maintenance Tips
+[INFO ] 2024-11-29 19:52:39.340 [main] Log - Field is visible  : Header Two Wheeler Tips
+[INFO ] 2024-11-29 19:52:40.314 [main] Log - Field is visible  : Header Hero Genuine Parts
+[INFO ] 2024-11-29 19:52:40.565 [main] Log - Field is visible  : Service Schedule
+[INFO ] 2024-11-29 19:52:40.991 [main] Log - Element is clickable : Select Bike DropDown
+[ERROR] 2024-11-29 19:52:52.142 [main] Log - Unable to visible field  : Xpulse 200 Carb Bike  --  Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='XPULSE 200 Carb']'
+[DEBUG] 2024-11-29 19:52:53.243 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:53.243 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:52:53.243 [main] Log -                    Start -> Test -> TC_036 verify pre ride inspection guide under two wheeler tips header icon    
+[DEBUG] 2024-11-29 19:52:53.244 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:52:55.221 [main] Log - Element is clickable : Pre-Ride Inspection Guide
+[INFO ] 2024-11-29 19:52:56.053 [main] Log - Element is clickable : Engine Oil Level
+[INFO ] 2024-11-29 19:52:56.428 [main] Log - Field is visible  : Engine Oil Level Info
+[INFO ] 2024-11-29 19:52:58.251 [main] Log - Element is clickable : Fuel Level
+[INFO ] 2024-11-29 19:52:58.920 [main] Log - Field is visible  : Fuel Level Info
+[INFO ] 2024-11-29 19:53:00.649 [main] Log - Element is clickable : Front And Rear Brakes
+[INFO ] 2024-11-29 19:53:01.051 [main] Log - Field is visible  : Front And Rear Brakes Info
+[INFO ] 2024-11-29 19:53:02.936 [main] Log - Element is clickable : Tyres
+[INFO ] 2024-11-29 19:53:03.329 [main] Log - Field is visible  : Tyres Info
+[INFO ] 2024-11-29 19:53:05.181 [main] Log - Element is clickable : Clutch
+[INFO ] 2024-11-29 19:53:05.884 [main] Log - Field is visible  : Clutch Info
+[INFO ] 2024-11-29 19:53:08.402 [main] Log - Element is clickable : Drive Chain
+[INFO ] 2024-11-29 19:53:08.764 [main] Log - Field is visible  : Drive Chain Info
+[INFO ] 2024-11-29 19:53:10.752 [main] Log - Element is clickable : Throttle
+[INFO ] 2024-11-29 19:53:11.145 [main] Log - Field is visible  : Throttle Info
+[INFO ] 2024-11-29 19:53:13.307 [main] Log - Element is clickable : Lights And Horns
+[INFO ] 2024-11-29 19:53:13.778 [main] Log - Field is visible  : Lights And Horns Info
+[INFO ] 2024-11-29 19:53:15.852 [main] Log - Element is clickable : Rear View Mirror
+[INFO ] 2024-11-29 19:53:16.261 [main] Log - Field is visible  : Rear View Mirror Info
+[INFO ] 2024-11-29 19:53:18.073 [main] Log - Element is clickable : Air Suction Valver
+[INFO ] 2024-11-29 19:53:18.712 [main] Log - Field is visible  : Air Suction Valve Info
+[INFO ] 2024-11-29 19:53:20.548 [main] Log - Element is clickable : Fittings And Fastners
+[INFO ] 2024-11-29 19:53:20.999 [main] Log - Field is visible  : Fittings And Fastners Info
+[INFO ] 2024-11-29 19:53:23.010 [main] Log - Element is clickable : Battery
+[INFO ] 2024-11-29 19:53:23.699 [main] Log - Field is visible  : BatteryInfo
+[INFO ] 2024-11-29 19:53:25.702 [main] Log - Element is clickable : Steering
+[INFO ] 2024-11-29 19:53:26.132 [main] Log - Field is visible  : SteeringInfo
+[INFO ] 2024-11-29 19:53:28.626 [main] Log - Element is clickable : Fuse Replacement
+[INFO ] 2024-11-29 19:53:28.982 [main] Log - Field is visible  : Fuse Replacement Info
+[INFO ] 2024-11-29 19:53:28.990 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:29.108 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:29.108 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:29.108 [main] Log -                    Start -> Test -> TC_037 verify fuel saving tips under two wheeler tips header icon    
+[DEBUG] 2024-11-29 19:53:29.108 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:31.039 [main] Log - Element is clickable : Fuel Saving Tips
+[INFO ] 2024-11-29 19:53:31.851 [main] Log - Element is clickable : Fuel Saving Tips card
+[INFO ] 2024-11-29 19:53:32.524 [main] Log - Field is visible  : Fuel Saving Tips Info
+[INFO ] 2024-11-29 19:53:32.529 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:32.827 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:32.827 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:32.827 [main] Log -                    Start -> Test -> TC_038 verify hero genuine parts    
+[DEBUG] 2024-11-29 19:53:32.827 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:34.932 [main] Log - Field is visible  : Parts information
+[INFO ] 2024-11-29 19:53:35.172 [main] Log - Field is visible  : Parts Image
+[INFO ] 2024-11-29 19:53:35.174 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:35.379 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:35.379 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:35.379 [main] Log -                    Start -> Test -> TC_039 verify about hero right side image close button and find a delear redirection    
+[DEBUG] 2024-11-29 19:53:35.379 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:39.134 [main] Log - Zambia website link successfully opened  =https://www.heromotocorp.com/en-zm.html
+[INFO ] 2024-11-29 19:53:39.990 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:53:41.176 [main] Log - Field is visible  : About Hero Static Image
+[INFO ] 2024-11-29 19:53:41.941 [main] Log - Element is clickable : About Hero Close Icon
+[INFO ] 2024-11-29 19:53:42.799 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:53:48.710 [main] Log - Element is clickable : About Hero Find A Dealer
+[INFO ] 2024-11-29 19:53:50.116 [main] Log - Field is visible  : Locate A Dealer Page Text
+[INFO ] 2024-11-29 19:53:54.191 [main] Log - Element is clickable : Hero Logo
+[INFO ] 2024-11-29 19:53:54.195 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:53:54.340 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:54.340 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:53:54.340 [main] Log -                    Start -> Test -> TC_040 verify about hero page    
+[DEBUG] 2024-11-29 19:53:54.340 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:53:57.416 [main] Log - Zambia website link successfully opened  =https://www.heromotocorp.com/en-zm.html
+[INFO ] 2024-11-29 19:53:58.544 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:53:59.607 [main] Log - Element is clickable : About Hero page
+[ERROR] 2024-11-29 19:54:29.641 [main] Log - Unable to click element : About hero icon  --  Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='ABOUT HERO']'
+[DEBUG] 2024-11-29 19:54:35.296 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:35.297 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:35.297 [main] Log -                    Start -> Test -> TC_041 verify about hero become a dealer page form    
+[DEBUG] 2024-11-29 19:54:35.297 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:54:39.973 [main] Log - Zambia website link successfully opened  =https://www.heromotocorp.com/en-zm.html
+[INFO ] 2024-11-29 19:54:40.890 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:41.626 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:44.108 [main] Log - Element is clickable : Become a delear icon
+[INFO ] 2024-11-29 19:54:44.687 [main] Log - Value send Successfully : Dealer First Name
+[INFO ] 2024-11-29 19:54:45.140 [main] Log - Value send Successfully : Dealer Middle Name
+[INFO ] 2024-11-29 19:54:45.440 [main] Log - Value send Successfully : Dealer Last Name
+[INFO ] 2024-11-29 19:54:45.974 [main] Log - Value send Successfully : Dealer City
+[INFO ] 2024-11-29 19:54:46.026 [main] Log - Actual value Zambia:  Expected value is MatchZambia
+[INFO ] 2024-11-29 19:54:46.489 [main] Log - Value send Successfully : Dealer DOB
+[INFO ] 2024-11-29 19:54:47.018 [main] Log - Value send Successfully : dealer Primary Contact Number
+[INFO ] 2024-11-29 19:54:47.346 [main] Log - Value send Successfully : dealer Address Line 1
+[INFO ] 2024-11-29 19:54:47.713 [main] Log - Value send Successfully : dealer Address Line 2
+[INFO ] 2024-11-29 19:54:48.004 [main] Log - Value send Successfully : dealer City For Contact
+[INFO ] 2024-11-29 19:54:48.054 [main] Log - Actual value Zambia:  Expected value is MatchZambia
+[INFO ] 2024-11-29 19:54:48.490 [main] Log - Value send Successfully : dealer Pincode For Contact
+[INFO ] 2024-11-29 19:54:49.081 [main] Log - Value send Successfully : dealer Email Address For Contact
+[INFO ] 2024-11-29 19:54:49.797 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-11-29 19:54:50.866 [main] Log - Field is visible  : Thank You Popup
+[INFO ] 2024-11-29 19:54:52.594 [main] Log - Element is clickable : Close Success Popup
+[INFO ] 2024-11-29 19:54:52.599 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:54:52.799 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:52.799 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:54:52.799 [main] Log -                    Start -> Test -> TC_042 verify share holder details in become a dealer page form    
+[DEBUG] 2024-11-29 19:54:52.799 [main] Log -                    ===============================================
+[INFO ] 2024-11-29 19:54:56.290 [main] Log - Zambia website link successfully opened  =https://www.heromotocorp.com/en-zm.html
+[INFO ] 2024-11-29 19:54:57.309 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:54:57.999 [main] Log - Element is clickable : About hero icon
+[INFO ] 2024-11-29 19:55:00.340 [main] Log - Element is clickable : Become a delear icon
+[INFO ] 2024-11-29 19:55:01.021 [main] Log - Value send Successfully : Dealer First Name
+[INFO ] 2024-11-29 19:55:01.591 [main] Log - Value send Successfully : Dealer Middle Name
+[INFO ] 2024-11-29 19:55:01.869 [main] Log - Value send Successfully : Dealer Last Name
+[INFO ] 2024-11-29 19:55:02.120 [main] Log - Value send Successfully : Dealer City
+[INFO ] 2024-11-29 19:55:02.150 [main] Log - Actual value Zambia:  Expected value is MatchZambia
+[INFO ] 2024-11-29 19:55:02.829 [main] Log - Value send Successfully : Dealer DOB
+[INFO ] 2024-11-29 19:55:03.216 [main] Log - Value send Successfully : dealer Primary Contact Number
+[INFO ] 2024-11-29 19:55:03.508 [main] Log - Value send Successfully : dealer Address Line 1
+[INFO ] 2024-11-29 19:55:03.810 [main] Log - Value send Successfully : dealer Address Line 2
+[INFO ] 2024-11-29 19:55:04.071 [main] Log - Value send Successfully : dealer City For Contact
+[INFO ] 2024-11-29 19:55:04.098 [main] Log - Actual value Zambia:  Expected value is MatchZambia
+[INFO ] 2024-11-29 19:55:04.555 [main] Log - Value send Successfully : dealer Pincode For Contact
+[INFO ] 2024-11-29 19:55:05.173 [main] Log - Value send Successfully : dealer Email Address For Contact
+[INFO ] 2024-11-29 19:55:06.146 [main] Log - Value send Successfully : Company Name
+[INFO ] 2024-11-29 19:55:06.814 [main] Log - Value send Successfully : City Name
+[INFO ] 2024-11-29 19:55:07.565 [main] Log - Element is clickable : Select Company Type Drop Down
+[INFO ] 2024-11-29 19:55:08.042 [main] Log - Element is clickable : DropDown Value Company
+[INFO ] 2024-11-29 19:55:08.360 [main] Log - Field is visible  : Company form Displayed
+[INFO ] 2024-11-29 19:55:08.993 [main] Log - Element is clickable : Select Company Type Drop Down
+[INFO ] 2024-11-29 19:55:09.678 [main] Log - Element is clickable : DropDown Value Proprietary
+[INFO ] 2024-11-29 19:55:10.025 [main] Log - Field is visible  : Proprietorship Form Displayed
+[INFO ] 2024-11-29 19:55:10.634 [main] Log - Element is clickable : Select Company Type Drop Down
+[INFO ] 2024-11-29 19:55:11.317 [main] Log - Element is clickable : DropDown Value Partnership Firm
+[INFO ] 2024-11-29 19:55:11.604 [main] Log - Field is visible  : Partnership Firm form Displayed
+[INFO ] 2024-11-29 19:55:12.504 [main] Log - Value send Successfully : Name Of Partners
+[INFO ] 2024-11-29 19:55:13.098 [main] Log - Value send Successfully : Name Of Partner Father Or Spouse
+[INFO ] 2024-11-29 19:55:13.432 [main] Log - Value send Successfully : Partner Designation
+[INFO ] 2024-11-29 19:55:13.744 [main] Log - Value send Successfully : Partner Address Line 1
+[INFO ] 2024-11-29 19:55:14.053 [main] Log - Value send Successfully : Partner Address Line 2
+[INFO ] 2024-11-29 19:55:14.355 [main] Log - Value send Successfully : Partner City
+[INFO ] 2024-11-29 19:55:14.620 [main] Log - Value send Successfully : Partner Country
+[INFO ] 2024-11-29 19:55:14.949 [main] Log - Value send Successfully : Partner Pincode
+[INFO ] 2024-11-29 19:55:15.776 [main] Log - Element is clickable : Select Year Drop Down
+[INFO ] 2024-11-29 19:55:16.498 [main] Log - Element is clickable : Select Year Drop Down Value
+[INFO ] 2024-11-29 19:55:17.170 [main] Log - Value send Successfully : Enter Man Power
+[INFO ] 2024-11-29 19:55:17.792 [main] Log - Value send Successfully : Enter Managers
+[INFO ] 2024-11-29 19:55:18.061 [main] Log - Value send Successfully : Enter Managing Partners
+[INFO ] 2024-11-29 19:55:18.411 [main] Log - Value send Successfully : Enter Product Line Handled
+[INFO ] 2024-11-29 19:55:19.075 [main] Log - Value send Successfully : Share Holder Name
+[INFO ] 2024-11-29 19:55:19.438 [main] Log - Value send Successfully : Relationship With Main Applicant
+[INFO ] 2024-11-29 19:55:19.847 [main] Log - Value send Successfully : Share Holder Responsibility
+[INFO ] 2024-11-29 19:55:20.232 [main] Log - Value send Successfully : Share Holder No Of Shares
+[INFO ] 2024-11-29 19:55:20.507 [main] Log - Value send Successfully : Share Holder Age in Years
+[INFO ] 2024-11-29 19:55:20.784 [main] Log - Field is visible  : Reset Button
+[INFO ] 2024-11-29 19:55:21.416 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-11-29 19:55:22.965 [main] Log - Field is visible  : Thank You Popup
+[INFO ] 2024-11-29 19:55:24.285 [main] Log - Element is clickable : Close Success Popup
+[INFO ] 2024-11-29 19:55:24.289 [main] Log - Close browser
+[DEBUG] 2024-11-29 19:55:24.494 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:24.494 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:24.494 [main] Log - *******************         Driver Quit       ***********************
+[DEBUG] 2024-11-29 19:55:24.494 [main] Log - ====================================================================================
+[DEBUG] 2024-11-29 19:55:24.494 [main] Log - ===================      Flushing Extent Report      ==============================

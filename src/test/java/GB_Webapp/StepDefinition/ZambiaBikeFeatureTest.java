@@ -60,10 +60,16 @@ public class ZambiaBikeFeatureTest extends BaseTest {
 		    		zbf.zambia_click_on_destini_125();
 		        break;
 		    case "Xpulse2004V":
-		    		zbf.Click_on_HeaderXpulse2004V_bike();
+		    		zbf.Click_on_HeaderXpulse2004V_bike(); // zambia or Nepal
 	    		break;
 		    case "Hunk160R4V":
 		    		zbf.Click_on_HeaderHunk160R4V_bike();
+	    		break;
+		    case "Splendor_Plus":
+	    		hp.Click_on_Splendor_Plus_Bike();  // Nepal
+	    		break;
+		    case "Super_Splendor":
+	    		hp.Click_on_Super_Splendor_Bike();  // Nepal
 	    		break;
 		    case "Xoom110":
 		    		zbf.Click_on_HeaderXoom110_bike();

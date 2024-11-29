@@ -98,6 +98,9 @@ public class BikeFeaturePage extends BasePage{
 
 	@FindBy(xpath = "//span[@id='totalAmount']")
 	private WebElement TotalLoanAmount;
+
+	@FindBy(xpath = "//div[@id='myTab']//div | //div[@class='higlight-content']//h3 | //div[@class='highlight-card-title']")
+	private List<WebElement> CommonForAllHighlights;
 	
 	
 	
@@ -200,6 +203,9 @@ public class BikeFeaturePage extends BasePage{
 	}
 	public void verify_bike_multiple_colours() {
 		Library.threadSleep(1000);
+		if (bf.getBikeColours().isEmpty()) {
+			Library.failmsg("Element not found at Bike Colours");
+		}
 		for (WebElement element : bf.getBikeColours()) {
 			Library.waitForVisibilityOf(driver, element);
 			Library.visible_link_gettext(driver, element, "Colours");
@@ -209,7 +215,9 @@ public class BikeFeaturePage extends BasePage{
 	    Library.click(driver, bf.getPrice(), "Price");
 	}
 	public void verify_bike_price() {
-		
+		if (bf.getBikeVariantNames().isEmpty()) {
+			Library.failmsg("Element not found at variant price");
+		}		
 			for (WebElement element : bf.getBikeVariantNames()) {
 				int i=bf.getBikeVariantNames().indexOf(element);
 				   Library.visible_link_gettext(driver, element, bf.getBikeVariantPrices().get(i).getText());
@@ -220,10 +228,14 @@ public class BikeFeaturePage extends BasePage{
 	    Library.click(driver, bf.getSpecifications(), "Specifications");
 	}
 	public void verify_multiple_specificatios() {
-		for (WebElement element : bf.getAllSpecificationTab()) {
+		if (bf.getAllSpecificationTab().isEmpty()) {
+			Library.failmsg("Element not found at specification icon");
+		}for (WebElement element : bf.getAllSpecificationTab()) {
 			Library.visible_link_gettext(driver, element, "Specification");
 		}
-		for (WebElement element : bf.getAllSpecificationTab()) {
+		if (bf.getAllSpecificationTab().isEmpty()) {
+			Library.failmsg("Element not found at specification icon");
+		}for (WebElement element : bf.getAllSpecificationTab()) {
 			Library.click(driver, element, element.getText());
 		}
 	}
@@ -300,6 +312,16 @@ public class BikeFeaturePage extends BasePage{
 		Library.visible_link_gettext(driver, EMIPerMonth, "Loan EMI Per Month");
 		Library.visible_link_gettext(driver, TotalLoanAmount, "Total Loan Amount");
 
+	}
+	public void CommonForAllHighlights() {
+		if (CommonForAllHighlights.isEmpty()) {
+			Library.failmsg("Element not found at Highlights");
+		}
+			for (WebElement element : CommonForAllHighlights) {
+				Library.click(driver, element, element.getText());
+			}
+		
+		
 	}
 	
 	

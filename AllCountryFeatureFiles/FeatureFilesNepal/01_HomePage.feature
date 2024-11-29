@@ -79,7 +79,7 @@ Feature: HomePage
     
   @HomePage @Nepal
   Scenario: TC_018 Verify home page promotion banner
-  Given User open "Homepage" website link
+  Given User open "Nepal" website link
     When Verify promotion banner it should be displayed
     And Close browser 
   

@@ -289,7 +289,9 @@ public class ZambiaBikeFeaturePage extends BasePage{
 	}
 	public void zambia_verify_bike_multiple_colours() {
 		Library.threadSleep(1000);
-		for (WebElement element : BikeColours) {
+		if (BikeColours.isEmpty()) {
+			Library.failmsg("Element not found at Bike colour");
+		}for (WebElement element : BikeColours) {
 			Library.waitForVisibilityOf(driver, element);
 			Library.visible_link_gettext(driver, element, "Colours");
 		}
@@ -298,7 +300,9 @@ public class ZambiaBikeFeaturePage extends BasePage{
 	    Library.click(driver, Specifications, "Specifications");
 	}
 	public void zambia_verify_multiple_specificatios() {
-		for (WebElement element : AllSpecificationTab) {
+		if (AllSpecificationTab.isEmpty()) {
+			Library.failmsg("Element not found at Specification tab");
+		}for (WebElement element : AllSpecificationTab) {
 			Library.visible_link_gettext(driver, element, "Specification");
 		}
 		for (WebElement element : AllSpecificationTab) {

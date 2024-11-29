@@ -399,7 +399,9 @@ public WebElement getCloseScootericon() {
 		
 		Library.click(driver, Bangladesh, "Select country");
 		Library.threadSleep(1000);
-		for(WebElement country:AllCountries) {
+		if (AllCountries.isEmpty()) {
+			Library.failmsg("Element not found at All country");
+		}for(WebElement country:AllCountries) {
 			Library.visible_link_gettext(driver, country, "Country name is ");
 		}
 		Library.click(driver, CloseAllCountries, "Close country button");

@@ -254,6 +254,10 @@ public class BikeFeatureTest extends BaseTest {
 	        bf.verify_safety_button();
 	    	bf.verify_trust_button();
 	        break;
+	    case "CommonForAllStep":
+	    	bf.click_on_highlights_icon();
+	    	bf.CommonForAllHighlights();
+	        break;
 	    default:
 	    	bf.click_on_highlights_icon();
 	    	bf.verify_technology_button();

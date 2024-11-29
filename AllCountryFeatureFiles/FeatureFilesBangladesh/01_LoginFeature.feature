@@ -111,7 +111,7 @@ Feature: HomePage
     Given User able to enter "customer_name"
     When User able to enter "mobile_number"
     Then User able to enter "email_id"
-    And User able to enter "city"
+    #And User able to enter "city"
     And Click submit enquiry button
     And Verify successfully submit form 
     And Close browser    
@@ -156,7 +156,7 @@ Feature: HomePage
     Given User able to enter "customer_name1"    
     And User able to enter "mobile_number1"    
     And User able to enter "email_id1"   
-    And User able to enter "city1"
+    #And User able to enter "city1"
     And Click submit enquiry button1
     And Verify successfully submit form1 
     And Close browser  

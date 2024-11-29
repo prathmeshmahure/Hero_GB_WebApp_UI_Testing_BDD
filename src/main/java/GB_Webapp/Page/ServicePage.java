@@ -334,17 +334,23 @@ public class ServicePage extends BasePage{
 		Library.click(driver, AllDropDownOptions.get(1), AllDropDownOptions.get(1).getText());
 		Library.visible_link_gettext(driver, PaidServiceText, "Paid Service");
 		Library.visible_link(driver, TypeOfFreeServiceText, "Type Of Free Service");
-		for (WebElement element : ServicingNumber) {
+		if (ServicingNumber.isEmpty()) {
+			Library.failmsg("Element not found at servicing number");
+		}for (WebElement element : ServicingNumber) {
 			Library.waitForVisibilityOf(driver, element);
 			Library.visible_link_gettext(driver, element, "Type Of Free Service");
 		}
 		Library.visible_link(driver, ValidityInKmsText, "Validity In Kms");
-		for (WebElement element : KMRange) {
+		if (KMRange.isEmpty()) {
+			Library.failmsg("Element not found at KM range");
+		}for (WebElement element : KMRange) {
 			Library.waitForVisibilityOf(driver, element);
 			Library.visible_link_gettext(driver, element, "Validity in KM Range");
 		}
 		Library.visible_link(driver, ValidityInDaysText, "Validity In Days");
-		for (WebElement element : ServiceDate) {
+		if (ServiceDate.isEmpty()) {
+			Library.failmsg("Element not found at service date");
+		}for (WebElement element : ServiceDate) {
 			Library.waitForVisibilityOf(driver, element);
 			Library.visible_link_gettext(driver, element, "Validity In Days");
 		}	

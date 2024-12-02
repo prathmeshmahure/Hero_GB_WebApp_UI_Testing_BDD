@@ -15,12 +15,15 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 					".//AllCountryFeatureFiles/FeatureFilesZambia/04_Service.feature",".//AllCountryFeatureFiles/FeatureFilesZambia/05_AboutHero.feature",
 					
 					".//AllCountryFeatureFiles/FeatureFilesPhilippines/01_HomePage.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/02_PhilippinesBikeFeature.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/03_Dealer.feature",
-					".//AllCountryFeatureFiles/FeatureFilesPhilippines/04_Service.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/05_AboutHero.feature"
+					".//AllCountryFeatureFiles/FeatureFilesPhilippines/04_Service.feature",".//AllCountryFeatureFiles/FeatureFilesPhilippines/05_AboutHero.feature",
+					
+					".//AllCountryFeatureFiles/FeatureFilesNepal/01_HomePage.feature",".//AllCountryFeatureFiles/FeatureFilesNepal/02_BikeFeature.feature",".//AllCountryFeatureFiles/FeatureFilesNepal/03_Dealer.feature",
+					".//AllCountryFeatureFiles/FeatureFilesNepal/04_Service.feature",".//AllCountryFeatureFiles/FeatureFilesNepal/05_AboutHero.feature"
 					},
 		glue="GB_Webapp.StepDefinition",
 		dryRun = false,				// if check test case method present or not as per feature file
 		monochrome = true,
-		tags = "@Bangladesh or @Zambia or @Philippines",   //@Bangladesh , @Zambia , @Philippines
+		tags = "@Bangladesh or @Zambia or @Philippines or @Nepal",   //@Bangladesh , @Zambia , @Philippines ,@Nepal
 		plugin = {"summary",        // Using "pretty" console displayed each & every scenario and "summary" not display scenario
 				  "html:Reports/cucumber_reports.html",
 		          "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"

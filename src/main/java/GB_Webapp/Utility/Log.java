@@ -81,9 +81,9 @@ public class Log extends PageClassObject{
 		LOGGER.debug("====================================================================================");
 		LOGGER.debug("==========================      Configuring Extent Report      =====================");
 		LOGGER.debug("====================================================================================");
-		String timeStamp = new SimpleDateFormat("dd_MM_yyyy__HH_mm_ss").format(new Date());
-//		reporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//ExtentReport.html");
-		reporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//ExtentReport"+" " + timeStamp + ".html");
+//		String timeStamp = new SimpleDateFormat("dd_MM_yyyy__HH_mm_ss").format(new Date());
+		reporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//ExtentReport.html");
+//		reporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//ExtentReport"+" " + timeStamp + ".html");
 //		((Object) reporter.config()).setChartVisibilityOnOpen(false);
 		reporter.config().setDocumentTitle("Hero GB WEBAPP");
 		reporter.config().setReportName("Hero GB WebApp Automation Report");

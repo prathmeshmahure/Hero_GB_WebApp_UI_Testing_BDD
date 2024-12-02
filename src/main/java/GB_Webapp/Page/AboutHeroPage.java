@@ -263,6 +263,9 @@ public class AboutHeroPage extends BasePage{
 	    case "Bangladesh":
 	    	Library.sendKeys(driver, DealerCountry, Bangladesh_name, "Country Name");
 	        break;
+	    case "Nepal":
+	    	Library.sendKeys(driver, DealerCountry, Nepal_name, "Country Name");
+	        break;
 	    default:
 	         Library.failmsg(countryName+" = Switch case statemwnt string is not matched. ");
 	    	break;
@@ -286,6 +289,9 @@ public class AboutHeroPage extends BasePage{
 	        break;
 	    case "Bangladesh":
 	    	Library.sendKeys(driver, dealerCountryForContact, Bangladesh_name, "Country Name");
+	        break;
+	    case "Nepal":
+	    	Library.sendKeys(driver, dealerCountryForContact, Nepal_name, "Country Name");
 	        break;
 	    default:
 	         Library.failmsg(countryName+" = Switch case statemwnt string is not matched. ");

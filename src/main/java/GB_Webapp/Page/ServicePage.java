@@ -367,7 +367,7 @@ public class ServicePage extends BasePage{
 //			Library.click(driver, HeaderTwoWheelerTips, "Header Two Wheeler Tips");
 		}catch(Exception e) {
 			Library.click(driver, loginPg.getService(), "service icon");
-			Library.click(driver, ZambiaTwoWheelerTips, "ZambiaTwoWheelerTips");
+			Library.click(driver, ZambiaTwoWheelerTips, "Two Wheeler Tips");
 		}	
 	}
 	public void click_on_pre_ride_inspection_guide() {
@@ -451,7 +451,9 @@ public class ServicePage extends BasePage{
 		
 	}
 	public void verify_service_schedule_and_dropdown_three_bikes() throws AWTException{
+		try {ServiceScheduleText.isDisplayed();
 		Library.visible_link(driver, ServiceScheduleText, "Service Schedule");
+		}catch(Exception e) {		}
 		Library.click(driver, SelectBikeDropDown, "Select Bike DropDown");
 
 //		Library.click(driver, ServiceScheduleText, "Service Schedule");

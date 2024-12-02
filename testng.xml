@@ -16,9 +16,16 @@
   </test> <!-- Test -->
   
   
-  <test thread-count="5" name="Philippines" enabled="true">  
+  <test thread-count="5" name="Philippines" enabled="false">  
 			    <classes>
 			      			 <class name="GB_Webapp.TestRunner.Philippines"/>			         	 		
+			    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Nepal" enabled="true">  
+			    <classes>
+			      			 <class name="GB_Webapp.TestRunner.Nepal"/>			         	 		
 			    </classes>
   </test> <!-- Test -->
   

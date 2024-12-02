@@ -42,9 +42,12 @@ public class ConfigeDataProvider {
 	public static String Total_shares = Library.getStringConfigData("Total_shares");
 	public static String Age = Library.getStringConfigData("Age");
 	public static String Designation = Library.getStringConfigData("Designation");
+	
+	//================================= Country names  =================================	
 	public static String Country = Library.getStringConfigData("Country");
 	public static String Philippines_name = Library.getStringConfigData("Philippines_name");
 	public static String Bangladesh_name = Library.getStringConfigData("Bangladesh_name");
+	public static String Nepal_name = Library.getStringConfigData("Nepal_name");
 	
 	
 	

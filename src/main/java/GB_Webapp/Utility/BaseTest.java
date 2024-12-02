@@ -118,8 +118,9 @@ public class BaseTest extends PageClassObject {
 				co.addArguments("disable-dev-shm-usage");
 				co.addArguments("no-sandbox");
 				co.addArguments("disable-notifications");
-//				co.addArguments("--headless");
+				co.addArguments("--headless");	
 		    	co.addArguments("--force-device-scale-factor=0.9");
+		    	azureChromeLaunchPath();
 		    	driver = new ChromeDriver(co);			    	
 		    	driver.get(URL);	
 		    	driver.manage().window().maximize();
@@ -132,11 +133,17 @@ public class BaseTest extends PageClassObject {
 			 EdgeOptions options = new EdgeOptions();
 		        
 		        // Add multiple arguments
+		        options.addArguments("--incognito");
 		        options.addArguments("--start-maximized");
 		        options.addArguments("--disable-infobars");
 		        options.addArguments("--disable-extensions");
-		        options.addArguments("--incognito");
+		        options.addArguments("disable-gpu");
+		        options.addArguments("disable-dev-shm-usage");
+		        options.addArguments("no-sandbox");
+		        options.addArguments("disable-notifications");
+		        options.addArguments("--headless");	
 		        options.addArguments("--force-device-scale-factor=0.9");
+		        azureEdgeLaunchPath();
 		        // Initialize WebDriver with EdgeDriver and the specified options
 		        driver = new EdgeDriver(options);	
 			    driver.get(URL);		
@@ -151,7 +158,13 @@ public class BaseTest extends PageClassObject {
 			firefoxoptions.addArguments("--start-maximized");
 			firefoxoptions.addArguments("--disable-infobars");
 			firefoxoptions.addArguments("--disable-extensions");
+			firefoxoptions.addArguments("disable-gpu");
+			firefoxoptions.addArguments("disable-dev-shm-usage");
+			firefoxoptions.addArguments("no-sandbox");
+			firefoxoptions.addArguments("disable-notifications");
+			firefoxoptions.addArguments("--headless");	
 	        // Initialize WebDriver with FirefoxDriver
+			azureFirefoxLaunchPath();
 	        driver = new FirefoxDriver(firefoxoptions);
 	        driver.get(URL);	
 	        jsExecutor = (JavascriptExecutor) driver;
@@ -227,16 +240,64 @@ public class BaseTest extends PageClassObject {
             reportFolder.delete();
 //            System.out.println(" Allure Report Folder deleted successfully");
         }else {
-        	System.out.println(" Folder does not exist");
+        	System.out.println("allure-results Folder does not exist");
         }
 		}catch(Exception e) {
 			System.out.println(" Unable to delete Allure Report Folder"+e.getMessage());
 		}
     }
 //=========================================================================================================================		
-	
-	
-	
+	public static void azureChromeLaunchPath() {
+		String driverPath = "/usr/bin/chromedriver";
+        File driverFile = new File(driverPath);
+
+        if (driverFile.exists() && !driverFile.isDirectory()) {
+            System.setProperty("webdriver.chrome.driver", driverPath);
+            System.out.println("Azure chrome WebDriver path set successfully.");
+        } else {
+//            System.err.println("Error: Azure chrome WebDriver path not found at " + driverPath);
+//            // Optionally, exit or throw an exception
+//            System.exit(1); // Exits the program
+        	System.out.println("============================================================================");
+        	System.out.println("||  Error: Azure chrome WebDriver path not found at = " + driverPath);
+        	System.out.println("============================================================================");
+        }
+	}
+//=========================================================================================================================		
+	public static void azureEdgeLaunchPath() {
+		String driverPath = "/usr/bin/msedgedriver";
+        File driverFile = new File(driverPath);
+
+        if (driverFile.exists() && !driverFile.isDirectory()) {
+            System.setProperty("webdriver.edge.driver", driverPath);
+            System.out.println("Azure edge WebDriver path set successfully.");
+        } else {
+//            System.err.println("Error: Azure chrome WebDriver path not found at " + driverPath);
+//            // Optionally, exit or throw an exception
+//            System.exit(1); // Exits the program
+        	System.out.println("============================================================================");
+        	System.out.println("||  Error: Azure edge WebDriver path not found at = " + driverPath);
+        	System.out.println("============================================================================");
+        }
+	}
+//=========================================================================================================================		
+	public static void azureFirefoxLaunchPath() {
+		String driverPath = "/usr/bin/geckodriver";
+        File driverFile = new File(driverPath);
+
+        if (driverFile.exists() && !driverFile.isDirectory()) {
+            System.setProperty("webdriver.gecko.driver", driverPath);
+            System.out.println("Azure Firefox WebDriver path set successfully.");
+        } else {
+//            System.err.println("Error: Azure chrome WebDriver path not found at " + driverPath);
+//            // Optionally, exit or throw an exception
+//            System.exit(1); // Exits the program
+        	System.out.println("============================================================================");
+        	System.out.println("||  Error: Azure Firefox WebDriver path not found at = " + driverPath);
+        	System.out.println("============================================================================");
+        }
+	}
+//=========================================================================================================================		
 	
 	
 	

@@ -1,63 +1,1368 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="66" passed="56" failed="10" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-02T20:07:28 IST" name="Default suite" finished-at="2024-12-02T20:07:35 IST" duration-ms="6670">
+  <suite started-at="2024-12-03T17:26:40 IST" name="Default suite" finished-at="2024-12-03T17:52:07 IST" duration-ms="1526573">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-12-02T20:07:28 IST" name="Default test" finished-at="2024-12-02T20:07:35 IST" duration-ms="6670">
+    <test started-at="2024-12-03T17:26:40 IST" name="Default test" finished-at="2024-12-03T17:52:07 IST" duration-ms="1526573">
       <class name="GB_Webapp.TestRunner.Bangladesh">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-02T20:07:28 IST" name="setUpClass" finished-at="2024-12-02T20:07:35 IST" duration-ms="6484" status="FAIL">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:26:40 IST" name="setUpClass" finished-at="2024-12-03T17:26:49 IST" duration-ms="8500" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5ec9eefa]]>
+                <![CDATA[org.testng.TestRunner@52b952e0]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
-Host info: host: 'DESKTOP-LMKUKFJ', ip: '192.168.1.104'
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized, --disable-infobars, --disable-extensions, disable-gpu, disable-dev-shm-usage, no-sandbox, disable-notifications, --headless], binary: C:\Program Files\Mozilla Fi...}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
-Host info: host: 'DESKTOP-LMKUKFJ', ip: '192.168.1.104'
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized, --disable-infobars, --disable-extensions, disable-gpu, disable-dev-shm-usage, no-sandbox, disable-notifications, --headless], binary: C:\Program Files\Mozilla Fi...}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:156)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at GB_Webapp.Utility.BaseTest.launchBrowser(BaseTest.java:168)
-at GB_Webapp.Utility.BaseTest.configureApp(BaseTest.java:39)
-at GB_Webapp.StepDefinition.BaseClass.Configure(BaseClass.java:29)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-02T20:07:35 IST" name="tearDownClass" finished-at="2024-12-02T20:07:35 IST" duration-ms="1" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:26:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:26:59 IST" duration-ms="10344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_001 Successfully open global website link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:26:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:27:22 IST" duration-ms="22805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_002 Successfully verify all header menu icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:27:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:27:33 IST" duration-ms="10855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_003 Click on Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:27:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:27:55 IST" duration-ms="22113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_004 Click on Dealers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:27:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:28:06 IST" duration-ms="11512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_005 Click on Service"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:28:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:28:21 IST" duration-ms="14480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_006 Click on Hero_world"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:28:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:28:33 IST" duration-ms="11666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_007 Click on About_hero"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:28:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:02 IST" duration-ms="29017" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_008 Click on Company_logo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Hero logo  --  [[EdgeDriver: MicrosoftEdge on windows (5985b023657b76dbe2d15977f7b3abdd)] -> xpath: //span[@class='brand-image desktop']//img[@alt='Logo of Hero Motor']]  --  org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5985b023657b76dbe2d15977f7b3abdd, clickElement {id=f.D717EF383417F013CDCB8563C811F71F.d.69A186513AE8E0F8AB0E767AE1FA9768.e.223}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56817}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5985b023657b76dbe2d15977f7b3abdd)] -> xpath: //span[@class='brand-image desktop']//img[@alt='Logo of Hero Motor']]
+Session ID: 5985b023657b76dbe2d15977f7b3abdd expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Hero logo  --  [[EdgeDriver: MicrosoftEdge on windows (5985b023657b76dbe2d15977f7b3abdd)] -> xpath: //span[@class='brand-image desktop']//img[@alt='Logo of Hero Motor']]  --  org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5985b023657b76dbe2d15977f7b3abdd, clickElement {id=f.D717EF383417F013CDCB8563C811F71F.d.69A186513AE8E0F8AB0E767AE1FA9768.e.223}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56817}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5985b023657b76dbe2d15977f7b3abdd)] -> xpath: //span[@class='brand-image desktop']//img[@alt='Logo of Hero Motor']]
+Session ID: 5985b023657b76dbe2d15977f7b3abdd expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:38)
+at GB_Webapp.StepDefinition.LoginPageTest.click_on(LoginPageTest.java:113)
+at ✽.Click on "Company_logo"(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:18 IST" duration-ms="16297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_009 Click on country icon and select any country"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:19 IST" duration-ms="946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_010 Verify home page text content"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:25 IST" duration-ms="6494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_011 Verify home page new launch all bikes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:29 IST" duration-ms="3749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_012 Verify home page commuter all bikes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:32 IST" duration-ms="3046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_013 Verify home page executive all bikes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:36 IST" duration-ms="3267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_014 Verify home page premium bikes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:38 IST" duration-ms="2426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_015 Verify home page all scooter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:29:55 IST" duration-ms="16708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_016 Verify home page Karizma_XMR bike expanded card under New_Launch icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:29:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:30:24 IST" duration-ms="29526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_017 Verify home page HF_Deluxe bike expanded card under Commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:30:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:30:57 IST" duration-ms="33112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_018 Verify home page Splendor_Plus_SE bike expanded card under Commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:30:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:31:26 IST" duration-ms="28896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_019 Verify home page Splendor_Plus_Xtec bike expanded card under Commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:31:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:31:50 IST" duration-ms="24207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_020 Verify home page Passion_Xpro bike expanded card under Commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:31:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:32:19 IST" duration-ms="28292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_021 Verify home page Passion_Xpro_Xtec bike expanded card under Commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:32:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:32:52 IST" duration-ms="32762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_022 Verify home page Glamour bike expanded card under Executive icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:32:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:33:23 IST" duration-ms="31794" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_023 Verify home page Ignitor_Techno bike expanded card under Executive icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Variant Wise Price  --  Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='Variant Wise Price']'  --  org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5985b023657b76dbe2d15977f7b3abdd, clickElement {id=f.9C619A3FB7418BC795F96BD39FDF217D.d.927D642AD7692EDD8DF7EDBD378CD723.e.2772}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56817}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5985b023657b76dbe2d15977f7b3abdd)] -> xpath: //div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='Variant Wise Price']]
+Session ID: 5985b023657b76dbe2d15977f7b3abdd expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Variant Wise Price  --  Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='Variant Wise Price']'  --  org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5985b023657b76dbe2d15977f7b3abdd, clickElement {id=f.9C619A3FB7418BC795F96BD39FDF217D.d.927D642AD7692EDD8DF7EDBD378CD723.e.2772}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56817}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5985b023657b76dbe2d15977f7b3abdd)] -> xpath: //div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='Variant Wise Price']]
+Session ID: 5985b023657b76dbe2d15977f7b3abdd expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:38)
+at GB_Webapp.Page.HomePage.homePageAllBikesExpandedCardFullDetails(HomePage.java:653)
+at GB_Webapp.Page.HomePage.verifyIgnitorTechnoBike(HomePage.java:720)
+at GB_Webapp.StepDefinition.HomePageTest.click_on_bike_name_and_verify_expanded_card_info(HomePageTest.java:181)
+at ✽.Click on "Ignitor_Techno" bike name and verify expanded card info(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:33:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:33:50 IST" duration-ms="26660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_024 Verify home page Ignitor_Xtec bike expanded card under Executive icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:33:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:34:18 IST" duration-ms="28474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_025 Verify home page Thriller160R4v bike expanded card under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:34:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:34:45 IST" duration-ms="26459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_026 Verify home page Hunk150 bike expanded card under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:34:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:35:17 IST" duration-ms="32224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_027 Verify home page Hunk150R bike expanded card under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:35:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:37:37 IST" duration-ms="139498" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_028 Verify home page Thriller160R bike expanded card under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 15.000
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5985b023657b76dbe2d15977f7b3abdd, findElement {using=xpath, value=//div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='VIEW SPECIFICATIONS']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56817}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5985b023657b76dbe2d15977f7b3abdd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5985b023657b76dbe2d15977f7b3abdd, findElement {using=xpath, value=//div[@class='bike-detail animate__animated bikeDetailsSection']//a[normalize-space()='VIEW SPECIFICATIONS']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56817}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5985b023657b76dbe2d15977f7b3abdd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy49.toString(Unknown Source)
+at java.base/java.lang.String.valueOf(String.java:4507)
+at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+at GB_Webapp.Utility.Library.click(Library.java:37)
+at GB_Webapp.Page.HomePage.homePageAllBikesExpandedCardFullDetails(HomePage.java:665)
+at GB_Webapp.Page.HomePage.verifyThriller160RBike(HomePage.java:749)
+at GB_Webapp.StepDefinition.HomePageTest.click_on_bike_name_and_verify_expanded_card_info(HomePageTest.java:196)
+at ✽.Click on "Thriller160R" bike name and verify expanded card info(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:37:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:38:04 IST" duration-ms="26995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_029 Verify home page Pleasure bike expanded card under scooter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:38:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:38:33 IST" duration-ms="29635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_030 Verify home page Maestro_Edge_Xtec bike expanded card under scooter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:38:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:38:39 IST" duration-ms="6114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_031 Verify home page promotion banner"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:38:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:38:41 IST" duration-ms="1889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_032 Verify home page let us call you back form mandatory field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:38:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:39:00 IST" duration-ms="18248" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_033 Successfully fill home page let us call you back form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to visible field  : Thank You PopUp  --  [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: //div[@class='requestcallback']//i[@class='h-icon close-icon']] expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to visible field  : Thank You PopUp  --  [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: //div[@class='requestcallback']//i[@class='h-icon close-icon']] expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.visible_link(Library.java:64)
+at GB_Webapp.Page.HomePage.verify_successfully_submit_form(HomePage.java:972)
+at GB_Webapp.StepDefinition.HomePageTest.verify_successfully_submit_form(HomePageTest.java:283)
+at ✽.Verify successfully submit form(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature:116)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:39:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:39:01 IST" duration-ms="1488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_034 Verify home page marketing advertisement banner text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:39:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:39:14 IST" duration-ms="12875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_035 Verify home page footer link inside the product all icons rediretions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:39:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:39:33 IST" duration-ms="19165" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_036 Verify home page footer link inside the support all icons rediretions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : FooterBeacomeADealer  --  [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: //a[@aria-label='Become a Dealer']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (643, 1062)
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, clickElement {id=f.D364EFA2CC8FF77A8C853350F04828D6.d.D646134767EA23E4ADE894265C953C9B.e.1581}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: //a[@aria-label='Become a Dealer']]
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : FooterBeacomeADealer  --  [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: //a[@aria-label='Become a Dealer']]  --  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (643, 1062)
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, clickElement {id=f.D364EFA2CC8FF77A8C853350F04828D6.d.D646134767EA23E4ADE894265C953C9B.e.1581}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: //a[@aria-label='Become a Dealer']]
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:38)
+at GB_Webapp.Page.HomePage.verify_beacome_a_dealer_icon_redirection(HomePage.java:1027)
+at GB_Webapp.StepDefinition.HomePageTest.verify_icon_redirection(HomePageTest.java:328)
+at ✽.Verify "become_a_dealer" icon redirection(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature:139)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:39:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:39:39 IST" duration-ms="6124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_037 Verify home page footer link facebook and instagram logo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:39:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:39:41 IST" duration-ms="2215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_038 Verify home page request a call back popup form mandatory field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:39:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:39:58 IST" duration-ms="16180" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_039 Successfully fill home page let us call you back popup form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to visible field  : Thank You PopUp  --  [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: (//i[@class='h-icon close-icon'])[3]] expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to visible field  : Thank You PopUp  --  [[EdgeDriver: MicrosoftEdge on windows (5b124c11bd9727fd8da517c053e3e4f5)] -> xpath: (//i[@class='h-icon close-icon'])[3]] expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.visible_link(Library.java:64)
+at GB_Webapp.Page.HomePage.verify_successfully_submit_form1(HomePage.java:1062)
+at GB_Webapp.StepDefinition.HomePageTest.verify_successfully_submit_form1(HomePageTest.java:291)
+at ✽.Verify successfully submit form1(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/01_LoginFeature.feature:161)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:39:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:40:16 IST" duration-ms="18395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_040 Verify home page find a dealer icon and redirection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:40:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:40:30 IST" duration-ms="14269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_041 Successfully verify all product image icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:40:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:41:01 IST" duration-ms="30781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_042 Successfully verify Hf_Deluxe bike feature under commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:41:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:41:35 IST" duration-ms="33640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_043 Successfully verify Splendor+SE bike feature under commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:41:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:42:06 IST" duration-ms="31251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_044 Successfully verify Splender+_XTEC bike feature under commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:42:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:42:36 IST" duration-ms="29562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_045 Successfully verify Passion_XPRO bike feature under commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:42:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:43:09 IST" duration-ms="32995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_046 Successfully verify Passion_XPRO_XTEC bike feature under commuter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:43:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:43:39 IST" duration-ms="30215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_047 Successfully verify Glamour bike feature under executive icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:43:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:44:09 IST" duration-ms="29663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_048 Successfully verify Ignitor_techno bike feature under executive icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:44:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:44:35 IST" duration-ms="26975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_049 Successfully verify Ignitor_XTEC bike feature under executive icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:44:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:45:05 IST" duration-ms="29875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_050 Successfully verify Thriller_160R_4V bike feature under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:45:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:45:38 IST" duration-ms="32554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_051 Successfully verify Hunk_150 bike feature under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:45:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:46:11 IST" duration-ms="33425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_052 Successfully verify Hunk_150R bike feature under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:46:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:46:47 IST" duration-ms="35571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_053 Successfully verify Thriller_160R bike feature under Premium icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:46:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:47:15 IST" duration-ms="28379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_054 Successfully verify Pleasure bike feature under Scooter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:47:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:47:47 IST" duration-ms="31283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_055 Successfully verify MAESTRO_EDGE_XTEC bike feature under Scooter icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bangladesh BikeFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:47:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:48:20 IST" duration-ms="33440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_056 Successfully click on service icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:48:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:48:27 IST" duration-ms="6920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_057 verify Close button under service icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:48:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:48:37 IST" duration-ms="9537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_058 verify service and maintenance tips all information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:48:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:49:13 IST" duration-ms="36358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_059 verify pre ride inspection guide under two wheeler tips header icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:49:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:49:21 IST" duration-ms="8044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_060 verify care and maintenance under two wheeler tips header icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:49:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:49:23 IST" duration-ms="2294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_061 verify hero genuine parts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:49:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:50:10 IST" duration-ms="46661" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_062 Successfully click on Hero world icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HeroWorld"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to click element : Hero Joyride icon  --  Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Hero Joyride')]'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Hero Joyride')]"}
+  (Session info: MicrosoftEdge=131.0.2903.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, findElement {using=xpath, value=//a[contains(text(),'Hero Joyride')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to click element : Hero Joyride icon  --  Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Hero Joyride')]'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Hero Joyride')]"}
+  (Session info: MicrosoftEdge=131.0.2903.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, findElement {using=xpath, value=//a[contains(text(),'Hero Joyride')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.click(Library.java:38)
+at GB_Webapp.StepDefinition.HeroWorldTest.click_on_hero_joyride_icon(HeroWorldTest.java:34)
+at ✽.Click on Hero Joyride icon(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/04_HeroWorld.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:50:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:50:22 IST" duration-ms="11842" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_063 Successfully click on About Hero icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AboutHero"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fail msg : New window is not open]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fail msg : New window is not open
+at org.testng.Assert.fail(Assert.java:110)
+at GB_Webapp.Utility.Library.failmsg(Library.java:273)
+at GB_Webapp.Utility.Library.verify_new_window_and_close(Library.java:288)
+at GB_Webapp.Page.AboutHeroPage.verify_about_hero_page_in_new_window_and_close(AboutHeroPage.java:234)
+at GB_Webapp.StepDefinition.AboutHeroTest.verify_about_hero_page_in_new_window_and_close(AboutHeroTest.java:24)
+at ✽.Verify About Hero page in new window and close(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/05_AboutHero.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:50:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:50:47 IST" duration-ms="25390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_064 verify about hero right side image close button and find a delear redirection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AboutHero"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:50:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:51:18 IST" duration-ms="30845" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_065 verify about hero become a dealer page form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AboutHero"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to visible field  : Thank You Popup  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Thank You']'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Thank You']"}
+  (Session info: MicrosoftEdge=131.0.2903.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, findElement {using=xpath, value=//h2[normalize-space()='Thank You']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to visible field  : Thank You Popup  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Thank You']'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Thank You']"}
+  (Session info: MicrosoftEdge=131.0.2903.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, findElement {using=xpath, value=//h2[normalize-space()='Thank You']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.visible_link(Library.java:69)
+at GB_Webapp.Page.AboutHeroPage.click_on_submit_button_and_verify_thank_you_pop_up(AboutHeroPage.java:308)
+at GB_Webapp.StepDefinition.AboutHeroTest.click_on_submit_button_and_verify_thank_you_pop_up(AboutHeroTest.java:88)
+at ✽.Click on Submit button and verify Thank you pop up(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/05_AboutHero.feature:39)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:51:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-03T17:52:05 IST" duration-ms="46822" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_066 verify share holder details in become a dealer page form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AboutHero"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to visible field  : Thank You Popup  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Thank You']'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Thank You']"}
+  (Session info: MicrosoftEdge=131.0.2903.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, findElement {using=xpath, value=//h2[normalize-space()='Thank You']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to visible field  : Thank You Popup  --  Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Thank You']'  --  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Thank You']"}
+  (Session info: MicrosoftEdge=131.0.2903.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5b124c11bd9727fd8da517c053e3e4f5, findElement {using=xpath, value=//h2[normalize-space()='Thank You']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57266}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\QA\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57266/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b124c11bd9727fd8da517c053e3e4f5 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at GB_Webapp.Utility.Library.visible_link(Library.java:69)
+at GB_Webapp.Page.AboutHeroPage.click_on_submit_button_and_verify_thank_you_pop_up(AboutHeroPage.java:308)
+at GB_Webapp.StepDefinition.AboutHeroTest.click_on_submit_button_and_verify_thank_you_pop_up(AboutHeroTest.java:88)
+at ✽.Click on Submit button and verify Thank you pop up(file:///C:/Users/QA/OneDrive/Documents/Zoom/Intellij_trial/Hero_GB_WebApp_UI_Testing_BDD/./AllCountryFeatureFiles/FeatureFilesBangladesh/05_AboutHero.feature:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GB_Webapp.TestRunner.Bangladesh@46944ca9]" started-at="2024-12-03T17:52:05 IST" name="tearDownClass" finished-at="2024-12-03T17:52:07 IST" duration-ms="1802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

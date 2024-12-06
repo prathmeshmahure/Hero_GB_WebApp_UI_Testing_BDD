@@ -57,10 +57,13 @@ public class HomePageTest extends BaseTest{
 	public void user_open_website_link(String string){
 		switch (string) {
 	    case "Homepage":
-	    	driver.navigate().refresh();
+	    	try { 	driver.navigate().refresh();
 	    	Library.threadSleep(1000);
 	    	Library.moveToElement(driver, loginPg.getHeroLogo());
 	    	try { loginPg.getHeroLogo().click();     }catch(Exception e) { }
+	    	}catch(Exception e) { 
+	    		Library.failmsg("Homepage logo not able to click. "+e.getMessage());
+	    	}
 	        break;
 	    case "Bangladesh":
 	    	loginPg.user_open_website_link();

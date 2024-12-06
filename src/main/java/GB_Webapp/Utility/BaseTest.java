@@ -99,7 +99,7 @@ public class BaseTest extends PageClassObject {
 				HashMap<String, Object> profile = new HashMap<String, Object>(); 
 				HashMap<String, Object> prefs = new HashMap<String, Object>();
 	
-				contentSettings.put("notifications", 1);// 0 is ask  , 1 is allow , 2 is block
+				contentSettings.put("notifications", 2);// 0 is ask  , 1 is allow , 2 is block
 				contentSettings.put("geolocation", 1);
 				contentSettings.put("media_stream", 1);
 				profile.put("managed_default_content_settings", contentSettings);
@@ -117,8 +117,8 @@ public class BaseTest extends PageClassObject {
 				co.addArguments("disable-gpu");
 				co.addArguments("disable-dev-shm-usage");
 				co.addArguments("no-sandbox");
-				co.addArguments("disable-notifications");
-				co.addArguments("--headless");	
+//				co.addArguments("disable-notifications");
+//				co.addArguments("--headless");	
 		    	co.addArguments("--force-device-scale-factor=0.9");
 		    	azureChromeLaunchPath();
 		    	driver = new ChromeDriver(co);			    	
@@ -140,8 +140,8 @@ public class BaseTest extends PageClassObject {
 		        options.addArguments("disable-gpu");
 		        options.addArguments("disable-dev-shm-usage");
 		        options.addArguments("no-sandbox");
-		        options.addArguments("disable-notifications");
-		        options.addArguments("--headless");	
+//		        options.addArguments("disable-notifications");
+//		        options.addArguments("--headless");	
 		        options.addArguments("--force-device-scale-factor=0.9");
 		        azureEdgeLaunchPath();
 		        // Initialize WebDriver with EdgeDriver and the specified options

@@ -376,43 +376,43 @@ public class ServicePage extends BasePage{
 	public void verify_all_inspection_guide() {
 		Library.click(driver, EngineOilLevel, "Engine Oil Level");
 		Library.visible_link(driver, EngineOilLevelInfo, "Engine Oil Level Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel); }catch(Exception e) {		}
 		Library.click(driver, FuelLevel, "Fuel Level");
 		Library.visible_link(driver, FuelLevelInfo, "Fuel Level Info");	
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, FrontAndRearBrakes, "Front And Rear Brakes");
 		Library.visible_link(driver, FrontAndRearBrakesInfo, "Front And Rear Brakes Info");	
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, Tyres, "Tyres");
 		Library.visible_link(driver, TyresInfo, "Tyres Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, Clutch, "Clutch");
 		Library.visible_link(driver, ClutchInfo, "Clutch Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, DriveChain, "Drive Chain");
 		Library.visible_link(driver, DriveChainInfo, "Drive Chain Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, Throttle, "Throttle");
 		Library.visible_link(driver, ThrottleInfo, "Throttle Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, LightsAndHorns, "Lights And Horns");
 		Library.visible_link(driver, LightsAndHornsInfo, "Lights And Horns Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, RearViewMirror, "Rear View Mirror");
 		Library.visible_link(driver, RearViewMirrorInfo, "Rear View Mirror Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, AirSuctionValve, "Air Suction Valver");
 		Library.visible_link(driver, AirSuctionValveInfo, "Air Suction Valve Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, FittingsAndFastners, "Fittings And Fastners");
 		Library.visible_link(driver, FittingsAndFastnersInfo, "Fittings And Fastners Info");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, Battery, "Battery");
 		Library.visible_link(driver, BatteryInfo, "BatteryInfo");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, Steering, "Steering");
 		Library.visible_link(driver, SteeringInfo, "SteeringInfo");
-		try { HeaderTwoWheelerTips.click();     }catch(Exception e) {		}
+		try { HeaderTwoWheelerTips.click();    Library.moveToElement(driver, EngineOilLevel);      }catch(Exception e) {		}
 		Library.click(driver, FuseReplacement, "Fuse Replacement");
 		Library.visible_link(driver, FuseReplacementInfo, "Fuse Replacement Info");		
 	}

@@ -648,7 +648,8 @@ public class HomePage extends BasePage{
 		BaseTest.handlePopup();
 		Library.click(driver, HomePageAllBikeRequestCallBackButton, "Bike Request A Call Back");
 		Library.visible_link(driver, CLosePopup, "Request a call back page");
-		Library.click(driver, CLosePopup, "Close Popup");				
+		Library.click(driver, CLosePopup, "Close Popup");	
+		Library.threadSleep(500);			
 		Library.click(driver, HomePageAllBikeVariantWisePriceLink, "Variant Wise Price");		
 		Library.moveToElement(driver, VerifyAllBikeVariantPrice);		
 		Library.CheckBikePriceValue(driver, VerifyAllBikeVariantPrice1 , BikeCardPrice);
@@ -679,7 +680,8 @@ public class HomePage extends BasePage{
 		String BikeCardPrice =HomePageAllBikePrice.getText();		
 		Library.click(driver, HomePageAllBikeRequestCallBackButton, "Bike Request A CallBack");
 		Library.visible_link(driver, CLosePopup, "Request a call back page");
-		Library.click(driver, CLosePopup, "Close Popup");				
+		Library.click(driver, CLosePopup, "Close Popup");	
+		Library.threadSleep(500);			
 		Library.click(driver, HomePageAllBikeVariantWisePriceLink, "Variant Wise Price");	
 	}
 	public void verifyHFDeluxeBike() {
@@ -1279,7 +1281,8 @@ public class HomePage extends BasePage{
 		BaseTest.handlePopup();
 		Library.click(driver, HomePageAllBikeRequestCallBackButton, "Bike Request A Call Back");
 		Library.visible_link(driver, CLosePopup, "Request a call back page");
-		Library.click(driver, CLosePopup, "Close Popup");				
+		Library.click(driver, CLosePopup, "Close Popup");
+		Library.threadSleep(500);				
 		Library.click(driver, HomePageAllBikeVariantWisePriceLink, "Variant Wise Price");		
 		Library.moveToElement(driver, VerifyAllBikeVariantPrice);		
 		Library.CheckBikePriceValue(driver, VerifyAllBikeVariantPrice1 , BikeCardPrice);

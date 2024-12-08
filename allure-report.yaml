@@ -1,0 +1,130 @@
+trigger:
+- feature/allure-report2.0
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - group: gb-allure-report-all
+
+stages:
+- stage: BuildAndTest
+  jobs:
+  - job: MavenBuild
+    timeoutInMinutes: 360
+
+    steps:
+
+    - task: Bash@3
+      displayName: Check Version 
+      inputs:
+        targetType: 'inline'
+        script: |
+          google-chrome --version     
+          chromedriver --version
+          which chromedriver
+        
+          
+    - task: Maven@4
+      displayName: 'RUN Maven Based Tests'
+      timeoutInMinutes: 150
+      continueOnError: true
+      inputs:
+        mavenPomFile: 'pom.xml'
+        goals: 'clean install'
+        # options: '-Dwebdriver.chrome.driver=/usr/bin/google-chrome'
+        publishJUnitResults: true
+        testResultsFiles: '**/surefire-reports/TEST-*.xml'
+        javaHomeOption: 'JDKVersion'
+        jdkVersionOption: '1.17'
+        mavenVersionOption: 'Default'
+        mavenOptions: '-Xmx3072m'
+        mavenAuthenticateFeed: false
+        effectivePomSkip: false
+        sonarQubeRunAnalysis: false
+
+    - task: PublishTestResults@2
+      displayName: 'Publish Maven Test Results'
+      inputs:
+       testResultsFormat: 'JUnit'
+       testResultsFiles: '**/surefire-reports/TEST-*.xml'  
+           
+      
+    - task: Bash@3
+      displayName: 'Generate Allure-report'
+      inputs:
+        targetType: 'inline'
+        script: |
+          wget https://github.com/allure-framework/allure2/releases/download/2.30.0/allure_2.30.0-1_all.deb          
+          sudo dpkg -i allure_2.30.0-1_all.deb
+          allure --version
+          sudo mkdir gbappBangladesh-report          
+          allure generate --clean --single-file --name "GB App Bangladesh Report" -o "$(Pipeline.Workspace)/gbappBangladesh-report" 
+          cd "$(Pipeline.Workspace)/gbappBangladesh-report" || exit          
+          ls -lrt 
+
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: '$(Pipeline.Workspace)/gbappBangladesh-report'
+        artifact: 'gbappBangladesh'
+        publishLocation: 'pipeline'
+        
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: '$(Pipeline.Workspace)'
+        artifact: 'allure-report'
+        publishLocation: 'pipeline'
+
+    - task: AzureCLI@2
+      displayName: 'Upload Allure-report tar on Blob'
+      inputs:
+        azureSubscription: 'sc-blob-nprod-gpapp-allure'
+        scriptType: 'bash'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          ls $(Pipeline.Workspace)/gbappBangladesh-report
+          az storage blob upload \
+                  --account-name $(storage-account-name) \
+                  --container-name $(container-name) \
+                  --name gbappBangladesh_$(date '+%d-%m-%Y').html \
+                  --file $(Pipeline.Workspace)/gbappBangladesh-report/index.html \
+                  --content-type text/html \
+                  --account-key $(blob-key) \
+                  --overwrite
+
+    - task: AzureCLI@2
+      displayName: 'Generate SAS URL for Blob'
+      inputs:
+        azureSubscription: 'sc-blob-nprod-gpapp-allure'
+        scriptType: 'bash'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          sas_url=$(az storage blob generate-sas \
+            --account-name $(storage-account-name) \
+            --container-name $(container-name) \
+            --name "gbappBangladesh_$(date '+%d-%m-%Y').html" \
+            --permissions r \
+            --expiry "$(date -u -d '1 week' '+%Y-%m-%dT%H:%MZ')" \
+            --account-key $(blob-key) \
+            --https-only \
+            --output tsv)
+
+          full_url="https://$(storage-account-name).blob.core.windows.net/$(container-name)/gbappBangladesh_$(date '+%d-%m-%Y').html?$sas_url"
+
+          # echo "##vso[task.setvariable variable=sasUrl]$full_url"
+
+          echo $full_url  >>   $(Pipeline.Workspace)/sas_Url.txt
+
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: '$(Pipeline.Workspace)/sas_Url.txt'
+        artifact: 'allure-report-sas-url'
+        publishLocation: 'pipeline'
+
+
+    # - task: PublishAllureReport@1
+    #   inputs:
+    #     allureVersion: '2.29.0'
+    #     allureDownloadUrl: 'https://github.com/allure-framework/allure2/releases/download/{{allureVersion}}/allure-{{allureVersion}}.tgz'
+    #     testResultsDir: 'allure-results'
+    #     reportName: 'gbappBangladesh'    
